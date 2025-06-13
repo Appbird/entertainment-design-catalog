@@ -1,0 +1,4274 @@
+[
+  {
+    "name": "体験拡張技術",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2022055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024079.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024070.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024087.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017068.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019077-2.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021078.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016041.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 30,
+    "x_min": 10.192581176757812,
+    "x_max": 10.700153350830078,
+    "y_min": 0.9321693778038025,
+    "y_max": 2.284985065460205
+  },
+  {
+    "name": "身体・健康インタフェース",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013071.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024072.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015084.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015086.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015129.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015076.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021065.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016059.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 18,
+    "x_min": 9.824295997619629,
+    "x_max": 10.649876594543457,
+    "y_min": 5.034114837646484,
+    "y_max": 5.693224906921387
+  },
+  {
+    "name": "音楽体験支援",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013068.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024098.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024097.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024073.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024065.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024095.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023082.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015081.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015069.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015096.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015089.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015118.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017094.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017080.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019083.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019104.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018071.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016065.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016070.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023070.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 60,
+    "x_min": 7.405310153961182,
+    "x_max": 8.323863983154297,
+    "y_min": 0.34701913595199585,
+    "y_max": 1.4748114347457886
+  },
+  {
+    "name": "ゲーミフィケーション応用",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013078.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013070.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013072.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024078.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024086.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024096.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023072.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023074.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015113.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015047.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017093.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017071.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019078.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021079.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021067.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016007.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 68,
+    "x_min": 7.955500602722168,
+    "x_max": 9.168889999389648,
+    "y_min": 2.510697603225708,
+    "y_max": 5.309851169586182
+  },
+  {
+    "name": "体験拡張",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015080.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017016.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 9,
+    "x_min": 12.010659217834473,
+    "x_max": 12.963272094726562,
+    "y_min": 3.943387508392334,
+    "y_max": 4.751131057739258
+  },
+  {
+    "name": "ロボット・インタラクション",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024071.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015085.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015128.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015083.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016037.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 19,
+    "x_min": 8.495906829833984,
+    "x_max": 9.724196434020996,
+    "y_min": 5.077281475067139,
+    "y_max": 5.774613380432129
+  },
+  {
+    "name": "マルチモーダルインタラクション",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017067.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017096.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018068.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018047.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 13,
+    "x_min": 11.210172653198242,
+    "x_max": 11.97921371459961,
+    "y_min": 3.631153106689453,
+    "y_max": 4.146848201751709
+  },
+  {
+    "name": "創造的ものづくり教育",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013076.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024081.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019093.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019065.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019068.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019086.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019071.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016001.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 22,
+    "x_min": 11.17138385772705,
+    "x_max": 12.25353717803955,
+    "y_min": 0.3856669068336487,
+    "y_max": 0.9564064741134644
+  },
+  {
+    "name": "表現体験拡張",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013065.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024103.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023067.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015108.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017066.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019094.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019074.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016030.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 33,
+    "x_min": 9.32857894897461,
+    "x_max": 10.13763427734375,
+    "y_min": -0.11302585899829865,
+    "y_max": 1.0458050966262817
+  },
+  {
+    "name": "インタラクティブ感性体験",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013074.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024084.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024099.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024076.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023081.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015094.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015104.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015092.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015124.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021074.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020018.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 46,
+    "x_min": 6.84348201751709,
+    "x_max": 8.138940811157227,
+    "y_min": 1.971567988395691,
+    "y_max": 3.001281261444092
+  },
+  {
+    "name": "没入型感覚インターフェース",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2014024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015102.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015079.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015088.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015065.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017070.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017076.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019070.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019069.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018055.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 34,
+    "x_min": 10.495460510253906,
+    "x_max": 11.6023530960083,
+    "y_min": 4.320200443267822,
+    "y_max": 5.076086521148682
+  },
+  {
+    "name": "体性感覚インタフェース",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023069.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017078.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019075.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019099.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019097.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021071.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021069.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016047.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 28,
+    "x_min": 10.31302547454834,
+    "x_max": 11.356719017028809,
+    "y_min": 4.648011207580566,
+    "y_max": 5.430446147918701
+  },
+  {
+    "name": "デジタル造形支援",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023047.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019067.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021047.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016046.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 11,
+    "x_min": 12.14363956451416,
+    "x_max": 12.619256019592285,
+    "y_min": 1.922789216041565,
+    "y_max": 2.2971370220184326
+  },
+  {
+    "name": "インタラクション技術",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024047.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015105.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015078.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017099.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019072.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021072.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019003.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 45,
+    "x_min": 7.5285964012146,
+    "x_max": 9.196858406066895,
+    "y_min": 1.28568434715271,
+    "y_max": 2.4976491928100586
+  },
+  {
+    "name": "インタラクティブ技術応用",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024105.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024091.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015067.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017086.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021070.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021076.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016068.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016042.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 37,
+    "x_min": 8.972757339477539,
+    "x_max": 10.273285865783691,
+    "y_min": 3.9081077575683594,
+    "y_max": 4.6285481452941895
+  },
+  {
+    "name": "拡張現実・仮想現実体験",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024085.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024100.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024092.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024107.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023065.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023071.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023079.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017082.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017097.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017047.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019088.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019089.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019091.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019103.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016014.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 44,
+    "x_min": 9.821549415588379,
+    "x_max": 10.95890998840332,
+    "y_min": 2.638521194458008,
+    "y_max": 3.478938102722168
+  },
+  {
+    "name": "インタラクティブ展示・体験",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013047.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024104.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024080.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024101.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024075.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015095.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015112.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015107.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015071.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017085.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019101.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019066.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019047.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016013.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 47,
+    "x_min": 10.694995880126953,
+    "x_max": 11.602566719055176,
+    "y_min": 0.9068389534950256,
+    "y_max": 2.3788461685180664
+  },
+  {
+    "name": "共創的インタラクション",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024089.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024093.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023066.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023083.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015106.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015099.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017091.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017072.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017074.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017079.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019079.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019081.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019073.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019085.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019098.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021077.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018065.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016067.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016066.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016022.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 41,
+    "x_min": 7.676646709442139,
+    "x_max": 8.370253562927246,
+    "y_min": 4.905034065246582,
+    "y_max": 5.929774761199951
+  },
+  {
+    "name": "遊びの体験設計",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024077.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024110.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023073.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015100.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019092.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJEC2020002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016008.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 31,
+    "x_min": 6.828612327575684,
+    "x_max": 7.888963222503662,
+    "y_min": 2.7100985050201416,
+    "y_max": 3.515411138534546
+  },
+  {
+    "name": "ビジュアル表現支援",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013055.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015115.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015103.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015120.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015125.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019080.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021073.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016021.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 23,
+    "x_min": 10.044189453125,
+    "x_max": 10.623014450073242,
+    "y_min": 0.223928764462471,
+    "y_max": 1.1215825080871582
+  },
+  {
+    "name": "インタラクティブ空間体験",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013080.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023084.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015121.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017092.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017075.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017083.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017087.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016040.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 28,
+    "x_min": 10.363755226135254,
+    "x_max": 11.411897659301758,
+    "y_min": 2.0637245178222656,
+    "y_max": 2.8479607105255127
+  },
+  {
+    "name": "生物的インターフェース",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013077.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024069.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024094.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023078.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015082.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019082.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018066.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020036.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 26,
+    "x_min": 11.593990325927734,
+    "x_max": 12.60147476196289,
+    "y_min": 3.5374908447265625,
+    "y_max": 4.773057460784912
+  },
+  {
+    "name": "インタラクティブ映像体験",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024014.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024090.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023077.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023076.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023080.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015101.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015122.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015119.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015110.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015075.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015093.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017051.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019096.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019100.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016017.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016069.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 37,
+    "x_min": 9.126996994018555,
+    "x_max": 10.281597137451172,
+    "y_min": 1.1300078630447388,
+    "y_max": 2.037672519683838
+  },
+  {
+    "name": "触覚インターフェース",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2014049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016003.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 13,
+    "x_min": 11.503942489624023,
+    "x_max": 12.010273933410645,
+    "y_min": 5.04557466506958,
+    "y_max": 5.421550273895264
+  },
+  {
+    "name": "体験型インタラクション",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2014034.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024111.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024088.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017073.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017077.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019095.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019076.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016006.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 24,
+    "x_min": 10.59023380279541,
+    "x_max": 11.275795936584473,
+    "y_min": 3.0502424240112305,
+    "y_max": 4.495749473571777
+  },
+  {
+    "name": "インタラクティブディスプレイ技術",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013073.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013061.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022048.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024068.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024106.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024043.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024067.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024082.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023068.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015097.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015127.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017084.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017088.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017089.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017090.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019090.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019105.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019007.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021068.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021075.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018020.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016062.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016012.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016053.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 48,
+    "x_min": 11.573893547058105,
+    "x_max": 12.187101364135742,
+    "y_min": 1.0433034896850586,
+    "y_max": 4.125168323516846
+  },
+  {
+    "name": "インタラクティブ体験デザイン",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013067.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014047.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022047.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024102.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015116.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019084.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021066.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018070.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018061.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 21,
+    "x_min": 9.035788536071777,
+    "x_max": 10.00966739654541,
+    "y_min": 2.094193696975708,
+    "y_max": 2.560697078704834
+  },
+  {
+    "name": "身体・音楽インタラクション",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013069.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014021.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024074.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024063.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023041.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023056.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021026.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016025.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 15,
+    "x_min": 8.282690048217773,
+    "x_max": 8.977680206298828,
+    "y_min": 0.3171546757221222,
+    "y_max": 1.1846764087677002
+  },
+  {
+    "name": "ゲームAI・戦略解析",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015117.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015091.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017010.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016034.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 15,
+    "x_min": 7.097373962402344,
+    "x_max": 7.7015838623046875,
+    "y_min": 3.608617067337036,
+    "y_max": 4.041560649871826
+  },
+  {
+    "name": "素材インタラクション",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013066.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014001.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022046.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017003.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017100.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017098.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019102.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018060.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018064.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018049.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016049.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 17,
+    "x_min": 12.2479887008667,
+    "x_max": 12.867277145385742,
+    "y_min": 2.453533411026001,
+    "y_max": 3.4814083576202393
+  },
+  {
+    "name": "インタラクティブ技術応用",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013037.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013075.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2013024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2014028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022023.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024013.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024018.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024109.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024019.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023025.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023002.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023024.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015114.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023057.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015004.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015068.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015031.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015126.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017006.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017069.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017081.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017065.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017022.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017095.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2017015.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019028.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019087.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019027.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019011.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019029.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021036.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021016.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021080.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020030.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020005.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018069.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018067.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2018039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016058.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016015.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 60,
+    "x_min": 8.768451690673828,
+    "x_max": 10.662012100219727,
+    "y_min": 2.6385836601257324,
+    "y_max": 4.099077224731445
+  },
+  {
+    "name": "食体験拡張",
+    "members": [
+      {
+        "filestem": "IPSJ-EC2013009.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022033.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022045.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022044.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2022050.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024083.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024066.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024108.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2024035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023075.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023040.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023052.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2023085.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015032.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2015070.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019042.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2019059.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021054.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2021053.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020008.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020039.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2020035.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016038.edc",
+        "tag_idx": 0
+      },
+      {
+        "filestem": "IPSJ-EC2016039.edc",
+        "tag_idx": 0
+      }
+    ],
+    "count": 25,
+    "x_min": 12.396246910095215,
+    "x_max": 13.069381713867188,
+    "y_min": 4.79688024520874,
+    "y_max": 5.3168253898620605
+  }
+]

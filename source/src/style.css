@@ -1,0 +1,41 @@
+/* ページ全体リセット */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* アプリ全体レイアウト */
+#app {
+  display: flex;
+  height: 100vh;
+  padding: 5em;
+  box-sizing: border-box;
+}
+
+/* プロッター用キャンバスコンテナ */
+#canvas-container {
+  flex: 4;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+/* サイドメニュー */
+#side-menu {
+  flex: 1;
+  background: #f0f0f0;
+  padding: 16px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+#side-menu p {
+  margin: 8px 0;
+}
+
+/* キャンバスの見た目とアスペクト比 */
+canvas {
+  width: 100%;        /* 親要素幅にフィット */
+  aspect-ratio: 1 / 1; /* 縦横比1:1 */
+  border: 1px solid #ccc;
+}
