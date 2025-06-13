@@ -19,12 +19,12 @@ export function map_color(point:DataPoint): string {
 export function map_color_based_on_abstract(point:DataPoint, paper2cluster:Map<string, string>): string {
 	const cluster_name = paper2cluster.get(point.paper_title)
 	if (cluster_name == undefined) { throw Error("cluster_name == undefined"); }
+	
 	const color_list = [
 		'rgba(0, 122, 204, 0.8)', 'rgba(255, 99, 132, 0.8)', 'rgba(54, 162, 235, 0.8)',
 		'rgba(255, 206, 86, 0.8)', 'rgba(75, 192, 192, 0.8)', 'rgba(153, 102, 255, 0.8)',
 		'rgba(255, 159, 64, 0.8)', 'rgba(201, 203, 207, 0.8)',
 	]
-	return color_list[pos % color_list.length];
 }
 
 export function buildLayout(): {
