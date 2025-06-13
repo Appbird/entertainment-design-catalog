@@ -17,6 +17,7 @@ export function map_color(point:DataPoint): string {
 }
 
 export function map_color_based_on_abstract(point:DataPoint, paper2cluster:Map<string, string>): string {
+	// #TODO cluster名 から colorへどう対応させるか？
 	const cluster_name = paper2cluster.get(point.paper_title)
 	if (cluster_name == undefined) { throw Error("cluster_name == undefined"); }
 	
