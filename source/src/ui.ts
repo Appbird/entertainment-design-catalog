@@ -17,7 +17,9 @@ export function map_color(point:DataPoint): string {
 }
 
 export function map_color_based_on_abstract(point:DataPoint, paper2cluster:Map<string, string>): string {
-	// #TODO cluster名 から colorへどう対応させるか？
+	// #NOTE paper2clusterはfetchMappingAbstractCluster()によって得られる。（重めの関数なので一回だけ呼び出したい。）
+	// #TODO cluster名 から colorへどう対応させるか？（paper2clusterは、point.paper_titleを「その論文が属している要約上のクラスタ」名に対応づける写像）
+	// #TODO colorへ写像した後は、それに基づいてグラフの点群可視化 + 凡例作る
 	const cluster_name = paper2cluster.get(point.paper_title)
 	if (cluster_name == undefined) { throw Error("cluster_name == undefined"); }
 	
