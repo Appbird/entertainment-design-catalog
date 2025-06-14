@@ -5,6 +5,6 @@ export default defineConfig({
 	plugins: [react()],
 	base: '/entertainment-design-catalog/',
   	build: {
-    	outDir: 'docs',
+    	outDir: '../docs',
   	},
 })
