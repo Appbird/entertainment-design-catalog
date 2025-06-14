@@ -1,5 +1,6 @@
 import type { Chart } from 'chart.js';
 import {
+	type ClusterTypeValue,
   type DataPoint,
   type Paper, 
   ClusterType
@@ -75,19 +76,26 @@ export function buildLayout(): {
   controlsContainer.style.paddingBottom = '16px';
   controlsContainer.style.borderBottom = '1px solid #ccc';
 
+  // 分類基準のドロップダウンボックス
   const typeLabel = document.createElement('label');
   typeLabel.textContent = '分類基準: ';
   typeLabel.style.display = 'block';
   const typeSelect = document.createElement('select');
+  const type2displayname: Record<ClusterTypeValue, string> = {
+	"abstract": "論文要約",
+	"title": "Archetypeのタイトルのみ",
+	"full": "Archetypeの全体"
+  }
   Object.values(ClusterType).forEach(value => {
     const option = document.createElement('option');
     option.value = value;
-    option.textContent = value.charAt(0).toUpperCase() + value.slice(1);
+    option.textContent = type2displayname[value];
     typeSelect.appendChild(option);
   });
   typeLabel.appendChild(typeSelect);
   controlsContainer.appendChild(typeLabel);
 
+  // クラスター数のドロップダウンボックス
   const verLabel = document.createElement('label');
   verLabel.textContent = 'クラスター数: ';
   verLabel.style.display = 'block';
