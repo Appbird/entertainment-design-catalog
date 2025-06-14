@@ -1,21 +1,23 @@
 import './style.css';
-import { fetchBundleJson, fetchClusterJson, fetchDataPoints } from './data.ts';
+import { fetchBundleJson, fetchClusterJson, fetchDataPoints, fetchMappingAbstractCluster } from './data.ts';
 import { createScatterChart } from './chart.ts';
 import {
   buildLayout,
-  map_color,
+  searchChart,
   setupClickHandler,
   setupSearchHandler,
   updateLegend,
 } from './ui.ts';
 import type { Chart } from 'chart.js';
-import type {ClusterTypeValue} from './validator.ts'
+import type {ClusterTypeValue, DataPoint} from './validator.ts'
+import { LegendBundle } from './legend.ts';
 
 let chartInstance: Chart | null = null;
 
 async function loadChart(
   appElements: {
     canvas: HTMLCanvasElement;
+    canvasContainer: HTMLDivElement;
     sideMenu: HTMLDivElement;
     searchInput: HTMLInputElement;
   },
@@ -26,7 +28,7 @@ async function loadChart(
     chartInstance.destroy();
   }
 
-  const { canvas, sideMenu, searchInput } = appElements;
+  const { canvas, canvasContainer, sideMenu, searchInput } = appElements;
 
   // Show a loading message
   const detailsContainer = sideMenu.querySelector<HTMLDivElement>('#details-container');
@@ -36,7 +38,20 @@ async function loadChart(
   const papers = await fetchBundleJson();
   const dataPoints = await fetchDataPoints(type);
   const clusterBoxes = await fetchClusterJson(type, ver);
-  const mapped_colors = dataPoints.map(map_color);
+  const abst_map = await fetchMappingAbstractCluster();
+  const legend = new LegendBundle<DataPoint,String>(
+      "種類別",
+      dataPoints,
+      d => abst_map.get(d.filestem) || "その他"
+  )
+  /**
+   *  new LegendBundle<DataPoint,String>(
+        "年代別",
+        dataPoints,
+        d => new Date(d.paper_publish_date).getFullYear()
+      )
+   * */
+  const mapped_colors = legend.getDataColors(dataPoints);
 
   // Clear loading message
   if (detailsContainer) detailsContainer.innerHTML = '';
@@ -46,17 +61,17 @@ async function loadChart(
 
   // (Re)setup handlers
   setupClickHandler(canvas, chartInstance, dataPoints, papers, sideMenu);
-  setupSearchHandler(searchInput, chartInstance, dataPoints);
-
+  setupSearchHandler(searchInput, chartInstance, dataPoints, legend);
+  searchChart(searchInput, chartInstance, dataPoints, legend);
   // Update the legend
-  updateLegend(sideMenu, dataPoints);
+  updateLegend(canvasContainer, legend);
 }
 
 async function init(): Promise<void> {
   // Build the initial layout and get references to UI elements
-  const { canvas, sideMenu, searchInput, typeSelect, verSelect } = buildLayout();
+  const { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect } = buildLayout();
 
-  const appElements = { canvas, sideMenu, searchInput };
+  const appElements = { canvas, canvasContainer, sideMenu, searchInput };
 
   // Handler to call when a selection changes
   const handleDataChange = async () => {
