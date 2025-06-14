@@ -38,9 +38,9 @@ export interface DataPoint {
 }
 
 export const ClusterType = {
-	ABSTRACT: 'abstract',
-	FULL: 'full',
 	TITLE: 'title',
+	FULL: 'full',
+	ABSTRACT: 'abstract',
 } as const
 
 export type ClusterTypeValue = typeof ClusterType[keyof typeof ClusterType];
