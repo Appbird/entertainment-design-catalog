@@ -5,7 +5,9 @@ import {
   ClusterType
 }from './validator';
 import { getKNearest } from './data';
-
+import type { LegendBundle } from './legend';
+import { querySearchChart } from './chart';
+/*
 export function map_color(point:DataPoint): string {
 	const pos = new Date(point.paper_publish_date).getFullYear();
 	const color_list = [
@@ -29,9 +31,10 @@ export function map_color_based_on_abstract(point:DataPoint, paper2cluster:Map<s
 		'rgba(255, 159, 64, 0.8)', 'rgba(201, 203, 207, 0.8)',
 	]
 }
-
+*/
 export function buildLayout(): {
   canvas: HTMLCanvasElement;
+  canvasContainer: HTMLDivElement;
   sideMenu: HTMLDivElement;
   searchInput: HTMLInputElement;
   typeSelect: HTMLSelectElement;
@@ -42,7 +45,26 @@ export function buildLayout(): {
   canvasContainer.id = 'canvas-container';
   const canvas = document.createElement('canvas');
   canvas.id = 'plot-canvas';
+  
   canvasContainer.appendChild(canvas);
+
+  const reservedLink = document.createElement('a');
+  reservedLink.id = 'reserved-link'
+  reservedLink.href = './index.html';
+  reservedLink.textContent = 'Entertainment Design Catalog (Reserved by 関西学院大学)';
+  reservedLink.target = '_blank';
+  reservedLink.addEventListener('mouseover', () => {
+    reservedLink.style.opacity = '1';
+  });
+  reservedLink.addEventListener('mouseout', () => {
+    reservedLink.style.opacity = '0.4';
+  });
+  const legendContainer = document.createElement('div');
+  legendContainer.id = 'legend-container';
+
+  // canvasコンテナにリンクを追加
+  canvasContainer.appendChild(reservedLink);
+  canvasContainer.appendChild(legendContainer)
 
   const sideMenu = document.createElement('div');
   sideMenu.id = 'side-menu';
@@ -90,54 +112,62 @@ export function buildLayout(): {
   searchInput.style.boxSizing = 'border-box';
   searchInput.style.marginTop = '16px';
 
-  // --- Legend & Details ---
-  const legendContainer = document.createElement('div');
-  legendContainer.id = 'legend-container';
-
+  // --- Details ---
   const detailsContainer = document.createElement('div');
   detailsContainer.id = 'details-container';
 
   sideMenu.appendChild(controlsContainer);
   sideMenu.appendChild(searchInput);
-  sideMenu.appendChild(legendContainer);
   sideMenu.appendChild(detailsContainer);
 
   app.appendChild(canvasContainer);
   app.appendChild(sideMenu);
-  return { canvas, sideMenu, searchInput, typeSelect, verSelect };
+  return { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect };
 }
 
-/** Create and update the color legend */
-export function updateLegend(sideMenu: HTMLDivElement, dataPoints: DataPoint[]): void {
-  const legendContainer = sideMenu.querySelector<HTMLDivElement>('#legend-container');
+export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<DataPoint,L>): void {
+  const legendContainer = canvas.querySelector<HTMLDivElement>('#legend-container');
   if (!legendContainer) return;
 
   legendContainer.innerHTML = ''; // 以前の凡例をクリア
 
+  // --- スタイルをここに適用 ---
+  legendContainer.style.backgroundColor = '#1a1a1a'; // 少し柔らかい黒
+  legendContainer.style.color = 'white';
+  //legendContainer.style.padding = '10px 15px';
+  legendContainer.style.borderRadius = '1%';
+  //legendContainer.style.marginTop = '16px';
+  legendContainer.style.maxHeight = '50vh'; // 最大の高さをビューポートの50%に
+  legendContainer.style.overflowY = 'auto'; // コンテンツがはみ出たらスクロール
+  legendContainer.style.boxSizing = 'border-box';
+
+
   // --- トグル機能を持つタイトルを作成 ---
   const legendTitle = document.createElement('h4');
-  legendTitle.style.margin = '16px 0 8px 0';
+  legendTitle.style.margin = '0 0 8px 0'; // マージン調整
   legendTitle.style.cursor = 'pointer'; // クリック可能であることを示すカーソル
   legendTitle.style.userSelect = 'none'; // テキスト選択を無効化
+  legendTitle.style.position = 'sticky'; // スクロール時にタイトルを固定
+  legendTitle.style.top = '0';
+  legendTitle.style.backgroundColor = '#1a1a1a'; // 背景色を同じにして文字が透けないようにする
+  legendTitle.style.padding = '0.1em 0.1em'; // 上下の余白
 
   const indicator = document.createElement('span');
   indicator.textContent = '▼ '; // 初期状態は開いている
   legendTitle.appendChild(indicator);
 
-  const titleText = document.createTextNode('凡例 (論文公開年)');
+  const titleText = document.createTextNode(`凡例 (${legend.name})`);
   legendTitle.appendChild(titleText);
 
   // --- 凡例の項目をラップするコンテナ ---
   const itemsWrapper = document.createElement('div');
   itemsWrapper.style.display = 'block'; // 初期状態は表示
 
-  const years = [...new Set(dataPoints.map(p => new Date(p.paper_publish_date).getFullYear()))].sort();
-
-  years.forEach(year => {
+  legend.getAllLabels().forEach(label => {
     const item = document.createElement('div');
     item.style.display = 'flex';
     item.style.alignItems = 'center';
-    item.style.marginBottom = '4px';
+    item.style.marginBottom = '0.1em';
 
     const colorSwatch = document.createElement('span');
     colorSwatch.style.display = 'inline-block';
@@ -145,18 +175,19 @@ export function updateLegend(sideMenu: HTMLDivElement, dataPoints: DataPoint[]):
     colorSwatch.style.height = '12px';
     colorSwatch.style.marginRight = '8px';
     colorSwatch.style.borderRadius = '3px';
-    colorSwatch.style.backgroundColor = map_color({ paper_publish_date: `${year}-01-01` } as DataPoint);
+    colorSwatch.style.backgroundColor = legend.getLabelColor(label);
+    colorSwatch.style.border = '1px solid #555'; // 暗い背景でも見やすいように枠線を追加
 
-    const yearText = document.createElement('span');
-    yearText.textContent = String(year);
+    const labelText = document.createElement('span');
+    labelText.textContent = String(label);
 
     item.appendChild(colorSwatch);
-    item.appendChild(yearText);
+    item.appendChild(labelText);
     itemsWrapper.appendChild(item); // 項目をラッパーに追加
   });
 
   const separator = document.createElement('hr');
-  separator.style.marginTop = '16px';
+  separator.style.borderColor = '#444'; // 区切り線の色を調整
   itemsWrapper.appendChild(separator); // 区切り線もラッパーに追加
 
   // --- DOMに要素を追加 ---
@@ -170,6 +201,7 @@ export function updateLegend(sideMenu: HTMLDivElement, dataPoints: DataPoint[]):
     indicator.textContent = isHidden ? '▼ ' : '▶ ';
   });
 }
+
 function upperFirstLetter(str: string): string {
   if (str.length === 0) {
     return "";
@@ -230,7 +262,13 @@ export function updateSideMenu(
     neighborEl.style.borderRadius = '4px';
     const pEl = document.createElement('p');
     pEl.style.margin = '0';
-    pEl.innerHTML = `${i + 1}: <strong>${neighbor.point.edc_title}</strong> (from ${neighbor.point.paper_title})`;
+    var innerText = "";
+    if (neighbor.point.edc_title == ''){
+      innerText = `<strong>${neighbor.point.paper_title}</strong>`
+    }else{
+      innerText = `<strong>${neighbor.point.edc_title}</strong> (from ${neighbor.point.paper_title})`
+    }
+    pEl.innerHTML = `${i + 1}: `+innerText;
     neighborEl.appendChild(pEl);
     detailsContainer.appendChild(neighborEl);
   });
@@ -240,7 +278,7 @@ export function updateSideMenu(
 export function setupClickHandler(
   canvas: HTMLCanvasElement,
   chart: Chart,
-  allDataPoints: DataPoint[], // Pass all data points
+  allDataPoints: DataPoint[],
   allPapers: Paper[],
   sideMenu: HTMLDivElement
 ): void {
@@ -265,26 +303,26 @@ export function setupClickHandler(
 }
 
 /** Setup search handler to filter data points */
-export function setupSearchHandler(
+export function setupSearchHandler<L>(
   searchInput: HTMLInputElement,
   chart: Chart,
-  allDataPoints: DataPoint[]
+  allDataPoints: DataPoint[],
+  legend: LegendBundle<DataPoint,L>
 ): void {
   searchInput.addEventListener('input', (event) => {
     const target = event.target as HTMLInputElement;
-    const query = target.value.toLowerCase().trim();
-    const searchTerms = query.split(/\s+/).filter(term => term); // Split by space for AND search
+    searchChart(target, chart, allDataPoints, legend);
+  })
+}
 
-    // Filter data points based on search terms
-    const filteredData = allDataPoints.filter(point => {
-      const targetText = (point.paper_title + ' ' + point.paper_abstract).toLowerCase();
-      // Every search term must be included
-      return searchTerms.every(term => targetText.includes(term));
-    });
-
-    // Update chart data and colors
-    chart.data.datasets[0].data = filteredData.map(p => ({ x: p.x, y: p.y, paper_id: p.paper_id, edc_title: p.edc_title }));
-    chart.data.datasets[0].backgroundColor = filteredData.map(map_color);
-    chart.update('none'); // Update without animation
-  });
+export function searchChart<L>(
+  searchInput: HTMLInputElement,
+  chart: Chart,
+  allDataPoints: DataPoint[],
+  legend: LegendBundle<DataPoint,L>
+): void {
+  const query = searchInput.value.toLowerCase().trim();
+  querySearchChart(
+    chart, allDataPoints, legend, query
+  )
 }
