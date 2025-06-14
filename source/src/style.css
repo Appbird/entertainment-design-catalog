@@ -9,7 +9,6 @@ html, body {
 #app {
   display: flex;
   height: 100vh;
-  padding: 3em;
   box-sizing: border-box;
 }
 
@@ -62,5 +61,4 @@ html, body {
 canvas {
   width: 100%;        /* 親要素幅にフィット */
   aspect-ratio: 1 / 1; /* 縦横比1:1 */
-  border: 1px solid #ccc;
 }
