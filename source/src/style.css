@@ -9,7 +9,6 @@ html, body {
 #app {
   display: flex;
   height: 100vh;
-  padding: 3em;
   box-sizing: border-box;
 }
 
@@ -22,45 +21,14 @@ html, body {
   background: #ffffff;
 }
 
-#reserved-link {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 10;
-  color: grey;
-  font-size: 12px;
-  text-decoration: none;
-  opacity: 0.4;
-  transition: opacity 0.3s ease;
-}
-
-#legend-container {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 10;
-  color: black;
-  font-size: 10px;
-  text-decoration: none;
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
-}
-
 /* サイドメニュー */
 #side-menu {
   flex: 1;
-  background: #f0f0f0;
+  background: #f9f9f9;
   padding: 16px;
   box-sizing: border-box;
   overflow-y: auto;
 }
 #side-menu p {
   margin: 8px 0;
-}
-
-/* キャンバスの見た目とアスペクト比 */
-canvas {
-  width: 100%;        /* 親要素幅にフィット */
-  aspect-ratio: 1 / 1; /* 縦横比1:1 */
-  border: 1px solid #ccc;
 }

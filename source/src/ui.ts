@@ -1,5 +1,6 @@
 import type { Chart } from 'chart.js';
 import {
+	type ClusterTypeValue,
   type DataPoint,
   type Paper, 
   ClusterType
@@ -53,12 +54,6 @@ export function buildLayout(): {
   reservedLink.href = './index.html';
   reservedLink.textContent = 'Entertainment Design Catalog (Reserved by 関西学院大学)';
   reservedLink.target = '_blank';
-  reservedLink.addEventListener('mouseover', () => {
-    reservedLink.style.opacity = '1';
-  });
-  reservedLink.addEventListener('mouseout', () => {
-    reservedLink.style.opacity = '0.4';
-  });
   const legendContainer = document.createElement('div');
   legendContainer.id = 'legend-container';
 
@@ -72,45 +67,44 @@ export function buildLayout(): {
   // --- UI Controls ---
   const controlsContainer = document.createElement('div');
   controlsContainer.id = 'controls-container';
-  controlsContainer.style.paddingBottom = '16px';
-  controlsContainer.style.borderBottom = '1px solid #ccc';
+  
 
+  // 分類基準のドロップダウンボックス
   const typeLabel = document.createElement('label');
-  typeLabel.textContent = 'データタイプ: ';
-  typeLabel.style.display = 'block';
+  typeLabel.textContent = '分類基準: ';
   const typeSelect = document.createElement('select');
+  const type2displayname: Record<ClusterTypeValue, string> = {
+	"abstract": "要約",
+	"title": "EDC",
+	"full": "EDC+アプローチ"
+  }
   Object.values(ClusterType).forEach(value => {
     const option = document.createElement('option');
     option.value = value;
-    option.textContent = value.charAt(0).toUpperCase() + value.slice(1);
+    option.textContent = type2displayname[value];
     typeSelect.appendChild(option);
   });
   typeLabel.appendChild(typeSelect);
   controlsContainer.appendChild(typeLabel);
 
-  const verLabel = document.createElement('label');
-  verLabel.textContent = 'クラスター数: ';
-  verLabel.style.display = 'block';
-  verLabel.style.marginTop = '8px';
-  const verSelect = document.createElement('select');
+  // クラスター数のドロップダウンボックス
+  const clusterNLabel = document.createElement('label');
+  clusterNLabel.textContent = 'クラスター数: ';
+  const clusterNSelect = document.createElement('select');
   ['32', '64'].forEach(value => {
     const option = document.createElement('option');
     option.value = value;
     option.textContent = value;
-    verSelect.appendChild(option);
+    clusterNSelect.appendChild(option);
   });
-  verLabel.appendChild(verSelect);
-  controlsContainer.appendChild(verLabel);
+  clusterNLabel.appendChild(clusterNSelect);
+  controlsContainer.appendChild(clusterNLabel);
 
   // --- Search Box ---
   const searchInput = document.createElement('input');
   searchInput.type = 'text';
   searchInput.id = 'search-box';
   searchInput.placeholder = 'タイトルや要旨で検索 (AND検索)';
-  searchInput.style.width = '100%';
-  searchInput.style.padding = '8px';
-  searchInput.style.boxSizing = 'border-box';
-  searchInput.style.marginTop = '16px';
 
   // --- Details ---
   const detailsContainer = document.createElement('div');
@@ -122,7 +116,7 @@ export function buildLayout(): {
 
   app.appendChild(canvasContainer);
   app.appendChild(sideMenu);
-  return { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect };
+  return { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect: clusterNSelect };
 }
 
 export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<DataPoint,L>): void {
@@ -131,27 +125,9 @@ export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<Dat
 
   legendContainer.innerHTML = ''; // 以前の凡例をクリア
 
-  // --- スタイルをここに適用 ---
-  legendContainer.style.backgroundColor = '#1a1a1a'; // 少し柔らかい黒
-  legendContainer.style.color = 'white';
-  //legendContainer.style.padding = '10px 15px';
-  legendContainer.style.borderRadius = '1%';
-  //legendContainer.style.marginTop = '16px';
-  legendContainer.style.maxHeight = '50vh'; // 最大の高さをビューポートの50%に
-  legendContainer.style.overflowY = 'auto'; // コンテンツがはみ出たらスクロール
-  legendContainer.style.boxSizing = 'border-box';
-
-
   // --- トグル機能を持つタイトルを作成 ---
   const legendTitle = document.createElement('h4');
-  legendTitle.style.margin = '0 0 8px 0'; // マージン調整
-  legendTitle.style.cursor = 'pointer'; // クリック可能であることを示すカーソル
-  legendTitle.style.userSelect = 'none'; // テキスト選択を無効化
-  legendTitle.style.position = 'sticky'; // スクロール時にタイトルを固定
-  legendTitle.style.top = '0';
-  legendTitle.style.backgroundColor = '#1a1a1a'; // 背景色を同じにして文字が透けないようにする
-  legendTitle.style.padding = '0.1em 0.1em'; // 上下の余白
-
+  legendTitle.classList.add("legend-toggle");
   const indicator = document.createElement('span');
   indicator.textContent = '▼ '; // 初期状態は開いている
   legendTitle.appendChild(indicator);
@@ -161,22 +137,14 @@ export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<Dat
 
   // --- 凡例の項目をラップするコンテナ ---
   const itemsWrapper = document.createElement('div');
-  itemsWrapper.style.display = 'block'; // 初期状態は表示
+  itemsWrapper.id = 'legend-items-wrapper'; // 初期状態は表示
 
   legend.getAllLabels().forEach(label => {
     const item = document.createElement('div');
-    item.style.display = 'flex';
-    item.style.alignItems = 'center';
-    item.style.marginBottom = '0.1em';
 
     const colorSwatch = document.createElement('span');
-    colorSwatch.style.display = 'inline-block';
-    colorSwatch.style.width = '12px';
-    colorSwatch.style.height = '12px';
-    colorSwatch.style.marginRight = '8px';
-    colorSwatch.style.borderRadius = '3px';
-    colorSwatch.style.backgroundColor = legend.getLabelColor(label);
-    colorSwatch.style.border = '1px solid #555'; // 暗い背景でも見やすいように枠線を追加
+	colorSwatch.classList.add("color-swatch");
+	colorSwatch.style.backgroundColor = legend.getLabelColor(label);
 
     const labelText = document.createElement('span');
     labelText.textContent = String(label);
@@ -187,7 +155,7 @@ export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<Dat
   });
 
   const separator = document.createElement('hr');
-  separator.style.borderColor = '#444'; // 区切り線の色を調整
+  
   itemsWrapper.appendChild(separator); // 区切り線もラッパーに追加
 
   // --- DOMに要素を追加 ---
@@ -198,16 +166,21 @@ export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<Dat
   legendTitle.addEventListener('click', () => {
     const isHidden = itemsWrapper.style.display === 'none';
     itemsWrapper.style.display = isHidden ? 'block' : 'none';
+	// たたむと右に寄っちゃうのを修正
+	legendTitle.style.paddingRight = isHidden ? '0em' : '5.375em';
     indicator.textContent = isHidden ? '▼ ' : '▶ ';
   });
 }
-
+/*
 function upperFirstLetter(str: string): string {
   if (str.length === 0) {
     return "";
   }
-
   return str.charAt(0).toUpperCase() + str.slice(1);
+}
+*/
+function toIPSJ_URL(paper_id:string) {
+	return `https://ipsj.ixsq.nii.ac.jp/records/${paper_id}`;
 }
 
 /** Update side menu with paper info and neighbors */
@@ -220,17 +193,24 @@ export function updateSideMenu(
   if (!detailsContainer) return;
   detailsContainer.innerHTML = ''; // Clear only the details section
 
+
   const edcTitleEl = document.createElement('h2');
-  // ... (rest of the function is the same, but appends to detailsContainer)
   edcTitleEl.textContent = clicked.edc_title;
   edcTitleEl.style.fontWeight = 'bold';
   detailsContainer.appendChild(edcTitleEl);
 
+  // URL掲示部
   const fromEl = document.createElement('p');
-  // ... and so on for the rest of the elements
-  const fromText = document.createTextNode('from ');
+  const edc_type_translator:Record<string, string> = {
+	"perception": "知覚", "cognition": "認知", "emotion": "情動", "motivation": "動機付け"
+  }
+  const edc_type_text = document.createElement('span');
+  edc_type_text.textContent = (clicked.edc_type !== "") ? edc_type_translator[clicked.edc_type] : "paper";
+  edc_type_text.className = 'u-bold';
+  fromEl.appendChild(edc_type_text);
+  const fromText = document.createTextNode(" from ");
   const linkEl = document.createElement('a');
-  linkEl.href = `https://ipsj.ixsq.nii.ac.jp/records/${clicked.paper_id}`;
+  linkEl.href = toIPSJ_URL(clicked.paper_id);
   linkEl.target = '_blank';
   linkEl.textContent = clicked.paper_title;
   fromEl.appendChild(fromText);
@@ -238,36 +218,32 @@ export function updateSideMenu(
   detailsContainer.appendChild(fromEl);
 
   if (clicked.edc_type !== ''){
-    const effectEl = document.createElement('p');
-    effectEl.innerHTML = `<strong>${upperFirstLetter(clicked.edc_type)}</strong><br> ${clicked.edc_effect}`;
+	const contextEl = document.createElement('section');
+	contextEl.innerHTML = `<h3 class="edc-header">文脈</h3> <p>${clicked.edc_context}</p>`;
+	detailsContainer.appendChild(contextEl);
+    const effectEl = document.createElement('section');
+    effectEl.innerHTML = `<h3 class="edc-header">アプローチ</h3> <p>${clicked.edc_effect}</p>`;
     detailsContainer.appendChild(effectEl);
-    const contextEl = document.createElement('p');
-    contextEl.innerHTML = `Context<br> ${clicked.edc_context}`;
-    detailsContainer.appendChild(contextEl);
   }
 
   const separator = document.createElement('hr');
   detailsContainer.appendChild(separator);
 
   const neighborsTitle = document.createElement('h3');
-  neighborsTitle.textContent = `近傍の論文 (Neighbors)`;
-  neighborsTitle.style.marginTop = '20px';
+  neighborsTitle.textContent = `関連するArchetype`;
   detailsContainer.appendChild(neighborsTitle);
 
   neighbors.forEach((neighbor, i) => {
     const neighborEl = document.createElement('div');
-    neighborEl.style.border = '1px solid #eee';
-    neighborEl.style.padding = '10px';
-    neighborEl.style.marginBottom = '10px';
-    neighborEl.style.borderRadius = '4px';
+	neighborEl.classList.add("c-neighbor-item");
     const pEl = document.createElement('p');
-    pEl.style.margin = '0';
     var innerText = "";
     if (neighbor.point.edc_title == ''){
-      innerText = `<strong>${neighbor.point.paper_title}</strong>`
+      innerText = `<span class="u-strong">${neighbor.point.paper_title}</span>`
     }else{
-      innerText = `<strong>${neighbor.point.edc_title}</strong> (from ${neighbor.point.paper_title})`
+      innerText = `<span class="u-strong">${neighbor.point.edc_title}</span><br>from <a href="${toIPSJ_URL(neighbor.point.paper_id)}">${neighbor.point.paper_title}</a>`
     }
+	
     pEl.innerHTML = `${i + 1}: `+innerText;
     neighborEl.appendChild(pEl);
     detailsContainer.appendChild(neighborEl);
