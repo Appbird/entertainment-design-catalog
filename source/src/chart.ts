@@ -14,6 +14,7 @@ import annotationPlugin from  'chartjs-plugin-annotation';
 import {
   type AnnotationOptions,
 } from 'chartjs-plugin-annotation';
+import type { LegendBundle } from './legend';
 
 // 必要なコンポーネントとプラグインを登録
 Chart.register(
@@ -104,7 +105,7 @@ export function createScatterChart(
       const { ctx } = chart;
       ctx.save();
       ctx.globalCompositeOperation = 'destination-over';
-      ctx.fillStyle = '#1e1e1e'; // 背景色を黒系の色に設定
+      ctx.fillStyle = '#1e1e1e';
       ctx.fillRect(0, 0, chart.width, chart.height);
       ctx.restore();
     }
@@ -140,11 +141,9 @@ export function createScatterChart(
         },
         tooltip: {
           callbacks: {
-            // デフォルトのタイトルを非表示にする
             title: function() {
               return '';
             },
-            // ツールチップの本文をカスタマイズする
             label: function(context) {
               const index = context.dataIndex;
               const chartPoint = context.dataset.data[index] as any;
@@ -171,4 +170,34 @@ export function createScatterChart(
     }
   };
   return new Chart(ctx, config);
+}
+
+export function filterChart<L>(
+  chart: Chart,
+  allDataPoints: DataPoint[],
+  legend: LegendBundle<DataPoint,L>,
+  pointFilter: (data: DataPoint) => boolean
+){
+  // Filter data points based on search terms
+  const filteredData = allDataPoints.filter(pointFilter);
+  // Update chart data and colors
+  chart.data.datasets[0].data = filteredData.map(p => ({ x: p.x, y: p.y, paper_id: p.paper_id, edc_title: p.edc_title }));
+  chart.data.datasets[0].backgroundColor = legend.getDataColors(filteredData);
+  chart.update('none'); // Update without animation
+}
+
+export function querySearchChart<L>(
+  chart: Chart,
+  allDataPoints: DataPoint[],
+  legend: LegendBundle<DataPoint,L>,
+  query: String
+){
+  const searchTerms = query.split(/\s+/).filter(term => term);
+  return filterChart(chart, allDataPoints, legend, 
+    point => {
+      const targetText = (point.paper_title + ' ' + point.paper_abstract).toLowerCase();
+      // Every search term must be included
+      return searchTerms.every(term => targetText.includes(term));
+    }
+  )
 }
