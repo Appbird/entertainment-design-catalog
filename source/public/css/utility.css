@@ -114,6 +114,10 @@ img.u-icon {
 .u-gray {
     color: gray;
 }
+.u-bold {
+    font-weight: bold;
+}
+
 
 details.custom {
   border: 2px solid #d8e0e6;
