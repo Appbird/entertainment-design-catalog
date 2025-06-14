@@ -22,5 +22,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "copy-click.js"]
+  "include": ["src", "public/copy-click.js"]
 }
