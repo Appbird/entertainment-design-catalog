@@ -76,7 +76,7 @@ export function buildLayout(): {
   controlsContainer.style.borderBottom = '1px solid #ccc';
 
   const typeLabel = document.createElement('label');
-  typeLabel.textContent = 'データタイプ: ';
+  typeLabel.textContent = '分類基準: ';
   typeLabel.style.display = 'block';
   const typeSelect = document.createElement('select');
   Object.values(ClusterType).forEach(value => {
@@ -198,6 +198,8 @@ export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<Dat
   legendTitle.addEventListener('click', () => {
     const isHidden = itemsWrapper.style.display === 'none';
     itemsWrapper.style.display = isHidden ? 'block' : 'none';
+	// たたむと右に寄っちゃうのを修正
+	legendTitle.style.paddingRight = isHidden ? '0em' : '10.625em';
     indicator.textContent = isHidden ? '▼ ' : '▶ ';
   });
 }
