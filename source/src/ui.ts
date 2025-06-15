@@ -51,8 +51,8 @@ export function buildLayout(): {
 
   const proposedLink = document.createElement('a');
   proposedLink.id = 'proposed-link'
-  proposedLink.href = './explain.html';
-  proposedLink.textContent = 'Entertainment Design Catalog (Proposed by 関西学院大学)';
+  proposedLink.href = './index.html';
+  proposedLink.textContent = 'Atlas of Entertainment Design Archetype (Proposed by 関西学院大学)';
   proposedLink.target = '_blank';
   const legendContainer = document.createElement('div');
   legendContainer.id = 'legend-container';
