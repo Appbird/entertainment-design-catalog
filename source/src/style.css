@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-size: 62.5%; /* -> 10px */ 
 }
 
 /* アプリ全体レイアウト */
@@ -10,25 +11,4 @@ html, body {
   display: flex;
   height: 100vh;
   box-sizing: border-box;
-}
-
-/* プロッター用キャンバスコンテナ */
-#canvas-container {
-  flex: 4;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  background: #ffffff;
-}
-
-/* サイドメニュー */
-#side-menu {
-  flex: 1;
-  background: #f9f9f9;
-  padding: 16px;
-  box-sizing: border-box;
-  overflow-y: auto;
-}
-#side-menu p {
-  margin: 8px 0;
 }

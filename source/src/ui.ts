@@ -49,16 +49,16 @@ export function buildLayout(): {
   
   canvasContainer.appendChild(canvas);
 
-  const reservedLink = document.createElement('a');
-  reservedLink.id = 'reserved-link'
-  reservedLink.href = './index.html';
-  reservedLink.textContent = 'Entertainment Design Catalog (Reserved by 関西学院大学)';
-  reservedLink.target = '_blank';
+  const proposedLink = document.createElement('a');
+  proposedLink.id = 'proposed-link'
+  proposedLink.href = './explain.html';
+  proposedLink.textContent = 'Entertainment Design Catalog (Proposed by 関西学院大学)';
+  proposedLink.target = '_blank';
   const legendContainer = document.createElement('div');
   legendContainer.id = 'legend-container';
 
   // canvasコンテナにリンクを追加
-  canvasContainer.appendChild(reservedLink);
+  canvasContainer.appendChild(proposedLink);
   canvasContainer.appendChild(legendContainer)
 
   const sideMenu = document.createElement('div');
@@ -241,7 +241,7 @@ export function updateSideMenu(
     if (neighbor.point.edc_title == ''){
       innerText = `<span class="u-strong">${neighbor.point.paper_title}</span>`
     }else{
-      innerText = `<span class="u-strong">${neighbor.point.edc_title}</span><br>from <a href="${toIPSJ_URL(neighbor.point.paper_id)}">${neighbor.point.paper_title}</a>`
+      innerText = `<span class="u-strong">${neighbor.point.edc_title}</span><br>from <a href="${toIPSJ_URL(neighbor.point.paper_id)}" target="_blank">${neighbor.point.paper_title}</a>`
     }
 	
     pEl.innerHTML = `${i + 1}: `+innerText;
