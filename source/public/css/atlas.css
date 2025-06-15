@@ -1,57 +1,80 @@
 
-#reserved-link {
+/* プロッター用キャンバスコンテナ */
+#canvas-container {
+  flex: 4;
+  max-height: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+/* サイドメニュー */
+#side-menu {
+  flex: 1;
+  min-width: 300px;
+  background: #f9f9f9;
+  padding: 16px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  font-size: 1.3rem;
+}
+#side-menu p {
+  margin: 8px 0;
+}
+
+#proposed-link {
   position: absolute;
   top: 10px;
   left: 10px;
   z-index: 10;
   color: grey;
-  font-size: 12px;
+  font-size: 1.2rem;
   text-decoration: none;
   opacity: 0.4;
   transition: opacity 0.3s ease;
 }
 
-#reserved-link:hover {
+#proposed-link:hover {
   opacity: 1.0;
-}
-
-
-#legend-container {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 10;
-  color: black;
-  font-size: 10px;
-  text-decoration: none;
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
 }
 
 #controls-container {
   	border-bottom:1px solid #ccc;
 	font-weight: normal;
-	font-size: 80%;
+	margin-bottom: 0;
 }
 /* プロッター用キャンバスコンテナ */
 #controls-container > label {
 	display: block;
 }
+#controls-container > label > select {
+	margin-bottom: 0;
+}
 #search-box {
 	width: 100%;
   	padding: 8px;
   	box-sizing: border-box;
-  	margin-top: 16px;
+  	margin-top: 1rem;
+}
+#search-box > input{
+	margin-bottom: 0;
 }
 #legend-container {
 	background-color: #1a1a1a; /* 少し柔らかい黒 */
 	color: white;
-	padding: 10px 15px;
+	padding: 0 5px;
 	border-radius: 1%;
-	margin-top: 16px;
-	max-height: 50vh; /* 最大の高さをビューポートの50%に */
-	overflow-y: auto; /* コンテンツがはみ出たらスクロール */
+	max-height: 50%;
+	overflow-y: auto;
 	box-sizing: border-box;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	z-index: 10;
+	text-decoration: none;
+	opacity: 0.8;
+	transition: opacity 0.3s ease;
 }
 #legend-container > .legend-toggle {
 	margin: 0 0 8px 0; /* マージン調整 */
@@ -82,6 +105,8 @@
 }
 #legend-items-wrapper hr {
 	border-color: #444; /* 区切り線の色を調整 */
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 /* キャンバスの見た目とアスペクト比 */
@@ -94,10 +119,10 @@ h2 {
 	text-align: left;
 }
 h3 {
-	font-size: 20px;
+	font-size: 1.8rem;
 }
 h3.edc-header {
-	font-size: 120%;
+	font-size: 1.8rem;
 }
 h3.edc-header::before {
 	background-color: #3a536b;
@@ -114,4 +139,35 @@ h3.edc-header::before {
 }
 .u-strong {
 	color: inherit;
+}
+
+@media screen and (orientation: portrait) {
+#app {
+    flex-flow: column;
+}
+#canvas-container {
+    width: 100%;
+	max-height: 70%;
+}
+#side-menu {
+    min-height: 400px;
+    width: 100%;
+	padding: 10px;
+}
+#details-container{
+	margin-bottom: 5vh;
+}
+#controls-container {
+	height: 4rem;
+	padding: 5px 0;
+}
+#controls-container > label {
+	float: left;
+	padding-left: 5px;
+	height: 100%;
+}
+#controls-container > label > select {
+	margin-bottom: 0;
+	height: 100%;
+}
 }
