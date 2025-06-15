@@ -1,1 +1,0 @@
-html,body{margin:0;padding:0;height:100%}#app{display:flex;height:100vh;box-sizing:border-box}#canvas-container{flex:4;position:relative;justify-content:center;align-items:center;background:#fff}#side-menu{flex:1;background:#f9f9f9;padding:16px;box-sizing:border-box;overflow-y:auto}#side-menu p{margin:8px 0}
