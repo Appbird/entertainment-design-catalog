@@ -1,18 +1,24 @@
 import './style.css';
 import { fetchBundleJson, fetchClusterJson, fetchDataPoints, fetchMappingAbstractCluster } from './data.ts';
-import { createScatterChart } from './chart.ts';
+import {
+  createScatterChart,
+  updateChartWithFilters,
+  type FilterState
+} from './chart.ts';
 import {
   buildLayout,
-  searchChart,
   setupClickHandler,
-  setupSearchHandler,
   updateLegend,
+  setupYearFilter,
 } from './ui.ts';
-import type { Chart } from 'chart.js';
+import type {
+  Chart
+} from 'chart.js';
 import type {ClusterTypeValue, DataPoint} from './validator.ts'
 import { LegendBundle } from './legend.ts';
 
 let chartInstance: Chart | null = null;
+const HELP_PAGE_URL = './help.html';
 
 async function loadChart(
   appElements: {
@@ -20,6 +26,7 @@ async function loadChart(
     canvasContainer: HTMLDivElement;
     sideMenu: HTMLDivElement;
     searchInput: HTMLInputElement;
+    yearFilterContainer: HTMLDivElement;
   },
   type: ClusterTypeValue,
   ver: number
@@ -28,13 +35,11 @@ async function loadChart(
     chartInstance.destroy();
   }
 
-  const { canvas, canvasContainer, sideMenu, searchInput } = appElements;
+  const { canvas, canvasContainer, sideMenu, searchInput, yearFilterContainer } = appElements;
 
-  // Show a loading message
   const detailsContainer = sideMenu.querySelector<HTMLDivElement>('#details-container');
   if (detailsContainer) detailsContainer.innerHTML = '<p>データをロード中...</p>';
 
-  // Fetch all necessary data
   const papers = await fetchBundleJson();
   const dataPoints = await fetchDataPoints(type);
   const clusterBoxes = await fetchClusterJson(type, ver);
@@ -44,47 +49,55 @@ async function loadChart(
       dataPoints,
       d => abst_map.get(d.filestem) || "その他"
   )
-  /**
-   *  new LegendBundle<DataPoint,String>(
-        "年代別",
-        dataPoints,
-        d => new Date(d.paper_publish_date).getFullYear()
-      )
-   * */
   const mapped_colors = legend.getDataColors(dataPoints);
 
-  // Clear loading message
   if (detailsContainer) detailsContainer.innerHTML = '';
 
-  // Create a new chart
   chartInstance = createScatterChart(canvas.getContext('2d')!, dataPoints, mapped_colors, clusterBoxes);
 
-  // (Re)setup handlers
+  const filterState: FilterState = {
+    searchQuery: searchInput.value,
+    selectedYears: new Set(),
+  };
+
+  const applyFilters = () => {
+    if (!chartInstance) return;
+    updateChartWithFilters(chartInstance, dataPoints, legend, filterState);
+  };
+  
   setupClickHandler(canvas, chartInstance, dataPoints, papers, sideMenu);
-  setupSearchHandler(searchInput, chartInstance, dataPoints, legend);
-  searchChart(searchInput, chartInstance, dataPoints, legend);
-  // Update the legend
+
+  searchInput.addEventListener('input', () => {
+    filterState.searchQuery = searchInput.value;
+    applyFilters();
+  });
+  
+  setupYearFilter(yearFilterContainer, dataPoints, (selectedYears) => {
+    filterState.selectedYears = selectedYears;
+    applyFilters();
+  });
+
   updateLegend(canvasContainer, legend);
 }
 
 async function init(): Promise<void> {
-  // Build the initial layout and get references to UI elements
-  const { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect } = buildLayout();
+  const { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect, helpButton, yearFilterContainer } = buildLayout();
 
-  const appElements = { canvas, canvasContainer, sideMenu, searchInput };
+  helpButton.addEventListener('click', () => {
+    window.open(HELP_PAGE_URL, '_blank');
+  });
 
-  // Handler to call when a selection changes
+  const appElements = { canvas, canvasContainer, sideMenu, searchInput, yearFilterContainer };
+
   const handleDataChange = async () => {
     const selectedType = typeSelect.value as ClusterTypeValue;
     const selectedVer = parseInt(verSelect.value, 10);
     await loadChart(appElements, selectedType, selectedVer);
   };
 
-  // Attach event listeners to dropdowns
   typeSelect.addEventListener('change', handleDataChange);
   verSelect.addEventListener('change', handleDataChange);
 
-  // Initial data load
   await handleDataChange();
 }
 
