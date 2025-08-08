@@ -201,3 +201,34 @@ export function querySearchChart<L>(
     }
   )
 }
+
+export interface FilterState {
+  searchQuery: string;
+  selectedYears: Set<number>;
+}
+
+export function updateChartWithFilters<L>(
+  chart: Chart,
+  allDataPoints: DataPoint[],
+  legend: LegendBundle<DataPoint, L>,
+  filterState: FilterState
+) {
+  const { searchQuery, selectedYears } = filterState;
+  const searchTerms = searchQuery.toLowerCase().split(/\s+/).filter(term => term);
+
+  const combinedFilter = (point: DataPoint): boolean => {
+    const year = new Date(point.paper_publish_date).getFullYear();
+    if (!selectedYears.has(year)) {
+      return false;
+    }
+    if (searchTerms.length > 0) {
+      const targetText = (point.paper_title + ' ' + point.paper_abstract + ' ' + point.edc_title).toLowerCase();
+      if (!searchTerms.every(term => targetText.includes(term))) {
+        return false;
+      }
+    }
+    return true;
+  };
+
+  filterChart(chart, allDataPoints, legend, combinedFilter);
+}
