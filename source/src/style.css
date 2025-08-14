@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-size: 62.5%; /* -> 10px */ 
+  font-size: 62.5%; 
 }
 
 /* アプリ全体レイアウト */
@@ -11,4 +11,69 @@ html, body {
   display: flex;
   height: 100vh;
   box-sizing: border-box;
+}
+
+/* サイドメニューのコンポーネント間のマージン */
+#side-menu > * {
+  margin-bottom: 1rem;
+}
+#side-menu > *:last-child {
+  margin-bottom: 0;
+}
+
+/* ヘルプボタン */
+#help-button {
+  display: block;
+  position: absolute;
+  width: 2vw;
+  padding: 0;
+  right: 0.5rem;
+  font-size: 1.4rem;
+  background-color: #4a4a4a;
+  color: white;
+  border: 1px solid #6a6a6a;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+#help-button:hover {
+  background-color: #5a5a5a;
+}
+
+/* フィルターコンテナ共通 */
+.filter-toggle {
+  font-size: 1.6rem;
+  margin: 0 0 0.5rem 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* 年度フィルターのスクロールウィンドウ */
+.filter-list-container {
+  display: none; /* 初期状態は非表示 */
+  grid-template-columns: 1fr 1fr; /* 2カラムレイアウト */
+  gap: 0.5rem 1rem; /* 行と列の間隔 */
+  max-height: 200px; /* ウィンドウの最大高 */
+  overflow-y: auto;  /* 縦スクロールを有効化 */
+  padding: 1rem;
+  border: 1px solid #6a6a6a;
+  border-radius: 4px;
+  background-color: #405c62;
+}
+
+/* 年度フィルターの各項目 */
+.filter-item {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.filter-item > input {
+    margin-bottom: 0;
+}
+
+.filter-item label {
+  margin-left: 0.5rem;
+  color: azure;
+  cursor: pointer;
 }
