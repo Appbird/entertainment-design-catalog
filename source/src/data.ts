@@ -16,6 +16,7 @@ export function getKNearest(
 
 
 export async function fetchBundleJson(): Promise<Paper[]> {
+	console.log(BASE_PATH);
 	const response = await fetch(`${BASE_PATH}/json/bundle.json`);
 	if (!response.ok) { throw new Error(`Failed to fetch: ${response.statusText}`); }
 	const json = await response.json();

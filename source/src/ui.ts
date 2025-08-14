@@ -40,6 +40,8 @@ export function buildLayout(): {
   searchInput: HTMLInputElement;
   typeSelect: HTMLSelectElement;
   verSelect: HTMLSelectElement;
+  helpButton: HTMLButtonElement;
+  yearFilterContainer: HTMLDivElement;
 } {
   const app = document.getElementById('app')!;
   const canvasContainer = document.createElement('div');
@@ -57,19 +59,20 @@ export function buildLayout(): {
   const legendContainer = document.createElement('div');
   legendContainer.id = 'legend-container';
 
-  // canvasコンテナにリンクを追加
   canvasContainer.appendChild(proposedLink);
   canvasContainer.appendChild(legendContainer)
 
   const sideMenu = document.createElement('div');
   sideMenu.id = 'side-menu';
 
-  // --- UI Controls ---
+  const helpButton = document.createElement('button');
+  helpButton.id = 'help-button';
+  helpButton.textContent = '？';
+  sideMenu.appendChild(helpButton);
+
   const controlsContainer = document.createElement('div');
   controlsContainer.id = 'controls-container';
   
-
-  // 分類基準のドロップダウンボックス
   const typeLabel = document.createElement('label');
   typeLabel.textContent = '分類基準: ';
   const typeSelect = document.createElement('select');
@@ -87,7 +90,6 @@ export function buildLayout(): {
   typeLabel.appendChild(typeSelect);
   controlsContainer.appendChild(typeLabel);
 
-  // クラスター数のドロップダウンボックス
   const clusterNLabel = document.createElement('label');
   clusterNLabel.textContent = 'クラスター数: ';
   const clusterNSelect = document.createElement('select');
@@ -100,23 +102,85 @@ export function buildLayout(): {
   clusterNLabel.appendChild(clusterNSelect);
   controlsContainer.appendChild(clusterNLabel);
 
-  // --- Search Box ---
   const searchInput = document.createElement('input');
   searchInput.type = 'text';
   searchInput.id = 'search-box';
   searchInput.placeholder = 'タイトルや要旨で検索 (AND検索)';
 
-  // --- Details ---
+  const yearFilterContainer = document.createElement('div');
+  yearFilterContainer.id = 'year-filter-container';
+  
   const detailsContainer = document.createElement('div');
   detailsContainer.id = 'details-container';
-
+  
   sideMenu.appendChild(controlsContainer);
   sideMenu.appendChild(searchInput);
+  sideMenu.appendChild(yearFilterContainer);
   sideMenu.appendChild(detailsContainer);
 
   app.appendChild(canvasContainer);
   app.appendChild(sideMenu);
-  return { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect: clusterNSelect };
+  return { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect: clusterNSelect, helpButton, yearFilterContainer };
+}
+
+export function setupYearFilter(
+  container: HTMLDivElement,
+  allDataPoints: DataPoint[],
+  onFilterChange: (selectedYears: Set<number>) => void
+): void {
+  container.innerHTML = ''; 
+
+  const uniqueYears = [...new Set(allDataPoints.map(p => new Date(p.paper_publish_date).getFullYear()))].sort((a, b) => b - a);
+  const selectedYears = new Set(uniqueYears);
+
+  const title = document.createElement('h4');
+  title.className = 'filter-toggle';
+  title.textContent = '▼ 年度で絞り込み';
+  container.appendChild(title);
+
+  const listContainer = document.createElement('div');
+  listContainer.className = 'filter-list-container';
+  container.appendChild(listContainer);
+
+  uniqueYears.forEach(year => {
+    const item = document.createElement('div');
+    item.className = 'filter-item';
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.id = `year-${year}`;
+    checkbox.value = String(year);
+    checkbox.checked = true;
+    
+    const label = document.createElement('label');
+    label.htmlFor = `year-${year}`;
+    label.textContent = String(year);
+
+    item.appendChild(checkbox);
+    item.appendChild(label);
+    listContainer.appendChild(item);
+
+    checkbox.addEventListener('change', () => {
+      if (checkbox.checked) {
+        selectedYears.add(year);
+      } else {
+        selectedYears.delete(year);
+      }
+      onFilterChange(new Set(selectedYears));
+    });
+  });
+
+  title.addEventListener('click', () => {
+    const isHidden = listContainer.style.display === 'none';
+    listContainer.style.display = isHidden ? 'grid' : 'none';
+    title.textContent = (isHidden ? '▼' : '▶') + ' 年度で絞り込み';
+  });
+  
+  // 初期状態ではフィルターを閉じておく
+  listContainer.style.display = 'none';
+  title.textContent = '▶ 年度で絞り込み';
+
+  onFilterChange(selectedYears);
 }
 
 export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<DataPoint,L>): void {
