@@ -44,8 +44,8 @@ export async function fetchClusterJson(type: ClusterTypeValue=ClusterType.ABSTRA
 	return clusters;
 }
 
-export async function fetchDataPoints(type: ClusterTypeValue=ClusterType.ABSTRACT): Promise<DataPoint[]> {
-	const response = await fetch(`${BASE_PATH}/json/umap_${type}_edctag.json`);
+export async function fetchDataPoints(type: ClusterTypeValue=ClusterType.ABSTRACT,ver: number=32): Promise<DataPoint[]> {
+	const response = await fetch(`${BASE_PATH}/json/umap_${type}_edctag-${ver}.json`);
 	if (!response.ok) {
 		throw new Error(`Failed to fetch: ${response.statusText}`);
 	}

@@ -120,6 +120,7 @@ export function buildLayout(): {
 
   app.appendChild(canvasContainer);
   app.appendChild(sideMenu);
+  console.log(clusterNSelect.value);
   return { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect: clusterNSelect, helpButton, yearFilterContainer };
 }
 
