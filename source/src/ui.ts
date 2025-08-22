@@ -54,7 +54,7 @@ export function buildLayout(): {
   const proposedLink = document.createElement('a');
   proposedLink.id = 'proposed-link'
   proposedLink.href = './index.html';
-  proposedLink.textContent = 'Atlas of Entertainment Design Archetype (Proposed by 関西学院大学)';
+  proposedLink.textContent = 'EDC Browser for EC Symposium (Proposed by 関西学院大学)';
   proposedLink.target = '_blank';
   const legendContainer = document.createElement('div');
   legendContainer.id = 'legend-container';
@@ -120,6 +120,7 @@ export function buildLayout(): {
 
   app.appendChild(canvasContainer);
   app.appendChild(sideMenu);
+  console.log(clusterNSelect.value);
   return { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect: clusterNSelect, helpButton, yearFilterContainer };
 }
 

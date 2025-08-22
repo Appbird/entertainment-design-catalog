@@ -41,7 +41,7 @@ async function loadChart(
   if (detailsContainer) detailsContainer.innerHTML = '<p>データをロード中...</p>';
 
   const papers = await fetchBundleJson();
-  const dataPoints = await fetchDataPoints(type);
+  const dataPoints = await fetchDataPoints(type, ver);
   const clusterBoxes = await fetchClusterJson(type, ver);
   const abst_map = await fetchMappingAbstractCluster();
   const legend = new LegendBundle<DataPoint,String>(
