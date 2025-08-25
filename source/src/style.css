@@ -26,6 +26,8 @@ html, body {
   display: block;
   position: absolute;
   width: 2vw;
+  min-width: 1.5em;
+  aspect-ratio: 1.0;
   padding: 0;
   right: 0.5rem;
   font-size: 1.4rem;
