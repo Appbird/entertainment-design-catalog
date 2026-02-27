@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/utility.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDC Browser - ヘルプ</title>
+    <meta name="description" content="EDC Browserの使い方を説明するヘルプページです。Entertainment Design Catalog（EDC）やEntertainment Design Assets（EDA）に基づくEC研究会（エンタテインメントコンピューティング）論文可視化の操作方法を確認できます。">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="u-pagetitle">EDC Browser ヘルプページ</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <section>
+                <h2>本アプリケーションについて</h2>
+                <p>
+                    このアプリケーションは、ECシンポジウムに投稿された研究論文間の関連性を可視化するためのツールです。各論文から抽出された「Entertainment Design Catalog (EDC)」のArchetype、または論文要約を元に、論文が二次元のマップ上に配置されます。マップ上の点一つ一つが、論文全体または個別のArchetypeに対応しています。
+                </p>
+                <p>
+                    これにより、従来のキーワード検索では見つけにくかった研究間の意外な関連性を発見したり、EC研究領域全体の構造を俯瞰的に把握したりすることが可能になります。
+                </p>
+            </section>
+            <section>
+                <h2>画面説明</h2>
+                <div class="u-center">
+                    <img src="../image/ec2025/atlas-of-ec-archetype.png">
+                </div>
+                <h3>メイン画面（散布図）</h3>
+                <p>
+                    論文やArchetypeが点としてプロットされています。各点の位置は、それぞれの内容の類似度に基づいて決定されています。また、右上の凡例をクリックすることで、凡例の表示・非表示を切り替えることができます。
+                </p>
+                <h3>サイドメニュー</h3>
+                <ul>
+                    <li><strong>分類基準・クラスター数:</strong> マップの生成基準（例: 要約ベース、EDCベース）や、クラスタリングの細かさを変更できます。</li>
+                    <li><strong>検索ボックス:</strong> 論文のタイトルや要旨に含まれるキーワードで、表示する点を絞り込むことができます。</li>
+                    <li><strong>年度で絞り込み:</strong> 論文の発表年度に応じて、点の表示・非表示を切り替えることができます。</li>
+                    <li><strong>詳細情報:</strong> メイン画面で点をクリックすると、その点の元となった論文の情報や、関連性の高い他の論文（Archetype）がここに表示されます。</li>
+                </ul>
+            </section>
+            <section>
+                <h2>操作方法</h2>
+                <h3>グラフの操作</h3>
+                <ul>
+                    <li><strong>ズーム:</strong> マウスホイールを上下にスクロールすると、グラフを拡大・縮小できます。</li>
+                    <li><strong>パン（移動）:</strong> グラフ上でマウスをドラッグすると、表示領域を移動できます。</li>
+                </ul>
+
+                <h3>情報の表示</h3>
+                <ul>
+                    <li><strong>ツールチップ:</strong> 点にカーソルを合わせると、その点の論文タイトルまたはEDCタイトルが簡易的に表示されます。</li>
+                    <li><strong>詳細情報:</strong> 点をクリックすると、サイドメニューにその論文の書誌情報、EDCの文脈やアプローチ、関連論文リストなどの詳細情報が表示されます。論文タイトルは、情報処理学会の論文ページへのリンクになっています。</li>
+                </ul>
+                
+                <h3>データの絞り込みと表示切替</h3>
+                <ul>
+                    <li><strong>検索:</strong> サイドメニュー上部の検索ボックスにキーワードを入力します。複数のキーワードをスペースで区切って入力すると、すべてのキーワードを含む論文のみを絞り込むAND検索が実行されます。</li>
+                    <li><strong>年度フィルター:</strong> 「年度で絞り込み」のタイトル部分をクリックすると、年度選択リストが開閉します。各年度のチェックボックスをオン・オフすることで、表示する論文を絞り込めます。</li>
+                    <li><strong>分類基準の変更:</strong> サイドメニュー上部のドロップダウンメニューから「分類基準」や「クラスター数」を選択すると、それに合わせてグラフが再描画されます。</li>
+                </ul>
+            </section>
+            <hr>
+        </div>
+    </div>
+</body>
+
+</html>

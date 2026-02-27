@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eda-experiments.local/schemas/papers.schema.json",
+  "title": "Embedding Cache Papers",
+  "type": "object",
+  "required": ["papers"],
+  "additionalProperties": false,
+  "properties": {
+    "papers": {
+      "type": "object",
+      "description": "paper_id -> paper record",
+      "additionalProperties": {
+        "$ref": "#/$defs/paperRecord"
+      }
+    }
+  },
+  "$defs": {
+    "paperMetadata": {
+      "type": "object",
+      "required": [
+        "title",
+        "authors",
+        "identifier",
+        "publish_date",
+        "conference",
+        "abstract"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "authors": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "identifier": { "type": "string" },
+        "publish_date": { "type": "string" },
+        "conference": { "type": "string" },
+        "abstract": { "type": "string" }
+      }
+    },
+    "paperRecord": {
+      "type": "object",
+      "required": ["paper_id", "metadata", "edc-version", "edc"],
+      "additionalProperties": false,
+      "properties": {
+        "paper_id": { "type": "string" },
+        "metadata": { "$ref": "#/$defs/paperMetadata" },
+        "edc-version": {
+          "type": "string",
+          "enum": ["v1", "v2", "v2-short", "eda-v1"]
+        },
+        "edc": {
+          "description": "Version-dependent EDC payload.",
+          "type": ["object", "array"]
+        }
+      }
+    }
+  }
+}

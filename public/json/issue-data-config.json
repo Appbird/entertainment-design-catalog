@@ -1,0 +1,65 @@
+{
+  "issues": {
+    "ec2025": {
+      "adapterKind": "legacy",
+      "typeOptions": [
+        { "value": "title", "label": "EDC" },
+        { "value": "abstract", "label": "要約" },
+        { "value": "full", "label": "EDC+アプローチ" }
+      ],
+      "coloring": {
+        "mode": "abstract",
+        "clusterVersion": 32
+      },
+      "clusterOptions": [32, 64],
+      "legacy": {
+        "bundle": "json/ec2025/bundle.json",
+        "dataPointsPattern": "json/ec2025/umap_{type}_edctag-{ver}.json",
+        "clustersPattern": "json/ec2025/umap_{type}_clusters-{ver}.json"
+      }
+    },
+    "ec2026si": {
+      "adapterKind": "cache-v2",
+      "typeOptions": [
+        { "value": "title", "label": "EDC" },
+        { "value": "abstract", "label": "要約" },
+        { "value": "grasp", "label": "状況理解のみ" },
+        { "value": "response", "label": "反応のみ" }
+      ],
+      "coloring": {
+        "mode": "abstract"
+      },
+      "clusterOptions": [],
+      "cacheV2": {
+        "papers": "json/ec2026si/ECSympoSeries-combined-v2-short.json",
+        "features": "json/ec2026si/ECSympoSeries-combined-v2-short.features.json",
+        "papersByMode": {
+          "grasp": "json/ec2026si/ECSympoSeries-grasp-v2-short.json",
+          "response": "json/ec2026si/ECSympoSeries-response-v2-short.json"
+        },
+        "featuresByMode": {
+          "grasp": "json/ec2026si/ECSympoSeries-grasp-v2-short.features.json",
+          "response": "json/ec2026si/ECSympoSeries-response-v2-short.features.json"
+        },
+        "pointsByMode": {
+          "abstract": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_abstract_points.json",
+          "title": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_title_points.json",
+          "grasp": "json/ec2026si/ECSympoSeries-grasp-v2-short_umap_title_points.json",
+          "response": "json/ec2026si/ECSympoSeries-response-v2-short_umap_title_points.json"
+        },
+        "indexByMode": {
+          "abstract": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_abstract_index.json",
+          "title": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_title_index.json",
+          "grasp": "json/ec2026si/ECSympoSeries-grasp-v2-short_umap_title_index.json",
+          "response": "json/ec2026si/ECSympoSeries-response-v2-short_umap_title_index.json"
+        },
+        "clustersByMode": {
+          "abstract": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_abstract_gmm-auto_clusters.json",
+          "title": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_title_gmm-auto_clusters.json",
+          "grasp": "json/ec2026si/ECSympoSeries-grasp-v2-short_umap_title_gmm-auto_clusters.json",
+          "response": "json/ec2026si/ECSympoSeries-response-v2-short_umap_title_gmm-auto_clusters.json"
+        }
+      }
+    }
+  }
+}

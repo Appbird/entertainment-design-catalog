@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/utility.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EC2025 | Entertainment Design Catalog</title>
+    <meta name="description" content="EC2025におけるEntertainment Design Catalog（EDC）とEntertainment Design Assets（EDA）の提案内容、EC研究会（エンタテインメントコンピューティング）の研究可視化結果を紹介するページです。">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="u-pagetitle">体験の知覚-認知過程に着目した Entertainment Design Catalog の提案と<br> EC 学術領域に関する一考察</h1>
+            <p class="u-subtle">Entertainment Design Catalog Based on the Perception–Cognition Process: Insights into the Entertainment Computing Research Domain</p>
+
+            <ul>
+                <li>川口 竜斉 / 関西学院大学</li>
+                <p class="u-subtle">Ryosei Kawaguchi / Kwansei Gakuin University</p>
+                <li>平山 心 / 関西学院大学</li>
+                <p class="u-subtle">Shin Hirayama / Kwansei Gakuin University</p>
+                <li>片寄 晴弘 / 関西学院大学</li>
+                <p class="u-subtle">Haruhiro Katayose / Kwansei Gakuin University </p>
+            </ul>
+        </div>
+    </header>
+
+    <style>
+        .issue-switcher {
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .issue-links {
+            display: flex;
+            gap: 0.75rem;
+            border-bottom: 1px solid #dcdcdc;
+            padding-bottom: 0.75rem;
+        }
+
+        .issue-link {
+            display: inline-block;
+            border: 1px solid #c7c7c7;
+            background: #f8f8f8;
+            padding: 0.5rem 1.2rem;
+            border-radius: 999px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #222;
+        }
+
+        .issue-link.is-active {
+            background: #2f5f8f;
+            color: #fff;
+            border-color: #2f5f8f;
+        }
+    </style>
+
+    <div class="container">
+        <div class="issue-switcher">
+            <nav class="issue-links" aria-label="特集号の切り替え">
+                <a class="issue-link is-active" href="./ec2025.html">EC2025</a>
+                <a class="issue-link" href="./ec2026si.html">EC2026特集号</a>
+            </nav>
+        </div>
+
+        <div class="row">
+            <section>
+                <h2>論文</h2>
+                <li><a href="https://ipsj.ixsq.nii.ac.jp/records/2003651">EC2025</a> (Accepted, to appear)</li>
+            </section>
+            <section>
+                <h2>概要</h2>
+                <p>
+                <div class="u-center">
+                    <img src="../image/ec2025/pera_fig.png">
+                </div>
+                ユーザの「心の動き」に着目した Entertainment Design Asset（EDA）を再構成し，
+                形式的枠組みとして Entertainment Design Catalog（EDC）を提案した．
+                EDCでは，コンテンツ受容を<span class="u-strong">「知覚‐認知‐情動‐動機づけ」の段階</span>に整理することで，EDAの記述指針を明確化する．
+                さらに，LLMの活用により，EC領域の研究における「心の動き」デザイン分析の自動化への道を拓き、
+                ECシンポジウム約1000件の論文の分析を通じて，<span class="u-strong">当該領域の研究動向を「心の動き」視点から俯瞰できる</span>ようになった．
+                </p>
+                <p class="u-subtle">
+                    We have restructured Entertainment Design Asset (EDA) to focus on the "emotions" of users
+                    and proposed the Entertainment Design Catalog (EDC) as a formal framework.
+                    EDC clarifies the description guidelines for EDA by organizing content reception
+                    into stages of "perception-cognition-emotion-motivation."
+                    Furthermore, by utilizing LLM, we have paved the way for automating "emotions"
+                    design analysis in research in the EC field, and through the analysis of approximately
+                    1,000 papers from the EC Symposium,
+                    we have been able to obtain an overview of research trends in this field from the perspective of "emotions."
+                </p>
+            </section>
+            <section>
+                <h2>Entertainment Design Catalogの定義</h2>
+                <p>
+                    EDAは「心をどう動かしたいか」「アプローチ」の二つの側面から
+                    デザインを特徴づけることで、有益なデザインを整理するフレームワークであった。
+                </p>
+                <p>
+                    本論文ではその「心の動き」の定義をより形式的にするべく，
+                    心の動きが生じる過程を整理・分解した．
+                </p>
+                <div class="u-center">
+                    <img src="../image/ec2025/figure1_experience_process.png">
+                </div>
+                <div class="u-center">
+                    <p>図2. ユーザがシステムの表現を受容する過程のモデル</p>
+                </div>
+                <p>
+                    その分解に基づき，より多くのユーザに共通する体験要素を記述可能とした，
+                    新たなEDAの枠組みを提案する．
+                </p>
+                <p>フレームワークに基づき整理された一つ一つのデザイン典型例を<span class="u-strong">Archetype</span>と呼ぶ．
+                    Archetypeの集積によって有用なデザインを網羅したCatalogを構築することが，このフレームワークの目的である．</p>
+                <div class="u-center">
+                    <img src="../image/ec2025/figure2_experience_design_catalog.png">
+                </div>
+                <div class="u-center">
+                    <p>図3. Entertainment Design Catalogにおいて要求する記述事項</p>
+                </div>
+            </section>
+            <section>
+                <h2>EDCによるEC研究領域の可視化</h2>
+                <div class="u-center">
+                    <img src="../image/ec2025/atlas-of-ec-archetype.png">
+                </div>
+                <div class="u-center">
+                    <p>図4. EDC Browser </p>
+                </div>
+                <p>ECシンポ*に投稿された全原稿を対象に、その研究の間の関連性を可視化した。以下のURLから、その結果を閲覧できる。</p>
+                <ul>
+                    <li><a href="landscape.html?issue=ec2025">https://appbird.github.io/entertainment-design-catalog/landscape.html?issue=ec2025</a></li>
+                </ul>
+                <p>
+                    可視化は論文要約ベースのものとArchetypeベースのものの2種類が用意されている。
+                    各点の色は要約ベースにおけるクラスタリングに基づいて彩色されており、
+                    EDCベースの点の色の分布を見ることで、論文要約ベースとどう分類が異なるかを観察できる。
+                </p>
+                <p class="u-subtle">* <a href="https://sig.entcomp.org">情報処理学会 エンタテインメントコンピューティング研究会</a>にて開催されているシンポジウムのこと。</p>
+            </section>
+            <section>
+                <h2>使用したプロンプト</h2>
+                <details class="custom">
+                    <summary>論文からEDCを抽出するプロンプト</summary>
+                    <button id="edc-prompt-copy" style="margin-left: 1em;">Copy</button>
+                    <pre><code id="edc-prompt-code">読み込み中...</code></pre>
+                </details>
+                <details class="custom">
+                    <summary>クラスタに対して名前づけるためのプロンプト</summary>
+                    <div style="margin:1em 0">
+                        <button id="cluster-name-copy" style="margin-left: 1em;">Copy</button>
+                        <pre><code id="cluster-name-code">読み込み中...</code></pre>
+                    </div>
+                </details>
+            </section>
+        </div>
+    </div>
+
+    <script defer>
+        // ファイルをfetchしてcodeブロックにセット
+        function set_codeblock(path, copy_id, code_id) {
+            fetch(path)
+            .then(res => res.text())
+            .then(text => {
+                document.getElementById(code_id).textContent = text;
+            })
+            .catch(e => {console.error(e)})
+
+            // コピーボタン
+            document.getElementById(copy_id).addEventListener('click', function() {
+                const code = document.getElementById(code_id).textContent;
+                navigator.clipboard.writeText(code);
+                this.textContent = 'Copied!';
+                setTimeout(() => { this.textContent = 'Copy'; }, 1500);
+            });
+        }
+
+        set_codeblock("/prompts/ec2025/extract_EDC.txt", "edc-prompt-copy", "edc-prompt-code")
+        set_codeblock("/prompts/ec2025/cluster_name_generation.txt", "cluster-name-copy", "cluster-name-code")
+    </script>
+</body>
+
+</html>

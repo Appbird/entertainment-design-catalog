@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eda-experiments.local/schemas/umap-clusters.schema.json",
+  "title": "UMAP Cluster Result",
+  "type": "object",
+  "required": ["clusters", "assignments"],
+  "additionalProperties": false,
+  "properties": {
+    "clusters": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/cluster" }
+    },
+    "assignments": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/assignment" }
+    }
+  },
+  "$defs": {
+    "naming": {
+      "type": "object",
+      "required": [
+        "strategy",
+        "keyword_source",
+        "embed_unit_for_naming",
+        "ngram_range",
+        "centroid_sample_k",
+        "title_mode_fields",
+        "centroid_examples",
+        "keywords"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "strategy": { "type": "string", "const": "keywords_with_centroid_examples" },
+        "keyword_source": { "type": "string", "const": "ctfidf" },
+        "embed_unit_for_naming": {
+          "type": "string",
+          "enum": ["grasp", "response", "combined", "abstract"]
+        },
+        "ngram_range": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": 1 },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "centroid_sample_k": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title_mode_fields": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["title", "effect", "context"]
+          }
+        },
+        "centroid_examples": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "cluster": {
+      "type": "object",
+      "required": ["cluster_id", "name", "count", "x_min", "x_max", "y_min", "y_max", "naming"],
+      "additionalProperties": false,
+      "properties": {
+        "cluster_id": { "type": "integer" },
+        "name": { "type": "string" },
+        "count": { "type": "integer", "minimum": 0 },
+        "x_min": { "type": "number" },
+        "x_max": { "type": "number" },
+        "y_min": { "type": "number" },
+        "y_max": { "type": "number" },
+        "naming": { "$ref": "#/$defs/naming" }
+      }
+    },
+    "assignment": {
+      "type": "object",
+      "required": ["point_id", "cluster_id"],
+      "additionalProperties": false,
+      "properties": {
+        "point_id": {
+          "type": "string",
+          "pattern": "^.+::(title|abstract)$"
+        },
+        "cluster_id": { "type": "integer" }
+      }
+    }
+  }
+}
