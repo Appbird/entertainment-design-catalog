@@ -50,7 +50,7 @@ async function loadChart(
   const legend = new LegendBundle<PointCloudPoint, string>(
       "種類別",
       dataPoints,
-      d => abst_map.get(d.filestem) || "その他"
+      d => abst_map.get(d.pointId) || "その他"
   )
   const mapped_colors = legend.getDataColors(dataPoints);
 

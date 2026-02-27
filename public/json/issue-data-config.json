@@ -7,6 +7,10 @@
         { "value": "abstract", "label": "要約" },
         { "value": "full", "label": "EDC+アプローチ" }
       ],
+      "coloring": {
+        "mode": "abstract",
+        "clusterVersion": 32
+      },
       "clusterOptions": [32, 64],
       "legacy": {
         "bundle": "json/ec2025/bundle.json",
@@ -22,6 +26,9 @@
         { "value": "grasp", "label": "状況理解のみ" },
         { "value": "response", "label": "反応のみ" }
       ],
+      "coloring": {
+        "mode": "abstract"
+      },
       "clusterOptions": [],
       "cacheV2": {
         "papers": "json/ec2026si/ECSympoSeries-combined-v2-short.json",

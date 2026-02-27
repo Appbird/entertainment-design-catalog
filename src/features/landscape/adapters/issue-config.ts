@@ -27,6 +27,10 @@ export interface IssueConfigEntry {
   adapterKind: "legacy" | "cache-v2";
   typeOptions: ClusterTypeOption[];
   clusterOptions: number[];
+  coloring?: {
+    mode: ClusterTypeValue;
+    clusterVersion?: number;
+  };
   legacy?: LegacySourceConfig;
   cacheV2?: CacheV2SourceConfig;
 }
