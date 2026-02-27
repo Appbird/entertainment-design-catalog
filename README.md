@@ -9,6 +9,7 @@
 - `public/`: 静的資産（`json`, `image`, `prompts`, `css`）
 - `docs/`: ビルド成果物（GitHub Pages配信用）
 
+
 ## 開発コマンド
 
 ```bash
