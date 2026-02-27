@@ -1,5 +1,6 @@
 import { ClusterType, type DataPoint, type ClusterData, type ClusterTypeValue } from "../models/validator";
 import { ISSUE, resolveAdapter, type IssueValue } from "../adapters";
+import { loadIssueConfigEntry } from "../adapters/issue-config";
 import type { DetailDisplayModel } from "../models/detail-display-model";
 import type { ClusterOverlay, DetailViewModel, PointCloudPoint } from "../models/view-model";
 import { resolveRuntimeBasePath } from "../runtime/runtime-path";
@@ -40,11 +41,15 @@ async function fetchDataPoints(
 }
 
 export async function fetchMappingAbstractCluster(issue: IssueValue = ISSUE.EC2025): Promise<Map<string, string>> {
-	const abstract_clusters = await fetchClusterJson(ClusterType.ABSTRACT, 32, issue);
+	const basePath = resolveRuntimeBasePath();
+	const config = await loadIssueConfigEntry(basePath, issue);
+	const clusterType = config.coloring?.mode ?? ClusterType.ABSTRACT;
+	const clusterVersion = config.coloring?.clusterVersion ?? 32;
+	const abstract_clusters = await fetchClusterJson(clusterType, clusterVersion, issue);
 	const mapping: Map<string, string> = new Map();
 	for (const abstract_cluster of abstract_clusters) {
 		for (const member of abstract_cluster.members) {
-			mapping.set(member.filestem, abstract_cluster.name); 
+			mapping.set(`${member.filestem}::${member.tag_idx}`, abstract_cluster.name);
 		}
 	}
 	return mapping;
