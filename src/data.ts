@@ -1,5 +1,6 @@
 import { ClusterType, type DataPoint, type ClusterData, type ClusterTypeValue } from "./validator";
 import { getAdapter, ISSUE, type IssueValue } from "./adapters";
+import type { DetailDisplayModel } from "./detail-display-model";
 import type { ClusterOverlay, DetailViewModel, PointCloudPoint } from "./view-model";
 const BASE_PATH = import.meta.env.BASE_URL;
 
@@ -96,18 +97,14 @@ function toIPSJ_URL(paperId: string): string {
 	return `https://ipsj.ixsq.nii.ac.jp/records/${paperId}`;
 }
 
-export function buildDetailViewModel(point: PointCloudPoint): DetailViewModel {
-	const edcTypeTranslator: Record<string, string> = {
-		perception: "知覚",
-		cognition: "認知",
-		emotion: "情動",
-		motivation: "動機付け",
-	};
-
+export function buildDetailViewModel(
+	point: PointCloudPoint,
+	displayModel: DetailDisplayModel
+): DetailViewModel {
 	const rawLabel = point.edcType || "paper";
 	return {
 		title: point.edcTitle || point.paperTitle,
-		typeLabel: edcTypeTranslator[rawLabel] ?? rawLabel,
+		typeLabel: displayModel.toTypeLabel(rawLabel),
 		paperTitle: point.paperTitle,
 		paperUrl: toIPSJ_URL(point.paperId),
 		context: point.edcContext,

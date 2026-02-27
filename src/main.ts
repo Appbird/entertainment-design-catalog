@@ -1,5 +1,6 @@
 import './style.css';
 import { buildDetailViewModel, fetchClusterOverlays, fetchMappingAbstractCluster, fetchPointCloud } from './data.ts';
+import { resolveDetailDisplayModel } from './detail-display-model.ts';
 import {
   createScatterChart,
   updateChartWithFilters,
@@ -67,7 +68,14 @@ async function loadChart(
     updateChartWithFilters(chartInstance, dataPoints, legend, filterState);
   };
   
-  setupClickHandler(canvas, chartInstance, dataPoints, sideMenu, buildDetailViewModel);
+  const detailDisplayModel = resolveDetailDisplayModel(issue);
+  setupClickHandler(
+    canvas,
+    chartInstance,
+    dataPoints,
+    sideMenu,
+    (point) => buildDetailViewModel(point, detailDisplayModel)
+  );
 
   searchInput.addEventListener('input', () => {
     filterState.searchQuery = searchInput.value;
