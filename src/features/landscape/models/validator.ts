@@ -41,6 +41,8 @@ export const ClusterType = {
 	TITLE: 'title',
 	FULL: 'full',
 	ABSTRACT: 'abstract',
+	GRASP: 'grasp',
+	RESPONSE: 'response',
 } as const
 
 export type ClusterTypeValue = typeof ClusterType[keyof typeof ClusterType];
