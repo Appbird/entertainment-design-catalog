@@ -23,11 +23,21 @@ export function parseStandardBundleJson(json: unknown): Paper[] {
 }
 
 export function parseStandardClusterJson(json: unknown): ClusterData[] {
-  if (typeof json !== "object" || json === null || Array.isArray(json)) {
+  const clusters: ClusterData[] = [];
+  if (Array.isArray(json)) {
+    json.forEach((value, index) => {
+      if (!isClusterData(value)) {
+        throw new Error(`Invalid cluster data format at index: ${index}`);
+      }
+      clusters.push({ ...value });
+    });
+    return clusters;
+  }
+
+  if (typeof json !== "object" || json === null) {
     throw new Error("Invalid cluster JSON format");
   }
 
-  const clusters: ClusterData[] = [];
   for (const [key, value] of Object.entries(json)) {
     if (!isClusterData(value)) {
       throw new Error(`Invalid cluster data format at key: ${key}`);
