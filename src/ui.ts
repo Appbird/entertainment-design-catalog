@@ -140,6 +140,23 @@ export function setupYearFilter(
   const listContainer = document.createElement('div');
   listContainer.className = 'filter-list-container';
   container.appendChild(listContainer);
+  const checkboxes: HTMLInputElement[] = [];
+
+  const actionContainer = document.createElement('div');
+  actionContainer.style.display = 'flex';
+  actionContainer.style.gap = '0.5em';
+  actionContainer.style.marginBottom = '0.75em';
+  container.appendChild(actionContainer);
+
+  const selectAllButton = document.createElement('button');
+  selectAllButton.type = 'button';
+  selectAllButton.textContent = '全て選択';
+  actionContainer.appendChild(selectAllButton);
+
+  const clearAllButton = document.createElement('button');
+  clearAllButton.type = 'button';
+  clearAllButton.textContent = 'すべて解除';
+  actionContainer.appendChild(clearAllButton);
 
   uniqueYears.forEach(year => {
     const item = document.createElement('div');
@@ -150,6 +167,7 @@ export function setupYearFilter(
     checkbox.id = `year-${year}`;
     checkbox.value = String(year);
     checkbox.checked = true;
+    checkboxes.push(checkbox);
     
     const label = document.createElement('label');
     label.htmlFor = `year-${year}`;
@@ -172,11 +190,30 @@ export function setupYearFilter(
   title.addEventListener('click', () => {
     const isHidden = listContainer.style.display === 'none';
     listContainer.style.display = isHidden ? 'grid' : 'none';
+    actionContainer.style.display = isHidden ? 'flex' : 'none';
     title.textContent = (isHidden ? '▼' : '▶') + ' 年度で絞り込み';
+  });
+
+  selectAllButton.addEventListener('click', () => {
+    selectedYears.clear();
+    uniqueYears.forEach((year) => selectedYears.add(year));
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = true;
+    });
+    onFilterChange(new Set(selectedYears));
+  });
+
+  clearAllButton.addEventListener('click', () => {
+    selectedYears.clear();
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = false;
+    });
+    onFilterChange(new Set(selectedYears));
   });
   
   // 初期状態ではフィルターを閉じておく
   listContainer.style.display = 'none';
+  actionContainer.style.display = 'none';
   title.textContent = '▶ 年度で絞り込み';
 
   onFilterChange(selectedYears);
