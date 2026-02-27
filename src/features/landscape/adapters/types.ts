@@ -1,4 +1,4 @@
-import type { ClusterData, ClusterTypeValue, DataPoint, Paper } from "../validator";
+import type { ClusterData, ClusterTypeValue, DataPoint, Paper } from "../models/validator";
 
 export const ISSUE = {
   EC2025: "ec2025",

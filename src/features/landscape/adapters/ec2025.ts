@@ -1,12 +1,12 @@
 import type { IssueDataAdapter } from "./types";
-import type { ClusterData, ClusterTypeValue, DataPoint, Paper } from "../validator";
+import type { ClusterData, ClusterTypeValue, DataPoint, Paper } from "../models/validator";
 import {
   parseStandardBundleJson,
   parseStandardClusterJson,
   parseStandardDataPointsJson,
 } from "./shared";
 import { loadIssueConfigEntry } from "./issue-config";
-import { joinRuntimePath } from "../runtime-path";
+import { joinRuntimePath } from "../runtime/runtime-path";
 
 function applyPattern(pattern: string, type: ClusterTypeValue, ver: number): string {
   return pattern.replace("{type}", type).replace("{ver}", String(ver));

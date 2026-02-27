@@ -1,4 +1,4 @@
-import { ISSUE, type IssueValue } from "./adapters";
+import { ISSUE, type IssueValue } from "../adapters";
 import type { PointCloudPoint } from "./view-model";
 
 export interface DetailDisplayModel {

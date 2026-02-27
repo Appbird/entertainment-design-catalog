@@ -1,21 +1,8 @@
-import { ClusterType, type DataPoint, type ClusterData, type ClusterTypeValue } from "./validator";
-import { ISSUE, resolveAdapter, type IssueValue } from "./adapters";
-import type { DetailDisplayModel } from "./detail-display-model";
-import type { ClusterOverlay, DetailViewModel, PointCloudPoint } from "./view-model";
-import { resolveRuntimeBasePath } from "./runtime-path";
-
-/** Compute k nearest neighbors excluding the same keyword point */
-export function getKNearest(
-  points: PointCloudPoint[],
-  target: PointCloudPoint,
-  k: number
-): Array<{ point: PointCloudPoint; dist: number; idx: number }> {
-  return points
-    .map((p, i) => ({ point: p, dist: Math.hypot(p.x - target.x, p.y - target.y), idx: i }))
-    .filter(item => item.dist > 0)
-    .sort((a, b) => a.dist - b.dist)
-    .slice(0, k);
-}
+import { ClusterType, type DataPoint, type ClusterData, type ClusterTypeValue } from "../models/validator";
+import { ISSUE, resolveAdapter, type IssueValue } from "../adapters";
+import type { DetailDisplayModel } from "../models/detail-display-model";
+import type { ClusterOverlay, DetailViewModel, PointCloudPoint } from "../models/view-model";
+import { resolveRuntimeBasePath } from "../runtime/runtime-path";
 
 
 async function fetchClusterJson(
