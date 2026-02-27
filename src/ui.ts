@@ -273,12 +273,41 @@ export function updateSideMenu(
   fromEl.appendChild(linkEl);
   detailsContainer.appendChild(fromEl);
 
-  if (clicked.context || clicked.effect) {
+  if (clicked.summaryRows.length > 0) {
+    const summarySection = document.createElement('section');
+    summarySection.innerHTML = `<h3 class="edc-header">要点</h3>`;
+    const summaryList = document.createElement('ul');
+    clicked.summaryRows.forEach((row) => {
+      const li = document.createElement('li');
+      li.innerHTML = `<span class="u-bold">${row.label}:</span> ${row.value}`;
+      summaryList.appendChild(li);
+    });
+    summarySection.appendChild(summaryList);
+    detailsContainer.appendChild(summarySection);
+  }
+
+  if (clicked.contextItems.length > 0) {
 	const contextEl = document.createElement('section');
-	contextEl.innerHTML = `<h3 class="edc-header">文脈</h3> <p>${clicked.context}</p>`;
+	contextEl.innerHTML = `<h3 class="edc-header">文脈</h3>`;
+    const contextList = document.createElement('ul');
+    clicked.contextItems.forEach((item) => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      contextList.appendChild(li);
+    });
+    contextEl.appendChild(contextList);
 	detailsContainer.appendChild(contextEl);
+  }
+
+  if (clicked.paperAbstract) {
+    const abstractEl = document.createElement('section');
+    abstractEl.innerHTML = `<h3 class="edc-header">Abstract</h3> <p>${clicked.paperAbstract}</p>`;
+    detailsContainer.appendChild(abstractEl);
+  }
+
+  if (clicked.approachText) {
     const effectEl = document.createElement('section');
-    effectEl.innerHTML = `<h3 class="edc-header">アプローチ</h3> <p>${clicked.effect}</p>`;
+    effectEl.innerHTML = `<h3 class="edc-header">アプローチ</h3> <p>${clicked.approachText}</p>`;
     detailsContainer.appendChild(effectEl);
   }
 

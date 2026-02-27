@@ -26,7 +26,9 @@ export interface DetailViewModel {
   title: string;
   typeLabel: string;
   paperTitle: string;
+  paperAbstract: string;
   paperUrl: string;
-  context: string;
-  effect: string;
+  summaryRows: Array<{ label: string; value: string }>;
+  contextItems: string[];
+  approachText?: string;
 }
