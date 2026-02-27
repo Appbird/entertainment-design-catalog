@@ -12,8 +12,10 @@ export default defineConfig(({ command }) => {
 			rollupOptions: {
 				input: {
 					index: resolve(__dirname, "index.html"),
-					ec2025: resolve(__dirname, "ec2025.html"),
-					ec2026si: resolve(__dirname, "ec2026si.html"),
+					"pages/ec2025": resolve(__dirname, "pages/ec2025.html"),
+					"pages/ec2026si": resolve(__dirname, "pages/ec2026si.html"),
+					"pages/landscape": resolve(__dirname, "pages/landscape.html"),
+					"pages/help": resolve(__dirname, "pages/help.html"),
 				},
 			},
 		},

@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="public/css/normalize.css">
-    <link rel="stylesheet" href="public/css/skeleton.css">
-    <link rel="stylesheet" href="public/css/utility.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/utility.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,7 +84,7 @@
                 <h2>概要</h2>
                 <p>
                 <div class="u-center">
-                    <img src="./public/image/ec2026si/figure3_edc_whole_picture.png">
+                    <img src="../image/ec2026si/figure3_edc_whole_picture.png">
                 </div>
                 本稿では，Entertainment Design Asset（EDA）の問題意識を継承し，体験記述を比較可能な形で集
                 積・整理するための枠組みとして「Entertainment Design Catalog（EDC）」を提案する．
@@ -117,13 +117,13 @@
             <section>
                 <h2>Entertainment Design Catalogの定義</h2>
                 <div class="u-center">
-                    <img src="./public/image/ec2026si/figure_1_model_of_content_interpretion.png">
+                    <img src="../image/ec2026si/figure_1_model_of_content_interpretion.png">
                 </div>
                 <div class="u-center">
                     <p>図2. ユーザがシステムの表現を受け取り、反応し返す体験過程のモデル</p>
                 </div>
                 <div class="u-center">
-                    <img src="./public/image/ec2026si/figure_2_edc_framework.png">
+                    <img src="../image/ec2026si/figure_2_edc_framework.png">
                 </div>
                 <div class="u-center">
                     <p>図3. EDCフォーマットの定義</p>
@@ -151,14 +151,14 @@
             <section>
                 <h2>EDCによるEC研究領域の可視化</h2>
                 <div class="u-center">
-                    <img src="public/image/ec2026si/atlas-of-ec-archetype.png">
+                    <img src="../image/ec2026si/atlas-of-ec-archetype.png">
                 </div>
                 <div class="u-center">
                     <p>図4. EDC Browser </p>
                 </div>
                 <p>ECシンポ*に投稿された全原稿を対象に、その研究の間の関連性を可視化した。以下のURLから、その結果を閲覧できる。</p>
                 <ul>
-                    <li><a href="public/landscape.html?issue=ec2026si">https://appbird.github.io/entertainment-design-catalog/landscape.html?issue=ec2026si</a></li>
+                    <li><a href="landscape.html?issue=ec2026si">https://appbird.github.io/entertainment-design-catalog/landscape.html?issue=ec2026si</a></li>
                 </ul>
                 <p>
                     可視化は論文要約ベースのものとEDCフォーマットベースのものの2種類が用意されている。
@@ -204,7 +204,7 @@
             });
         }
 
-        set_codeblock("./prompts/ec2026si/extract_EDC.txt", "edc-prompt-copy", "edc-prompt-code")
-        set_codeblock("./prompts/ec2026si/cluster_name_generation.txt", "cluster-name-copy", "cluster-name-code")
+        set_codeblock("/prompts/ec2026si/extract_EDC.txt", "edc-prompt-copy", "edc-prompt-code")
+        set_codeblock("/prompts/ec2026si/cluster_name_generation.txt", "cluster-name-copy", "cluster-name-code")
     </script>
 </html>

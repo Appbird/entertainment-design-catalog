@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="public/css/normalize.css">
-    <link rel="stylesheet" href="public/css/skeleton.css">
-    <link rel="stylesheet" href="public/css/utility.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/utility.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,7 +82,7 @@
                 <h2>概要</h2>
                 <p>
                 <div class="u-center">
-                    <img src="public/image/ec2025/pera_fig.png">
+                    <img src="../image/ec2025/pera_fig.png">
                 </div>
                 ユーザの「心の動き」に着目した Entertainment Design Asset（EDA）を再構成し，
                 形式的枠組みとして Entertainment Design Catalog（EDC）を提案した．
@@ -112,7 +112,7 @@
                     心の動きが生じる過程を整理・分解した．
                 </p>
                 <div class="u-center">
-                    <img src="public/image/ec2025/figure1_experience_process.png">
+                    <img src="../image/ec2025/figure1_experience_process.png">
                 </div>
                 <div class="u-center">
                     <p>図2. ユーザがシステムの表現を受容する過程のモデル</p>
@@ -124,7 +124,7 @@
                 <p>フレームワークに基づき整理された一つ一つのデザイン典型例を<span class="u-strong">Archetype</span>と呼ぶ．
                     Archetypeの集積によって有用なデザインを網羅したCatalogを構築することが，このフレームワークの目的である．</p>
                 <div class="u-center">
-                    <img src="public/image/ec2025/figure2_experience_design_catalog.png">
+                    <img src="../image/ec2025/figure2_experience_design_catalog.png">
                 </div>
                 <div class="u-center">
                     <p>図3. Entertainment Design Catalogにおいて要求する記述事項</p>
@@ -133,14 +133,14 @@
             <section>
                 <h2>EDCによるEC研究領域の可視化</h2>
                 <div class="u-center">
-                    <img src="public/image/ec2025/atlas-of-ec-archetype.png">
+                    <img src="../image/ec2025/atlas-of-ec-archetype.png">
                 </div>
                 <div class="u-center">
                     <p>図4. EDC Browser </p>
                 </div>
                 <p>ECシンポ*に投稿された全原稿を対象に、その研究の間の関連性を可視化した。以下のURLから、その結果を閲覧できる。</p>
                 <ul>
-                    <li><a href="public/landscape.html?issue=ec2025">https://appbird.github.io/entertainment-design-catalog/landscape.html?issue=ec2025</a></li>
+                    <li><a href="landscape.html?issue=ec2025">https://appbird.github.io/entertainment-design-catalog/landscape.html?issue=ec2025</a></li>
                 </ul>
                 <p>
                     可視化は論文要約ベースのものとArchetypeベースのものの2種類が用意されている。
@@ -186,8 +186,8 @@
             });
         }
 
-        set_codeblock("./prompts/ec2025/extract_EDC.txt", "edc-prompt-copy", "edc-prompt-code")
-        set_codeblock("./prompts/ec2025/cluster_name_generation.txt", "cluster-name-copy", "cluster-name-code")
+        set_codeblock("/prompts/ec2025/extract_EDC.txt", "edc-prompt-copy", "edc-prompt-code")
+        set_codeblock("/prompts/ec2025/cluster_name_generation.txt", "cluster-name-copy", "cluster-name-code")
     </script>
 </body>
 
