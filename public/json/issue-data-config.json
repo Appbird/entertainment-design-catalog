@@ -3,8 +3,8 @@
     "ec2025": {
       "adapterKind": "legacy",
       "typeOptions": [
-        { "value": "abstract", "label": "要約" },
         { "value": "title", "label": "EDC" },
+        { "value": "abstract", "label": "要約" },
         { "value": "full", "label": "EDC+アプローチ" }
       ],
       "clusterOptions": [32, 64],
@@ -17,8 +17,8 @@
     "ec2026si": {
       "adapterKind": "cache-v2",
       "typeOptions": [
-        { "value": "abstract", "label": "要約" },
-        { "value": "title", "label": "EDC" }
+        { "value": "title", "label": "EDC" },
+        { "value": "abstract", "label": "要約" }
       ],
       "clusterOptions": [],
       "cacheV2": {
