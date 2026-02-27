@@ -15,4 +15,7 @@ export interface IssueDataAdapter {
   parseBundleJson: (json: unknown) => Paper[];
   parseClusterJson: (json: unknown) => ClusterData[];
   parseDataPointsJson: (json: unknown) => DataPoint[];
+  fetchBundleJson?: (basePath: string) => Promise<Paper[]>;
+  fetchClusterJson?: (basePath: string, type: ClusterTypeValue, ver: number) => Promise<ClusterData[]>;
+  fetchDataPointsJson?: (basePath: string, type: ClusterTypeValue, ver: number) => Promise<DataPoint[]>;
 }

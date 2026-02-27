@@ -1,0 +1,42 @@
+{
+  "issues": {
+    "ec2025": {
+      "adapterKind": "legacy",
+      "typeOptions": [
+        { "value": "abstract", "label": "要約" },
+        { "value": "title", "label": "EDC" },
+        { "value": "full", "label": "EDC+アプローチ" }
+      ],
+      "clusterOptions": [32, 64],
+      "legacy": {
+        "bundle": "json/ec2025/bundle.json",
+        "dataPointsPattern": "json/ec2025/umap_{type}_edctag-{ver}.json",
+        "clustersPattern": "json/ec2025/umap_{type}_clusters-{ver}.json"
+      }
+    },
+    "ec2026si": {
+      "adapterKind": "cache-v2",
+      "typeOptions": [
+        { "value": "abstract", "label": "要約" },
+        { "value": "title", "label": "EDC" }
+      ],
+      "clusterOptions": [],
+      "cacheV2": {
+        "papers": "json/ec2026si/ECSympoSeries-combined-v2-short.json",
+        "features": "json/ec2026si/ECSympoSeries-combined-v2-short.features.json",
+        "pointsByMode": {
+          "abstract": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_abstract_points.json",
+          "title": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_title_points.json"
+        },
+        "indexByMode": {
+          "abstract": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_abstract_index.json",
+          "title": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_title_index.json"
+        },
+        "clustersByMode": {
+          "abstract": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_abstract_gmm-auto_clusters.json",
+          "title": "json/ec2026si/ECSympoSeries-combined-v2-short_umap_title_gmm-auto_clusters.json"
+        }
+      }
+    }
+  }
+}

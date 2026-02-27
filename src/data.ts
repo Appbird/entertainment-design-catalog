@@ -1,8 +1,8 @@
 import { ClusterType, type DataPoint, type ClusterData, type ClusterTypeValue } from "./validator";
-import { getAdapter, ISSUE, type IssueValue } from "./adapters";
+import { ISSUE, resolveAdapter, type IssueValue } from "./adapters";
 import type { DetailDisplayModel } from "./detail-display-model";
 import type { ClusterOverlay, DetailViewModel, PointCloudPoint } from "./view-model";
-const BASE_PATH = import.meta.env.BASE_URL;
+import { resolveRuntimeBasePath } from "./runtime-path";
 
 /** Compute k nearest neighbors excluding the same keyword point */
 export function getKNearest(
@@ -23,8 +23,12 @@ async function fetchClusterJson(
 	ver: number = 32,
 	issue: IssueValue = ISSUE.EC2025
 ): Promise<ClusterData[]> {
-	const adapter = getAdapter(issue);
-	const rescls = await fetch(adapter.buildClusterUrl(BASE_PATH, type, ver));
+	const basePath = resolveRuntimeBasePath();
+	const adapter = await resolveAdapter(basePath, issue);
+	if (adapter.fetchClusterJson) {
+		return adapter.fetchClusterJson(basePath, type, ver);
+	}
+	const rescls = await fetch(adapter.buildClusterUrl(basePath, type, ver));
 	if (!rescls.ok) { throw new Error(`Failed to fetch: ${rescls.statusText}`); }
 	const clsjson = await rescls.json();
 	return adapter.parseClusterJson(clsjson);
@@ -35,8 +39,12 @@ async function fetchDataPoints(
 	ver: number = 32,
 	issue: IssueValue = ISSUE.EC2025
 ): Promise<DataPoint[]> {
-	const adapter = getAdapter(issue);
-	const response = await fetch(adapter.buildDataPointsUrl(BASE_PATH, type, ver));
+	const basePath = resolveRuntimeBasePath();
+	const adapter = await resolveAdapter(basePath, issue);
+	if (adapter.fetchDataPointsJson) {
+		return adapter.fetchDataPointsJson(basePath, type, ver);
+	}
+	const response = await fetch(adapter.buildDataPointsUrl(basePath, type, ver));
 	if (!response.ok) {
 		throw new Error(`Failed to fetch: ${response.statusText}`);
 	}

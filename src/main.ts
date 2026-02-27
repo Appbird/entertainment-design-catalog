@@ -17,8 +17,9 @@ import type {
 } from 'chart.js';
 import type {ClusterTypeValue } from './validator.ts'
 import { LegendBundle } from './legend.ts';
-import { resolveIssueFromSearch, type IssueValue } from './adapters';
+import { getIssueUiOptions, resolveIssueFromSearch, type IssueValue } from './adapters';
 import type { PointCloudPoint } from './view-model.ts';
+import { resolveRuntimeBasePath } from './runtime-path.ts';
 
 let chartInstance: Chart | null = null;
 const HELP_PAGE_URL = './help.html';
@@ -92,7 +93,9 @@ async function loadChart(
 
 async function init(): Promise<void> {
   const issue = resolveIssueFromSearch(window.location.search);
-  const { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect, helpButton, yearFilterContainer } = buildLayout();
+  const basePath = resolveRuntimeBasePath();
+  const uiOptions = await getIssueUiOptions(basePath, issue);
+  const { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect, helpButton, yearFilterContainer } = buildLayout(uiOptions);
 
   helpButton.addEventListener('click', () => {
     window.open(HELP_PAGE_URL, '_blank');
@@ -102,12 +105,16 @@ async function init(): Promise<void> {
 
   const handleDataChange = async () => {
     const selectedType = typeSelect.value as ClusterTypeValue;
-    const selectedVer = parseInt(verSelect.value, 10);
+    const selectedVer = uiOptions.clusterOptions.length > 0
+      ? parseInt(verSelect.value, 10)
+      : 0;
     await loadChart(appElements, selectedType, selectedVer, issue);
   };
 
   typeSelect.addEventListener('change', handleDataChange);
-  verSelect.addEventListener('change', handleDataChange);
+  if (uiOptions.clusterOptions.length > 0) {
+    verSelect.addEventListener('change', handleDataChange);
+  }
 
   await handleDataChange();
 }
