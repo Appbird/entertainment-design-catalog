@@ -9,6 +9,7 @@ export default defineConfig(({ command }) => {
 		base: "",
 		build: {
 			outDir: 'docs',
+            sourcemap: true,
 			rollupOptions: {
 				input: {
 					index: resolve(__dirname, "index.html"),

@@ -1,12 +1,9 @@
 import type { Chart } from 'chart.js';
-import {
-	type ClusterTypeValue,
-  ClusterType
-}from './validator';
 import { getKNearest } from './data';
 import type { LegendBundle } from './legend';
 import { querySearchChart } from './chart';
 import type { DetailViewModel, PointCloudPoint } from './view-model';
+import type { ClusterTypeOption } from './adapters/issue-config';
 /*
 export function map_color(point:DataPoint): string {
 	const pos = new Date(point.paper_publish_date).getFullYear();
@@ -32,7 +29,10 @@ export function map_color_based_on_abstract(point:DataPoint, paper2cluster:Map<s
 	]
 }
 */
-export function buildLayout(): {
+export function buildLayout(options: {
+  typeOptions: ClusterTypeOption[];
+  clusterOptions: number[];
+}): {
   canvas: HTMLCanvasElement;
   canvasContainer: HTMLDivElement;
   sideMenu: HTMLDivElement;
@@ -75,15 +75,10 @@ export function buildLayout(): {
   const typeLabel = document.createElement('label');
   typeLabel.textContent = '分類基準: ';
   const typeSelect = document.createElement('select');
-  const type2displayname: Record<ClusterTypeValue, string> = {
-	"abstract": "要約",
-	"title": "EDC",
-	"full": "EDC+アプローチ"
-  }
-  Object.values(ClusterType).forEach(value => {
+  options.typeOptions.forEach((entry) => {
     const option = document.createElement('option');
-    option.value = value;
-    option.textContent = type2displayname[value];
+    option.value = entry.value;
+    option.textContent = entry.label;
     typeSelect.appendChild(option);
   });
   typeLabel.appendChild(typeSelect);
@@ -92,14 +87,19 @@ export function buildLayout(): {
   const clusterNLabel = document.createElement('label');
   clusterNLabel.textContent = 'クラスター数: ';
   const clusterNSelect = document.createElement('select');
-  ['32', '64'].forEach(value => {
+  options.clusterOptions.forEach((clusterN) => {
+    const value = String(clusterN);
     const option = document.createElement('option');
     option.value = value;
     option.textContent = value;
     clusterNSelect.appendChild(option);
   });
-  clusterNLabel.appendChild(clusterNSelect);
-  controlsContainer.appendChild(clusterNLabel);
+  if (options.clusterOptions.length > 0) {
+    clusterNLabel.appendChild(clusterNSelect);
+    controlsContainer.appendChild(clusterNLabel);
+  } else {
+    clusterNSelect.style.display = "none";
+  }
 
   const searchInput = document.createElement('input');
   searchInput.type = 'text';
@@ -119,7 +119,6 @@ export function buildLayout(): {
 
   app.appendChild(canvasContainer);
   app.appendChild(sideMenu);
-  console.log(clusterNSelect.value);
   return { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect: clusterNSelect, helpButton, yearFilterContainer };
 }
 
