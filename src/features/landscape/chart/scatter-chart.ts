@@ -9,12 +9,12 @@ import {
   type ChartConfiguration
 } from 'chart.js';
 import zoomPlugin from 'chartjs-plugin-zoom';
-import type { ClusterOverlay, PointCloudPoint } from './view-model';
+import type { ClusterOverlay, PointCloudPoint } from '../models/view-model';
 import annotationPlugin from  'chartjs-plugin-annotation';
 import {
   type AnnotationOptions,
 } from 'chartjs-plugin-annotation';
-import type { LegendBundle } from './legend';
+import type { LegendBundle } from '../legend/legend-bundle';
 
 // 必要なコンポーネントとプラグインを登録
 Chart.register(

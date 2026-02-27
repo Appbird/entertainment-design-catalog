@@ -5,7 +5,7 @@ import {
   type ClusterData,
   type DataPoint,
   type Paper,
-} from "../validator";
+} from "../models/validator";
 
 export function parseStandardBundleJson(json: unknown): Paper[] {
   if (typeof json !== "object" || json === null || Array.isArray(json)) {

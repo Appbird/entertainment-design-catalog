@@ -1,6 +1,6 @@
-import type { ClusterTypeValue } from "../validator";
+import type { ClusterTypeValue } from "../models/validator";
 import type { IssueValue } from "./types";
-import { joinRuntimePath } from "../runtime-path";
+import { joinRuntimePath } from "../runtime/runtime-path";
 
 export interface ClusterTypeOption {
   value: ClusterTypeValue;

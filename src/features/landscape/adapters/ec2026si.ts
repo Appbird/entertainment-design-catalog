@@ -1,12 +1,12 @@
 import type { IssueDataAdapter } from "./types";
-import type { ClusterTypeValue, DataPoint, Paper, PaperMetadata } from "../validator";
+import type { ClusterTypeValue, DataPoint, Paper, PaperMetadata } from "../models/validator";
 import {
   parseStandardBundleJson,
   parseStandardClusterJson,
   parseStandardDataPointsJson,
 } from "./shared";
 import { loadIssueConfigEntry } from "./issue-config";
-import { joinRuntimePath } from "../runtime-path";
+import { joinRuntimePath } from "../runtime/runtime-path";
 
 type Mode = "title" | "abstract";
 
