@@ -114,8 +114,10 @@ export function buildDetailViewModel(
 		title: point.edcTitle || point.paperTitle,
 		typeLabel: displayModel.toTypeLabel(rawLabel),
 		paperTitle: point.paperTitle,
+		paperAbstract: point.paperAbstract,
 		paperUrl: toIPSJ_URL(point.paperId),
-		context: point.edcContext,
-		effect: point.edcEffect,
+		summaryRows: displayModel.buildSummaryRows(point),
+		contextItems: displayModel.buildContextItems(point),
+		approachText: displayModel.buildApproachText(point),
 	};
 }
