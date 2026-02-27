@@ -1,0 +1,5188 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "name": "成長体験",
+      "count": 28,
+      "x_min": 4.719635486602783,
+      "x_max": 5.582202911376953,
+      "y_min": -2.432713508605957,
+      "y_max": -1.1782892942428589,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "家族それぞれの頑張りや疲れを冒険仲間として互いに推し量る体験",
+          "自分の行動が「ごみ箱」を助けている気持ちになる",
+          "ごみ箱にごみを捨てると自分とまわりのキャラクタが成長する状況にいる"
+        ],
+        "keywords": [
+          "キャラクター 成長",
+          "キャラクター 成長 自分",
+          "成長 自分",
+          "親子 一緒",
+          "自分 行動"
+        ]
+      }
+    },
+    {
+      "cluster_id": 1,
+      "name": "生命感知",
+      "count": 54,
+      "x_min": 4.796327590942383,
+      "x_max": 6.204838275909424,
+      "y_min": -6.140273094177246,
+      "y_max": -4.980551719665527,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "蝶が実際に生きているかのように自然な羽ばたきをしている昆虫の様子を直観的に把握する",
+          "本物の花が思いがけず柔らかくうごめいている様子に接する",
+          "チューリップが静かに本物のように開いたり閉じたりするさまを間近で感じる"
+        ],
+        "keywords": [
+          "自分 身体",
+          "間近 感じる",
+          "植物 根",
+          "動き 映像",
+          "生き物 らしい",
+          "身体 動作",
+          "世界 自分"
+        ]
+      }
+    },
+    {
+      "cluster_id": 2,
+      "name": "自己投影世界",
+      "count": 66,
+      "x_min": 2.279109239578247,
+      "x_max": 4.093054294586182,
+      "y_min": -5.299624443054199,
+      "y_max": -4.009673595428467,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "現実の街の中で物語の主人公と同じ体験をしていると感じる",
+          "手描きした道路に沿って自分仕様の街並みが構成されていると把握する",
+          "実際の都市と見まごう街並みの中で自分が車を運転していると受け取る"
+        ],
+        "keywords": [
+          "物語 世界",
+          "自分 好み",
+          "自分 好き",
+          "場所 自分",
+          "自分 好み 合う",
+          "好み 合う",
+          "登場 人物",
+          "世界 登場 人物",
+          "ブロック 作品",
+          "現実 街",
+          "物語 世界 登場 人物",
+          "未知 世界",
+          "世界 登場",
+          "物語 世界 登場",
+          "変化 いく",
+          "自分 選ぶ",
+          "現実 空間",
+          "自分 認識",
+          "中 自分"
+        ]
+      }
+    },
+    {
+      "cluster_id": 3,
+      "name": "身体的没入感",
+      "count": 71,
+      "x_min": 6.241236686706543,
+      "x_max": 8.25132942199707,
+      "y_min": -5.109982490539551,
+      "y_max": -4.212389945983887,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "空中に浮かぶ3D物体に本当に触れているような認識が生まれる",
+          "目の前の壁や対象物に接近・押し込むと、現実には存在しない触感や抵抗を指先で知覚する",
+          "触れている面が上下に動いているように把握する"
+        ],
+        "keywords": [
+          "仮想 物体",
+          "自分 体",
+          "自分 指 鋏",
+          "食事 楽しむ",
+          "犬 自分",
+          "指 鋏",
+          "箸 バーチャル",
+          "感覚 生まれる",
+          "現実 同様",
+          "身体 感覚",
+          "目 前",
+          "自分 手",
+          "自分 指",
+          "世界 没入"
+        ]
+      }
+    },
+    {
+      "cluster_id": 4,
+      "name": "自己認識",
+      "count": 48,
+      "x_min": 5.847001075744629,
+      "x_max": 7.061220645904541,
+      "y_min": -4.276544094085693,
+      "y_max": -2.8412234783172607,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分が把握できる範囲だけが危険地帯だと信じられるFPS戦場を受け取る",
+          "自分の心拍が実際よりも激しく高まっていると錯覚する",
+          "進行方向の左右に本当に存在する建物を自分で把握できる"
+        ],
+        "keywords": [
+          "ゲーム 世界",
+          "ゲーム 内",
+          "ゲーム 状況",
+          "位置 感じ取る",
+          "自分 心",
+          "手 伝わる",
+          "自分 把握",
+          "くる 世界",
+          "世界 認識"
+        ]
+      }
+    },
+    {
+      "cluster_id": 5,
+      "name": "身体的音楽体験",
+      "count": 86,
+      "x_min": 5.610658168792725,
+      "x_max": 7.134701728820801,
+      "y_min": -7.482553482055664,
+      "y_max": -6.201267242431641,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "星に触れることで自ら音楽を生み出していると感じる",
+          "楽曲のなかで盛り上がる特別な瞬間（キータイミング）が分かる",
+          "ピアノを操作せず新しい方法でメロディに能動的に関わっている自分を認識する"
+        ],
+        "keywords": [
+          "自分 演奏",
+          "自分 声",
+          "初音 ミク",
+          "楽器 演奏",
+          "音楽 演奏",
+          "体 動き",
+          "自分 認識",
+          "動作 音楽 演奏",
+          "動作 音楽",
+          "操作 音楽",
+          "特定 楽器",
+          "身体 動かす",
+          "楽器 音",
+          "音楽 フレーズ",
+          "バンド 空間",
+          "自分 動作 音楽 演奏",
+          "音 鳴る",
+          "音楽 合わせる",
+          "そのまま 音",
+          "自分 動作 音楽",
+          "自分 操作 音楽",
+          "自分 操作",
+          "合わせる 身体",
+          "体 使う",
+          "動き 連動",
+          "自分 動き",
+          "変化 世界",
+          "世界 入り込む",
+          "自分 動作",
+          "3 d"
+        ]
+      }
+    },
+    {
+      "cluster_id": 6,
+      "name": "手作り変容",
+      "count": 53,
+      "x_min": 2.7425031661987305,
+      "x_max": 3.818342447280884,
+      "y_min": -6.303243160247803,
+      "y_max": -5.235478401184082,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分の並べた図形が思いもよらない絵に変身する様子を体験する",
+          "自分の手で現実の立体物へ好きなように直接色を塗っていると思える",
+          "手で組み立てるうちに文字が変形し読みにくくなり、最終的に立体で文字が現れる"
+        ],
+        "keywords": [
+          "手書き 文字",
+          "自分 手",
+          "目 前",
+          "光 質感",
+          "視点 異なる",
+          "模様 文字",
+          "自分 視点",
+          "変わる 自分",
+          "立体 物",
+          "自分 作る"
+        ]
+      }
+    },
+    {
+      "cluster_id": 7,
+      "name": "感情認知",
+      "count": 49,
+      "x_min": 3.891728639602661,
+      "x_max": 4.988325119018555,
+      "y_min": -3.561223268508911,
+      "y_max": -2.2643649578094482,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "身体の動きからキャラクターが怒りや怖さを帯びていると認識する",
+          "様々なマンガ作品でもキャラクターの表情を瞬時に理解できる",
+          "キャラクタの視線が感情に呼応して自然に移動していると認識する"
+        ],
+        "keywords": [
+          "自分 背後",
+          "人間 らしい",
+          "状況 気づく",
+          "直感的 把握",
+          "目 前"
+        ]
+      }
+    },
+    {
+      "cluster_id": 8,
+      "name": "関係構造の可視化",
+      "count": 69,
+      "x_min": 2.1466968059539795,
+      "x_max": 3.343474864959717,
+      "y_min": -4.152156352996826,
+      "y_max": -2.5699052810668945,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "Web上の単語が不思議な生き物として自分の前に現れる",
+          "美術作品とその背景・つながりが多層的に整理されていると気づく",
+          "自分自身を複数の視点・階層から捉える無限入れ子構造の一部と気づく"
+        ],
+        "keywords": [
+          "登場 人物",
+          "人物 同士 関係",
+          "ひと目 把握",
+          "同士 関係",
+          "登場 人物 同士 関係",
+          "登場 人物 同士",
+          "自分 巡る",
+          "人物 同士",
+          "個々 写真",
+          "地図 上",
+          "見る 場所",
+          "興味 沿う",
+          "多様 視点",
+          "自分 興味",
+          "直感的 把握",
+          "自分 気づく"
+        ]
+      }
+    },
+    {
+      "cluster_id": 9,
+      "name": "個別感覚体験",
+      "count": 31,
+      "x_min": 8.572752952575684,
+      "x_max": 9.015490531921387,
+      "y_min": -5.148799419403076,
+      "y_max": -4.268228054046631,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "本来食べられない／食べたことのない味と見た目の食品が安全に目の前で実現される",
+          "好きな香りや複数の香りが自在に切り替わり鼻先で体験できる",
+          "色と香りで本物とは違う味が感じられる食体験に浸る"
+        ],
+        "keywords": [
+          "味 香り",
+          "自分 好み",
+          "目 前",
+          "世界 自分"
+        ]
+      }
+    },
+    {
+      "cluster_id": 10,
+      "name": "空間映像体験",
+      "count": 61,
+      "x_min": 3.6641652584075928,
+      "x_max": 4.831030368804932,
+      "y_min": -6.227475643157959,
+      "y_max": -4.593951225280762,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分の手で作った動物の影から本物のような動物が勝手に動き出す",
+          "影に触れることで実体の動きが変わる不思議な関係に気づく",
+          "自分や物の影から予想外の仮想の影が自由に現れ動く"
+        ],
+        "keywords": [
+          "3 d",
+          "空間 内",
+          "自在 切り替える",
+          "動く 出す",
+          "映像 世界",
+          "三 次元",
+          "色 模様",
+          "様子 目の当たり",
+          "目 前",
+          "現実 空間",
+          "世界 感じる",
+          "世界 自分",
+          "自分 手"
+        ]
+      }
+    },
+    {
+      "cluster_id": 11,
+      "name": "自己操作感",
+      "count": 36,
+      "x_min": 6.034093379974365,
+      "x_max": 7.409389495849609,
+      "y_min": -3.148111581802368,
+      "y_max": -2.3960320949554443,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "砲台から弾を撃つたびに自分の腕前が順調に上がっていると思う",
+          "自分の手で回したルーレットの物理的動きがそのまま抽選の決定に反映されていると納得できる",
+          "自分の声で抽選に公平かつ手軽に参加できるようになる"
+        ],
+        "keywords": [
+          "操作 抽選",
+          "いく 感じる",
+          "自分 手",
+          "自分 操作"
+        ]
+      }
+    },
+    {
+      "cluster_id": 12,
+      "name": "ライブ体験",
+      "count": 46,
+      "x_min": 4.500740051269531,
+      "x_max": 5.682541847229004,
+      "y_min": -7.329160213470459,
+      "y_max": -6.211287498474121,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分たちの盛り上がりが音や映像に不思議な形で反映される不確かな一体感が成立する",
+          "ステージ上の光のパターンをスマホで読み取ると特定の演出が起きる仕組みが分かる",
+          "CD発売やPV公開のタイミングにファンや一般層が一斉に反応している様子を把握する"
+        ],
+        "keywords": [
+          "ステージ 上 光",
+          "ライブ 会場",
+          "会場 ネット",
+          "音楽 会場",
+          "上 光",
+          "他 観客",
+          "自然 現象",
+          "観客 盛り上がり",
+          "現実 重なる",
+          "鑑賞 中",
+          "多彩 光",
+          "光 動き",
+          "ステージ 上",
+          "自分 動作",
+          "世界 感じる",
+          "中 自分"
+        ]
+      }
+    },
+    {
+      "cluster_id": 13,
+      "name": "対戦型収集ゲーム",
+      "count": 36,
+      "x_min": 5.644125461578369,
+      "x_max": 6.596865653991699,
+      "y_min": -2.3634543418884277,
+      "y_max": -1.5333929061889648,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "異なる遊びをしながら同じ方法で勝ち負けを競う対戦世界に自分がいる",
+          "手元に豊富な情報をもとに自分なりの工夫でじゃんけんに挑んでいる世界を把握する",
+          "自分たちだけの特別なスポーツルールの中で多様な個性が活きる競技をしていると実感する"
+        ],
+        "keywords": [
+          "カード 集める",
+          "プレイヤー 同士"
+        ]
+      }
+    },
+    {
+      "cluster_id": 14,
+      "name": "ロボットの動きと親しみ",
+      "count": 37,
+      "x_min": 3.9807426929473877,
+      "x_max": 5.055917263031006,
+      "y_min": -1.3125157356262207,
+      "y_max": -0.7968196272850037,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "スリンキー玩具特有のふしぎで無駄の多い動きをロボットが繰り返し行う",
+          "頼りない動きのロボットに生き物らしさや意図を感じる",
+          "手をつなぎながら歩くとロボットと気持ちを探り合える関係になる"
+        ],
+        "keywords": [
+          "動き ロボット",
+          "ロボット 家電",
+          "卓上 壁面",
+          "ロボット 自分",
+          "ロボット 互い",
+          "ロボット 操作"
+        ]
+      }
+    },
+    {
+      "cluster_id": 15,
+      "name": "共在感",
+      "count": 31,
+      "x_min": 3.193047046661377,
+      "x_max": 4.497202396392822,
+      "y_min": -2.53891921043396,
+      "y_max": -1.392689824104309,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "チャットのメッセージから誰かがいま話していると感じる",
+          "遠隔地の相手と向かい合って会話している状態にいると感じる",
+          "クリーチャ同士のヒソヒソ話が耳に入り自分もその輪のそばにいると感じる"
+        ],
+        "keywords": [
+          "こちら 気",
+          "自分 表情",
+          "話しかける くる",
+          "エージェント 自然",
+          "耳 入る",
+          "対話 エージェント",
+          "自分 スマートフォン",
+          "世界 包む",
+          "自分 たち"
+        ]
+      }
+    },
+    {
+      "cluster_id": 16,
+      "name": "主体的ゲーム体験",
+      "count": 29,
+      "x_min": 5.180578708648682,
+      "x_max": 5.9616241455078125,
+      "y_min": -3.176128387451172,
+      "y_max": -2.3258931636810303,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分の要望にぴったり合った未知のゲームが導き出されると感じる",
+          "お題とオープンデータをもとに今まで思いつかなかった新しい発想のゲーム世界が自分たちの手で生まれる",
+          "普段気にとめない行為や選択肢も『あそび』とみなせると自覚する"
+        ],
+        "keywords": [
+          "ゲーム 世界",
+          "思考 感情",
+          "自分 ゲーム",
+          "ゲーム 自分",
+          "ゲーム 操作",
+          "自分 なり"
+        ]
+      }
+    },
+    {
+      "cluster_id": 17,
+      "name": "身体一体感",
+      "count": 41,
+      "x_min": 5.361756801605225,
+      "x_max": 6.21046257019043,
+      "y_min": -5.04922342300415,
+      "y_max": -4.063241481781006,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分の呼吸に連動して星々がゆったりと明滅する世界にいると認識する",
+          "自分の動きと舟の挙動が一体化した新しい世界に居ると認識する",
+          "自分の息で矢が飛び、的を目指す吹き矢体験を現実のように楽しんでいる"
+        ],
+        "keywords": [
+          "本物 海女",
+          "腕 動き",
+          "自在 飛ぶ",
+          "自分 呼吸",
+          "手 動き",
+          "自分 手 動き",
+          "自分 手"
+        ]
+      }
+    },
+    {
+      "cluster_id": 18,
+      "name": "触覚文字入力",
+      "count": 24,
+      "x_min": 6.331348896026611,
+      "x_max": 7.342735767364502,
+      "y_min": -6.404802322387695,
+      "y_max": -5.261931419372559,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "特定の単語と指先の振動の組み合わせを自然に結び付けていると感じる",
+          "指一本で単純操作だけでかな文字を入力できる世界",
+          "仮想空間を見渡しながら片手で直感的に文字入力できる"
+        ],
+        "keywords": [
+          "素早い 入力",
+          "文字 入力",
+          "振動 感じる"
+        ]
+      }
+    },
+    {
+      "cluster_id": 19,
+      "name": "共感的つながり",
+      "count": 51,
+      "x_min": 3.2567014694213867,
+      "x_max": 4.203310489654541,
+      "y_min": -4.26812744140625,
+      "y_max": -2.742882251739502,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "離れていても顔を見てみんなと同じ場にいる実感がわく",
+          "他者の楽しげな笑いに包まれて思わず自然な笑顔になる",
+          "自分と他の参加者の生体情報が偶然重なる瞬間を意識する"
+        ],
+        "keywords": [
+          "自分 顔",
+          "同士 自分"
+        ]
+      }
+    },
+    {
+      "cluster_id": 20,
+      "name": "身体動作認識",
+      "count": 33,
+      "x_min": 6.806422710418701,
+      "x_max": 7.6519904136657715,
+      "y_min": -4.011518478393555,
+      "y_max": -3.0973474979400635,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "踵上げ運動を正しく行い回数が増えていく自分に気付く",
+          "正確な人の関節位置が動画上に明快に示されていると確信できる",
+          "身体の関節データから現在どのジャグリング技かが分かる"
+        ],
+        "keywords": [
+          "筋肉 どれ",
+          "内 ボール",
+          "客観的 把握",
+          "動き 球体",
+          "自分 手"
+        ]
+      }
+    },
+    {
+      "cluster_id": 21,
+      "name": "体験的操作理解",
+      "count": 35,
+      "x_min": 4.946277141571045,
+      "x_max": 6.051267147064209,
+      "y_min": -4.122622966766357,
+      "y_max": -3.093231439590454,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分の操作で列車遅延を引き起こし全体の鉄道網へ影響が広がる仕組みを目の当たりにする",
+          "身近な部品だけで高性能なヘッドトラッカを自分で組み立てて自在に利用できる世界にいる",
+          "自分の操作で仮想生態系の捕食連鎖が循環し変化する世界を理解する"
+        ],
+        "keywords": [
+          "自分 操作",
+          "操作 キャラクター",
+          "電流 電圧",
+          "自分 組み立てる",
+          "世界 理解",
+          "ゲーム 操作",
+          "ゲーム 世界",
+          "直感的 理解"
+        ]
+      }
+    },
+    {
+      "cluster_id": 22,
+      "name": "身体拡張",
+      "count": 59,
+      "x_min": 4.278125762939453,
+      "x_max": 5.378594875335693,
+      "y_min": -4.967830657958984,
+      "y_max": -3.7046210765838623,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分のスマートフォンの映像が6枚の大型ディスプレイ上で一体化して横長に広がる",
+          "自分の動きが大画面の中のアバターとして等身大に表現される",
+          "現実のブロック操作がそのまま拡張現実世界の自由な動きや変化につながる"
+        ],
+        "keywords": [
+          "VR 空間",
+          "自分 スマートフォン",
+          "自分 他者",
+          "まま 足 動かす",
+          "自在 動かせる",
+          "存在 ミニチュア",
+          "内 キャラクター",
+          "足 動かす",
+          "自分 行動",
+          "まま 足",
+          "自分 捉える",
+          "仮想 世界",
+          "空間 内",
+          "自分 手",
+          "世界 自分",
+          "自分 手 動き",
+          "自分 操作",
+          "自分 動き",
+          "手 動き"
+        ]
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "point_id": "IPSJ-EC2013038::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2013046::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2013070::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2014018::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2014023::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2014044::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2015015::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2015030::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2015056::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2015113::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2015117::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2016029::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2017059::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2017074::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2018005::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2018048::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2019012::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2020023::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2023003::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2023015::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2023021::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2023064::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2023083::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2024021::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2024037::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2024096::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2024102::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2025024::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2013008::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2013025::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2013047::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2014009::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2014041::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2014051::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2015048::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2015059::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2015082::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2015107::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2016004::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2016043::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2016050::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2016053::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2016061::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2017003::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2017078::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2018001::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2018018::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2018037::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2018040::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2018049::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2018053::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2018059::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2018066::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2019002::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2019039::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2019052::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2019082::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2020013::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2020042::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2021040::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2021050::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2021058::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2022006::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2022016::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2022015::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2022042::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2022054::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2023038::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2023043::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2023048::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2023045::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2023062::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2023078::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2024049::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2024056::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2024069::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2024080::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2024094::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2025014::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2025038::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2025045::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2025050::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2013006::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2013029::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2013030::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2013061::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2013067::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2014027::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2014030::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2014037::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2014036::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2014050::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2014056::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2014053::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2015004::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2015017::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2015016::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2015026::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2015063::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2015101::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2015110::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2015125::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2015127::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2016016::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2016046::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017026::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017027::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017038::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017064::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017067::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017073::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017086::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017087::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017090::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017092::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2017097::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2018015::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2018028::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2018029::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2018034::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2018036::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2018061::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2019006::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2019040::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2019086::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2019089::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2020027::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2021016::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2021018::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2021034::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2022013::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2022053::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2023011::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2023067::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2024057::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2024058::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2024061::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2024074::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2024101::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2024106::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2024104::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2025003::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2025022::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2025026::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2025033::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2025070::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2025084::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2025082::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2013040::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2013039::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2013054::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2014020::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2014032::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2014049::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2014057::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015001::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015012::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015009::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015023::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015021::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015024::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015057::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015064::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015065::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015079::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015084::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015088::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2015092::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2016003::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2016031::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2016039::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2016044::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2016047::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2017011::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2017019::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2017023::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2017021::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2017031::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2017076::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2017085::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2018013::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2018045::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2018051::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2018069::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2019004::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2019026::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2019034::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2019033::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2019041::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2019070::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2019099::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2020008::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2020019::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2020021::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2020035::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2020036::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2021006::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2021023::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2021030::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2021056::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2021065::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2021064::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2021068::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2022010::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2022034::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2022036::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2022061::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2023028::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2023031::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2023085::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2024002::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2024006::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2024044::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2024050::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2024066::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2024072::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2024076::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2024108::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2025081::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2013009::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2014054::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2015032::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2015034::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2015055::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2015080::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2016038::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2016068::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2017032::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2017047::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2017050::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2017049::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2017065::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2017070::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2017077::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2017082::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2018010::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2018039::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2018055::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2019010::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2019013::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2019038::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2019058::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2019075::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2019087::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJEC2020002::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2020020::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2020018::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2021014::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2021017::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2021045::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2021059::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2021070::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2021074::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2022005::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2022012::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2022019::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2022024::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2022028::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2022044::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2023001::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2023026::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2023061::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2024036::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2024084::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2024109::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2025060::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2025078::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2013002::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2013010::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2013020::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2013032::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2013043::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2013069::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2013068::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2014016::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2014014::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2014015::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2014019::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2014021::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2014033::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2014061::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015006::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015025::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015037::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015044::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015050::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015052::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015051::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015062::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015069::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015078::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2015089::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2016020::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2016024::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2016060::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2016056::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2016065::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2016070::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2017029::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2017033::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2017044::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2017052::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2017080::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2017094::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2018016::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2018058::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2019017::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2019022::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2019020::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2019021::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2019023::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2019035::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2019036::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2019083::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2019104::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2020006::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2020015::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2020024::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2020026::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2021001::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2021026::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2021032::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2021039::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2021046::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2022009::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2022038::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2022063::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2023017::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2023016::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2023019::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2023020::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2023037::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2023041::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2023056::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2023070::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2023082::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2024019::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2024028::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2024042::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2024062::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2024063::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2024073::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2024097::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2024095::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2024098::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2025007::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2025037::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2025041::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2025043::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2025067::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2025069::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2025071::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2025044::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2013011::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2013019::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2013033::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2013045::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2013049::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2013053::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2013064::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2013066::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2013076::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2014007::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2014038::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2014043::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2014047::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2014063::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2015013::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2015018::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2015108::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2015103::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2016001::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2016002::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2016007::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2016012::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2016032::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2016062::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2017014::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2017058::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2017098::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2018019::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2018033::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2018042::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2018064::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2019016::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2019067::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2019068::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2019071::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2019093::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2021025::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2021047::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2021048::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2021049::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2022027::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2022051::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2023018::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2023047::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2023060::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2024007::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2024033::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2024067::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2024068::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2024082::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2025042::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2025053::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2025079::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2013015::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2013034::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2013055::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2013063::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2014008::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2014011::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2014039::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2015033::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2015039::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2015045::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2015083::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2015086::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2015094::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2015120::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2016021::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2017030::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2017040::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2017048::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2017054::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2018007::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2018014::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2018025::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2018070::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2019001::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2019008::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2019066::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2019091::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2019092::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2020014::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2020025::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2020041::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2021004::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2021019::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2021055::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2021079::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2022020::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2023008::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2023050::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2023074::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2024005::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2024032::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2024031::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2024041::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2024100::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2025011::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2025029::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2025036::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2025066::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2025085::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2013007::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2013003::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2013001::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2013016::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2013021::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2013024::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2013027::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2013028::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2013056::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2013065::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2014004::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2014025::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2014035::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2014052::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2014055::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2015093::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2015095::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2015100::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2015124::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2016030::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2016040::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2016041::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2016055::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2016069::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2017025::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2017056::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2017060::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2017075::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2018024::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2018027::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2018052::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2018057::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2019032::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2019050::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2019053::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2019054::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2019074::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2019077-2::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2019080::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2020016::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2021005::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2021011::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2021012::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2021035::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2021060::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2021061::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2021063::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2022047::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2023004::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2023010::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2023033::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2023063::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2023065::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2023080::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024030::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024047::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024051::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024054::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024060::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024070::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024077::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024081::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024085::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2024103::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2025002::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2025016::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2025017::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2025018::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2025028::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2014022::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2015060::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2015070::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2019059::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2019062::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2019088::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2020039::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2021009::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2021054::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2021053::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2022030::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2022033::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2022039::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2022045::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2022050::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2022057::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2023032::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2023040::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2023052::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2023075::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2024003::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2024035::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2024034::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2024083::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2025020::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2025035::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2025063::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2025062::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2025072::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2025080::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2025086::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2013036::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2013057::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2013080::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2014001::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2014040::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2014046::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2014058::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2014059::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2015007::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2015071::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2015097::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2015112::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2015119::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2016013::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2016028::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2016048::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2016049::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2016052::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2016057::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2017055::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2017100::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2018008::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2018020::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2018038::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2018054::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2018060::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2018068::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2019007::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2019015::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2019037::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2019047::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2019063::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2019094::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2019101::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2019102::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2020009::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2020032::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2020045::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2021020::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2021022::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2021051::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2021052::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2021073::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2022026::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2022046::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2022056::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2023012::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2023036::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2023044::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2023049::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2024013::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2024011::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2024012::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2024025::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2024026::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2024043::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2024079::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2025010::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2025052::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2025055::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2025068::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2014028::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2015027::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2015068::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2015114::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2015118::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2016010::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2016058::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2017022::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2017063::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2018011::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2018035::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2018067::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2019011::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2019014::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2019028::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2019049::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2019056::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2019072::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2020005::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2020007::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2020011::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2021044::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2022023::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2023013::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2023014::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2024017::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2024015::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2024018::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2024091::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2024107::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2024110::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2025025::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2025031::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2025032::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2025054::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2025073::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2013004::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2013031::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2013048::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2013051::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2014026::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2014034::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2015003::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2015061::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2015075::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2015096::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2016017::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2016018::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2016023::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2016054::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2016063::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2017001::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2017017::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2017018::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2017043::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2017051::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2017062::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2017084::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2018050::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2019100::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2020001::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2021007::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2021027::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2021028::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2021029::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2021072::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2021078::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2022007::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2022055::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2022058::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2023076::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2023077::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2024064::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2024075::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2024087::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2025006::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2025004::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2025008::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2025056::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2025058::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2025059::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2025064::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2014003::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2014064::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2015005::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2015011::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2015053::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2015091::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2016009::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2016011::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2016033::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2016034::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2016035::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2017010::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2017041::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2017057::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2018006::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2018022::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2019019::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2019055::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2020022::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2020037::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2021041::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2021042::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2023022::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2023023::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2023024::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2023051::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2023079::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2024016::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2024020::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2024022::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2024045::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2024065::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2025013::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2025030::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2025048::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2025074::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2013005::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2013044::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2013060::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2013062::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2014045::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2015035::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2015067::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2015085::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2015099::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2015106::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2015128::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2016019::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2016026::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2017005::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2017072::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2017079::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2018032::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2018062::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2018065::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2019024::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2019073::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2019081::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2019079::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2019085::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2019098::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2021057::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2021077::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2022004::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2022021::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2022025::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2023046::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2023066::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2024071::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2024078::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2024089::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2024093::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2025047::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2013058::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2013071::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2014060::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2015008::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2015043::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2015049::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2015058::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2015105::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2016005::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2016042::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2016064::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2016066::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2016067::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2017009::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2017045::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2017046::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2017091::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2017099::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2019096::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2021021::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2022003::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2022008::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2022014::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2022022::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2022040::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2022062::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2023073::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2024053::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2024059::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2025049::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2025065::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2013018::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2013014::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2013022::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2015002::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2015031::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2017007::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2017035::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2017039::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2018002::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2018004::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2020010::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2020012::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2021002::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2021033::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2021037::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2022041::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2023007::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2023006::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2023009::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2023054::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2023055::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2023053::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2024001::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2024023::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2024029::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2024086::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2025021::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2025023::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2025027::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2014010::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2014012::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2014013::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2014005::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2015041::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2015076::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2016008::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2016006::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2016022::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2016027::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2016037::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2017004::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2017013::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2017012::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2017016::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2017024::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2018017::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2018026::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2018030::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2018031::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2018043::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2018047::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2019030::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2019046::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2019061::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2019060::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2019076::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2019095::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2019105::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2020043::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2021010::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2021038::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2021062::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2021069::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2022011::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2022031::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2022043::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2023069::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2024004::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2024088::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2025015::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2013013::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2013017::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2013037::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2013042::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2013077::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2014024::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2014029::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2015022::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2015081::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2015126::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2017002::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2017053::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2019003::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2019048::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2019064::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2021031::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2022029::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2023029::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2023030::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2024099::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2025034::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2025040::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2025061::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2025076::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2013012::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2013023::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2013078::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2013079::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2014006::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2015010::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2015014::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2015020::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2015028::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2015036::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2015104::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2015116::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2017008::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2017020::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2017034::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2017036::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2017066::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2017069::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2018012::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2018021::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2018044::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2019005::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2019025::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2019051::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2019084::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2020003::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2020017::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2020034::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2020040::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2021003::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2021008::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2022001::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2022002::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2022035::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2022060::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2022059::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2023034::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2023039::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2023057::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2023084::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2024024::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2024038::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2024039::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2024052::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2024055::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2024090::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2025001::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2025005::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2025009::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2025057::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2025077::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2013035::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2013041::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2013050::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2014002::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2015029::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2015038::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2015046::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2015102::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2015129::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2016025::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2016036::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2017006::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2017081::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2017093::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2018041::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2018071::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2019018::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2019027::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2019042::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2019045::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2019044::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2019078::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2020028::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2020030::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2020033::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2020044::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2021013::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2021076::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2022037::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2023002::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2023059::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2024010::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2024105::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2013072::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2013074::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2013075::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2014062::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2015047::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2015054::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2016014::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2016051::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2017015::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2017037::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2017071::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2017095::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2017096::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2018046::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2019043::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2019057::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2019065::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2019097::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2020029::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2021015::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2021024::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2021036::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2021075::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2021080::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2022048::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2023005::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2023035::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2023042::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2023071::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2024014::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2024040::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2024092::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2025039::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2025046::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2025075::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2013026::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2013052::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2013059::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2013073::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2014017::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2014031::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2014042::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2014048::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2015115::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2015122::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2015121::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2016015::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2016045::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2016059::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2017028::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2017042::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2017061::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2017068::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2017083::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2017088::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2017089::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2018003::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2018009::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2018023::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2018056::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2018063::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2019009::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2019029::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2019031::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2019069::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2019090::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2019103::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2020004::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2020031::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2020038::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2021043::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2021067::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2021066::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2021071::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2022018::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2022017::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2022032::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2022049::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2022052::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2023025::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2023027::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2023058::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2023068::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2023072::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2023081::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2024008::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2024009::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2024027::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2024048::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2024111::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2025012::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2025019::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2025051::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2025083::0::title",
+      "cluster_id": 22
+    }
+  ]
+}

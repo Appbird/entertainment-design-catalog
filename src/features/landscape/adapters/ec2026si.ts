@@ -8,7 +8,7 @@ import {
 import { loadIssueConfigEntry } from "./issue-config";
 import { joinRuntimePath } from "../runtime/runtime-path";
 
-type Mode = "title" | "abstract";
+type Mode = "title" | "abstract" | "grasp" | "response";
 
 interface Ec2026PaperEntry {
   paper_id: string;
@@ -86,7 +86,10 @@ async function fetchJsonCached<T>(url: string): Promise<T> {
 }
 
 function toMode(type: ClusterTypeValue): Mode {
-  return type === "abstract" ? "abstract" : "title";
+  if (type === "title" || type === "abstract" || type === "grasp" || type === "response") {
+    return type;
+  }
+  return "title";
 }
 
 function pickByMode(map: Record<string, string>, mode: Mode): string {
@@ -95,6 +98,14 @@ function pickByMode(map: Record<string, string>, mode: Mode): string {
     throw new Error(`Path is not configured for mode: ${mode}`);
   }
   return path;
+}
+
+function pickByModeOrDefault(
+  byMode: Record<string, string> | undefined,
+  mode: Mode,
+  defaultPath: string
+): string {
+  return byMode?.[mode] ?? defaultPath;
 }
 
 export const ec2026siAdapter: IssueDataAdapter = {
@@ -147,8 +158,14 @@ export const ec2026siAdapter: IssueDataAdapter = {
       throw new Error("cacheV2 config is missing for ec2026si");
     }
     const mode = toMode(type);
-    const papersUrl = joinRuntimePath(basePath, config.cacheV2.papers);
-    const featuresUrl = joinRuntimePath(basePath, config.cacheV2.features);
+    const papersUrl = joinRuntimePath(
+      basePath,
+      pickByModeOrDefault(config.cacheV2.papersByMode, mode, config.cacheV2.papers)
+    );
+    const featuresUrl = joinRuntimePath(
+      basePath,
+      pickByModeOrDefault(config.cacheV2.featuresByMode, mode, config.cacheV2.features)
+    );
     const pointsUrl = joinRuntimePath(basePath, pickByMode(config.cacheV2.pointsByMode, mode));
     const indexUrl = joinRuntimePath(basePath, pickByMode(config.cacheV2.indexByMode, mode));
 

@@ -16,6 +16,8 @@ export interface LegacySourceConfig {
 export interface CacheV2SourceConfig {
   papers: string;
   features: string;
+  papersByMode?: Record<string, string>;
+  featuresByMode?: Record<string, string>;
   pointsByMode: Record<string, string>;
   indexByMode: Record<string, string>;
   clustersByMode: Record<string, string>;

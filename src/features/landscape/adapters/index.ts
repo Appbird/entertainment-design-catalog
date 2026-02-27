@@ -2,6 +2,7 @@ import { ec2025Adapter } from "./ec2025";
 import { ec2026siAdapter } from "./ec2026si";
 import { ISSUE, type IssueDataAdapter, type IssueValue } from "./types";
 import { loadIssueConfigEntry } from "./issue-config";
+import type { ClusterTypeValue } from "../models/validator";
 
 const issueFallbackRegistry: Record<IssueValue, IssueDataAdapter> = {
   [ISSUE.EC2025]: ec2025Adapter,
@@ -36,7 +37,7 @@ export async function resolveAdapter(basePath: string, issue: IssueValue): Promi
 }
 
 export async function getIssueUiOptions(basePath: string, issue: IssueValue): Promise<{
-  typeOptions: Array<{ value: "title" | "full" | "abstract"; label: string }>;
+  typeOptions: Array<{ value: ClusterTypeValue; label: string }>;
   clusterOptions: number[];
 }> {
   const config = await loadIssueConfigEntry(basePath, issue);
