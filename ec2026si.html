@@ -14,6 +14,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EC2026特集号 | Entertainment Design Catalog</title>
+    <meta name="description" content="EC2026特集号向けのEntertainment Design Catalog（EDC）とEntertainment Design Assets（EDA）に関する内容を掲載するページです。EC研究会（エンタテインメントコンピューティング）関連情報を順次更新します。">
 </head>
 
 <body>
@@ -115,32 +116,37 @@
             </section>
             <section>
                 <h2>Entertainment Design Catalogの定義</h2>
-                <p>
-                    EDAは「心をどう動かしたいか」「アプローチ」の二つの側面から
-                    デザインを特徴づけることで、有益なデザインを整理するフレームワークであった。
-                </p>
-                <p>
-                    本論文ではその「心の動き」の定義をより形式的にするべく，
-                    心の動きが生じる過程を整理・分解した．
-                </p>
                 <div class="u-center">
                     <img src="./public/image/ec2026si/figure_1_model_of_content_interpretion.png">
                 </div>
                 <div class="u-center">
-                    <p>図2. ユーザがシステムの表現を受容する過程のモデル</p>
+                    <p>図2. ユーザがシステムの表現を受け取り、反応し返す体験過程のモデル</p>
                 </div>
-                <p>
-                    その分解に基づき，より多くのユーザに共通する体験要素を記述可能とした，
-                    新たなEDAの枠組みを提案する．
-                </p>
-                <p>フレームワークに基づき整理された一つ一つのデザイン典型例を<span class="u-strong">Archetype</span>と呼ぶ．
-                    Archetypeの集積によって有用なデザインを網羅したCatalogを構築することが，このフレームワークの目的である．</p>
                 <div class="u-center">
                     <img src="./public/image/ec2026si/figure_2_edc_framework.png">
                 </div>
                 <div class="u-center">
-                    <p>図3. Entertainment Design Catalogにおいて要求する記述事項</p>
+                    <p>図3. EDCフォーマットの定義</p>
                 </div>
+                <p>
+                    本研究では直接的に EDA を集積するのではなく，ま
+                    ず，各コンテンツが起こす体験の内容（「心の動き」）とそ
+                    のために必要なデザイン選択を集積したカタログとして
+                    Entertainment Design Catalog (EDC) を構築する．
+                    そして Catalog を整理した結果として，EDA を得ること
+                    を目的とする．ここでは，その整理に向けて「心の動き」
+                    を記述するためのフォーマットを定義する．
+                </p>
+                <p>
+                    「心の動き」はユーザがコンテンツを体験する過程で繰り返し生じるものであり，ユーザとコンテンツの間にある情報のやり取りに左右されている．
+                    「心の動き」には個人差・文脈差によって揺れやすい部分と揺れにくい部分がある．
+                    一般に，達成感・ノスタルジーなどの感情は利用者の属性や事前文脈に依存しやすく，
+                    同一のコンテンツであっても反応が分岐しうる．一方で，
+                    「所有感」「現実世界と仮想世界のリンク」など「コンテンツの感覚与件がユーザに何を解釈させたか」という
+                    側面はより多くのユーザが共通に認識・合意しやすい．
+                    感情が分岐した場合にも「なぜそう感じたのか」を追跡しやすくなるほか，感情の側面だけで明瞭に価値を表しきれない作品もキーワードとして主張しやすくなる．
+                    従って、従来の心の動きを記述するさい、「感情」や「動機づけ」といった反応だけでなく、「受容」「解釈」の側面も含めて記述することをフォーマットとして定める。
+                </p>
             </section>
             <section>
                 <h2>EDCによるEC研究領域の可視化</h2>
@@ -152,10 +158,10 @@
                 </div>
                 <p>ECシンポ*に投稿された全原稿を対象に、その研究の間の関連性を可視化した。以下のURLから、その結果を閲覧できる。</p>
                 <ul>
-                    <li><a href="public/landscape.html">https://appbird.github.io/entertainment-design-catalog/landscape.html</a></li>
+                    <li><a href="public/landscape.html?issue=ec2026si">https://appbird.github.io/entertainment-design-catalog/landscape.html?issue=ec2026si</a></li>
                 </ul>
                 <p>
-                    可視化は論文要約ベースのものとArchetypeベースのものの2種類が用意されている。
+                    可視化は論文要約ベースのものとEDCフォーマットベースのものの2種類が用意されている。
                     各点の色は要約ベースにおけるクラスタリングに基づいて彩色されており、
                     EDCベースの点の色の分布を見ることで、論文要約ベースとどう分類が異なるかを観察できる。
                 </p>
@@ -163,10 +169,42 @@
             </section>
             <section>
                 <h2>使用したプロンプト</h2>
-                <p>EC2026特集号向けのプロンプト掲載は準備中です。</p>
+                <details class="custom">
+                    <summary>論文からEDCを抽出するプロンプト</summary>
+                    <button id="edc-prompt-copy" style="margin-left: 1em;">Copy</button>
+                    <pre><code id="edc-prompt-code">読み込み中...</code></pre>
+                </details>
+                <details class="custom">
+                    <summary>クラスタに対して名前づけるためのプロンプト</summary>
+                    <div style="margin:1em 0">
+                        <button id="cluster-name-copy" style="margin-left: 1em;">Copy</button>
+                        <pre><code id="cluster-name-code">読み込み中...</code></pre>
+                    </div>
+                </details>
             </section>
         </div>
     </div>
 </body>
+<script defer>
+        // ファイルをfetchしてcodeブロックにセット
+        function set_codeblock(path, copy_id, code_id) {
+            fetch(path)
+            .then(res => res.text())
+            .then(text => {
+                document.getElementById(code_id).textContent = text;
+            })
+            .catch(e => {console.error(e)})
 
+            // コピーボタン
+            document.getElementById(copy_id).addEventListener('click', function() {
+                const code = document.getElementById(code_id).textContent;
+                navigator.clipboard.writeText(code);
+                this.textContent = 'Copied!';
+                setTimeout(() => { this.textContent = 'Copy'; }, 1500);
+            });
+        }
+
+        set_codeblock("./prompts/ec2026si/extract_EDC.txt", "edc-prompt-copy", "edc-prompt-code")
+        set_codeblock("./prompts/ec2026si/cluster_name_generation.txt", "cluster-name-copy", "cluster-name-code")
+    </script>
 </html>

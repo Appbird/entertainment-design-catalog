@@ -16,6 +16,7 @@ import type {
 } from 'chart.js';
 import type {ClusterTypeValue, DataPoint} from './validator.ts'
 import { LegendBundle } from './legend.ts';
+import { resolveIssueFromSearch, type IssueValue } from './adapters';
 
 let chartInstance: Chart | null = null;
 const HELP_PAGE_URL = './help.html';
@@ -29,7 +30,8 @@ async function loadChart(
     yearFilterContainer: HTMLDivElement;
   },
   type: ClusterTypeValue,
-  ver: number
+  ver: number,
+  issue: IssueValue
 ) {
   if (chartInstance) {
     chartInstance.destroy();
@@ -40,10 +42,10 @@ async function loadChart(
   const detailsContainer = sideMenu.querySelector<HTMLDivElement>('#details-container');
   if (detailsContainer) detailsContainer.innerHTML = '<p>データをロード中...</p>';
 
-  const papers = await fetchBundleJson();
-  const dataPoints = await fetchDataPoints(type, ver);
-  const clusterBoxes = await fetchClusterJson(type, ver);
-  const abst_map = await fetchMappingAbstractCluster();
+  const papers = await fetchBundleJson(issue);
+  const dataPoints = await fetchDataPoints(type, ver, issue);
+  const clusterBoxes = await fetchClusterJson(type, ver, issue);
+  const abst_map = await fetchMappingAbstractCluster(issue);
   const legend = new LegendBundle<DataPoint,String>(
       "種類別",
       dataPoints,
@@ -81,6 +83,7 @@ async function loadChart(
 }
 
 async function init(): Promise<void> {
+  const issue = resolveIssueFromSearch(window.location.search);
   const { canvas, canvasContainer, sideMenu, searchInput, typeSelect, verSelect, helpButton, yearFilterContainer } = buildLayout();
 
   helpButton.addEventListener('click', () => {
@@ -92,7 +95,7 @@ async function init(): Promise<void> {
   const handleDataChange = async () => {
     const selectedType = typeSelect.value as ClusterTypeValue;
     const selectedVer = parseInt(verSelect.value, 10);
-    await loadChart(appElements, selectedType, selectedVer);
+    await loadChart(appElements, selectedType, selectedVer, issue);
   };
 
   typeSelect.addEventListener('change', handleDataChange);

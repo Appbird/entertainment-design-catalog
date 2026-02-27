@@ -14,6 +14,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EC2025 | Entertainment Design Catalog</title>
+    <meta name="description" content="EC2025におけるEntertainment Design Catalog（EDC）とEntertainment Design Assets（EDA）の提案内容、EC研究会（エンタテインメントコンピューティング）の研究可視化結果を紹介するページです。">
 </head>
 
 <body>
@@ -139,7 +140,7 @@
                 </div>
                 <p>ECシンポ*に投稿された全原稿を対象に、その研究の間の関連性を可視化した。以下のURLから、その結果を閲覧できる。</p>
                 <ul>
-                    <li><a href="public/landscape.html">https://appbird.github.io/entertainment-design-catalog/landscape.html</a></li>
+                    <li><a href="public/landscape.html?issue=ec2025">https://appbird.github.io/entertainment-design-catalog/landscape.html?issue=ec2025</a></li>
                 </ul>
                 <p>
                     可視化は論文要約ベースのものとArchetypeベースのものの2種類が用意されている。
@@ -166,7 +167,28 @@
         </div>
     </div>
 
-    <script src="./copy-click.js" defer></script>
+    <script defer>
+        // ファイルをfetchしてcodeブロックにセット
+        function set_codeblock(path, copy_id, code_id) {
+            fetch(path)
+            .then(res => res.text())
+            .then(text => {
+                document.getElementById(code_id).textContent = text;
+            })
+            .catch(e => {console.error(e)})
+
+            // コピーボタン
+            document.getElementById(copy_id).addEventListener('click', function() {
+                const code = document.getElementById(code_id).textContent;
+                navigator.clipboard.writeText(code);
+                this.textContent = 'Copied!';
+                setTimeout(() => { this.textContent = 'Copy'; }, 1500);
+            });
+        }
+
+        set_codeblock("./prompts/ec2025/extract_EDC.txt", "edc-prompt-copy", "edc-prompt-code")
+        set_codeblock("./prompts/ec2025/cluster_name_generation.txt", "cluster-name-copy", "cluster-name-code")
+    </script>
 </body>
 
 </html>
