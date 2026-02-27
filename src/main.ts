@@ -1,5 +1,5 @@
 import './style.css';
-import { fetchBundleJson, fetchClusterJson, fetchDataPoints, fetchMappingAbstractCluster } from './data.ts';
+import { buildDetailViewModel, fetchClusterOverlays, fetchMappingAbstractCluster, fetchPointCloud } from './data.ts';
 import {
   createScatterChart,
   updateChartWithFilters,
@@ -14,9 +14,10 @@ import {
 import type {
   Chart
 } from 'chart.js';
-import type {ClusterTypeValue, DataPoint} from './validator.ts'
+import type {ClusterTypeValue } from './validator.ts'
 import { LegendBundle } from './legend.ts';
 import { resolveIssueFromSearch, type IssueValue } from './adapters';
+import type { PointCloudPoint } from './view-model.ts';
 
 let chartInstance: Chart | null = null;
 const HELP_PAGE_URL = './help.html';
@@ -42,11 +43,10 @@ async function loadChart(
   const detailsContainer = sideMenu.querySelector<HTMLDivElement>('#details-container');
   if (detailsContainer) detailsContainer.innerHTML = '<p>データをロード中...</p>';
 
-  const papers = await fetchBundleJson(issue);
-  const dataPoints = await fetchDataPoints(type, ver, issue);
-  const clusterBoxes = await fetchClusterJson(type, ver, issue);
+  const dataPoints = await fetchPointCloud(type, ver, issue);
+  const clusterBoxes = await fetchClusterOverlays(type, ver, issue);
   const abst_map = await fetchMappingAbstractCluster(issue);
-  const legend = new LegendBundle<DataPoint,String>(
+  const legend = new LegendBundle<PointCloudPoint, string>(
       "種類別",
       dataPoints,
       d => abst_map.get(d.filestem) || "その他"
@@ -67,7 +67,7 @@ async function loadChart(
     updateChartWithFilters(chartInstance, dataPoints, legend, filterState);
   };
   
-  setupClickHandler(canvas, chartInstance, dataPoints, papers, sideMenu);
+  setupClickHandler(canvas, chartInstance, dataPoints, sideMenu, buildDetailViewModel);
 
   searchInput.addEventListener('input', () => {
     filterState.searchQuery = searchInput.value;

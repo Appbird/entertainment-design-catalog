@@ -9,7 +9,7 @@ import {
   type ChartConfiguration
 } from 'chart.js';
 import zoomPlugin from 'chartjs-plugin-zoom';
-import type { DataPoint, ClusterData } from './validator';
+import type { ClusterOverlay, PointCloudPoint } from './view-model';
 import annotationPlugin from  'chartjs-plugin-annotation';
 import {
   type AnnotationOptions,
@@ -68,9 +68,9 @@ const truncate = (str: string, maxLength: number): string => {
 /** Create a scatter chart of keyword points */
 export function createScatterChart(
   ctx: CanvasRenderingContext2D,
-  dataPoints: DataPoint[],
+  dataPoints: PointCloudPoint[],
   colors: string[],
-  clusters: ClusterData[]
+  clusters: ClusterOverlay[]
 ): Chart {
   const boxAnnotations = clusters.reduce((acc, cluster, index) => {
     const key = `box_${index}`;
@@ -116,7 +116,7 @@ export function createScatterChart(
     data: {
       datasets: [{
         label: 'Keyword Embedding',
-        data: dataPoints.map(p => ({ x: p.x, y: p.y, paper_id: p.paper_id, edc_title: p.edc_title })),
+        data: dataPoints.map(p => ({ x: p.x, y: p.y, point_id: p.pointId })),
         pointRadius: 3,
         backgroundColor: colors
       }]
@@ -148,18 +148,18 @@ export function createScatterChart(
               const index = context.dataIndex;
               const chartPoint = context.dataset.data[index] as any;
               
-              if (!chartPoint || !chartPoint.paper_id) return '';
+              if (!chartPoint || !chartPoint.point_id) return '';
               
-              const point = dataPoints.find(p => (p.paper_id === chartPoint.paper_id) && (p.edc_title === '' || (p.edc_title == chartPoint.edc_title)));
+              const point = dataPoints.find(p => p.pointId === chartPoint.point_id);
               if (!point) return '';
               
               const lines: string[] = [];
               const widthLimit = 30;
-              if (point.edc_title) {
-                lines.push(truncate(point.edc_title, widthLimit));
-                lines.push(' from '+truncate(point.paper_title, widthLimit));
+              if (point.edcTitle) {
+                lines.push(truncate(point.edcTitle, widthLimit));
+                lines.push(' from '+truncate(point.paperTitle, widthLimit));
               }else{
-                lines.push(truncate(point.paper_title, widthLimit));
+                lines.push(truncate(point.paperTitle, widthLimit));
               }
               
               return lines;
@@ -174,28 +174,28 @@ export function createScatterChart(
 
 export function filterChart<L>(
   chart: Chart,
-  allDataPoints: DataPoint[],
-  legend: LegendBundle<DataPoint,L>,
-  pointFilter: (data: DataPoint) => boolean
+  allDataPoints: PointCloudPoint[],
+  legend: LegendBundle<PointCloudPoint,L>,
+  pointFilter: (data: PointCloudPoint) => boolean
 ){
   // Filter data points based on search terms
   const filteredData = allDataPoints.filter(pointFilter);
   // Update chart data and colors
-  chart.data.datasets[0].data = filteredData.map(p => ({ x: p.x, y: p.y, paper_id: p.paper_id, edc_title: p.edc_title }));
+  chart.data.datasets[0].data = filteredData.map(p => ({ x: p.x, y: p.y, point_id: p.pointId }));
   chart.data.datasets[0].backgroundColor = legend.getDataColors(filteredData);
   chart.update('none'); // Update without animation
 }
 
 export function querySearchChart<L>(
   chart: Chart,
-  allDataPoints: DataPoint[],
-  legend: LegendBundle<DataPoint,L>,
+  allDataPoints: PointCloudPoint[],
+  legend: LegendBundle<PointCloudPoint,L>,
   query: String
 ){
   const searchTerms = query.split(/\s+/).filter(term => term);
   return filterChart(chart, allDataPoints, legend, 
     point => {
-      const targetText = (point.paper_title + ' ' + point.paper_abstract).toLowerCase();
+      const targetText = (point.paperTitle + ' ' + point.paperAbstract).toLowerCase();
       // Every search term must be included
       return searchTerms.every(term => targetText.includes(term));
     }
@@ -209,20 +209,20 @@ export interface FilterState {
 
 export function updateChartWithFilters<L>(
   chart: Chart,
-  allDataPoints: DataPoint[],
-  legend: LegendBundle<DataPoint, L>,
+  allDataPoints: PointCloudPoint[],
+  legend: LegendBundle<PointCloudPoint, L>,
   filterState: FilterState
 ) {
   const { searchQuery, selectedYears } = filterState;
   const searchTerms = searchQuery.toLowerCase().split(/\s+/).filter(term => term);
 
-  const combinedFilter = (point: DataPoint): boolean => {
-    const year = new Date(point.paper_publish_date).getFullYear();
+  const combinedFilter = (point: PointCloudPoint): boolean => {
+    const year = new Date(point.paperPublishDate).getFullYear();
     if (!selectedYears.has(year)) {
       return false;
     }
     if (searchTerms.length > 0) {
-      const targetText = (point.paper_title + ' ' + point.paper_abstract + ' ' + point.edc_title).toLowerCase();
+      const targetText = (point.paperTitle + ' ' + point.paperAbstract + ' ' + point.edcTitle).toLowerCase();
       if (!searchTerms.every(term => targetText.includes(term))) {
         return false;
       }

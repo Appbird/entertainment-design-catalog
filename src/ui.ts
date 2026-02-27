@@ -1,13 +1,12 @@
 import type { Chart } from 'chart.js';
 import {
 	type ClusterTypeValue,
-  type DataPoint,
-  type Paper, 
   ClusterType
 }from './validator';
 import { getKNearest } from './data';
 import type { LegendBundle } from './legend';
 import { querySearchChart } from './chart';
+import type { DetailViewModel, PointCloudPoint } from './view-model';
 /*
 export function map_color(point:DataPoint): string {
 	const pos = new Date(point.paper_publish_date).getFullYear();
@@ -126,12 +125,12 @@ export function buildLayout(): {
 
 export function setupYearFilter(
   container: HTMLDivElement,
-  allDataPoints: DataPoint[],
+  allDataPoints: PointCloudPoint[],
   onFilterChange: (selectedYears: Set<number>) => void
 ): void {
   container.innerHTML = ''; 
 
-  const uniqueYears = [...new Set(allDataPoints.map(p => new Date(p.paper_publish_date).getFullYear()))].sort((a, b) => b - a);
+  const uniqueYears = [...new Set(allDataPoints.map(p => new Date(p.paperPublishDate).getFullYear()))].sort((a, b) => b - a);
   const selectedYears = new Set(uniqueYears);
 
   const title = document.createElement('h4');
@@ -184,7 +183,7 @@ export function setupYearFilter(
   onFilterChange(selectedYears);
 }
 
-export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<DataPoint,L>): void {
+export function updateLegend<L>(canvas: HTMLDivElement, legend: LegendBundle<PointCloudPoint,L>): void {
   const legendContainer = canvas.querySelector<HTMLDivElement>('#legend-container');
   if (!legendContainer) return;
 
@@ -244,15 +243,11 @@ function upperFirstLetter(str: string): string {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 */
-function toIPSJ_URL(paper_id:string) {
-	return `https://ipsj.ixsq.nii.ac.jp/records/${paper_id}`;
-}
-
 /** Update side menu with paper info and neighbors */
 export function updateSideMenu(
   sideMenu: HTMLDivElement,
-  clicked: DataPoint,
-  neighbors: Array<{ point: DataPoint; dist: number; idx: number; paper: Paper }>
+  clicked: DetailViewModel,
+  neighbors: Array<{ detail: DetailViewModel; dist: number; idx: number }>
 ): void {
   const detailsContainer = sideMenu.querySelector<HTMLDivElement>('#details-container');
   if (!detailsContainer) return;
@@ -260,34 +255,31 @@ export function updateSideMenu(
 
 
   const edcTitleEl = document.createElement('h2');
-  edcTitleEl.textContent = clicked.edc_title;
+  edcTitleEl.textContent = clicked.title;
   edcTitleEl.style.fontWeight = 'bold';
   detailsContainer.appendChild(edcTitleEl);
 
   // URL掲示部
   const fromEl = document.createElement('p');
-  const edc_type_translator:Record<string, string> = {
-	"perception": "知覚", "cognition": "認知", "emotion": "情動", "motivation": "動機付け"
-  }
   const edc_type_text = document.createElement('span');
-  edc_type_text.textContent = (clicked.edc_type !== "") ? edc_type_translator[clicked.edc_type] : "paper";
+  edc_type_text.textContent = clicked.typeLabel;
   edc_type_text.className = 'u-bold';
   fromEl.appendChild(edc_type_text);
   const fromText = document.createTextNode(" from ");
   const linkEl = document.createElement('a');
-  linkEl.href = toIPSJ_URL(clicked.paper_id);
+  linkEl.href = clicked.paperUrl;
   linkEl.target = '_blank';
-  linkEl.textContent = clicked.paper_title;
+  linkEl.textContent = clicked.paperTitle;
   fromEl.appendChild(fromText);
   fromEl.appendChild(linkEl);
   detailsContainer.appendChild(fromEl);
 
-  if (clicked.edc_type !== ''){
+  if (clicked.context || clicked.effect) {
 	const contextEl = document.createElement('section');
-	contextEl.innerHTML = `<h3 class="edc-header">文脈</h3> <p>${clicked.edc_context}</p>`;
+	contextEl.innerHTML = `<h3 class="edc-header">文脈</h3> <p>${clicked.context}</p>`;
 	detailsContainer.appendChild(contextEl);
     const effectEl = document.createElement('section');
-    effectEl.innerHTML = `<h3 class="edc-header">アプローチ</h3> <p>${clicked.edc_effect}</p>`;
+    effectEl.innerHTML = `<h3 class="edc-header">アプローチ</h3> <p>${clicked.effect}</p>`;
     detailsContainer.appendChild(effectEl);
   }
 
@@ -303,10 +295,10 @@ export function updateSideMenu(
 	neighborEl.classList.add("c-neighbor-item");
     const pEl = document.createElement('p');
     var innerText = "";
-    if (neighbor.point.edc_title == ''){
-      innerText = `<span class="u-strong">${neighbor.point.paper_title}</span>`
+    if (neighbor.detail.title == neighbor.detail.paperTitle){
+      innerText = `<span class="u-strong">${neighbor.detail.paperTitle}</span>`
     }else{
-      innerText = `<span class="u-strong">${neighbor.point.edc_title}</span><br>from <a href="${toIPSJ_URL(neighbor.point.paper_id)}" target="_blank">${neighbor.point.paper_title}</a>`
+      innerText = `<span class="u-strong">${neighbor.detail.title}</span><br>from <a href="${neighbor.detail.paperUrl}" target="_blank">${neighbor.detail.paperTitle}</a>`
     }
 	
     pEl.innerHTML = `${i + 1}: `+innerText;
@@ -319,27 +311,26 @@ export function updateSideMenu(
 export function setupClickHandler(
   canvas: HTMLCanvasElement,
   chart: Chart,
-  allDataPoints: DataPoint[],
-  allPapers: Paper[],
-  sideMenu: HTMLDivElement
+  allDataPoints: PointCloudPoint[],
+  sideMenu: HTMLDivElement,
+  toDetailViewModel: (point: PointCloudPoint) => DetailViewModel
 ): void {
   canvas.addEventListener('click', evt => {
     const active = chart.getElementsAtEventForMode(evt, 'nearest', { intersect: true }, false);
     if (!active.length) return;
 
-    // Get paper_id from the clicked point's data
+    // Get point_id from the clicked point's data
     const clickedChartPoint = chart.data.datasets[0].data[active[0].index] as any;
-    const clickedPaperId = clickedChartPoint.paper_id;
-    const clickedEDCTitle = clickedChartPoint.edc_title;
+    const clickedPointId = clickedChartPoint.point_id;
 
     // Find the full data point from the original complete list
-    const clicked = allDataPoints.find(p => (p.paper_id === clickedPaperId) && (p.edc_title === '' || (p.edc_title == clickedEDCTitle)));
+    const clicked = allDataPoints.find(p => p.pointId === clickedPointId);
     if (!clicked) return;
 
     const knn = getKNearest(allDataPoints, clicked, 5);
-    const neighbors = knn.map(k => ({ ...k, paper: allPapers.find(p => p.file_stem === k.point.filestem)! }));
+    const neighbors = knn.map(k => ({ ...k, detail: toDetailViewModel(k.point) }));
 
-    updateSideMenu(sideMenu, clicked, neighbors);
+    updateSideMenu(sideMenu, toDetailViewModel(clicked), neighbors);
   });
 }
 
@@ -347,8 +338,8 @@ export function setupClickHandler(
 export function setupSearchHandler<L>(
   searchInput: HTMLInputElement,
   chart: Chart,
-  allDataPoints: DataPoint[],
-  legend: LegendBundle<DataPoint,L>
+  allDataPoints: PointCloudPoint[],
+  legend: LegendBundle<PointCloudPoint,L>
 ): void {
   searchInput.addEventListener('input', (event) => {
     const target = event.target as HTMLInputElement;
@@ -359,8 +350,8 @@ export function setupSearchHandler<L>(
 export function searchChart<L>(
   searchInput: HTMLInputElement,
   chart: Chart,
-  allDataPoints: DataPoint[],
-  legend: LegendBundle<DataPoint,L>
+  allDataPoints: PointCloudPoint[],
+  legend: LegendBundle<PointCloudPoint,L>
 ): void {
   const query = searchInput.value.toLowerCase().trim();
   querySearchChart(

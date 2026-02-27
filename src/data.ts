@@ -1,13 +1,14 @@
-import { ClusterType, type DataPoint, type Paper, type ClusterData, type ClusterTypeValue } from "./validator";
+import { ClusterType, type DataPoint, type ClusterData, type ClusterTypeValue } from "./validator";
 import { getAdapter, ISSUE, type IssueValue } from "./adapters";
+import type { ClusterOverlay, DetailViewModel, PointCloudPoint } from "./view-model";
 const BASE_PATH = import.meta.env.BASE_URL;
 
 /** Compute k nearest neighbors excluding the same keyword point */
 export function getKNearest(
-  points: DataPoint[],
-  target: DataPoint,
+  points: PointCloudPoint[],
+  target: PointCloudPoint,
   k: number
-): Array<{ point: DataPoint; dist: number; idx: number }> {
+): Array<{ point: PointCloudPoint; dist: number; idx: number }> {
   return points
     .map((p, i) => ({ point: p, dist: Math.hypot(p.x - target.x, p.y - target.y), idx: i }))
     .filter(item => item.dist > 0)
@@ -16,15 +17,7 @@ export function getKNearest(
 }
 
 
-export async function fetchBundleJson(issue: IssueValue = ISSUE.EC2025): Promise<Paper[]> {
-	const adapter = getAdapter(issue);
-	const response = await fetch(adapter.buildBundleUrl(BASE_PATH));
-	if (!response.ok) { throw new Error(`Failed to fetch: ${response.statusText}`); }
-	const json = await response.json();
-	return adapter.parseBundleJson(json);
-}
-
-export async function fetchClusterJson(
+async function fetchClusterJson(
 	type: ClusterTypeValue = ClusterType.ABSTRACT,
 	ver: number = 32,
 	issue: IssueValue = ISSUE.EC2025
@@ -36,7 +29,7 @@ export async function fetchClusterJson(
 	return adapter.parseClusterJson(clsjson);
 }
 
-export async function fetchDataPoints(
+async function fetchDataPoints(
 	type: ClusterTypeValue = ClusterType.ABSTRACT,
 	ver: number = 32,
 	issue: IssueValue = ISSUE.EC2025
@@ -59,4 +52,65 @@ export async function fetchMappingAbstractCluster(issue: IssueValue = ISSUE.EC20
 		}
 	}
 	return mapping;
+}
+
+export async function fetchPointCloud(
+	type: ClusterTypeValue = ClusterType.ABSTRACT,
+	ver: number = 32,
+	issue: IssueValue = ISSUE.EC2025
+): Promise<PointCloudPoint[]> {
+	const points = await fetchDataPoints(type, ver, issue);
+	return points.map((point) => ({
+		pointId: `${point.filestem}::${point.tag_idx}`,
+		filestem: point.filestem,
+		tagIdx: point.tag_idx,
+		x: point.x,
+		y: point.y,
+		paperId: point.paper_id,
+		paperTitle: point.paper_title,
+		paperAbstract: point.paper_abstract,
+		paperPublishDate: point.paper_publish_date,
+		edcTitle: point.edc_title,
+		edcContext: point.edc_context,
+		edcEffect: point.edc_effect,
+		edcType: point.edc_type,
+	}));
+}
+
+export async function fetchClusterOverlays(
+	type: ClusterTypeValue = ClusterType.ABSTRACT,
+	ver: number = 32,
+	issue: IssueValue = ISSUE.EC2025
+): Promise<ClusterOverlay[]> {
+	const clusters = await fetchClusterJson(type, ver, issue);
+	return clusters.map((cluster) => ({
+		name: cluster.name,
+		x_min: cluster.x_min,
+		x_max: cluster.x_max,
+		y_min: cluster.y_min,
+		y_max: cluster.y_max,
+	}));
+}
+
+function toIPSJ_URL(paperId: string): string {
+	return `https://ipsj.ixsq.nii.ac.jp/records/${paperId}`;
+}
+
+export function buildDetailViewModel(point: PointCloudPoint): DetailViewModel {
+	const edcTypeTranslator: Record<string, string> = {
+		perception: "知覚",
+		cognition: "認知",
+		emotion: "情動",
+		motivation: "動機付け",
+	};
+
+	const rawLabel = point.edcType || "paper";
+	return {
+		title: point.edcTitle || point.paperTitle,
+		typeLabel: edcTypeTranslator[rawLabel] ?? rawLabel,
+		paperTitle: point.paperTitle,
+		paperUrl: toIPSJ_URL(point.paperId),
+		context: point.edcContext,
+		effect: point.edcEffect,
+	};
 }
