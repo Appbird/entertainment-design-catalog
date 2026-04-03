@@ -23,6 +23,14 @@ import { resolveRuntimeBasePath } from '../runtime/runtime-path';
 let chartInstance: Chart | null = null;
 const HELP_PAGE_URL = './help.html';
 
+function resolveColoringLabel(point: PointCloudPoint, coloringMap: Map<string, string>): string {
+  return (
+    coloringMap.get(point.pointId) ??
+    coloringMap.get(`${point.filestem}::0`) ??
+    "その他"
+  );
+}
+
 async function loadChart(
   appElements: {
     canvas: HTMLCanvasElement;
@@ -50,7 +58,7 @@ async function loadChart(
   const legend = new LegendBundle<PointCloudPoint, string>(
       "種類別",
       dataPoints,
-      d => abst_map.get(d.pointId) || "その他"
+      d => resolveColoringLabel(d, abst_map)
   )
   const mapped_colors = legend.getDataColors(dataPoints);
 
