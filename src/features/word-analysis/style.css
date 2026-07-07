@@ -1,0 +1,190 @@
+.word-table-wrap {
+  overflow-x: auto;
+}
+
+.word-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+}
+
+.word-table caption {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.word-table th,
+.word-table td {
+  border: 1px solid #ddd;
+  padding: 0.6rem 0.8rem;
+  vertical-align: top;
+  text-align: left;
+}
+
+.word-table thead th {
+  background: #f4f4f4;
+  white-space: nowrap;
+}
+
+.word-table__cluster {
+  white-space: nowrap;
+  min-width: 9rem;
+}
+
+.word-table__cid {
+  font-weight: 700;
+  margin-right: 0.4em;
+}
+
+.word-table__cname {
+  display: block;
+  font-weight: 600;
+}
+
+.word-table__cn {
+  display: block;
+  color: #999;
+  font-size: 0.8em;
+}
+
+.word-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.9rem;
+}
+
+.word-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.word-chip__term {
+  font-size: 1.15em;
+  font-weight: 700;
+}
+
+.word-chip--link .word-chip__term {
+  color: #2f5f8f;
+  text-decoration: underline;
+  text-decoration-color: #b9cfe3;
+  text-underline-offset: 0.15em;
+}
+
+.word-chip--link:hover .word-chip__term {
+  color: #1c3f61;
+}
+
+.word-chip__stat {
+  font-size: 0.72em;
+  color: #aaa;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.word-table__empty {
+  color: #bbb;
+}
+
+.word-legend {
+  color: #777;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+/* --- word detail page --- */
+
+.word-detail-back {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.word-detail-header {
+  margin-bottom: 1.5rem;
+}
+
+.word-detail-header__cluster {
+  color: #777;
+  margin-bottom: 0.2rem;
+}
+
+.word-detail-header__word {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.word-detail-header__stat {
+  color: #999;
+  font-size: 0.9rem;
+  margin-left: 0.6em;
+}
+
+.word-detail-section {
+  margin-bottom: 2rem;
+}
+
+.word-detail-section h3 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3rem;
+}
+
+.sentence-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sentence-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed #eee;
+}
+
+.sentence-list strong {
+  background: #fff2b8;
+  font-weight: 700;
+  padding: 0 0.05em;
+}
+
+.paper-ref-line {
+  margin-top: 0.2rem;
+}
+
+.paper-ref {
+  display: inline-block;
+  font-size: 0.95rem;
+  color: #8b96a0;
+  text-decoration: underline;
+  text-decoration-color: #d8dee2;
+  text-underline-offset: 0.15em;
+}
+
+.paper-ref:hover {
+  color: #6f7a82;
+}
+
+.word-highlight-box {
+  background: #eaf4fb;
+  border: 1px solid #cfe3f0;
+  border-radius: 6px;
+  padding: 0.7rem 1rem;
+  margin: 0.75rem 0 1rem;
+}
+
+.usage-group {
+  margin: 1rem 0 1.5rem;
+}
+
+.usage-group__title {
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.usage-group__title .word-chip__stat {
+  margin-left: 0.5em;
+}
+
+.word-detail-empty {
+  color: #bbb;
+}

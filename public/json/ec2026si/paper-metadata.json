@@ -1,0 +1,5377 @@
+{
+  "IPSJ-EC2013001": {
+    "title": "アドホックなコミュニティのための写真共有の手法",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95961"
+  },
+  "IPSJ-EC2013002": {
+    "title": "視覚で人を誘導するオブジェ群と特定鑑賞位置での音による場のデザイン",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95962"
+  },
+  "IPSJ-EC2013003": {
+    "title": "多人数ポインティングを用いたミュージアムシアターでの観客鑑賞パターン分析",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95963"
+  },
+  "IPSJ-EC2013004": {
+    "title": "WebSocket通信によるブラウザ間協調動作プラットフォームの開発",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95964"
+  },
+  "IPSJ-EC2013005": {
+    "title": "人間の行動原則の制約下で自動獲得されたビデオゲームCOMプレイヤの「人間らしい」振る舞いの主観評価",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95965"
+  },
+  "IPSJ-EC2013006": {
+    "title": "コンピュータによるショートショートの自動生成の試みについて",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95966"
+  },
+  "IPSJ-EC2013007": {
+    "title": "寂しさ解消ロボットの提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95967"
+  },
+  "IPSJ-EC2013008": {
+    "title": "lapillus bug:音響浮揚による粒子の空中移動制御とインタラクション",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95968"
+  },
+  "IPSJ-EC2013009": {
+    "title": "偏食克服を目的とした食育シリアスゲーム「Food Practice Shooter」",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95969"
+  },
+  "IPSJ-EC2013010": {
+    "title": "倍音分析によるいい声作りの支援アプリ開発に向けて",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95970"
+  },
+  "IPSJ-EC2013011": {
+    "title": "Evaporation Display:水の蒸発速度の違いを利用した情報提示システム",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95971"
+  },
+  "IPSJ-EC2013012": {
+    "title": "SoundROKA:日常生活における言葉の伝達を視覚的に提示する水槽",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95972"
+  },
+  "IPSJ-EC2013013": {
+    "title": "単語記憶を補助する触覚提示デバイスの提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95973"
+  },
+  "IPSJ-EC2013014": {
+    "title": "アブストラクトボードゲームの統合環境の開発プロジェクトとオリジナルゲームの提供",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95974"
+  },
+  "IPSJ-EC2013015": {
+    "title": "ソースコードの可視化・可聴化によるメタ認知的学習支援手法の研究－メディアアートの要素を取り入れたアプリケーション開発－",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95975"
+  },
+  "IPSJ-EC2013016": {
+    "title": "単語に対応する視覚シンボルのアニメーションを利用したブログコンテンツ表現手法の提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95976"
+  },
+  "IPSJ-EC2013017": {
+    "title": "Ikitomical Model2:酸素を運ぶ呼吸と心拍の内臓表現による生きているリアリティ",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95977"
+  },
+  "IPSJ-EC2013018": {
+    "title": "摩訶大将棋のネットワーク対局",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95978"
+  },
+  "IPSJ-EC2013019": {
+    "title": "積み木を用いたインタラクティブなVR システムとその評価",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95979"
+  },
+  "IPSJ-EC2013020": {
+    "title": "スマートフォンを用いた実世界指向パーティゲームの提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95980"
+  },
+  "IPSJ-EC2013021": {
+    "title": "エンタテイメントシステム展示を対象とした質的評価ツールの提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95981"
+  },
+  "IPSJ-EC2013022": {
+    "title": "年齢層とゲーミングデバイスの違いによる面白さ比較調査",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95982"
+  },
+  "IPSJ-EC2013023": {
+    "title": "WebSocket を用いたスマートフォン上でのエンタテイメントコンテンツ閲覧時のリアルタイム行動分析",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95983"
+  },
+  "IPSJ-EC2013024": {
+    "title": "まじめなデータから得られる「おもしろい」情報可視化",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95984"
+  },
+  "IPSJ-EC2013025": {
+    "title": "等身大表示による衣服ログの着用追体験システムの構築",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95985"
+  },
+  "IPSJ-EC2013026": {
+    "title": "服装推薦システムの対話戦略-説得力と信頼感の向上-",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95986"
+  },
+  "IPSJ-EC2013027": {
+    "title": "観光行動情報収集アプリケーションと観光ポートフォリオ生成・共有システムの開発",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95987"
+  },
+  "IPSJ-EC2013028": {
+    "title": "地域密着型情報発信教育の実践報告",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95988"
+  },
+  "IPSJ-EC2013029": {
+    "title": "行間を拡張する能動的な読書の提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95989"
+  },
+  "IPSJ-EC2013030": {
+    "title": "提示量を適正化した女性向け商品検索支援システム",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95990"
+  },
+  "IPSJ-EC2013031": {
+    "title": "Comfortable rain-para-soul:雨風の空気を感じる空間の構築",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95991"
+  },
+  "IPSJ-EC2013032": {
+    "title": "おぼんナー：食堂での行列に並ぶ退屈さを軽減するためのリズム音楽共創システム",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95992"
+  },
+  "IPSJ-EC2013033": {
+    "title": "ディジタルペンを用いた3次元モデリング手法の提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95993"
+  },
+  "IPSJ-EC2013034": {
+    "title": "ZZZoo Pillows：呼吸感と体温といびきの提示による安心感を与えるための抱き枕の研究",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95994"
+  },
+  "IPSJ-EC2013035": {
+    "title": "Kinectを用いたジャグリングの技判定システムの構築とその改良",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95995"
+  },
+  "IPSJ-EC2013036": {
+    "title": "擬似的三次元コピー機",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95996"
+  },
+  "IPSJ-EC2013037": {
+    "title": "茶筅の安定的な動作をサポートする教示システムの提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95997"
+  },
+  "IPSJ-EC2013038": {
+    "title": "ぷくりす：タスクの公開掲示によるTo-Doリスト利用促進システム",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95998"
+  },
+  "IPSJ-EC2013039": {
+    "title": "容器装着型トクトク感提示デバイスの提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/95999"
+  },
+  "IPSJ-EC2013040": {
+    "title": "水中での電気刺激による触覚提示",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96000"
+  },
+  "IPSJ-EC2013041": {
+    "title": "聴覚フィードバックを付与した耳掃除の提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96001"
+  },
+  "IPSJ-EC2013042": {
+    "title": "Haptical Music Player",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96002"
+  },
+  "IPSJ-EC2013043": {
+    "title": "対話型アプリケーション向けハンズフリー入力装置の開発",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96003"
+  },
+  "IPSJ-EC2013044": {
+    "title": "Force Control based Soft-stuffed Robot Interaction",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96004"
+  },
+  "IPSJ-EC2013045": {
+    "title": "INAMO:ロボットと人と環境が生み出す新たなインタラクティブパズル",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96005"
+  },
+  "IPSJ-EC2013046": {
+    "title": "MR-Cyborg Soldiers複合現実感による変身エンタテインメントの実現",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96006"
+  },
+  "IPSJ-EC2013047": {
+    "title": "「きらめき」をデザインするインタラクティブ・アクセサリ",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96007"
+  },
+  "IPSJ-EC2013048": {
+    "title": "音楽ライブにおける遠隔地ファンとエンタテイナーのアニメーションを用いたコミュニケーション支援",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96008"
+  },
+  "IPSJ-EC2013049": {
+    "title": "ケツログラフィティ: 結露を用いたインタラクティブディスプレイ",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96009"
+  },
+  "IPSJ-EC2013050": {
+    "title": "B-ヴァイオリン：ヴァイオリン演奏初心者のボウイングスキル習得のための支援システム",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96010"
+  },
+  "IPSJ-EC2013051": {
+    "title": "LED テープを用いた大画面アミューズメントのプロトタイピング",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96011"
+  },
+  "IPSJ-EC2013052": {
+    "title": "ミニチュア空間におけるウォークスルーメディアブラウジング手法の提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96012"
+  },
+  "IPSJ-EC2013053": {
+    "title": "参加型プロジェクションマッピングによる塗り絵コンテンツの提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96013"
+  },
+  "IPSJ-EC2013054": {
+    "title": "データドリブンなフォトリアル口内アニメーションの自動生成",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96014"
+  },
+  "IPSJ-EC2013055": {
+    "title": "CG キャラクタのための感情と時系列性を考慮した眼球運動の分析と合成",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96015"
+  },
+  "IPSJ-EC2013056": {
+    "title": "Ring Brings Kiss: 皮膚電気活動を利用した結婚式におけるキス行為誘発エンタテイメントシステム",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96016"
+  },
+  "IPSJ-EC2013057": {
+    "title": "E3-Player: 鑑賞者の興奮を促進させる動画鑑賞システム",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96017"
+  },
+  "IPSJ-EC2013058": {
+    "title": "遠隔地の複数鑑賞者の存在感を表現するテレプレゼンスロボット",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96018"
+  },
+  "IPSJ-EC2013059": {
+    "title": "コネクティッドスタジオ高機能化に関する一検討～多人数仮想参加型番組生成システムの高機能化～",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96019"
+  },
+  "IPSJ-EC2013060": {
+    "title": "Kadebo：家事を楽しくする家電装着型ロボット",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96020"
+  },
+  "IPSJ-EC2013061": {
+    "title": "インターフェイスを映像投影する試み",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96021"
+  },
+  "IPSJ-EC2013062": {
+    "title": "ソーシャルスタイル理論を応用した対話戦略の提案- 調理支援ロボットを例題として-",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96022"
+  },
+  "IPSJ-EC2013063": {
+    "title": "高大連携のLEGOプログラミング講座におけるゲーム課題とシミュレーション教材",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96023"
+  },
+  "IPSJ-EC2013064": {
+    "title": "Animated paper 2: 二次元通信を用いたテーブル上を動く紙",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96024"
+  },
+  "IPSJ-EC2013065": {
+    "title": "コミック読者の状態遷移に着目したソーシャルリーディングシステム：「コマコミュ」",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96025"
+  },
+  "IPSJ-EC2013066": {
+    "title": "Graffiti Fur: 柔軟物の毛羽立ちを利用した描画手法",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96026"
+  },
+  "IPSJ-EC2013067": {
+    "title": "画像認識と集合知に基づく月および火星表面の人面状構造物探索",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96027"
+  },
+  "IPSJ-EC2013068": {
+    "title": "MIKUTYPE：リアルタイムで初音ミクに歌わせるタイプソングシステム",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96028"
+  },
+  "IPSJ-EC2013069": {
+    "title": "Kinectとワイヤレスマウスを併用したダンス学習支援システムの試作",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96029"
+  },
+  "IPSJ-EC2013070": {
+    "title": "ゴミ箱モンスター",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96030"
+  },
+  "IPSJ-EC2013071": {
+    "title": "1人N脚：ウェアラブルデバイスを用いた二人三脚におけるパッシブ型力覚提示",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96031"
+  },
+  "IPSJ-EC2013072": {
+    "title": "スイッチを題材とした関係性を想起させる装置の提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96032"
+  },
+  "IPSJ-EC2013073": {
+    "title": "モバイルタイルドディスプレイの開発",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96033"
+  },
+  "IPSJ-EC2013074": {
+    "title": "運動におけるタメ動作付加による爽快感の提示",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96034"
+  },
+  "IPSJ-EC2013075": {
+    "title": "操作主体感を失わない複数人同時操作システムの提案",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96035"
+  },
+  "IPSJ-EC2013076": {
+    "title": "電子玩具制作キット\\Haconiwa\" を用いたワークショップのデザイン",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96036"
+  },
+  "IPSJ-EC2013077": {
+    "title": "発泡ビーズの振動伝搬を用いた広範囲触覚ディスプレイ",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96037"
+  },
+  "IPSJ-EC2013078": {
+    "title": "わら電灯：恐怖心を通じ合わせるデバイス",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96038"
+  },
+  "IPSJ-EC2013079": {
+    "title": "「ふーん」の谷を越えよう！面白さを伝えるコンテンツ作り",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96039"
+  },
+  "IPSJ-EC2013080": {
+    "title": "映像演出からみた、テクノロジーの発展と視聴体験の変化",
+    "year": "2013",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/96040"
+  },
+  "IPSJ-EC2014001": {
+    "title": "metamoCrochet: 感温変色素材を用いた編み物の提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102916"
+  },
+  "IPSJ-EC2014002": {
+    "title": "Android向けUnityアプリの仮想化",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102917"
+  },
+  "IPSJ-EC2014003": {
+    "title": "ライトクエスト：豆知識を楽しく簡単に共有するエンタテインメントシステム",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102918"
+  },
+  "IPSJ-EC2014004": {
+    "title": "大量写真閲覧のためのフォトモザイク生成手法",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102919"
+  },
+  "IPSJ-EC2014005": {
+    "title": "MR Coral Sea フィジカルMRディスプレイによる複合現実型アクアリウム",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102920"
+  },
+  "IPSJ-EC2014006": {
+    "title": "笑い声呈示により自然な笑顔を撮影するカメラの提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102921"
+  },
+  "IPSJ-EC2014007": {
+    "title": "平均文字は美しい",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102922"
+  },
+  "IPSJ-EC2014008": {
+    "title": "催促型シリアスゲームに適したゲームデザイン",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102923"
+  },
+  "IPSJ-EC2014009": {
+    "title": "鏡面反射を利用した目がゆらぐぬいぐるみに関する研究",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102924"
+  },
+  "IPSJ-EC2014010": {
+    "title": "HMDおよび身体幇助メカニズムを用いたVR環境における浮遊感体験装置の提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102925"
+  },
+  "IPSJ-EC2014011": {
+    "title": "重量変化を伴うキャラクタとのインタラクション",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102926"
+  },
+  "IPSJ-EC2014012": {
+    "title": "Beginner’s Glide:グライダー初心者が面白いと感じるフライトシミュレータ",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102927"
+  },
+  "IPSJ-EC2014013": {
+    "title": "モバイルディスプレイの動きによる三次元VRインタラクション",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102928"
+  },
+  "IPSJ-EC2014014": {
+    "title": "女性の声を例にした音響的特徴量と印象評価の関係性の調査",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102929"
+  },
+  "IPSJ-EC2014015": {
+    "title": "Miku Miku Face：HANAUTAUと立体顔形状ディスプレイを用いたバーチャル「初音ミク」",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102930"
+  },
+  "IPSJ-EC2014016": {
+    "title": "VOCALUMPET: トランペット型リアルタイム歌声シンセサイザ",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102931"
+  },
+  "IPSJ-EC2014017": {
+    "title": "TPPM(Take Part in Projection Mapping): タブレット端末を用いた多人数参加型プロジェクションマッピングアプリケーション",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102932"
+  },
+  "IPSJ-EC2014018": {
+    "title": "となりのINAMO:お互いを踏み台にしながらゴールを目指すパネル型ロボット群",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102933"
+  },
+  "IPSJ-EC2014019": {
+    "title": "Nmuc:NFC タグによる音源組合せを利用した 子供向けモバイル音楽学習アプリ",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102934"
+  },
+  "IPSJ-EC2014020": {
+    "title": "急速な温度変化がもたらす圧覚",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102935"
+  },
+  "IPSJ-EC2014021": {
+    "title": "LuminouStep 踏み込みを可聴化するシステムの研究と開発",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102936"
+  },
+  "IPSJ-EC2014022": {
+    "title": "水位センサを利用した残量管理機能付きスマートボトル",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102937"
+  },
+  "IPSJ-EC2014023": {
+    "title": "スイッチを活用した玩具による発展的な遊びのインタラクション",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102938"
+  },
+  "IPSJ-EC2014024": {
+    "title": "プロジェクションを用いた全身への触覚呈示ディスプレイ",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102939"
+  },
+  "IPSJ-EC2014025": {
+    "title": "テレイグジスタンスの研究（第 78 報） - AR によるレイヤー情報を使用したテレイグジスタンスへの応用 -",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102940"
+  },
+  "IPSJ-EC2014026": {
+    "title": "舞台演出手法を取り入れた Mixed Reality アプリケーション開発環境の提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102941"
+  },
+  "IPSJ-EC2014027": {
+    "title": "オンライン漫画，インタラクティブアートとしての産業的価値　－日本と韓国の比較を中心に",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102942"
+  },
+  "IPSJ-EC2014028": {
+    "title": "Fortune Air :空気砲による新しいおみくじ占い",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102943"
+  },
+  "IPSJ-EC2014029": {
+    "title": "鎖骨を介した振動伝播による体内触覚提示",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102944"
+  },
+  "IPSJ-EC2014030": {
+    "title": "SNS を利用した，映像内の登場人物と鑑賞者とのコミュニケーションのデザイン",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102945"
+  },
+  "IPSJ-EC2014031": {
+    "title": "ブクブカメラ：ダイビングにおける三人称視点からの遊泳記録手法",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102946"
+  },
+  "IPSJ-EC2014032": {
+    "title": "モンハナシャコの攻撃的行動を規範としたインタラクティブデバイス",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102947"
+  },
+  "IPSJ-EC2014033": {
+    "title": "シャワーを用いた浴室での触覚刺激装置の提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102948"
+  },
+  "IPSJ-EC2014034": {
+    "title": "鉄道などの狭い移動体空間を利用した VJ・デコレーション表現の提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102949"
+  },
+  "IPSJ-EC2014035": {
+    "title": "TLOD Textbook : 階層構造とSemantic Zoomを利用したデジタル教科書",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102950"
+  },
+  "IPSJ-EC2014036": {
+    "title": "日本初3Dプリンター屋オープン 変遷とこれから",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102951"
+  },
+  "IPSJ-EC2014037": {
+    "title": "観客参加型演劇YOUPLAYにおけるインタラクション設計",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102952"
+  },
+  "IPSJ-EC2014038": {
+    "title": "コンシューマ用機器・ソフトを用いた地域遺跡のVR/ARコンテンツ化の試み",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102953"
+  },
+  "IPSJ-EC2014039": {
+    "title": "140文字Processingプログラミング",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102954"
+  },
+  "IPSJ-EC2014040": {
+    "title": "創作擬態語による印象的な動きのデザイン;",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102955"
+  },
+  "IPSJ-EC2014041": {
+    "title": "Augmented Elevator：エレベータを用いたモーションプラットフォームの開発",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102956"
+  },
+  "IPSJ-EC2014042": {
+    "title": "インタラクティブアニメーションの分析・再利用のためのツール",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102957"
+  },
+  "IPSJ-EC2014043": {
+    "title": "起毛による色の濃淡変化を利用した毛状ディスプレイの提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102958"
+  },
+  "IPSJ-EC2014044": {
+    "title": "MR-Cyborg Soldiers 2: 観客・プレイヤ協調型複合現実感ゲーム",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102959"
+  },
+  "IPSJ-EC2014045": {
+    "title": "スマートハウスのためのぬいぐるみ型インターフェイスの提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102960"
+  },
+  "IPSJ-EC2014046": {
+    "title": "風を利用したライトペインティングシステム",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102961"
+  },
+  "IPSJ-EC2014047": {
+    "title": "Deep Learningに基づく画像認識を用いた月および火星表面の擬似不自然構造物探索",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102962"
+  },
+  "IPSJ-EC2014048": {
+    "title": "橙色の屋根のお家：楽しみながら訓練できるデジタルセラピーデバイス",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102963"
+  },
+  "IPSJ-EC2014049": {
+    "title": "弾性体を削いだ感覚を提示する触覚デバイスの提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102964"
+  },
+  "IPSJ-EC2014050": {
+    "title": "多感覚への錯覚提示によるVR環境の構築",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102965"
+  },
+  "IPSJ-EC2014051": {
+    "title": "球体ディスプレイとモーション入力を用いた科学コンテンツのエンタテイメントシステム化と展示評価手法",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102966"
+  },
+  "IPSJ-EC2014052": {
+    "title": "横断検索結果の手動マイニングによるブレインストーミング補助ツール",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102967"
+  },
+  "IPSJ-EC2014053": {
+    "title": "3D.js を用いた地図の球面ディスプレイへの投影",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102968"
+  },
+  "IPSJ-EC2014054": {
+    "title": "PerMan: 頭部への刺激を用いた情報提示デバイスの開発とエンタテインメントへの利用",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102969"
+  },
+  "IPSJ-EC2014055": {
+    "title": "Twitter上で任意の検索語句に対するネガポジ度を判定し可視化するアプリケーションの開発と研究",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102970"
+  },
+  "IPSJ-EC2014056": {
+    "title": "Dokodemo Door: A Doorway to Alternate Realities",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102971"
+  },
+  "IPSJ-EC2014057": {
+    "title": "3DCGにおける節足動物の動的物体上における自動歩容生成",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102972"
+  },
+  "IPSJ-EC2014058": {
+    "title": "BelliesWave:ゴムの膨張収縮制御による変色するピクセルの提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102973"
+  },
+  "IPSJ-EC2014059": {
+    "title": "ARを用いた街角ブラウジングシステムの開発",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102974"
+  },
+  "IPSJ-EC2014060": {
+    "title": "Pair Feel:手をつなぐことで温度感覚を共有するマフラー",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102975"
+  },
+  "IPSJ-EC2014061": {
+    "title": "NAKANISYNTH: 波形を描いて音を作るシンセサイザ",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102976"
+  },
+  "IPSJ-EC2014062": {
+    "title": "車載カメラの映像と前面展望映像の重ね合わせによる鉄道模型の新たな楽しみ方の提案",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102977"
+  },
+  "IPSJ-EC2014063": {
+    "title": "プラトン立体型インタフェースを用いた集合演算による形状パターンの生成",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102978"
+  },
+  "IPSJ-EC2014064": {
+    "title": "スマートフォンゲームにおけるユーザの離脱・継続行動分析",
+    "year": "2014",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/102979"
+  },
+  "IPSJ-EC2015001": {
+    "title": "内受容感覚バイオフィードバックによる\"癒し系エンタテインメント\"の考察",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145227"
+  },
+  "IPSJ-EC2015002": {
+    "title": "Toolification of Games: 既存ゲームの余剰自由度の中で非ゲーム的目的を達成するゲーミフィケーションの考察",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145228"
+  },
+  "IPSJ-EC2015003": {
+    "title": "PICALA: プレゼンテーションにおける照明色による聴講者の感情共有システム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145229"
+  },
+  "IPSJ-EC2015004": {
+    "title": "ECオーガナイズドゲームの実施から考察する現実を舞台にしたゲームにおける情報通信技術の使用価値",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145230"
+  },
+  "IPSJ-EC2015005": {
+    "title": "カーリングプレイヤの思考過程の分析",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145231"
+  },
+  "IPSJ-EC2015006": {
+    "title": "「Wiiタンバリン」を用いたタンバリン演奏支援機能付きカラオケシステム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145232"
+  },
+  "IPSJ-EC2015007": {
+    "title": "実物の影による仮想の影とのインタラクション手法の提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145233"
+  },
+  "IPSJ-EC2015008": {
+    "title": "いかにして信用できるエージェントを作るか",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145234"
+  },
+  "IPSJ-EC2015009": {
+    "title": "逆遠近錯視を用いたインラタクティブプロジェクションマッピングシステムの構築",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145235"
+  },
+  "IPSJ-EC2015010": {
+    "title": "Mob Scene Filter:プライバシー保護のための容貌変化システムの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145236"
+  },
+  "IPSJ-EC2015011": {
+    "title": "コンピュータ上で遊べるカーリング「デジタルカーリング」",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145237"
+  },
+  "IPSJ-EC2015012": {
+    "title": "背中を使ったコミュニケーション玩具 ーぶりゅっくんで2人4脚ー（第1 . 0 版）",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145238"
+  },
+  "IPSJ-EC2015013": {
+    "title": "手書きポップを用いた図書推薦支援ソーシャルネットワーキングサービス",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145239"
+  },
+  "IPSJ-EC2015014": {
+    "title": "幸運感増幅時計 LuckyClock",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145240"
+  },
+  "IPSJ-EC2015015": {
+    "title": "家族への労りの気持ちを喚起させるためのコミュニケーションツールの評価",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145241"
+  },
+  "IPSJ-EC2015016": {
+    "title": "漫符を利用したマルチストーリ型ディジタル絵本の提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145242"
+  },
+  "IPSJ-EC2015017": {
+    "title": "空白で表示時間を操作するテキストビューア",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145243"
+  },
+  "IPSJ-EC2015018": {
+    "title": "モバイル型AR積木アプリケーション",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145244"
+  },
+  "IPSJ-EC2015020": {
+    "title": "デジタルホラーハウス：お化け役を必要としない自動化されたお化け屋敷",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145245"
+  },
+  "IPSJ-EC2015021": {
+    "title": "衣服牽引を用いた触力覚提示装置",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145246"
+  },
+  "IPSJ-EC2015022": {
+    "title": "DIY音響浮揚装置を作ってみた(第2報)",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145247"
+  },
+  "IPSJ-EC2015023": {
+    "title": "触感を伴って空中映像に触れるインタラクションシステム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145248"
+  },
+  "IPSJ-EC2015024": {
+    "title": "弾性素材のせん断変形を用いたタッチパネルへの水平方向力入力:入力モードの判別",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145249"
+  },
+  "IPSJ-EC2015025": {
+    "title": "時系列パターンに着目したアクションゲームのスキル獲得支援",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145250"
+  },
+  "IPSJ-EC2015026": {
+    "title": "Mixed Reality空間における仮想書斎システムの開発",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145251"
+  },
+  "IPSJ-EC2015027": {
+    "title": "ドローンを用いたサッカーゲーム撮影支援システムの開発",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145252"
+  },
+  "IPSJ-EC2015028": {
+    "title": "スメルンバ:Roombaを用いた室内においマップ自動生成システム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145253"
+  },
+  "IPSJ-EC2015029": {
+    "title": "スノーボーダのためのセンサデータに基づく技の収集支援システムの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145254"
+  },
+  "IPSJ-EC2015030": {
+    "title": "教師が生徒の不明点を理解するための支援機能をもつ英会話レッスン教授システムの提示",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145255"
+  },
+  "IPSJ-EC2015031": {
+    "title": "協創による「これまでに無いゲームづくり」を目指して―関西オープンデータxゲームハッカソン学生チャレンジ2015の実践報告―",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145256"
+  },
+  "IPSJ-EC2015032": {
+    "title": "咀嚼タン : 咀嚼をトリガーに設定したシリアスゲームの開発",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145257"
+  },
+  "IPSJ-EC2015033": {
+    "title": "子どもの見かた, 大人の見かた―子どもはエージェントをどのように知覚しているのか―",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145258"
+  },
+  "IPSJ-EC2015034": {
+    "title": "PerMan: 頭部への刺激を用いた情報提示デバイスのエンタテインメントへの利用",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145259"
+  },
+  "IPSJ-EC2015035": {
+    "title": "ロボット家電との音声会話がユーザに与える効果",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145260"
+  },
+  "IPSJ-EC2015036": {
+    "title": "友人同士で好みの楽曲を聴かせ合うスマートフォン用ミュージックプレイヤー",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145261"
+  },
+  "IPSJ-EC2015037": {
+    "title": "視線情報を活用した楽譜追跡システムの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145262"
+  },
+  "IPSJ-EC2015038": {
+    "title": "球体型移動ロボットにおける光を用いた視覚効果の影響調査",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145263"
+  },
+  "IPSJ-EC2015039": {
+    "title": "GAを用いたNPCの多様な振舞いの生成",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145264"
+  },
+  "IPSJ-EC2015041": {
+    "title": "歩行中のスマートフォン操作を安全に行う方法の考案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145265"
+  },
+  "IPSJ-EC2015043": {
+    "title": "conBear: 真空圧によって擬似的な呼吸運動の提示をする人形の提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145266"
+  },
+  "IPSJ-EC2015044": {
+    "title": "非和声音を含むフレーズの動的生成とタッチインタラクションシステムへの応用",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145267"
+  },
+  "IPSJ-EC2015045": {
+    "title": "即興的な多人数チームプレイが可能なブラウザネットワーキングゲーム基盤",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145268"
+  },
+  "IPSJ-EC2015046": {
+    "title": "自動車運転技術の乗り心地判定及び運転者への助言を行うAndroidアプリの開発",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145269"
+  },
+  "IPSJ-EC2015047": {
+    "title": "大学新入生向けの修学支援シリアスゲーム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145270"
+  },
+  "IPSJ-EC2015048": {
+    "title": "房の形状制御による非写実的頭髪モデリング",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145271"
+  },
+  "IPSJ-EC2015049": {
+    "title": "Twitterからユーザの応答を学習する対話システム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145272"
+  },
+  "IPSJ-EC2015050": {
+    "title": "VOCALODUCER™: ボカロ曲の自動生成システム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145273"
+  },
+  "IPSJ-EC2015051": {
+    "title": "TypeSinger: 歌うように“弾く”歌詞タイピングゲーム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145274"
+  },
+  "IPSJ-EC2015052": {
+    "title": "楽譜を用いた楽器音分離手法の提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145275"
+  },
+  "IPSJ-EC2015053": {
+    "title": "モチベーションをプロトコル記述に用いたNPCの行動選択",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145276"
+  },
+  "IPSJ-EC2015054": {
+    "title": "ドローン利活用の安全性の確保における企業情報システム開発技術の適用",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145277"
+  },
+  "IPSJ-EC2015055": {
+    "title": "鼻部表面温度を用いた乗り物酔い検出デバイスの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145278"
+  },
+  "IPSJ-EC2015056": {
+    "title": "“みんなで捨てたくなる”ごみ箱システム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145279"
+  },
+  "IPSJ-EC2015057": {
+    "title": "多感触ボタンによる触覚フィードバックのゲームコンテンツへの応用",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145280"
+  },
+  "IPSJ-EC2015058": {
+    "title": "チャット発言デビューの分析を通じた最初のステップ支援手法の検討",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145281"
+  },
+  "IPSJ-EC2015059": {
+    "title": "Himawary:太陽追尾機能を有する発電式小型無線センサノード",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145282"
+  },
+  "IPSJ-EC2015060": {
+    "title": "アグリコラにおける最強プログラムを目指して",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145283"
+  },
+  "IPSJ-EC2015061": {
+    "title": "クラブトレイン:ローカル鉄道を利用した移動体エンタテインメント空間",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145284"
+  },
+  "IPSJ-EC2015062": {
+    "title": "Jorro Beat: シャワーを用いた全身触覚刺激装置による浴室内音楽体験の向上",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145285"
+  },
+  "IPSJ-EC2015063": {
+    "title": "表紙と内容の関連に基づく書籍推薦システム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145286"
+  },
+  "IPSJ-EC2015064": {
+    "title": "プロジェクションを用いた全身への触覚ディスプレイ(第3報) -胴体への拡張と評価-",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145287"
+  },
+  "IPSJ-EC2015065": {
+    "title": "多数の直動型振動子を用いた手全体への触覚提示が可能なグローブの開発（第3報） -強度提示と姿勢センサ改善による触覚フィードバックの高品位化-",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145288"
+  },
+  "IPSJ-EC2015067": {
+    "title": "マイクロ波と気体センサを用いたキャラクター型室内情報管理システム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145289"
+  },
+  "IPSJ-EC2015068": {
+    "title": "バドミントンにおける打撃音拡張に関する研究",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145290"
+  },
+  "IPSJ-EC2015069": {
+    "title": "音楽の重要な構成要素の抽出の提案-音楽ゲーム用譜面自動生成のために-",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145291"
+  },
+  "IPSJ-EC2015070": {
+    "title": "色の調味料瓶：料理を彩る食卓プロジェクションのためのインタフェース",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145292"
+  },
+  "IPSJ-EC2015071": {
+    "title": "UV invisible market tracking for projection mapping on dynamic surfaces",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145293"
+  },
+  "IPSJ-EC2015075": {
+    "title": "Twitterを用いたWeb上の投稿にもとづくヒット現象解析によるパフォーマーのCD発売プロモーション時の分析の手法の検討",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145294"
+  },
+  "IPSJ-EC2015076": {
+    "title": "Virtual-ISU:座位姿勢での擬似歩行運動による歩行感覚提示インタフェース",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145295"
+  },
+  "IPSJ-EC2015078": {
+    "title": "視覚効果を用いた主観的音量の制御システムの設計と実装",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145296"
+  },
+  "IPSJ-EC2015079": {
+    "title": "没入型VR環境のためのウェアラブル手首力覚提示デバイス",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145297"
+  },
+  "IPSJ-EC2015080": {
+    "title": "いたねこ：痛みを伝達する遠隔猫じゃらしインタフェース",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145298"
+  },
+  "IPSJ-EC2015081": {
+    "title": "音階と鍵盤の視覚的対応付けによるピアノ学習支援システム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145299"
+  },
+  "IPSJ-EC2015082": {
+    "title": "メッシュチューブとワイヤ駆動を用いたS字を描ける装着型猫のしっぽデバイス",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145300"
+  },
+  "IPSJ-EC2015083": {
+    "title": "ぱいしくる",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145301"
+  },
+  "IPSJ-EC2015084": {
+    "title": "温度錯覚を用いた地面の傾きの表現",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145302"
+  },
+  "IPSJ-EC2015085": {
+    "title": "電気企鵝に宿るエージェンシーの幻想 -ぬいぐるみロボットのリズムパラメータが相互作用時の印象形成に与える影響-",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145303"
+  },
+  "IPSJ-EC2015086": {
+    "title": "Tone-ilet: 尿色に応じて光る便座の提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145304"
+  },
+  "IPSJ-EC2015088": {
+    "title": "力約：ソフトウェアインストール時における利用規約に応じた力覚提示デバイスの開発",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145305"
+  },
+  "IPSJ-EC2015089": {
+    "title": "MITAI: 日常のモノを用いた自由な音楽制作システムの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145306"
+  },
+  "IPSJ-EC2015091": {
+    "title": "デジタルカーリングにおけるゲーム木枝刈りの有効性検証",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145307"
+  },
+  "IPSJ-EC2015092": {
+    "title": "Interaction Sketch：動きを伴うインタラクションのための基礎的研究",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145308"
+  },
+  "IPSJ-EC2015093": {
+    "title": "ニコニコ動画で視聴をより楽しむためのアプリケーションのためのニコニコ用語辞書拡張",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145309"
+  },
+  "IPSJ-EC2015094": {
+    "title": "エンタテインメント系システムの主観評価実験におけるユーザ統制及び実験手法の検討",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145310"
+  },
+  "IPSJ-EC2015095": {
+    "title": "ミュージアムのための多重化サイネージシステムの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145311"
+  },
+  "IPSJ-EC2015096": {
+    "title": "音楽表現活動における拡張現実感に関する一考察",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145312"
+  },
+  "IPSJ-EC2015097": {
+    "title": "MIB:しゃぼん玉型メディア保存、再生装置",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145313"
+  },
+  "IPSJ-EC2015099": {
+    "title": "パネル型ロボット＜INAMO＞を介した相互的な遊びの構成について",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145314"
+  },
+  "IPSJ-EC2015100": {
+    "title": "エンタテイメントシステムにおけるパブリックテストの重要性と同意書ガイドライン",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145315"
+  },
+  "IPSJ-EC2015101": {
+    "title": "動画に対する音響的装飾の分析と視覚的装飾を可能とする手法の提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145316"
+  },
+  "IPSJ-EC2015102": {
+    "title": "上肢運動が多義的視運動刺激の知覚に及ぼす影響",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145317"
+  },
+  "IPSJ-EC2015103": {
+    "title": "平均図形も美しい",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145318"
+  },
+  "IPSJ-EC2015104": {
+    "title": "エンタテイメント体験前後の笑顔による体験評価",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145319"
+  },
+  "IPSJ-EC2015105": {
+    "title": "韻律変換実現のための一試行： 高橋みなみ風の音声を小嶋陽菜風に変えてみた",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145320"
+  },
+  "IPSJ-EC2015106": {
+    "title": "Pelat Computing:フラフラ・ヨタヨタが引き出す〈ちから〉について",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145321"
+  },
+  "IPSJ-EC2015107": {
+    "title": "マンガ没入型VRエンタテイメントシステムの長期展示を通した必殺技の集合知による可視化",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145322"
+  },
+  "IPSJ-EC2015108": {
+    "title": "個性豊かな手書きメッセージ生成手法の提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145323"
+  },
+  "IPSJ-EC2015110": {
+    "title": "視線とコンテンツ分析に基づくエフェクトの追加によるコンテンツ閲覧体験拡張",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145324"
+  },
+  "IPSJ-EC2015112": {
+    "title": "実時間プロジェクションマッピングに関する研究",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145325"
+  },
+  "IPSJ-EC2015113": {
+    "title": "スマートフォンによる睡眠習慣改善のためのQoL向上アプリの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145326"
+  },
+  "IPSJ-EC2015114": {
+    "title": "Apple Watchを用いたバスケットボール審判補助システムの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145327"
+  },
+  "IPSJ-EC2015115": {
+    "title": "無理のない姿勢を逆動力学・最適化により提案するバーチャルデッサン人形",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145328"
+  },
+  "IPSJ-EC2015116": {
+    "title": "ゲーミフィケーションを利用した多人数参加型実世界指向インフォーマルコミュニケーション支援システム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145329"
+  },
+  "IPSJ-EC2015117": {
+    "title": "コミュニケーションゲーム「人狼」を演じるロボットエージェントの作成",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145330"
+  },
+  "IPSJ-EC2015118": {
+    "title": "虚偽情報および暖味情報教示機能をもつバイオリン学習支援システムの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145331"
+  },
+  "IPSJ-EC2015119": {
+    "title": "周辺視へのエフェクト提示による動画の視聴体験拡張",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145332"
+  },
+  "IPSJ-EC2015120": {
+    "title": "インタラクティブキャラクタにおける手先の追いかけ動作の再現",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145333"
+  },
+  "IPSJ-EC2015121": {
+    "title": "VRMixer: 動画コンテンツと現実世界の融合とその適用可能性の検証",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145334"
+  },
+  "IPSJ-EC2015122": {
+    "title": "WebSocket通信を用いたマトリクスLED制御の開発",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145335"
+  },
+  "IPSJ-EC2015124": {
+    "title": "生体信号を用いた動画視聴中のユーザ評価の推定",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145336"
+  },
+  "IPSJ-EC2015125": {
+    "title": "人物キャラクタの模写における絵の評価システムの提案",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145337"
+  },
+  "IPSJ-EC2015126": {
+    "title": "視覚障害者向けスポーツを対象とした遊びのデザイン及び用具制作のためのアプローチ",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145338"
+  },
+  "IPSJ-EC2015127": {
+    "title": "惑星の作り方：手書きのイラストとレゴブロックを用いたエンターテインメントシステム",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145339"
+  },
+  "IPSJ-EC2015128": {
+    "title": "入力予測誤差最小化による相互学習インタフェース",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145340"
+  },
+  "IPSJ-EC2015129": {
+    "title": "表面筋電位を用いた自転車のぺダリング運動における筋活性の提示システムの開発",
+    "year": "2015",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/145341"
+  },
+  "IPSJ-EC2016001": {
+    "title": "タブレットと書道筆を用いた仮想的書道パフォーマンス体験システム",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175064"
+  },
+  "IPSJ-EC2016002": {
+    "title": "タブレット端末と無線筆型デバイスを用いた仮想書写支援システム",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175065"
+  },
+  "IPSJ-EC2016003": {
+    "title": "haptance: 距離センサとサーボモータを使用したフォースフィードバックデバイスと感触のデザイン",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175066"
+  },
+  "IPSJ-EC2016004": {
+    "title": "起毛素材の毛羽立ちを利用した超音波集束装置とプロカムシステムの幾何校正",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175067"
+  },
+  "IPSJ-EC2016005": {
+    "title": "合成音声と生音声の自然なクロスフェード手法およびエンターテインメントへの応用",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175068"
+  },
+  "IPSJ-EC2016006": {
+    "title": "ウェアラブルセンサを用いた腕動作の仮想空間適用",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175069"
+  },
+  "IPSJ-EC2016007": {
+    "title": "ヒトリス: 全身のポーズでブロックをパーツ化するインタラクティブゲーム設計",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175070"
+  },
+  "IPSJ-EC2016008": {
+    "title": "Gen",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175071"
+  },
+  "IPSJ-EC2016009": {
+    "title": "RTSゲームのプレイログ分析によるプレイヤー養成システム",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175072"
+  },
+  "IPSJ-EC2016010": {
+    "title": "短時間で適正難易度に誘導する「プリセットレベル選択」",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175073"
+  },
+  "IPSJ-EC2016011": {
+    "title": "A.I.See: 多重化不可視映像技術を用いたボードゲームプレイ上達支援ツール",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175074"
+  },
+  "IPSJ-EC2016012": {
+    "title": "モバイル型AR玉転がし積木アプリケーション",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175075"
+  },
+  "IPSJ-EC2016013": {
+    "title": "AR空間におけるリアルタイム3Dライトペインティングの構想",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175076"
+  },
+  "IPSJ-EC2016014": {
+    "title": "VR技術を加えた古典的2Dゲームに関する考察",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175077"
+  },
+  "IPSJ-EC2016015": {
+    "title": "閉所空間調整システムを用いたVR体感型ゲームにおける閉所空間の認知特性評価",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175078"
+  },
+  "IPSJ-EC2016016": {
+    "title": "ARを用いてグラフィティが可能なスプレー型デバイスの開発",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175079"
+  },
+  "IPSJ-EC2016017": {
+    "title": "映像コンテンツへの拡張プログラム埋め込みパラダイムの再検討",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175080"
+  },
+  "IPSJ-EC2016018": {
+    "title": "MMTを用いた端末間映像同期のAndroid端末への実装",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175081"
+  },
+  "IPSJ-EC2016019": {
+    "title": "プレゼンテーションコンパニオンロボットを用いたプレゼンターの心的負担軽減手法の検討",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175082"
+  },
+  "IPSJ-EC2016020": {
+    "title": "自分の声を知り，コントロールするための「自分声フィルタ」の提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175083"
+  },
+  "IPSJ-EC2016021": {
+    "title": "ディープラーニングを用いたマンガにおける人物の表情識別",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175084"
+  },
+  "IPSJ-EC2016022": {
+    "title": "群れへの介入によるエンターテインメントの可能性",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175085"
+  },
+  "IPSJ-EC2016023": {
+    "title": "洋楽歌詞からの空耳フレーズ自動生成に向けた一検討",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175086"
+  },
+  "IPSJ-EC2016024": {
+    "title": "身体を用いた多人数で楽しむ音楽演奏ツールの提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175087"
+  },
+  "IPSJ-EC2016025": {
+    "title": "ロックダンス初級者のための振り付け作成支援システムにおける格好良さの推定",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175088"
+  },
+  "IPSJ-EC2016026": {
+    "title": "複数の移動ロボットを用いた身体パフォーマンスの印象評価",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175089"
+  },
+  "IPSJ-EC2016027": {
+    "title": "レーザー演出の新たな制御法の提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175090"
+  },
+  "IPSJ-EC2016028": {
+    "title": "Lantern Fish: ライブエンターテインメントにおけるインタラクティブ照明演出の拡張",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175091"
+  },
+  "IPSJ-EC2016029": {
+    "title": "妖怪クリーナーズ: 現実世界の掃除をゲームコンテンツにしたシリアスゲームの提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175092"
+  },
+  "IPSJ-EC2016030": {
+    "title": "大人が楽しめるインタラクティブ絵本の制作 - 嫉妬の多面性を通して",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175093"
+  },
+  "IPSJ-EC2016031": {
+    "title": "プロジェクションマッピングを用いたインタラクティブな動物図鑑の作成",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175094"
+  },
+  "IPSJ-EC2016032": {
+    "title": "幼児を対象としたデジタル知育空間の提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175095"
+  },
+  "IPSJ-EC2016033": {
+    "title": "駒の配置の統計解析に基づく将棋対局に関する一考察",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175096"
+  },
+  "IPSJ-EC2016034": {
+    "title": "玉の危険度と主戦場の可視化による将棋初心者への局面把握支援",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175097"
+  },
+  "IPSJ-EC2016035": {
+    "title": "将棋用語による棋譜からの局面検索",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175098"
+  },
+  "IPSJ-EC2016036": {
+    "title": "人工知能によるボードゲームデザインについて",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175099"
+  },
+  "IPSJ-EC2016037": {
+    "title": "拭き掃除における正しい雑巾絞りの定着を目的としたシステムの提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175100"
+  },
+  "IPSJ-EC2016038": {
+    "title": "咀嚼回数増加のきっかけ作りを目的としたゲームシステムの提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175101"
+  },
+  "IPSJ-EC2016039": {
+    "title": "偏食改善および咀嚼増加を目的としたゲームシステムの開発",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175102"
+  },
+  "IPSJ-EC2016040": {
+    "title": "自発的な観察を促すための園内回遊行動のデザイン",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175103"
+  },
+  "IPSJ-EC2016041": {
+    "title": "スタンプラリーのエンターテインメント性向上のためのスマホアプリ導入事例",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175104"
+  },
+  "IPSJ-EC2016042": {
+    "title": "指向性スピーカーを用いた歩きスマホ防止策「おしゃべりスマホ」",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175105"
+  },
+  "IPSJ-EC2016043": {
+    "title": "Orcaboard: LEDを用いた暗所でのパフォーマンスのためのスケートボードの提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175106"
+  },
+  "IPSJ-EC2016044": {
+    "title": "SomaticBall: 「ボールが体に吸い付く感覚」を提示するボール型デバイスの提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175107"
+  },
+  "IPSJ-EC2016045": {
+    "title": "ユーザと他者へ光の明滅による情報提示可能なメガネ型デバイスの設計と実装",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175108"
+  },
+  "IPSJ-EC2016046": {
+    "title": "plan-na: 質量から寸法を推定する漫画本専用本棚設計ソフトウェアの提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175109"
+  },
+  "IPSJ-EC2016047": {
+    "title": "はやサトル: 加速度センサを用いた速度認知デバイス",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175110"
+  },
+  "IPSJ-EC2016048": {
+    "title": "リレーショナル・ポッド: 公共空間にて運用する，触れて楽しむイルミネーション装置",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175111"
+  },
+  "IPSJ-EC2016049": {
+    "title": "やわらかい素材による変化可能な空間構築",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175112"
+  },
+  "IPSJ-EC2016050": {
+    "title": "メリーからくりスマス: 乗車体験を拡張する位置連動型車内デコレーション",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175113"
+  },
+  "IPSJ-EC2016051": {
+    "title": "3Dプリンターの特性に配慮した汎用ジョイント機構の提案",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175114"
+  },
+  "IPSJ-EC2016052": {
+    "title": "KUI: 影ユーザーインタフェース",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175115"
+  },
+  "IPSJ-EC2016053": {
+    "title": "Floating Tears",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175116"
+  },
+  "IPSJ-EC2016054": {
+    "title": "ポケレポ GO: ワンマンライブレポートシステムの構築",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175117"
+  },
+  "IPSJ-EC2016055": {
+    "title": "地域観光用アプリケーションに適した行動履歴記録方式の検討",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175118"
+  },
+  "IPSJ-EC2016056": {
+    "title": "ユーザとコンピュータとのインタラクティブな即興演奏システムに関する研究",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175119"
+  },
+  "IPSJ-EC2016057": {
+    "title": "自律神経系指標を用いた映像視聴中の酔い検出手法の検討",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175120"
+  },
+  "IPSJ-EC2016058": {
+    "title": "HMDを用いた俯瞰的視点変換トレーニング効果の検証",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175121"
+  },
+  "IPSJ-EC2016059": {
+    "title": "Virtual ISU: 座位姿勢での擬似歩行運動による歩行感覚提示インタフェース(第3報)",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175122"
+  },
+  "IPSJ-EC2016060": {
+    "title": "バブルディスプレイ",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175123"
+  },
+  "IPSJ-EC2016061": {
+    "title": "Ocuduss: Optical Curved Device for User's Speed Sensation",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175124"
+  },
+  "IPSJ-EC2016062": {
+    "title": "英単語の学習に論理的思考をおりこんだ積み木「つみきでえいご」",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175125"
+  },
+  "IPSJ-EC2016063": {
+    "title": "音楽イベント初心者の応援行動の同期性の向上する無線通信機能搭載型ペンライト",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175126"
+  },
+  "IPSJ-EC2016064": {
+    "title": "会話時の自然な視線インタラクションを再現する会話エージェント",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175127"
+  },
+  "IPSJ-EC2016065": {
+    "title": "人の情動と音楽が作用し合うパフォーマンス支援システムの開発(第1.0版)",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175128"
+  },
+  "IPSJ-EC2016066": {
+    "title": "TelePhos: 複数でおしゃべりする社交的なスマートフォン",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175129"
+  },
+  "IPSJ-EC2016067": {
+    "title": "TelePho: スマートフォンを用いたソーシャルなロボット",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175130"
+  },
+  "IPSJ-EC2016068": {
+    "title": "工事現場の安全向上のためのセンサジャケット",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175131"
+  },
+  "IPSJ-EC2016069": {
+    "title": "位置情報に関連する投稿を可視化するつぶやきヒートマップ",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175132"
+  },
+  "IPSJ-EC2016070": {
+    "title": "RelaPitch: 歌って鍛える相対音感習得支援システム",
+    "year": "2016",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/175133"
+  },
+  "IPSJ-EC2017001": {
+    "title": "電子音の認識のためのJavaScriptライブラリの開発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183456"
+  },
+  "IPSJ-EC2017002": {
+    "title": "視聴覚コンテンツの音情報から生成した振動の高次感性促進効果",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183457"
+  },
+  "IPSJ-EC2017003": {
+    "title": "Filum: 環境やユーザに即して既存のテキスタイルを動的に変形させる糸と縫い方",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183458"
+  },
+  "IPSJ-EC2017004": {
+    "title": "ライド型VRコンテンツのための筐体の触覚と座面の不安定性を利用したプレゼンス向上手法",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183459"
+  },
+  "IPSJ-EC2017005": {
+    "title": "INAMO：ロボットを介した共同的な遊びとコミュニケーションについて",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183460"
+  },
+  "IPSJ-EC2017006": {
+    "title": "民生用高速度カメラを用いた素振り練習の精度可視化",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183461"
+  },
+  "IPSJ-EC2017007": {
+    "title": "RPGにおけるエンタテインメント性評価のための尺度構成",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183462"
+  },
+  "IPSJ-EC2017008": {
+    "title": "\"HBD / RIP\" : 球体ディスプレイ「ジオ・コスモス」 向けデータビジュアライゼーション",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183463"
+  },
+  "IPSJ-EC2017009": {
+    "title": "複数人討論を活性化させるお菓子提示デバイス 「お菓子くん」の検討",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183464"
+  },
+  "IPSJ-EC2017010": {
+    "title": "機械学習による人狼知能の陣営推定能力向上",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183465"
+  },
+  "IPSJ-EC2017011": {
+    "title": "圧力センサアレイを用いた胎動スキャナの提案",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183466"
+  },
+  "IPSJ-EC2017012": {
+    "title": "エアーハンドル：軽やかな操作で仮想オブジェクトを回転・移動させるインタフェースデザイン",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183467"
+  },
+  "IPSJ-EC2017013": {
+    "title": "ゆりカモ目: 2台の360°カメラによるレール上浮遊体験",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183468"
+  },
+  "IPSJ-EC2017014": {
+    "title": "世界樹とブロックのメタファによる探索型インタフェースを活用したVR Safari Parkの試作",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183469"
+  },
+  "IPSJ-EC2017015": {
+    "title": "500円DIYヘッドトラッカー計画",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183470"
+  },
+  "IPSJ-EC2017016": {
+    "title": "PC操作を用いたインタラクティブな猫じゃらしの開発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183471"
+  },
+  "IPSJ-EC2017017": {
+    "title": "時間と移動を伴うLED表現の編集ツールの実装",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183472"
+  },
+  "IPSJ-EC2017018": {
+    "title": "LEDパフォーマンスのためのWi-Fiを用いたプロトコルの設計と実装",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183473"
+  },
+  "IPSJ-EC2017019": {
+    "title": "ELBOWRIST: HMDを用いた第二の肘を介した背面空間の探索",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183474"
+  },
+  "IPSJ-EC2017020": {
+    "title": "ペットとの対話に見せかけた非機械的な印象を与える表示装置の開発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183475"
+  },
+  "IPSJ-EC2017021": {
+    "title": "着ぐるみ非装着環境における着ぐるみポージング練習システムの評価",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183476"
+  },
+  "IPSJ-EC2017022": {
+    "title": "卓球におけるコースの実時間提示による瞬間的判断訓練システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183477"
+  },
+  "IPSJ-EC2017023": {
+    "title": "ヘッドマウントディスプレイを装着した状態での風向知覚特性の測定",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183478"
+  },
+  "IPSJ-EC2017024": {
+    "title": "ドローンの羽音を利用して個体識別及び位置情報を検出するシステムの提案",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183479"
+  },
+  "IPSJ-EC2017025": {
+    "title": "バランスのとれた代表写真群を自動選出するための一手法",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183480"
+  },
+  "IPSJ-EC2017026": {
+    "title": "特定人物の顔識別にもとづく対話的ダイジェスト動画生成",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183481"
+  },
+  "IPSJ-EC2017027": {
+    "title": "StorageCanvas : 日用品をはめ込むことでコラージュアートになる収納手法の提案とその設計手法",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183482"
+  },
+  "IPSJ-EC2017028": {
+    "title": "部位ごとに描き分けられた絵の関節点を一意に定める方法の検討",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183483"
+  },
+  "IPSJ-EC2017029": {
+    "title": "教育展示施設におけるサウンドインタラクションシステムの提案",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183484"
+  },
+  "IPSJ-EC2017030": {
+    "title": "ウェアラブルだるまさんがころんだ: 加速度センサによる機械判定を用いた多人数型ゲームの実装と運用",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183485"
+  },
+  "IPSJ-EC2017031": {
+    "title": "視覚及び聴覚刺激によるクロスモーダル現象を利用した力覚の錯覚",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183486"
+  },
+  "IPSJ-EC2017032": {
+    "title": "身近なにおいを用いた嗅覚における方向知覚の実験",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183487"
+  },
+  "IPSJ-EC2017033": {
+    "title": "Re:Piano: 演奏履歴を活用する楽器演奏支援システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183488"
+  },
+  "IPSJ-EC2017034": {
+    "title": "エモコン：コミュニケーションにおける自身の怒りと他者から見た怒りとの齟齬通知システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183489"
+  },
+  "IPSJ-EC2017035": {
+    "title": "Cheer Me!: 生放送に対するコメントを用いた視聴者参加型ゲーム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183490"
+  },
+  "IPSJ-EC2017036": {
+    "title": "紫外線ライトを用いたトイレの尿汚れ可視化システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183491"
+  },
+  "IPSJ-EC2017037": {
+    "title": "自動運転車両内インフォテインメントのためのVRゲーム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183492"
+  },
+  "IPSJ-EC2017038": {
+    "title": "映像技術を活用したカードマジック",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183493"
+  },
+  "IPSJ-EC2017039": {
+    "title": "レビュー文を考慮したゲーム推薦システムの実現に向けた単語の類似度調整の取り組み",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183494"
+  },
+  "IPSJ-EC2017040": {
+    "title": "HMDで遊ぶ古典的2Dゲームの面白さ要因分析と提案",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183495"
+  },
+  "IPSJ-EC2017041": {
+    "title": "A Pervasive Game to Evaluate the Effectiveness of Social Interaction to Increase Daily Activity of Older Adults",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183496"
+  },
+  "IPSJ-EC2017042": {
+    "title": "イマミラー2：他者への気づきを促すための映像上の外見交換システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183497"
+  },
+  "IPSJ-EC2017043": {
+    "title": "音楽ライブパフォーマンスにおける奏者の運指に着目した映像表現システムの開発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183498"
+  },
+  "IPSJ-EC2017044": {
+    "title": "ノイズキャンセリングミュージック",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183499"
+  },
+  "IPSJ-EC2017045": {
+    "title": "実会話事例の機械学習により相手の話し方に合わせた音声応答を行う対話エージェント",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183500"
+  },
+  "IPSJ-EC2017046": {
+    "title": "対話事例に基づく機械学習を用いた同調的表情を提示する対話エージェント",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183501"
+  },
+  "IPSJ-EC2017047": {
+    "title": "ビデオシースルー型HMDを用いたAugmented Air Hockeyの提案",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183502"
+  },
+  "IPSJ-EC2017048": {
+    "title": "トルク変化最小軌道に基づくキャラクターの自然な動作の自動生成",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183503"
+  },
+  "IPSJ-EC2017049": {
+    "title": "次第に速くなる虚偽心拍フィードバックを用いたゲーム体験の向上",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183504"
+  },
+  "IPSJ-EC2017050": {
+    "title": "血行状態ディスプレイ「魔法の鏡」を使ったゲームの可能性",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183505"
+  },
+  "IPSJ-EC2017051": {
+    "title": "360度VR配信による音楽会場と観客の臨場感共有の試み",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183506"
+  },
+  "IPSJ-EC2017052": {
+    "title": "HMDを用いたヴァーチャルなドラム演奏環境の試作",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183507"
+  },
+  "IPSJ-EC2017053": {
+    "title": "KeyPressense: キーの押下開始タイミングを検知できるキーボード",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183508"
+  },
+  "IPSJ-EC2017054": {
+    "title": "心電を用いたVRシステムの感性評価の研究　～「サマーレッスン」プレイ時の「ドキドキ感」の男女間での比較～",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183509"
+  },
+  "IPSJ-EC2017055": {
+    "title": "なまえんぴつ - 画像検索を活用したドローイングツール",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183510"
+  },
+  "IPSJ-EC2017056": {
+    "title": "大学図書館の利用方法を学ぶ「大喜利」型ゲーム・コンテンツ「Libardry Card」：カードゲームからゲームアプリへ",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183511"
+  },
+  "IPSJ-EC2017057": {
+    "title": "チーズ学習：遺伝的アルゴリズムを用いたStarcraft初期オーダー創造",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183512"
+  },
+  "IPSJ-EC2017058": {
+    "title": "「蓼食うPCも好きずき」ニューラルネットワークを用いた手書きの美しさの学習",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183513"
+  },
+  "IPSJ-EC2017059": {
+    "title": "スマホ依存を利用した親子間における対話向上の支援システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183514"
+  },
+  "IPSJ-EC2017060": {
+    "title": "心拍情報を用いた画像撮影システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183515"
+  },
+  "IPSJ-EC2017061": {
+    "title": "ドアコムAR：実在する枠を用いて対話相手の視界内を移動可能な遠隔コミュニケーションシステム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183516"
+  },
+  "IPSJ-EC2017062": {
+    "title": "スマホと家電の連携によるエンターテインメントアプリ「エクストリーム貧乏揺すり＋」の開発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183517"
+  },
+  "IPSJ-EC2017063": {
+    "title": "E-クルーン: 抽選過程を演出する装置",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183518"
+  },
+  "IPSJ-EC2017064": {
+    "title": "デジタルDIYツールキットによる「モノ」「コト」横断発想教育",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183519"
+  },
+  "IPSJ-EC2017065": {
+    "title": "バーチャル聴覚ディスプレイ技術を応用した視覚障害者向け音空間ゲームの開発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183520"
+  },
+  "IPSJ-EC2017066": {
+    "title": "日本語におけるネガティブ言語変換システムの開発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183521"
+  },
+  "IPSJ-EC2017067": {
+    "title": "weAtheR: AR技術を用いたアンビエントな天気情報の提示",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183522"
+  },
+  "IPSJ-EC2017068": {
+    "title": "3次元人体姿勢推定を実現するためのOpenPoseの拡張",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183523"
+  },
+  "IPSJ-EC2017069": {
+    "title": "簡易なキャリブレーションで実現するメガネ型3D視線計測機器の開発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183524"
+  },
+  "IPSJ-EC2017070": {
+    "title": "前庭電気刺激と視覚電気刺激を利用したバーチャルキャラクタから殴打される体験",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183525"
+  },
+  "IPSJ-EC2017071": {
+    "title": "プレイヤーの気合を意識したコントローラ",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183526"
+  },
+  "IPSJ-EC2017072": {
+    "title": "アイ・ボーンズ：モジモジしながらティッシュを配ろうとするロボット",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183527"
+  },
+  "IPSJ-EC2017073": {
+    "title": "HoloLensを用いた実世界へのリアルタイム情報の可視化",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183528"
+  },
+  "IPSJ-EC2017074": {
+    "title": "他力本願な〈ゴミ箱ロボット〉とそのインタラクションデザイン",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183529"
+  },
+  "IPSJ-EC2017075": {
+    "title": "Recursive Function Space: 左手を節、右手を葉とする再帰的視点変換によるメタ認知空間の探索",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183530"
+  },
+  "IPSJ-EC2017076": {
+    "title": "HMDを介したポールを引っ張り合うことによる腕が伸縮する感覚の誘発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183531"
+  },
+  "IPSJ-EC2017077": {
+    "title": "自走式ディスプレイの並進と回転を用いたコンテンツの表現の拡張の試み",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183532"
+  },
+  "IPSJ-EC2017078": {
+    "title": "通り抜けうぉ〜る　ー全身動作と触覚フィードバックを組み合わせたエンタテイメントゲームー",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183533"
+  },
+  "IPSJ-EC2017079": {
+    "title": "一緒に並んで歩くロボット〈マコのて〉とその手を介したコミュニケーションについて",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183534"
+  },
+  "IPSJ-EC2017080": {
+    "title": "車椅子楽器：色認識を用いた車椅子の操作練習支援システムの提案",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183535"
+  },
+  "IPSJ-EC2017081": {
+    "title": "モーションキャプチャ技術を用いた投球ジェスチャ認識手法の開発と評価",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183536"
+  },
+  "IPSJ-EC2017082": {
+    "title": "無線画像処理システムにより実世界拡張されたガンシューティングゲーム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183537"
+  },
+  "IPSJ-EC2017083": {
+    "title": "複合現実空間における仮想オブジェクト受け渡し手法",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183538"
+  },
+  "IPSJ-EC2017084": {
+    "title": "霞鈴 -Karin-：草花鑑賞設備を用いた気象情報提示メディア",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183539"
+  },
+  "IPSJ-EC2017085": {
+    "title": "高速プロジェクタによる投影コンテンツとの動的インタラクション",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183540"
+  },
+  "IPSJ-EC2017086": {
+    "title": "ToRIng(自動画像認識により物の模様を読み取り、音を鳴らすデバイス)",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183541"
+  },
+  "IPSJ-EC2017087": {
+    "title": "観光誘致と文化財保存に向けたVR活用の検討",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183542"
+  },
+  "IPSJ-EC2017088": {
+    "title": "FPGAを用いた6画面タイルドディスプレイシステム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183543"
+  },
+  "IPSJ-EC2017089": {
+    "title": "その場でタイルドディスプレイ",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183544"
+  },
+  "IPSJ-EC2017090": {
+    "title": "仮想コレクションケースへの展示物配置システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183545"
+  },
+  "IPSJ-EC2017091": {
+    "title": "\"聞こえてくる\"会話を指向する多人数インタラクションエージェント",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183546"
+  },
+  "IPSJ-EC2017092": {
+    "title": "Omniocular: お気に入りの役者を注視するためのオペラグラス型システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183547"
+  },
+  "IPSJ-EC2017093": {
+    "title": "効果的な筋トレのためのフォームチェックアプリの開発",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183548"
+  },
+  "IPSJ-EC2017094": {
+    "title": "筋電センサを用いた動作楽器の開発と幼児向けリトミックでのコミュニケーション能力強化方法の提案",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183549"
+  },
+  "IPSJ-EC2017095": {
+    "title": "Gestabase: ゲームを用いた3次元ジェスチャデータ自動収集システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183550"
+  },
+  "IPSJ-EC2017096": {
+    "title": "MitsuDomoe: バーチャル生態系の捕食連鎖シミュレーション体験システム（第2報）",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183551"
+  },
+  "IPSJ-EC2017097": {
+    "title": "顧客の意思を忖度するディジタルサイネージ広告システム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183552"
+  },
+  "IPSJ-EC2017098": {
+    "title": "透紙: 紙媒体の質感を拡張する表現手法の提案",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183553"
+  },
+  "IPSJ-EC2017099": {
+    "title": "女性のための声を用いた癒しシステム",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183554"
+  },
+  "IPSJ-EC2017100": {
+    "title": "ブラインドを拡張したインタラクティブ・ディスプレイの提案",
+    "year": "2017",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/183555"
+  },
+  "IPSJ-EC2018001": {
+    "title": "踏み台昇降運動に着目した高齢者用リハビリテーションゲームの開発",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191136"
+  },
+  "IPSJ-EC2018002": {
+    "title": "ゲームプレイ経験量によるエンタテイメント性認知尺度の違いの検討",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191137"
+  },
+  "IPSJ-EC2018003": {
+    "title": "BioMetalツールキット: バイオメタル学習用ツールキットの開発",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191138"
+  },
+  "IPSJ-EC2018004": {
+    "title": "既存ディジタルゲームへの入力をプログラミングするためのミドルウェアの研究",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191139"
+  },
+  "IPSJ-EC2018005": {
+    "title": "仮想物理世界で歩き回る論理回路",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191140"
+  },
+  "IPSJ-EC2018006": {
+    "title": "LeapMotionを用いてVRでイカサマを行える麻雀ゲームの提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191141"
+  },
+  "IPSJ-EC2018007": {
+    "title": "汎用ゲームエンジンに外付けするデバッグ環境の提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191142"
+  },
+  "IPSJ-EC2018008": {
+    "title": "Sensitivase : 花の擬似的な健康状態の変化によって環境の状態を伝達する装置",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191143"
+  },
+  "IPSJ-EC2018009": {
+    "title": "スマートフォンを拡張したインタラクティブな残像ディスプレイの提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191144"
+  },
+  "IPSJ-EC2018010": {
+    "title": "仮想空間内の視聴覚情報と現実の風が温度の体感に与える影響について",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191145"
+  },
+  "IPSJ-EC2018011": {
+    "title": "偶然の遊びにおける主観的確率とエンタテインメント性との関係の調査",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191146"
+  },
+  "IPSJ-EC2018012": {
+    "title": "エンタテインメントコンピューティング研究における価値基準の枠組みの提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191147"
+  },
+  "IPSJ-EC2018013": {
+    "title": "足底への傾斜による歩行誘導の評価",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191148"
+  },
+  "IPSJ-EC2018014": {
+    "title": "失禁体験装置：尿失禁感覚再現装置の開発とその応用",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191149"
+  },
+  "IPSJ-EC2018015": {
+    "title": "LooPrinter: 印刷を繰り返すことで物語を更新するプリンタ型物語再生装置",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191150"
+  },
+  "IPSJ-EC2018016": {
+    "title": "HMDを用いたヴァーチャルなドラム演奏環境の試作：合奏相手を表すヴァーチャルキャラクターの導入",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191151"
+  },
+  "IPSJ-EC2018017": {
+    "title": "音と風によって浮遊感を感じさせる装置の制作",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191152"
+  },
+  "IPSJ-EC2018018": {
+    "title": "ハニカム構造の開閉制御によりパーソナル・スペースの明示化を視野に入れた動的に体積変化可能なテキスタイルの提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191153"
+  },
+  "IPSJ-EC2018019": {
+    "title": "複数立体により構成する変身立体の作成システム",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191154"
+  },
+  "IPSJ-EC2018020": {
+    "title": "垂直方向の配置を可能にした浮遊球群による実体ディスプレイ",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191155"
+  },
+  "IPSJ-EC2018021": {
+    "title": "Phantazuma: 視界制御フィルムとペッパーズゴーストを組み合わせた観賞者の位置によって異なる内容を観られる舞台機構の試作",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191156"
+  },
+  "IPSJ-EC2018022": {
+    "title": "情報量とルールの非対称性が戦略性と面白さに与える影響に関する実証研究",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191157"
+  },
+  "IPSJ-EC2018023": {
+    "title": "デジタルDIYデバイスの物理的ミドルウェアの提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191158"
+  },
+  "IPSJ-EC2018024": {
+    "title": "位置情報付きツイートを使用したVR空間内でのマップ探索補助アプリケーション",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191159"
+  },
+  "IPSJ-EC2018025": {
+    "title": "バーチャルキャラクターの印象におけるグッピー効果",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191160"
+  },
+  "IPSJ-EC2018026": {
+    "title": "振動と揺動と効果音のクロスモーダル刺激による衝突感と材質感の提示",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191161"
+  },
+  "IPSJ-EC2018027": {
+    "title": "大学生の利用促進を目的とした図書館を題材としたゲーム型SNSの開発",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191162"
+  },
+  "IPSJ-EC2018028": {
+    "title": "幸福感を提供するVR画像検索システム GaZone",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191163"
+  },
+  "IPSJ-EC2018029": {
+    "title": "Emotion Door：扉を開閉するたびに進行するVRコンテンツのデザイン",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191164"
+  },
+  "IPSJ-EC2018030": {
+    "title": "北限の海女仮想体験システム「海女via-WHB」の潜水動作学習",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191165"
+  },
+  "IPSJ-EC2018031": {
+    "title": "人体動作に連動した3D水流ビジュアルエフェクトの生成",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191166"
+  },
+  "IPSJ-EC2018032": {
+    "title": "えっと、なんだっけ？　ときどきモノ忘れをするロボット〈タクボー〉",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191167"
+  },
+  "IPSJ-EC2018033": {
+    "title": "iPhone上における捺印挙動を直感的に反映するスタンプシステム",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191168"
+  },
+  "IPSJ-EC2018034": {
+    "title": "Afterglow Projection: 複合現実感におけるピコプロジェクタを用いた実環境に残存する仮想情報投影手法",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191169"
+  },
+  "IPSJ-EC2018035": {
+    "title": "Maglette: スマートフォンの磁気センサを用いたルーレット回転の検出に基づく透明性を有した抽選システム",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191170"
+  },
+  "IPSJ-EC2018036": {
+    "title": "UPP (Unreal Prank Painter): 悪戯の楽しみに着目した落書きコンテンツ",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191171"
+  },
+  "IPSJ-EC2018037": {
+    "title": "小型ワイヤレスモーションセンサを小道具に組み込んだインタラクティブパフォーマンスシステムによるダンスパフォーマンスの構築",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191172"
+  },
+  "IPSJ-EC2018038": {
+    "title": "インタライト：人の行為に反応する観客参加型イルミネーション",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191173"
+  },
+  "IPSJ-EC2018039": {
+    "title": "VR型FPSゲームにおける視野角に応じた敵AIの動的調整に関する研究",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191174"
+  },
+  "IPSJ-EC2018040": {
+    "title": "SNSプロフィールに悪影響を与えずに手指を動かして遊ぶ ３DCGゲームコンテンツ「Bug’s Twitter」の開発",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191175"
+  },
+  "IPSJ-EC2018041": {
+    "title": "Ball in Bowl: ボウルの中でボールを転がすそこはかとないコンテンツ",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191176"
+  },
+  "IPSJ-EC2018042": {
+    "title": "文字造形遊びにおけるICTを活用した展示手法の提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191177"
+  },
+  "IPSJ-EC2018043": {
+    "title": "身体動作による分身体ドローンの非同期経路決定インタラクションの構築",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191178"
+  },
+  "IPSJ-EC2018044": {
+    "title": "自分ごと化フィルタ:客観単位を経験的な主観単位に自動変換するシステム",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191179"
+  },
+  "IPSJ-EC2018045": {
+    "title": "負圧吸着力を用いたペン型デバイスの開発",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191180"
+  },
+  "IPSJ-EC2018046": {
+    "title": "Toolification of Gamesを活用したプレゼンテーション中の立ち位置移動トレーニングの提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191181"
+  },
+  "IPSJ-EC2018047": {
+    "title": "MitsuDomoe: バーチャル生態系の捕食連鎖 シミュレーション体験システム（第3報） 群集行動の拡張と空中像との力覚インタラクション",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191182"
+  },
+  "IPSJ-EC2018048": {
+    "title": "ショルディーノ：ゲーム要素を取り入れた親子間コミュニケーションを誘発するデバイス",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191183"
+  },
+  "IPSJ-EC2018049": {
+    "title": "SMAアクチュエータ制御回路の小型化とキネティックサーフェースシステム開発",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191184"
+  },
+  "IPSJ-EC2018050": {
+    "title": "音楽関係者への音楽会場とテクノロジーに関するアンケート",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191185"
+  },
+  "IPSJ-EC2018051": {
+    "title": "全身運動のためのマルチロータを用いた空中触覚提示デバイス",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191186"
+  },
+  "IPSJ-EC2018052": {
+    "title": "Facelot: 顔検出と顔属性をエントリーとしたアドホックな抽選システム",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191187"
+  },
+  "IPSJ-EC2018053": {
+    "title": "レーザーおよび拡散版を用いた空中像光学系の基礎検討",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191188"
+  },
+  "IPSJ-EC2018054": {
+    "title": "色眼鏡を切り替えて進むアクションゲームのデザイン",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191189"
+  },
+  "IPSJ-EC2018055": {
+    "title": "首への熱刺激による VR 体験者への方向提示の提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191190"
+  },
+  "IPSJ-EC2018056": {
+    "title": "寄近：VR空間内における望遠ではない視界の拡大",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191191"
+  },
+  "IPSJ-EC2018057": {
+    "title": "ニューラルネットワークを用いた国際的なニューストピックスへの国民感情を踏まえた意見表明",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191192"
+  },
+  "IPSJ-EC2018058": {
+    "title": "凸回転体の運動を利用して音生成を行うインタラクティブシステム",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191193"
+  },
+  "IPSJ-EC2018059": {
+    "title": "演者の手の動きを取り入れたライブコーディングによる映像表現の試み",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191194"
+  },
+  "IPSJ-EC2018060": {
+    "title": "ブラインドを拡張した新たな情報提示手法の提案と評価",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191195"
+  },
+  "IPSJ-EC2018061": {
+    "title": "soraME: 顔として検出された自然素材の写真を切り抜き・積層することで顔を空目させる仕組み",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191196"
+  },
+  "IPSJ-EC2018062": {
+    "title": "「こっちでいいの？」子どもたちと“並んで歩く”ロボット〈Walking-Bones〉",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191197"
+  },
+  "IPSJ-EC2018063": {
+    "title": "AR技術を用いた物理/ビジュアルプログラミングのハイブリット型開発環境の提案",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191198"
+  },
+  "IPSJ-EC2018064": {
+    "title": "透紙: 紙媒体の質感を拡張する表現手法の提案と評価",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191199"
+  },
+  "IPSJ-EC2018065": {
+    "title": "もこもこ音を発するゴミ箱ロボット〈MoCoMoN〉とそのインタラクションデザイン",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191200"
+  },
+  "IPSJ-EC2018066": {
+    "title": "Moving Flower Arrangement:動く生け花作品の制作とそのデザイン環境開発",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191201"
+  },
+  "IPSJ-EC2018067": {
+    "title": "D-Ball: リアルタイム色抽出動画処理技術を用いた縮減現実における球技体験設計",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191202"
+  },
+  "IPSJ-EC2018068": {
+    "title": "二層構造の粉体を用いた情報提示システム",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191203"
+  },
+  "IPSJ-EC2018069": {
+    "title": "投影型バーチャルエアホッケーにおける打突感提示のための視覚的刺激の検討",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191204"
+  },
+  "IPSJ-EC2018070": {
+    "title": "キャラクタを用いたデジタルサイネージが通行人の注意を引きつけるための視線制御",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191205"
+  },
+  "IPSJ-EC2018071": {
+    "title": "フォグディスプレイを用いた空間的動作を伴う技術の学習支援",
+    "year": "2018",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/191206"
+  },
+  "IPSJ-EC2019001": {
+    "title": "拡張現実感を用いた目標物追跡支援双眼鏡",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199394"
+  },
+  "IPSJ-EC2019002": {
+    "title": "ブレインツリー: 頭部での植物の成長を表現する触覚インタフェース",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199395"
+  },
+  "IPSJ-EC2019003": {
+    "title": "片手持ちVRコントローラのための日本語入力UIの提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199396"
+  },
+  "IPSJ-EC2019004": {
+    "title": "装着型靴底傾斜角度制御インタフェースの開発と歩行誘導への応用",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199397"
+  },
+  "IPSJ-EC2019005": {
+    "title": "非対称性インタフェースにおけるユーザの視線共有",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199398"
+  },
+  "IPSJ-EC2019006": {
+    "title": "歴史的文化景観シミュレーションシステムの開発と展開",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199399"
+  },
+  "IPSJ-EC2019007": {
+    "title": "どんぶり絵",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199400"
+  },
+  "IPSJ-EC2019008": {
+    "title": "2Dスケルタルアニメーションからの作画風モーションの生成",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199401"
+  },
+  "IPSJ-EC2019009": {
+    "title": "怪談話の「盛り上がり」を加味したVRコンテンツの自動生成システム～文章導仮想怪談～",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199402"
+  },
+  "IPSJ-EC2019010": {
+    "title": "変形により入出力が可能なゲームコントローラのユーザビリティ改善",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199403"
+  },
+  "IPSJ-EC2019011": {
+    "title": "眼鏡型計測端末を用いたゲームプレイにおける重要なシーン抽出手法の検討",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199404"
+  },
+  "IPSJ-EC2019012": {
+    "title": "単語の構成文字に対する人間の認知特性に着目したアナログゲームデザイン",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199405"
+  },
+  "IPSJ-EC2019013": {
+    "title": "ボタン表面上に設置した圧力センサによるゲーム入力の事前予測",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199406"
+  },
+  "IPSJ-EC2019014": {
+    "title": "砲台型シューティングゲームにおける上達感の獲得と持続意欲に与える影響の研究",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199407"
+  },
+  "IPSJ-EC2019015": {
+    "title": "深層学習を用いたピクトグラム画像における多クラス分類問題とその応用",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199408"
+  },
+  "IPSJ-EC2019016": {
+    "title": "機械学習のためのゲーミフィケーションを活用したデータ取得事例",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199409"
+  },
+  "IPSJ-EC2019017": {
+    "title": "発話音声の聞き取りやすさ向上のための音声特徴量解析",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199410"
+  },
+  "IPSJ-EC2019018": {
+    "title": "スマートフォンの周辺におけるジェスチャ入力手法",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199411"
+  },
+  "IPSJ-EC2019019": {
+    "title": "他者の信頼度を推測するプレイヤーAIの実装",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199412"
+  },
+  "IPSJ-EC2019020": {
+    "title": "ダンスゲーム譜面の特性分析とクラスタリングに基づく特徴的な譜面の自動生成",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199413"
+  },
+  "IPSJ-EC2019021": {
+    "title": "ストレッチセンサを用いた残呼気量提示機能をもつ歌唱支援システム",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199414"
+  },
+  "IPSJ-EC2019022": {
+    "title": "演奏者と楽曲に合わせて変形可能なソフトウェア鍵盤楽器による演奏支援の検討",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199415"
+  },
+  "IPSJ-EC2019023": {
+    "title": "あらゆる人がピアニストになれる楽曲演奏システム",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199416"
+  },
+  "IPSJ-EC2019024": {
+    "title": "心を1つに：拡張された身体の一体化を志向するメディアの提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199417"
+  },
+  "IPSJ-EC2019025": {
+    "title": "レッテルを用いた雑談向けチャットボット「Lamb」の提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199418"
+  },
+  "IPSJ-EC2019026": {
+    "title": "インタラクション映像に基づくバーチャルペットの動作構成",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199419"
+  },
+  "IPSJ-EC2019027": {
+    "title": "姿勢検出法を活用したスポーツ反復練習のためのスマートミラーシステム",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199420"
+  },
+  "IPSJ-EC2019028": {
+    "title": "単眼カメラを用いたボルダリング完登判定システムの提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199421"
+  },
+  "IPSJ-EC2019029": {
+    "title": "スポーツ連続写真の等身大可視化",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199422"
+  },
+  "IPSJ-EC2019030": {
+    "title": "歩行促進のための足首装着型発電デバイス",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199423"
+  },
+  "IPSJ-EC2019031": {
+    "title": "上肢運動に着目したHMDVR空間における歩行判定モデルの構築",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199424"
+  },
+  "IPSJ-EC2019032": {
+    "title": "エンタテインメントコンテンツのラベル付きデータとしての活用可能性",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199425"
+  },
+  "IPSJ-EC2019033": {
+    "title": "音から生成した振動の時間・周波数特性は高次感性をどう変化させるか",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199426"
+  },
+  "IPSJ-EC2019034": {
+    "title": "MR環境における擬似接触音の音量が触感に及ぼす影響",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199427"
+  },
+  "IPSJ-EC2019035": {
+    "title": "パラメトリックスピーカを用いた砂の造形物に対する音像生成",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199428"
+  },
+  "IPSJ-EC2019036": {
+    "title": "人間の可動域の制約を考慮したVR音楽ゲームの提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199429"
+  },
+  "IPSJ-EC2019037": {
+    "title": "モバイルピクトグラミングへの音声による自然文入力機能の実装",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199430"
+  },
+  "IPSJ-EC2019038": {
+    "title": "VRカードゲームのための実カード型インタフェースの提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199431"
+  },
+  "IPSJ-EC2019039": {
+    "title": "手指による布の伸縮操作のためのCG布表現の検討",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199432"
+  },
+  "IPSJ-EC2019040": {
+    "title": "AugmenteDoor:扉を開ける動作のメタファに基づく映像提示システム",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199433"
+  },
+  "IPSJ-EC2019041": {
+    "title": "接触面の空気圧制御によるペン型摩擦力提示インタフェースの開発",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199434"
+  },
+  "IPSJ-EC2019042": {
+    "title": "センサ及びマイクを用いた偏咀嚼防止システムのフィードバック手法の検討",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199435"
+  },
+  "IPSJ-EC2019043": {
+    "title": "モバイル端末を用いた手根管症候群患者スクリーニングアプリケーション",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199436"
+  },
+  "IPSJ-EC2019044": {
+    "title": "データ駆動型実世界計測におけるセンサ配置とデータ収集を支援するソフトウェアの開発",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199437"
+  },
+  "IPSJ-EC2019045": {
+    "title": "単眼カメラを用いた握力計測に向けた基礎検討",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199438"
+  },
+  "IPSJ-EC2019046": {
+    "title": "加速度センサアレイが装着されたカバーによる柔軟物インタフェース構築手法",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199439"
+  },
+  "IPSJ-EC2019047": {
+    "title": "RGB-D カメラを用いた投影面形状把握及び視点変化に対応した 映像投影技法の提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199440"
+  },
+  "IPSJ-EC2019048": {
+    "title": "インタラクション研究でのシングルケース実験についての考察",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199441"
+  },
+  "IPSJ-EC2019049": {
+    "title": "偶然の遊びにおける操作量が エンタテインメント性に及ぼす影響の調査",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199442"
+  },
+  "IPSJ-EC2019050": {
+    "title": "時系列表現のデザインWGのねらいと活動状況",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199443"
+  },
+  "IPSJ-EC2019051": {
+    "title": "エンタテインメントコンピューティングにおける心の動かし方に関する一考察 〜「恐怖の哲学」を題材に〜",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199444"
+  },
+  "IPSJ-EC2019052": {
+    "title": "Emotion Movement Design Annotator による感動デザインの分析 - M. Rigolo のバランス芸を例として-",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199445"
+  },
+  "IPSJ-EC2019053": {
+    "title": "World Wide Webのゲーム化とその効用",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199446"
+  },
+  "IPSJ-EC2019054": {
+    "title": "ゲームエンジンを用いた津波ハザードマップ",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199447"
+  },
+  "IPSJ-EC2019055": {
+    "title": "高齢者の身体活動の促進を 目的とした複合現実型ゲームを用いた社会的交流要素の効果検証",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199448"
+  },
+  "IPSJ-EC2019056": {
+    "title": "デジタルゲームにおける難易度と達成感の感じ方に関する研究",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199449"
+  },
+  "IPSJ-EC2019057": {
+    "title": "発達障害を持った子どもたちが楽しく効果的に学習できるゲーム",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199450"
+  },
+  "IPSJ-EC2019058": {
+    "title": "VR空間で全周から触覚刺激を提示する為の熱源の配置と検討",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199451"
+  },
+  "IPSJ-EC2019059": {
+    "title": "複合感覚によるリアルタイム味覚変容デバイスの開発",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199452"
+  },
+  "IPSJ-EC2019060": {
+    "title": "ライド型VRコンテンツを用いた視覚刺激の変化による体験への影響に関する研究",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199453"
+  },
+  "IPSJ-EC2019061": {
+    "title": "水平方向運動感覚のための力覚提示",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199454"
+  },
+  "IPSJ-EC2019062": {
+    "title": "30種類の香料の即時切替およびブレンド提示可能な 微小バルブ制御VR用嗅覚ディスプレイ",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199455"
+  },
+  "IPSJ-EC2019063": {
+    "title": "Picby - Pictogrammingを用いたRuby言語の学習環境の提案 -",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199456"
+  },
+  "IPSJ-EC2019064": {
+    "title": "物理キーボードにおける初学者のタイピング習得支援に向けたキーボードインタラクションの開発",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199457"
+  },
+  "IPSJ-EC2019065": {
+    "title": "組み込み技術向けのRPG型教育ツール",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199458"
+  },
+  "IPSJ-EC2019066": {
+    "title": "ゲーミフィケーションによるコードリーディングの促進",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199459"
+  },
+  "IPSJ-EC2019067": {
+    "title": "多様な変身立体のための設計支援システム",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199460"
+  },
+  "IPSJ-EC2019068": {
+    "title": "MRを用いた伝統的絵付け技法修得教材の開発研究",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199461"
+  },
+  "IPSJ-EC2019069": {
+    "title": "準静電界を用いたHMD内での気配の知覚方法の提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199462"
+  },
+  "IPSJ-EC2019070": {
+    "title": "HaptoBOX: 複合現実体験を増強する多感覚型インタフェースの研究(2) インタラクティブ機能の拡張",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199463"
+  },
+  "IPSJ-EC2019071": {
+    "title": "Code Weaver: ミクストリアリティを利用したタンジブルなプログラミング学習ツールの研究（2）",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199464"
+  },
+  "IPSJ-EC2019072": {
+    "title": "Voicelot: 音声入力をエントリーとした意思決定省力化システムの提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199465"
+  },
+  "IPSJ-EC2019073": {
+    "title": "「あー」いえば「こー」いう！ 人との共感的なインタラクションを生みだすロボット〈CULOT mini〉",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199466"
+  },
+  "IPSJ-EC2019074": {
+    "title": "たねでぃ：抽象的なテーマを元に具体的なエピソードを想起させるアイデア創出支援ツール",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199467"
+  },
+  "IPSJ-EC2019075": {
+    "title": "柔軟性を持つ温度感覚提示デバイスを用いたファイアボール発射体験",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199468"
+  },
+  "IPSJ-EC2019076": {
+    "title": "未熟者セーラーのトレーニングシステムの検討",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199469"
+  },
+  "IPSJ-EC2019077-2": {
+    "title": "VRによる90年代渋谷系の再現手法",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199470"
+  },
+  "IPSJ-EC2019078": {
+    "title": "タブレット端末内蔵カメラによる踵上げ動作トレーニング支援",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199471"
+  },
+  "IPSJ-EC2019079": {
+    "title": "みんなで散歩する〈ゴミ箱ロボット〉のインタラクションデザイン",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199472"
+  },
+  "IPSJ-EC2019080": {
+    "title": "モーションキャプチャデータを用いたキャラクターアニメーション表現の支援ツールの開発",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199473"
+  },
+  "IPSJ-EC2019081": {
+    "title": "もうちょっと！その調子♪ あなたの支えで調和を生みだす音楽ロボット〈Tune-Born〉",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199474"
+  },
+  "IPSJ-EC2019082": {
+    "title": "Shameplan-pet: オジギソウとの発話コミュニケーションシステム",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199475"
+  },
+  "IPSJ-EC2019083": {
+    "title": "MoSE：Wekinatorを用いたモーションコントロールによるワンチップCPUギターエフェクタの開発",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199476"
+  },
+  "IPSJ-EC2019084": {
+    "title": "タブレット端末による小規模コミュニティ向け顔識別決済・小売りシステムの構築",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199477"
+  },
+  "IPSJ-EC2019085": {
+    "title": "〈ポケボー〉でGO！ ボクの胸キュンはどこ？",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199478"
+  },
+  "IPSJ-EC2019086": {
+    "title": "造形あそびとその制作物の電子メディアを通じた即時的な提示によるワークショップ",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199479"
+  },
+  "IPSJ-EC2019087": {
+    "title": "公共空間でのVR利用を想定した周辺監視装置の提案",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199480"
+  },
+  "IPSJ-EC2019088": {
+    "title": "メタバースにおける飲用体験システムの開発:VShaker",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199481"
+  },
+  "IPSJ-EC2019089": {
+    "title": "ペイントツールのインタフェースを用いた街並みのモデリングツールの開発",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199482"
+  },
+  "IPSJ-EC2019090": {
+    "title": "ハンドヘルド高速プロジェクタを利用した大画面ディスプレイとの低遅延なインタラクション",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199483"
+  },
+  "IPSJ-EC2019091": {
+    "title": "アナログ無線通信を利用した鬼ごっこのためのウェアラブルデバイス",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199484"
+  },
+  "IPSJ-EC2019092": {
+    "title": "情報とダメージの駆け引きを基軸とするゲームシステムデザイン",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199485"
+  },
+  "IPSJ-EC2019093": {
+    "title": "アクチュエータ内蔵筆型デバイスを用いた書道学習システムの試作",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199486"
+  },
+  "IPSJ-EC2019094": {
+    "title": "電子漫画の拡張表現",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199487"
+  },
+  "IPSJ-EC2019095": {
+    "title": "立位体験型海女仮想体験システムにおけるアバタ水中姿勢推測と適用",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199488"
+  },
+  "IPSJ-EC2019096": {
+    "title": "全世代をSNSに参加可能にするコミニケーションアシスタント",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199489"
+  },
+  "IPSJ-EC2019097": {
+    "title": "鉄道車両の振動を記録、再現する触覚提示システム",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199490"
+  },
+  "IPSJ-EC2019098": {
+    "title": "キミにとどけ！想いをカラダにのせて語ろうとするロボット〈Lumos〉",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199491"
+  },
+  "IPSJ-EC2019099": {
+    "title": "重心可変機構による連続的重量変化の提示を取り入れたゲーム開発",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199492"
+  },
+  "IPSJ-EC2019100": {
+    "title": "360度VR中継におけるARを用いた観客との音楽会場空間共有の試み",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199493"
+  },
+  "IPSJ-EC2019101": {
+    "title": "影絵を用いた半自動アニマルインスタンスの生成",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199494"
+  },
+  "IPSJ-EC2019102": {
+    "title": "チューブ状の繊維を使用した色変更が可能な布",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199495"
+  },
+  "IPSJ-EC2019103": {
+    "title": "等身大の仮想、手の中のリアル",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199496"
+  },
+  "IPSJ-EC2019104": {
+    "title": "音源分離を用いた持ち寄りAndroid端末による3Dモデルライブ",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199497"
+  },
+  "IPSJ-EC2019105": {
+    "title": "FPGAを用いた持ち運び可能なタイルドディスプレイ",
+    "year": "2019",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/199498"
+  },
+  "IPSJ-EC2020001": {
+    "title": "Words Street: 歩きながら歌詞を楽しむための複合現実システム",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206517"
+  },
+  "IPSJEC2020002": {
+    "title": "プレイヤーのリアクションの音響的特徴量に基づく動的難易度調整",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206518"
+  },
+  "IPSJ-EC2020003": {
+    "title": "オンライン会議ツールは楽しくないのか?",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206519"
+  },
+  "IPSJ-EC2020004": {
+    "title": "Avatar Crossing：空中像を用いた移動可能な実世界ＣＧアバタシステム",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206520"
+  },
+  "IPSJ-EC2020005": {
+    "title": "けん玉できた！VR：5分間程度のVRトレーニングによってけん玉の技の習得を支援するシステム",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206521"
+  },
+  "IPSJ-EC2020006": {
+    "title": "AASG (Automatic ASMR Sound Generator): 機械学習を用いたASMR音源生成アプリケーション",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206522"
+  },
+  "IPSJ-EC2020007": {
+    "title": "磁性スマホリングを用いた回転操作によるエンタテインメントの提案",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206523"
+  },
+  "IPSJ-EC2020008": {
+    "title": "わんテーブル：犬と人が食体験を共有するための匂い伝送システム",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206524"
+  },
+  "IPSJ-EC2020009": {
+    "title": "食物とコミュニケーション能力の改変によるアリの行動変容 -アリの適応力を活用したアート作品の制作に向けて-",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206525"
+  },
+  "IPSJ-EC2020010": {
+    "title": "創作を通じた多角的視点の獲得：あそびを創造するハッカソンを題材として",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206526"
+  },
+  "IPSJ-EC2020011": {
+    "title": "ガチャにおける「宗教」はどのように産み出されるか",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206527"
+  },
+  "IPSJ-EC2020012": {
+    "title": "実世界における選択の単純化・反復により納得感を向上させる選択手法",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206528"
+  },
+  "IPSJ-EC2020013": {
+    "title": "生きた冠毛：重力に抗う動きにより生命性が感じられるタンポポの冠毛群",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206529"
+  },
+  "IPSJ-EC2020014": {
+    "title": "コンテキストを維持しつつ複数人に同じ感情を抱かせるアニメーション表現のための基礎研究",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206530"
+  },
+  "IPSJ-EC2020015": {
+    "title": "身体移動による選択をとりいれた押韻表現のためのインスタレーション「韻を踏む」のデザインプロセスと考察",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206531"
+  },
+  "IPSJ-EC2020016": {
+    "title": "物語の演出の抽出手法の考察",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206532"
+  },
+  "IPSJ-EC2020017": {
+    "title": "omekashi: スマートフォンを利用した自身の目と眉を変化させる遊びの提案",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206533"
+  },
+  "IPSJ-EC2020018": {
+    "title": "エモートドライブ: 画像解析による運転時の自己感情認知による感情抑制の可能性",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206534"
+  },
+  "IPSJ-EC2020019": {
+    "title": "Directer: 超指向性スピーカーを用いた自転車における最適な警笛音の提案",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206535"
+  },
+  "IPSJ-EC2020020": {
+    "title": "温度提示による情動制御手法の提案",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206536"
+  },
+  "IPSJ-EC2020021": {
+    "title": "箸を介したVR上の物体とのインタラクション",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206537"
+  },
+  "IPSJ-EC2020022": {
+    "title": "VRを用いたエンターテインメント性を付与したカーリングシステムの開発に関する研究",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206538"
+  },
+  "IPSJ-EC2020023": {
+    "title": "NOKワード: コミュニケーションオンラインチャットアプリ",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206539"
+  },
+  "IPSJ-EC2020024": {
+    "title": "恋ダンスの達人 : ポーズ推定を利用したダンスの「キレ度」採点システム",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206540"
+  },
+  "IPSJ-EC2020025": {
+    "title": "Facialaction: 表情をパラメータにしたインタラクションの提案とその応用",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206541"
+  },
+  "IPSJ-EC2020026": {
+    "title": "視線計測を用いた抑揚を操作するBGMシステムの提案とその活用",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206542"
+  },
+  "IPSJ-EC2020027": {
+    "title": "日常世界とVR世界を繋ぐVRGateのためのコンテンツとインタラクションの検討",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206543"
+  },
+  "IPSJ-EC2020028": {
+    "title": "ポーズ情報における誤差ハンドリングに向けた半自動アノテーションツールの提案",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206544"
+  },
+  "IPSJ-EC2020029": {
+    "title": "動的グラフを用いた自宅学習のためのWebコンテンツ作成",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206545"
+  },
+  "IPSJ-EC2020030": {
+    "title": "顔画像情報を利用した運動識別システム",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206546"
+  },
+  "IPSJ-EC2020031": {
+    "title": "プロジェクションマッピングを用いたインタラクティブなドールハウスの制作",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206547"
+  },
+  "IPSJ-EC2020032": {
+    "title": "日本語音声認識を用いたキャラクターの操作システム",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206548"
+  },
+  "IPSJ-EC2020033": {
+    "title": "Juggling Cylinder:物理現象のちょっとした驚きに着目したボール転がり系そこはかとないコンテンツ",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206549"
+  },
+  "IPSJ-EC2020034": {
+    "title": "Time Flyer : 観念的タイムマシンの制作",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206550"
+  },
+  "IPSJ-EC2020035": {
+    "title": "魚の骨格を可視化する調理支援コンテンツの制作",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206551"
+  },
+  "IPSJ-EC2020036": {
+    "title": "生物の気配がする箱",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206552"
+  },
+  "IPSJ-EC2020037": {
+    "title": "競技性・観戦性を拡張したプログラミングゲームの提案",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206553"
+  },
+  "IPSJ-EC2020038": {
+    "title": "自律キャラクタの遠隔多人数テストと調整のための共有VRフレームワーク",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206554"
+  },
+  "IPSJ-EC2020039": {
+    "title": "嗅覚刺激による塩味調味料を使用した風味変容の検討",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206555"
+  },
+  "IPSJ-EC2020040": {
+    "title": "無意識に容貌変形することによるwell-being向上手法の検討",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206556"
+  },
+  "IPSJ-EC2020041": {
+    "title": "ゲーム化された視覚セルフチェックシステムの検証",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206557"
+  },
+  "IPSJ-EC2020042": {
+    "title": "巨人視点:高低差と大小差の比較",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206558"
+  },
+  "IPSJ-EC2020043": {
+    "title": "風を用いたゲームプレイ中の臨場感の向上",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206559"
+  },
+  "IPSJ-EC2020044": {
+    "title": "経験バンクに基づくジャグリング学習支援システムの提案",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206560"
+  },
+  "IPSJ-EC2020045": {
+    "title": "２つの異なる立体表現手法を混ぜたキャラクターアニメーション",
+    "year": "2020",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/206561"
+  },
+  "IPSJ-EC2021001": {
+    "title": "踊るは恥だが役に立つ!?",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212536"
+  },
+  "IPSJ-EC2021002": {
+    "title": "変顔表情による「笑わせあい」を考慮したオンラインゲームの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212537"
+  },
+  "IPSJ-EC2021003": {
+    "title": "ハートトゥハートオンラインコミュニケーション",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212538"
+  },
+  "IPSJ-EC2021004": {
+    "title": "採用面接におけるデジタルカメンを用いた面接官の印象調査",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212539"
+  },
+  "IPSJ-EC2021005": {
+    "title": "LINE を用いた海水浴場混雑可視化システムの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212540"
+  },
+  "IPSJ-EC2021006": {
+    "title": "サファリパークオンラインツアーシステムの実運用",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212541"
+  },
+  "IPSJ-EC2021007": {
+    "title": "観客の音声を共有するライブ配信システム",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212542"
+  },
+  "IPSJ-EC2021008": {
+    "title": "Itako Device:対話の参加者が思いもよらないことを思うために自己の身体を通じて他者のことばを表現する文字描画システム",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212543"
+  },
+  "IPSJ-EC2021009": {
+    "title": "コースター駆動型水分補給促進システム",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212544"
+  },
+  "IPSJ-EC2021010": {
+    "title": "滑落中の崖面にナイフを刺して停止するマンガ物理学的MRシステム",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212545"
+  },
+  "IPSJ-EC2021011": {
+    "title": "Selective Search を用いた構図改善を行う画像トリミングアプリケーションの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212546"
+  },
+  "IPSJ-EC2021012": {
+    "title": "感情曲線を活用した研究の支援ツールの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212547"
+  },
+  "IPSJ-EC2021013": {
+    "title": "角膜反射を利用したスマートフォンの把持姿勢推定",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212548"
+  },
+  "IPSJ-EC2021014": {
+    "title": "ゲームを用いた感情制御手法の提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212549"
+  },
+  "IPSJ-EC2021015": {
+    "title": "JumpLab: 2Dジャンプゲームを題材としたゲーム開発教材",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212550"
+  },
+  "IPSJ-EC2021016": {
+    "title": "大規模オープンデータを用いたレースゲームの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212551"
+  },
+  "IPSJ-EC2021017": {
+    "title": "心拍数の変化に応じてノーツの落下速度が変化するリズムゲームの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212552"
+  },
+  "IPSJ-EC2021018": {
+    "title": "ユーザのアクションによって反応する自動ドアの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212553"
+  },
+  "IPSJ-EC2021019": {
+    "title": "キャラクタアニメーションの動作の躍度最小軌道群への自動分割",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212554"
+  },
+  "IPSJ-EC2021020": {
+    "title": "An image of …: 視覚身体言語を介した共在感覚と共創のための体験型インスタレーション",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212555"
+  },
+  "IPSJ-EC2021021": {
+    "title": "ミエナイトデンワ：遠隔地にいる相手の存在を感じながら音声通話できる糸電話型デバイスの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212556"
+  },
+  "IPSJ-EC2021022": {
+    "title": "布に写実性のある画像を描画するデバイスの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212557"
+  },
+  "IPSJ-EC2021023": {
+    "title": "食いしばり行動での操作による仮想物体の重量感呈示",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212558"
+  },
+  "IPSJ-EC2021024": {
+    "title": "風を用いたゲームプレイ中の落下感覚の向上",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212559"
+  },
+  "IPSJ-EC2021025": {
+    "title": "描画行為によって蓄電可能なペイントデバイスの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212560"
+  },
+  "IPSJ-EC2021026": {
+    "title": "振付師が意識した楽曲パートをダンサーに共有することによる振付指導手法",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212561"
+  },
+  "IPSJ-EC2021027": {
+    "title": "歌詞や曲調の印象に基づいた照明演出の自動生成システムの実現",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212562"
+  },
+  "IPSJ-EC2021028": {
+    "title": "Unityを用いたゲームテクノロジーとしての連続する立体的音風景表現について",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212563"
+  },
+  "IPSJ-EC2021029": {
+    "title": "コトダマ：感情認識を用いた音声入力による インタラクティブな照明の制作",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212564"
+  },
+  "IPSJ-EC2021030": {
+    "title": "大爆走！オーディオレーシング: 音楽のパンニングを通した方向提示によるレーシング型オーディオゲームの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212565"
+  },
+  "IPSJ-EC2021031": {
+    "title": "分離可能なボタンゲームインターフェースの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212566"
+  },
+  "IPSJ-EC2021032": {
+    "title": "プレイヤのゲーム習熟度と嗜好を反映したダンスゲーム譜面に対する動作の推定",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212567"
+  },
+  "IPSJ-EC2021033": {
+    "title": "遠隔授業下におけるEC型学習コンテンツ制作支援に向けた方法の提案 -Googleフォームで制作された学習コンテンツの体験が喚起する制作意欲および阻害要因に注目して-",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212568"
+  },
+  "IPSJ-EC2021034": {
+    "title": "スマートフォンによる視線追跡を利用した屋外広告を用いたコンテンツの開発と評価。",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212569"
+  },
+  "IPSJ-EC2021035": {
+    "title": "OpenCVを用いたエンターテイメントスポットの人流変化の可視化",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212570"
+  },
+  "IPSJ-EC2021036": {
+    "title": "研究利用しやすく標準性を目指したビデオゲームの設計と開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212571"
+  },
+  "IPSJ-EC2021037": {
+    "title": "ゲームらしさが作業意欲・楽しさに与える影響の検証",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212572"
+  },
+  "IPSJ-EC2021038": {
+    "title": "ゲームUIの新たな種類、alter-sensoryとその分類方法の提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212573"
+  },
+  "IPSJ-EC2021039": {
+    "title": "SoundDrop:見えて触れる音-VRでの音の可視化とインタラクションの考察",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212574"
+  },
+  "IPSJ-EC2021040": {
+    "title": "VRレースゲームでの動的なトンネリングによる速度感と酔いの調査",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212575"
+  },
+  "IPSJ-EC2021041": {
+    "title": "拡張現実を用いたTCG対戦の活性化",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212576"
+  },
+  "IPSJ-EC2021042": {
+    "title": "アルゴリズムファイターズ:オーディエンスも楽しむことができるVRゲームコンテンツ",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212577"
+  },
+  "IPSJ-EC2021043": {
+    "title": "VR空間で演じられたディアボロジャグリングへの視聴者の評価",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212578"
+  },
+  "IPSJ-EC2021044": {
+    "title": "スタンドアロン型HMDのハンドトラッキング機能を用いたバスケットボール体験アプリの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212579"
+  },
+  "IPSJ-EC2021045": {
+    "title": "自動車変速操作時の聴覚刺激呈示によるエンタテインメント性拡張の検討",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212580"
+  },
+  "IPSJ-EC2021046": {
+    "title": "「新楽器をデザインする」というエンタテインメント",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212581"
+  },
+  "IPSJ-EC2021047": {
+    "title": "ひらきがな：平面と立体の行き来で判読性が変化する立体文字の制作手法",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212582"
+  },
+  "IPSJ-EC2021048": {
+    "title": "写意画と工筆画の融合による水墨アニメーションの研究",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212583"
+  },
+  "IPSJ-EC2021049": {
+    "title": "実体験に基づく制作過程と完成作品の並列提示による、鑑賞者に作品への興味を向上させる展示方法の提案 -青銅鏡の事例",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212584"
+  },
+  "IPSJ-EC2021050": {
+    "title": "2次元画像を用いた昆虫の動きの再現",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212585"
+  },
+  "IPSJ-EC2021051": {
+    "title": "映像内の移動対象の軌道をグラフと数式で提示する可視化アプリケーションソフトウェアの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212586"
+  },
+  "IPSJ-EC2021052": {
+    "title": "感触を楽しむ絵画",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212587"
+  },
+  "IPSJ-EC2021053": {
+    "title": "TasteSynth：電気味覚のための刺激波形デザインシステム",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212588"
+  },
+  "IPSJ-EC2021054": {
+    "title": "TeleSalty:リアルタイムで塩味を伝える通信システム",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212589"
+  },
+  "IPSJ-EC2021055": {
+    "title": "ヘッドマウントディスプレイ式補助走行装置システムの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212590"
+  },
+  "IPSJ-EC2021056": {
+    "title": "伸縮可能なエアバッグを用いた箸VRの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212591"
+  },
+  "IPSJ-EC2021057": {
+    "title": "伸縮性のある静電触覚サーフェスの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212592"
+  },
+  "IPSJ-EC2021058": {
+    "title": "物を介した気配の触覚提示",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212593"
+  },
+  "IPSJ-EC2021059": {
+    "title": "遮蔽機構を用いた赤外線放射強度の制御による高速温度提示",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212594"
+  },
+  "IPSJ-EC2021060": {
+    "title": "スポーツイベントにおける帰宅分散実現のための帰宅行動分析(1)：定性的分析",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212595"
+  },
+  "IPSJ-EC2021061": {
+    "title": "スポーツイベントにおける帰宅分散実現のための帰宅行動分析(2)：定量的分析",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212596"
+  },
+  "IPSJ-EC2021062": {
+    "title": "VR吹き矢：呼気検出を用いた呼吸リハビリテーション",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212597"
+  },
+  "IPSJ-EC2021063": {
+    "title": "人物検知を用いたマーチングプレイヤーの位置推定による練習補助システムの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212598"
+  },
+  "IPSJ-EC2021064": {
+    "title": "腹部触覚提示を用いた足圧中心位置の誘導システム",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212599"
+  },
+  "IPSJ-EC2021065": {
+    "title": "床型触覚提示装置を用いた足底感覚評価とその展望",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212600"
+  },
+  "IPSJ-EC2021066": {
+    "title": "3Dアバタを利用した遠隔授業での頭部動作の認識を用いた意思表示インタフェース ",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212601"
+  },
+  "IPSJ-EC2021067": {
+    "title": "起立性調節障害の長期化防止に向けたシリアスゲームの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212602"
+  },
+  "IPSJ-EC2021068": {
+    "title": "XRAYSCOPE",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212603"
+  },
+  "IPSJ-EC2021069": {
+    "title": "競技自転車ゲームにおける体重移動を考慮したインタラクションの提案",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212604"
+  },
+  "IPSJ-EC2021070": {
+    "title": "電子コンパスのずれに気づける音声ナビゲーションシステム",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212605"
+  },
+  "IPSJ-EC2021071": {
+    "title": "Room Tilt Stick",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212606"
+  },
+  "IPSJ-EC2021072": {
+    "title": "脳波と皮膚電気活動を用いた観客の盛り上がり推定の試み",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212607"
+  },
+  "IPSJ-EC2021073": {
+    "title": "輝度変化による運動錯視を用いたアニメーション作成ツール",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212608"
+  },
+  "IPSJ-EC2021074": {
+    "title": "既存のゲームシステムを温冷覚での情動変化で支援するシステムの開発",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212609"
+  },
+  "IPSJ-EC2021075": {
+    "title": "電子ブロックと投影型ARを用いた「電流・電圧」分野のインタラクティブ理科教材の研究",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212610"
+  },
+  "IPSJ-EC2021076": {
+    "title": "回して遊ぶスマホリングアプリ",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212611"
+  },
+  "IPSJ-EC2021077": {
+    "title": "ILbot:そばにいるだけのロボットとのコミュニケーションデザイン",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212612"
+  },
+  "IPSJ-EC2021078": {
+    "title": "音楽会場等の薄暗い空間でのAR表現に向けたシステムの試作",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212613"
+  },
+  "IPSJ-EC2021079": {
+    "title": "CubeTalk：チャットグループにおける高齢者の円滑なコミュニケーションを目指したタンジブルな多面体型スマートデバイス",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212614"
+  },
+  "IPSJ-EC2021080": {
+    "title": "ゲーム観戦におけるプレイヤ操作の追体験システムの試作",
+    "year": "2021",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/212615"
+  },
+  "IPSJ-EC2022001": {
+    "title": "サムネイル画像を漫画に置き換えたアニメのシーン探索手法の改善と評価",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219477"
+  },
+  "IPSJ-EC2022002": {
+    "title": "ソーシャルメディア上の非構造化画像集合に対するアノテーション作業のゲーム化 −「検定ゲーム」と「パーティゲーム」への分解−",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219478"
+  },
+  "IPSJ-EC2022003": {
+    "title": "〈ブリコロ〉ブリコラージュ風発話生成システムの提案",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219479"
+  },
+  "IPSJ-EC2022004": {
+    "title": "手指消毒を行う〈iBones〉との相互行為から生まれるウェルビーイングな関わり",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219480"
+  },
+  "IPSJ-EC2022005": {
+    "title": "〈RunRu for Kids〉がんばりをひと押ししてくれるパーソナルビークル",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219481"
+  },
+  "IPSJ-EC2022006": {
+    "title": "超変シーン:機構によって髪が逆立つフィギュアのデザイン",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219482"
+  },
+  "IPSJ-EC2022007": {
+    "title": "ネオししおどし: 音が変化するししおどしのデザイン",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219483"
+  },
+  "IPSJ-EC2022008": {
+    "title": "みんなでヒソヒソ話をするクリーチャ〈PoKeBo Cube〉の提案",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219484"
+  },
+  "IPSJ-EC2022009": {
+    "title": "太鼓の達人の譜面難易度デザインにもとづく楽曲中のキータイミングの推定に向けて",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219485"
+  },
+  "IPSJ-EC2022010": {
+    "title": "スマートフォンで遊ぶマイクロマグネティックシミュレーション",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219486"
+  },
+  "IPSJ-EC2022011": {
+    "title": "VR吹き矢：呼吸リハビリテーション活用に向けた体験設計",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219487"
+  },
+  "IPSJ-EC2022012": {
+    "title": "AwareLab：振動提示による第一人称射撃ゲーム内の足音の聞き取りと正しい判断のための訓練システム",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219488"
+  },
+  "IPSJ-EC2022013": {
+    "title": "Tired Lamp: 人工物に疲労感を表現する試み",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219489"
+  },
+  "IPSJ-EC2022014": {
+    "title": "〈wis-Bones〉先走りしながら共話的インタラクションを生み出すおしゃべりエージェント",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219490"
+  },
+  "IPSJ-EC2022015": {
+    "title": "頭部での侵入感生起における刺激提示条件の検証",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219491"
+  },
+  "IPSJ-EC2022016": {
+    "title": "心も潤す〈Omboo!〉の提案",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219492"
+  },
+  "IPSJ-EC2022017": {
+    "title": "ReplayExpo: VRのためのリプレイ鑑賞空間の構築",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219493"
+  },
+  "IPSJ-EC2022018": {
+    "title": "Neckless: アイトラッキングに基づく疑似的な眼球の可動範囲拡張",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219494"
+  },
+  "IPSJ-EC2022019": {
+    "title": "モバイル4DX：全方位の風を再現するウェアラブルデバイス",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219495"
+  },
+  "IPSJ-EC2022020": {
+    "title": "〈MoCoMo〉おしあいへしあいしながら‘推し本’を薦めてくれるクリーチャ",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219496"
+  },
+  "IPSJ-EC2022021": {
+    "title": "心をひとつに！人とロボットとの身体的協調から生まれる一体感について",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219497"
+  },
+  "IPSJ-EC2022022": {
+    "title": "〈WeiMo〉言葉足らずな発話のなぞりによって生み出す共感的なかかわり",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219498"
+  },
+  "IPSJ-EC2022023": {
+    "title": "一人称視点映像を提示するVRサッカー作戦盤システムの検討",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219499"
+  },
+  "IPSJ-EC2022024": {
+    "title": "温感呈示による情動制御手法の効果の検証",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219500"
+  },
+  "IPSJ-EC2022025": {
+    "title": "corobos: 卓上と壁の間を移行する群ロボット",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219501"
+  },
+  "IPSJ-EC2022026": {
+    "title": "ストロボ効果を用いた局所的な流体運動可視化手法の開発",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219502"
+  },
+  "IPSJ-EC2022027": {
+    "title": "光ファイバを用いた畳ディスプレイの試作",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219503"
+  },
+  "IPSJ-EC2022028": {
+    "title": "色覚特性を考慮したゲームの有利不利制御のAmong Usを用いた検証",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219504"
+  },
+  "IPSJ-EC2022029": {
+    "title": "気流への影響を考慮した嗅覚ディスプレイ操作ジェスチャ",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219505"
+  },
+  "IPSJ-EC2022030": {
+    "title": "飲む行為に付加価値を与えるグラス型ディスプレイ",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219506"
+  },
+  "IPSJ-EC2022031": {
+    "title": "ゲームプレイ中の風の強度による臨場感の変化",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219507"
+  },
+  "IPSJ-EC2022032": {
+    "title": "FPGAを用いた12画面タイルドディスプレイシステム",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219508"
+  },
+  "IPSJ-EC2022033": {
+    "title": "TTTV2（Transform The Taste and Visual appearance）： 飲食物の味と見た目を変える調味家電によるテレイート",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219509"
+  },
+  "IPSJ-EC2022034": {
+    "title": "Imaginary-Slope：視覚映像・振動刺激によるVR空間における傾斜再現手法の提案",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219510"
+  },
+  "IPSJ-EC2022035": {
+    "title": "チャットツールにおける他者への指示コミュニケーション効率化インタラクション手法の提案",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219511"
+  },
+  "IPSJ-EC2022036": {
+    "title": "背部触覚提示を用いた指揮動作の軌道提示手法",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219512"
+  },
+  "IPSJ-EC2022037": {
+    "title": "加速度センサを利用したスマートダンベルによるトレーニング種目とユーザの推定",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219513"
+  },
+  "IPSJ-EC2022038": {
+    "title": "Otonona: マルチモーダルな拡張現実を用いた絶対音感の有用性へのアクセス",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219514"
+  },
+  "IPSJ-EC2022039": {
+    "title": "ニンニクの食後の口臭を防ぐ味覚及び嗅覚提示システムの提案",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219515"
+  },
+  "IPSJ-EC2022040": {
+    "title": "ヘイパス！会話のキャッチボールを継続させるボール型ロボットを用いたファシリテーションシステム",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219516"
+  },
+  "IPSJ-EC2022041": {
+    "title": "あアラウド法：体験中の心理プロセスを「あ」の音声情報で評価する手法の提案と検証",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219517"
+  },
+  "IPSJ-EC2022042": {
+    "title": "PuppetCloth: 衣服の操り人形化システムの提案と制御手法と表現",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219518"
+  },
+  "IPSJ-EC2022043": {
+    "title": "手でカメラ操作し足で操縦するドローンUI",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219519"
+  },
+  "IPSJ-EC2022044": {
+    "title": "五味霧中：味覚を頼りに防御するゲームのデザイン",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219520"
+  },
+  "IPSJ-EC2022045": {
+    "title": "電気味覚による塩味増強効果の温度影響",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219521"
+  },
+  "IPSJ-EC2022046": {
+    "title": "カーテンとプロジェクタ映像を用いた空間拡張システム",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219522"
+  },
+  "IPSJ-EC2022047": {
+    "title": "Emosho: 画面上の出来事を思い出として残すスクリーンショットツールの提案と検証",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219523"
+  },
+  "IPSJ-EC2022048": {
+    "title": "CARAMEL：電子ブロックと投影型ARを用いて 電気の基礎を学ぶインタラクティブ理科教材の研究 (2) 電気回路認識インタフェースの試作",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219524"
+  },
+  "IPSJ-EC2022049": {
+    "title": "指の動きを用いたモーショングラフィック作成手法の提案",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219525"
+  },
+  "IPSJ-EC2022050": {
+    "title": "味加減：協力して味を増減させることによる味当てゲームの提案",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219526"
+  },
+  "IPSJ-EC2022051": {
+    "title": "日本語文から漢字を増やして仮名を除くことによる日本人でも中国人でも読める偽中国語の自動生成システム",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219527"
+  },
+  "IPSJ-EC2022052": {
+    "title": "仮想現実空間でのジャグリングにおいて演者が行う操作の説明が観客へ与える影響",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219528"
+  },
+  "IPSJ-EC2022053": {
+    "title": "PalStreaming：知人間で作る番組表を用いた定額動画配信サービスの視聴モチベーション向上システム",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219529"
+  },
+  "IPSJ-EC2022054": {
+    "title": "量子表現のためのクリエイティブ・コーディングツールキットの開発",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219530"
+  },
+  "IPSJ-EC2022055": {
+    "title": "ステージ演出のための暗い場所でのARマーカー手法",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219531"
+  },
+  "IPSJ-EC2022056": {
+    "title": "光造形３Dプリンタにおけるレジンの混合によるグラデーション表現",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219532"
+  },
+  "IPSJ-EC2022057": {
+    "title": "Edible lenticular: 可食レンチキュラレンズがもたらす可能性",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219533"
+  },
+  "IPSJ-EC2022058": {
+    "title": "歌詞や曲調の特徴に基づいたステージ照明演出自動生成システムの実現",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219534"
+  },
+  "IPSJ-EC2022059": {
+    "title": "心を動かすデザインの伝達系の初期的検討：「炎立つ」を例として",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219535"
+  },
+  "IPSJ-EC2022060": {
+    "title": "「3の倍数と3の付く数字のときだけアホになる」芸のEmotion Movement Design Annotatorを用いた分析",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219536"
+  },
+  "IPSJ-EC2022061": {
+    "title": "磁気粘性流体を用いた硬度が可変な触覚デバイスの開発と応用",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219537"
+  },
+  "IPSJ-EC2022062": {
+    "title": "ことプロ: アナログゲームの特徴を有する言葉遊びデジタルボードゲーム",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219538"
+  },
+  "IPSJ-EC2022063": {
+    "title": "聴覚的フィードバックによる筋力トレーニングのモチベーション向上",
+    "year": "2022",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/219539"
+  },
+  "IPSJ-EC2023001": {
+    "title": "振動によるゲーム体験向上の仕組みの調査",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227448"
+  },
+  "IPSJ-EC2023002": {
+    "title": "ゴルフスイング練習支援のためのマルチモーダル動作アラインメント",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227449"
+  },
+  "IPSJ-EC2023003": {
+    "title": "人狼ゲーム理解のための熟達・非熟達者プレイヤの生体信号分析",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227450"
+  },
+  "IPSJ-EC2023004": {
+    "title": "ブース型イベント体験向上のためのデジタルスタンプラリーの枠組みのデザインと実証実験",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227451"
+  },
+  "IPSJ-EC2023005": {
+    "title": "ゲーム中の画面酔いを防ぐディスプレイ周辺エフェクトの提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227452"
+  },
+  "IPSJ-EC2023006": {
+    "title": "複数プレイヤーの操作感覚同期によるビデオゲーム体験への影響",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227453"
+  },
+  "IPSJ-EC2023007": {
+    "title": "ボードゲームにおける役割の選択の有無が盛り上がりに及ぼす影響",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227454"
+  },
+  "IPSJ-EC2023008": {
+    "title": "イラストの眼におけるハイライトの適性位置への配置",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227455"
+  },
+  "IPSJ-EC2023009": {
+    "title": "「あアラウド法」における感情観測手法の改善と分析手法の検討",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227456"
+  },
+  "IPSJ-EC2023010": {
+    "title": "多言語/多リソース横断検索結果活用による文化的・社会的多様性を反映する検索クエリ拡張を促すデザイン",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227457"
+  },
+  "IPSJ-EC2023011": {
+    "title": "画像生成AIによるアニメキャラクター画像の実写化と顔角度推定",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227458"
+  },
+  "IPSJ-EC2023012": {
+    "title": "映画レビューの時系列による評価視点の抽出と可視化",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227459"
+  },
+  "IPSJ-EC2023013": {
+    "title": "内視鏡的粘膜下層剥離術のトレーニングを目的としたシリアスゲーム用インターフェースの開発と検証",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227460"
+  },
+  "IPSJ-EC2023014": {
+    "title": "国内におけるX to Earnのゲームサイクルのモデル化",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227461"
+  },
+  "IPSJ-EC2023015": {
+    "title": "起立性調節障害の長期化防止に向けたシリアスゲーム制作におけるプレイヤーのレベルアップ要素が与える影響の検証",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227462"
+  },
+  "IPSJ-EC2023016": {
+    "title": "GPT-4による対話的音楽生成のためのプロンプトエンジニアリング",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227463"
+  },
+  "IPSJ-EC2023017": {
+    "title": "ピアノ演奏支援システムにおける柔軟な入力楽譜の設計の検討",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227464"
+  },
+  "IPSJ-EC2023018": {
+    "title": "楽曲の拍子変換のための網羅的な探索システムの評価",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227465"
+  },
+  "IPSJ-EC2023019": {
+    "title": "GB-ABBX : ジェスチャーセンシングによるビートボックスパフォーマンスの拡張",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227466"
+  },
+  "IPSJ-EC2023020": {
+    "title": "筋電気刺激による身体同期を利用した演奏者らの動作パラメータを操作可能な指揮棒インターフェースの開発",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227467"
+  },
+  "IPSJ-EC2023021": {
+    "title": "“遊戯王”に!!!俺はなるっ!!?",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227468"
+  },
+  "IPSJ-EC2023022": {
+    "title": "ランダム性がプレイ戦略に与える影響の分析",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227469"
+  },
+  "IPSJ-EC2023023": {
+    "title": "次世代のゲーム体験を実現する麻雀インタラクション",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227470"
+  },
+  "IPSJ-EC2023024": {
+    "title": "VRを用いた互いに知覚困難なスキル調整による百人一首かるたのインクルーシブ化の検討",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227471"
+  },
+  "IPSJ-EC2023025": {
+    "title": "視野個人差による視野境界におけるVRオブジェクトの認識の差異",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227472"
+  },
+  "IPSJ-EC2023026": {
+    "title": "マルチスピーカーを用いた立体音響知覚実験のためのHMD内UIの予備的検討",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227473"
+  },
+  "IPSJ-EC2023027": {
+    "title": "空中像結像平面にある実物体の形状情報を活かしたインタラクションの提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227474"
+  },
+  "IPSJ-EC2023028": {
+    "title": "指を鋏に見立てる触覚提示デバイスの提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227475"
+  },
+  "IPSJ-EC2023029": {
+    "title": "空間配置自由度の高いキーボードシステム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227476"
+  },
+  "IPSJ-EC2023030": {
+    "title": "スクロールホイールを用いたかな文字入力手法",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227477"
+  },
+  "IPSJ-EC2023031": {
+    "title": "Necomimi Illusion:アバタの猫耳と連動する髪の毛を通じた触覚フィードバックの提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227478"
+  },
+  "IPSJ-EC2023032": {
+    "title": "食材の多様な硬さを提示可能な包丁デバイスの開発",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227479"
+  },
+  "IPSJ-EC2023033": {
+    "title": "美術作品の関連情報をなめらかに繋げる美術鑑賞支援ツール",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227480"
+  },
+  "IPSJ-EC2023034": {
+    "title": "英会話はハートがすべてなんで！？キャンユースピークイングリッシュ？",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227481"
+  },
+  "IPSJ-EC2023035": {
+    "title": "科学館における我々の研究成果を体験できるコンテンツの長期展示の実践",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227482"
+  },
+  "IPSJ-EC2023036": {
+    "title": "3Dスキャン技術を利用した教育環境の構築",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227483"
+  },
+  "IPSJ-EC2023037": {
+    "title": "メンタルイメージベースのBCIにおけるオノマトペを用いた脳波制御訓練手法の提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227484"
+  },
+  "IPSJ-EC2023038": {
+    "title": "タイムラプス速度で成長する芽生えロボットによる植物の能動的な動きの表現",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227485"
+  },
+  "IPSJ-EC2023039": {
+    "title": "生体情報の類似性の強調により一体感を創出する手法の提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227486"
+  },
+  "IPSJ-EC2023040": {
+    "title": "TTTV3 (Transform The Taste and reproduce Varieties): 産地や品種の違いも再現する調味機構と LLM による味覚表現",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227487"
+  },
+  "IPSJ-EC2023041": {
+    "title": "足音に対するビジュアルデザインシステム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227488"
+  },
+  "IPSJ-EC2023042": {
+    "title": "IoTプロトタイピングを円滑にするハードウェアと連携したFigma拡張の提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227489"
+  },
+  "IPSJ-EC2023043": {
+    "title": "Bloom: 造花のためのアニマトロニクスの検討",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227490"
+  },
+  "IPSJ-EC2023044": {
+    "title": "交換の煩を解消するための色が変わるルアーのデザイン",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227491"
+  },
+  "IPSJ-EC2023045": {
+    "title": "Aura Flow: 色水によるフィギュアのためのエフェクト表現",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227492"
+  },
+  "IPSJ-EC2023046": {
+    "title": "小型ロボットとテクスチャを組み合わせた情報提示手法の提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227493"
+  },
+  "IPSJ-EC2023047": {
+    "title": "3Dプリンタを用いた封蝋表現手法の研究",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227494"
+  },
+  "IPSJ-EC2023048": {
+    "title": "単純な動作でユーザに気づきをもたらす，日用品付帯型ロボットの研究",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227495"
+  },
+  "IPSJ-EC2023049": {
+    "title": "タンジブルユーザインターフェースのための積層型導光プリズムの開発",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227496"
+  },
+  "IPSJ-EC2023050": {
+    "title": "ぱちぱちドロップ：目薬が苦手な人のための自動点眼システムの試作",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227497"
+  },
+  "IPSJ-EC2023051": {
+    "title": "高難易度ゲームにおけるプレイヤーに気づかれにくい動的難易度調整手法",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227498"
+  },
+  "IPSJ-EC2023052": {
+    "title": "TTTV3を用いたワインの味表現",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227499"
+  },
+  "IPSJ-EC2023053": {
+    "title": "声の高低を利用したインタラクティブなゲームデザイン",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227500"
+  },
+  "IPSJ-EC2023054": {
+    "title": "インタラクティブなルールを解くデジタルパズルの制作",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227501"
+  },
+  "IPSJ-EC2023055": {
+    "title": "位置情報と拡張現実を活用した実空間に対応したゲーム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227502"
+  },
+  "IPSJ-EC2023056": {
+    "title": "ウェアラブルなCDアルバムによるユーザの動きに連動したインタラクティブな音楽体験",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227503"
+  },
+  "IPSJ-EC2023057": {
+    "title": "スマートミラーを用いた自己肯定感向上のためのシステムの提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227504"
+  },
+  "IPSJ-EC2023058": {
+    "title": "人間行動計測環境「5x5Cuboid」の提案とAR迷路オブジェクトの検討",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227505"
+  },
+  "IPSJ-EC2023059": {
+    "title": "すまうす : スマートフォンをまとったマウス",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227506"
+  },
+  "IPSJ-EC2023060": {
+    "title": "ぴたごらくん：空間図形問題の理解を促すインタラクティブ教材の研究",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227507"
+  },
+  "IPSJ-EC2023061": {
+    "title": "タンジブルARゲームに向けた実物体への仮想エフェクトの重畳",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227508"
+  },
+  "IPSJ-EC2023062": {
+    "title": "VRを用いた「時間操作体験コンテンツ」の提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227509"
+  },
+  "IPSJ-EC2023063": {
+    "title": "ライブカメラを用いた人流可視化システムの提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227510"
+  },
+  "IPSJ-EC2023064": {
+    "title": "ぷっしゅワーク：複数人で作業時間を記録・共有することで作業意欲を向上するデバイスの提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227511"
+  },
+  "IPSJ-EC2023065": {
+    "title": "ゲームエンジンを用いたドライビングシミュレーションシステム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227512"
+  },
+  "IPSJ-EC2023066": {
+    "title": "なんだコイツは？ ー子どもたちとプレイグラウンドを構成する〈Toi〉ロボットの研究ー",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227513"
+  },
+  "IPSJ-EC2023067": {
+    "title": "Immersive Tales: 映像投影を用いた絵本とその読書体験の拡張",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227514"
+  },
+  "IPSJ-EC2023068": {
+    "title": "Shadow Chamber: オブジェクトの像とその影の間に手を挿入して操作する3DCADシステム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227515"
+  },
+  "IPSJ-EC2023069": {
+    "title": "ボディソニックを活用したサイクリング体験のリアルタイム共有",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227516"
+  },
+  "IPSJ-EC2023070": {
+    "title": "サウンドスコープパッド",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227517"
+  },
+  "IPSJ-EC2023071": {
+    "title": "チェイスH.C.：移動制御可能な拡大鏡による 画面の部分拡大を用いたゲームの提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227518"
+  },
+  "IPSJ-EC2023072": {
+    "title": "KuchiPaKu:サイレントスピーチインタラクションを学ぶためのゲーム的教材",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227519"
+  },
+  "IPSJ-EC2023073": {
+    "title": "プレイヤーの表情に基づき振る舞いを変えるポーカーゲームAI",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227520"
+  },
+  "IPSJ-EC2023074": {
+    "title": "視力改善を目的としたVRゲームの検討",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227521"
+  },
+  "IPSJ-EC2023075": {
+    "title": "産地の異なるカカオの味の違いを定量化し純物質で再現する手法",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227522"
+  },
+  "IPSJ-EC2023076": {
+    "title": "仮想空間と物理空間の接続により拡張されるライブ体験システム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227523"
+  },
+  "IPSJ-EC2023077": {
+    "title": "音楽会場のおける照明演出と連動した薄暗い場所でのAR手法の検証",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227524"
+  },
+  "IPSJ-EC2023078": {
+    "title": "植物との一体感を向上させる疑似体験手法の検証",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227525"
+  },
+  "IPSJ-EC2023079": {
+    "title": "実空間の屋内構造を共有するAR非対称対戦ゲーム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227526"
+  },
+  "IPSJ-EC2023080": {
+    "title": "日中の文化交流促進のための個人ベース「ファンサブ」活動のアクションリサーチ ―日本女性向けシチュエーションボイス動画を主題として―",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227527"
+  },
+  "IPSJ-EC2023081": {
+    "title": "話せば変わるGUI：ユーザの不満を反映した自然言語処理によるGUI自動修正システム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227528"
+  },
+  "IPSJ-EC2023082": {
+    "title": "楽器未経験者に向けた弦管打複合のIoT楽器の提案",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227529"
+  },
+  "IPSJ-EC2023083": {
+    "title": "Agent Agora：異なるロールのエージェントを集めて放置することでアイデアを得るシステム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227530"
+  },
+  "IPSJ-EC2023084": {
+    "title": "LayerLens：複数のVirtual Reality空間を比較・編集するための可視化手法",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227531"
+  },
+  "IPSJ-EC2023085": {
+    "title": "規則的な食生活を促すバーチャルペット型食生活支援システム",
+    "year": "2023",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/227532"
+  },
+  "IPSJ-EC2024001": {
+    "title": "オープンビデオゲームライブラリ: 研究や実験に利用しやすいビデオゲームの開発とケーススタディ",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238690"
+  },
+  "IPSJ-EC2024002": {
+    "title": "ガブレコ：ジャングルバスのためのオンラインツアーシステムの設計と実装",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238691"
+  },
+  "IPSJ-EC2024003": {
+    "title": "多視点からの見た目が変化する料理のための二次元可食レンチキュラレンズデザインシステム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238692"
+  },
+  "IPSJ-EC2024004": {
+    "title": "フラフープ型ゲームコントローラ“Connected Hoop” の提案",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238693"
+  },
+  "IPSJ-EC2024005": {
+    "title": "テキストコミュニケーションにおけるパーツカスタマイズ可能な絵文字の入力手法の提案とユーザ評価",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238694"
+  },
+  "IPSJ-EC2024006": {
+    "title": "バーチャルハンドを用いた選択インタラクションにおける疑似触覚フィードバックが及ぼす影響の調査",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238695"
+  },
+  "IPSJ-EC2024007": {
+    "title": "漢字と自然の関わりを伝える卓上投影インタラクティブシステム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238696"
+  },
+  "IPSJ-EC2024008": {
+    "title": "迷路VRにおけるミニチュアアバターへの自己投影手法の検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238697"
+  },
+  "IPSJ-EC2024009": {
+    "title": "絵巻物型インタラクティブデバイス:EMAKIにおける動画と静止画の同期手法の検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238698"
+  },
+  "IPSJ-EC2024010": {
+    "title": "AdjustaShot: スリングショットゲームのパラメータ調整による体験の変化",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238699"
+  },
+  "IPSJ-EC2024011": {
+    "title": "ビデオゲームコンテンツに向けた現実の光を正確に再現したHDRIを用いるLookDev環境の構築法",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238700"
+  },
+  "IPSJ-EC2024012": {
+    "title": "VideoMotion: 動画と共にカメラの動きを見せる新しい映像メディアの提案",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238701"
+  },
+  "IPSJ-EC2024013": {
+    "title": "ピクチャーハンターⅡ：マルチモーダルLLMによるモンスター生成を用いたリアルタイム参加型ゲーム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238702"
+  },
+  "IPSJ-EC2024014": {
+    "title": "インタラクティブ視聴システムを用いたゲーム動画への印象アノテーションとシーンの関連性の分析",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238703"
+  },
+  "IPSJ-EC2024015": {
+    "title": "P3VS：野球の視聴者視点で配球戦略を分析するための対話的可視化システムの提案",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238704"
+  },
+  "IPSJ-EC2024016": {
+    "title": "情報技術を活用して誰でも楽しめるスポーツを実現するルール設計プロセス及びその詳細考察",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238705"
+  },
+  "IPSJ-EC2024017": {
+    "title": "エクサゲーム開発に向けた没入型VR空間における上肢挙上動作解析　- 若年者・高齢者の比較検証 -",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238706"
+  },
+  "IPSJ-EC2024018": {
+    "title": "HMDを用いた野球の打撃能力向上のためのビジュアルトレーニング",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238707"
+  },
+  "IPSJ-EC2024019": {
+    "title": "競技かるたにおける聞き分け能力向上支援アプリケーションの検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238708"
+  },
+  "IPSJ-EC2024020": {
+    "title": "百人一首かるたvsもぐらたたき：共通する目標意識と身体動作に着目した異なるゲームの接続の検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238709"
+  },
+  "IPSJ-EC2024021": {
+    "title": "モチベーション維持のための学習支援システム：ゲーミフィケーションのキャラクター育成の効果",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238710"
+  },
+  "IPSJ-EC2024022": {
+    "title": "ゲーミフィケーションを活用したスマートフォン用学習支援システムの開発：ゲーミフィケーション要素",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238711"
+  },
+  "IPSJ-EC2024023": {
+    "title": "全消しできるさめがめパズルにおける難易度に関する考察",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238712"
+  },
+  "IPSJ-EC2024024": {
+    "title": "VRアバタを着用してダンスを踊る際に感じる緊張や羞恥の影響の検証",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238713"
+  },
+  "IPSJ-EC2024025": {
+    "title": "利用者のコンセプトに合った配色を推薦するカラーパレットの検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238714"
+  },
+  "IPSJ-EC2024026": {
+    "title": "彩色済み参考画像から生成される領域情報を用いたアニメ線画の自動彩色手法",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238715"
+  },
+  "IPSJ-EC2024027": {
+    "title": "スマートフォンを通してスクリーンに絵を描くシステムの提案",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238716"
+  },
+  "IPSJ-EC2024028": {
+    "title": "配役傾向にもとづく声優ネットワークの構築と分析",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238717"
+  },
+  "IPSJ-EC2024029": {
+    "title": "体験中の主観発話報告が事後評価に与える影響の調査",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238718"
+  },
+  "IPSJ-EC2024030": {
+    "title": "TaleShaper:複数のエンベロープで形作るストーリー創作システム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238719"
+  },
+  "IPSJ-EC2024031": {
+    "title": "あアラウド法における発声が体験者に与える負荷の調査",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238720"
+  },
+  "IPSJ-EC2024032": {
+    "title": "はぁ",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238721"
+  },
+  "IPSJ-EC2024033": {
+    "title": "LaserBend：熱収縮性プラスチックを用いたレーザーカッターによる曲げ加工",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238722"
+  },
+  "IPSJ-EC2024034": {
+    "title": "Levitation Printing: 超音波浮揚を利用したフードプリンティングの実現性の検証",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238723"
+  },
+  "IPSJ-EC2024035": {
+    "title": "Virtual Cream Generator :多様なクリームを脂質・糖類ゼロで生成する装置に向けて",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238724"
+  },
+  "IPSJ-EC2024036": {
+    "title": "温冷感呈示が情動に及ぼす影響の定量的予備調査",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238725"
+  },
+  "IPSJ-EC2024037": {
+    "title": "大規模We-modeを生起させる視聴者参加型ゲームのデザイン",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238726"
+  },
+  "IPSJ-EC2024038": {
+    "title": "オノマトパーティ：視覚的特徴とオノマトペのアノテーションゲーム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238727"
+  },
+  "IPSJ-EC2024039": {
+    "title": "ゲームのリメイク作品に対する評価を決定づける体験要素",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238728"
+  },
+  "IPSJ-EC2024040": {
+    "title": "ゲームを用いた自動点眼システムの検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238729"
+  },
+  "IPSJ-EC2024041": {
+    "title": "ビデオゲームにおける操作性を通じたキャラクタの瀕死感の 提示がプレイヤの没入感に与える影響の調査",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238730"
+  },
+  "IPSJ-EC2024042": {
+    "title": "微分音コードが発音可能なXR弦楽器システムの開発",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238731"
+  },
+  "IPSJ-EC2024043": {
+    "title": "再帰透過素子を用いた光学的整合性を有する空中ディスプレイ",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238732"
+  },
+  "IPSJ-EC2024044": {
+    "title": "テレビ局のメタバース事業における可搬式床型触覚提示システムの活用",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238733"
+  },
+  "IPSJ-EC2024045": {
+    "title": "麻雀配信のためのカメラ自動切り替えシステム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238734"
+  },
+  "IPSJ-EC2024046": {
+    "title": "漫画の感想を実世界とデジタルメディア上で共有する体験の検証",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238735"
+  },
+  "IPSJ-EC2024047": {
+    "title": "オノマトペの音象徴性が脳波パターンに与える影響の調査",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238736"
+  },
+  "IPSJ-EC2024048": {
+    "title": "VR空間におけるオブジェクト操作のための空間音響を用いた脳波制御手法",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238737"
+  },
+  "IPSJ-EC2024049": {
+    "title": "BCIにおける刺激開始・停止時のSSVEP誘発応答の時間解析",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238738"
+  },
+  "IPSJ-EC2024050": {
+    "title": "指を鋏に見立てる触覚提示デバイスによる提示刺激の検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238739"
+  },
+  "IPSJ-EC2024051": {
+    "title": "琵琶湖近辺に生息するクマはひょんなことから北海道で魚介を食らう",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238740"
+  },
+  "IPSJ-EC2024052": {
+    "title": "音声会話の理解と顔認証によるARバーチャルセクレタリ",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238741"
+  },
+  "IPSJ-EC2024053": {
+    "title": "シェルフサイネージ上で推薦するエージェントシステムの基礎的検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238742"
+  },
+  "IPSJ-EC2024054": {
+    "title": "物語の展開に伴う登場人物間の関係性変化のインタラクティブな可視化手法の検証",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238743"
+  },
+  "IPSJ-EC2024055": {
+    "title": "水族館でのペンギン個体識別法の調査と腹部模様に着目した観察手法の比較検証",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238744"
+  },
+  "IPSJ-EC2024056": {
+    "title": "体の動きに応じた特殊攻撃アニメーション投影システムの開発",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238745"
+  },
+  "IPSJ-EC2024057": {
+    "title": "VRを用いた声優の演技の自習環境の検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238746"
+  },
+  "IPSJ-EC2024058": {
+    "title": "マルチモーダルAIを用いた4コマ漫画展開改変システムの開発",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238747"
+  },
+  "IPSJ-EC2024059": {
+    "title": "「ずっと俺のターン」は嫌っ！旅行計画を楽しむためのコミュニケーションゲーム　Hang Out King",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238748"
+  },
+  "IPSJ-EC2024060": {
+    "title": "モバイルアプリケーションを用いた行動促進による疎と密の人流制御の効果",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238749"
+  },
+  "IPSJ-EC2024061": {
+    "title": "物語観賞を足掛かりとした回遊における行動分析",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238750"
+  },
+  "IPSJ-EC2024062": {
+    "title": "振幅変調を用いた音声の高音域補間",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238751"
+  },
+  "IPSJ-EC2024063": {
+    "title": "モーションセンサーを用いた日本的所作による音楽作品の制作",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238752"
+  },
+  "IPSJ-EC2024064": {
+    "title": "乱数発生器を用いた音楽会場における観客の反応提示の可能性",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238753"
+  },
+  "IPSJ-EC2024065": {
+    "title": "音楽ゲーム大会の選曲ルールに潜む最適選択についての数理的解明",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238754"
+  },
+  "IPSJ-EC2024066": {
+    "title": "和食文化の「切る」意味を伝える卓上投影システム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238755"
+  },
+  "IPSJ-EC2024067": {
+    "title": "Light and Find: 外部光の照射時のみ視認可能な不可視領域を設定できるディスプレイ",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238756"
+  },
+  "IPSJ-EC2024068": {
+    "title": "ecnatsid：閲覧距離に応じて模様の周期が変化する立体作品",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238757"
+  },
+  "IPSJ-EC2024069": {
+    "title": "水滴噴霧による松かさ鱗片の乾湿運動を用いた松かさ転倒駆動手法の基礎検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238758"
+  },
+  "IPSJ-EC2024070": {
+    "title": "北海道情報大学図書館における滞在人数可視化システムの開発",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238759"
+  },
+  "IPSJ-EC2024071": {
+    "title": "ぎゅっとーく:実世界のぬいぐるみとVR上で会話するシステム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238760"
+  },
+  "IPSJ-EC2024072": {
+    "title": "床面圧力センサによる靴の識別モデルの開発と評価",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238761"
+  },
+  "IPSJ-EC2024073": {
+    "title": "ジャムセッションにおける合いの手の挿入に向けた旋律生成の検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238762"
+  },
+  "IPSJ-EC2024074": {
+    "title": "ストリートダンスにおけるアクセントの踊り分けの分析",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238763"
+  },
+  "IPSJ-EC2024075": {
+    "title": "Sound Times：音のインスタレーション作品制作・展示プロジェクトの実施報告",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238764"
+  },
+  "IPSJ-EC2024076": {
+    "title": "トリガーの抵抗制御による投げ銭時のユーザ体験向上手法の提案",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238765"
+  },
+  "IPSJ-EC2024077": {
+    "title": "生成系AIを用いたストーリーテリングゲームにおける物語情景共有",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238766"
+  },
+  "IPSJ-EC2024078": {
+    "title": "アレルギー治療法学習のための子供向けインタラクティブコンテンツの制作",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238767"
+  },
+  "IPSJ-EC2024079": {
+    "title": "舞台照明器具を用いたマルチカラースイッチングアニメーションの提案と実験",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238768"
+  },
+  "IPSJ-EC2024080": {
+    "title": "モバイル型入出力装置を用いたムービングライトとの新しいインタラクション",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238769"
+  },
+  "IPSJ-EC2024081": {
+    "title": "Teachable Machine を活用した Web デザインから コーディングのヒントを出力するサイトの開発",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238770"
+  },
+  "IPSJ-EC2024082": {
+    "title": "円弧を用いた平面充填図形に関する研究",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238771"
+  },
+  "IPSJ-EC2024083": {
+    "title": "Virtual Oil Generator: 多様な油を脂質ゼロで生成する装置実現に向けて",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238772"
+  },
+  "IPSJ-EC2024084": {
+    "title": "ビデオゲームにおいて炎の燃焼を表現する触覚デザインについての基礎検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238773"
+  },
+  "IPSJ-EC2024085": {
+    "title": "Landscape Extenders:スマホ写真の投稿でフィールドが作られる2Dプラットフォームゲーム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238774"
+  },
+  "IPSJ-EC2024086": {
+    "title": "激励くん: 継続意欲を向上させる激励文の生成システム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238775"
+  },
+  "IPSJ-EC2024087": {
+    "title": "薄暗い場所におけるAR表現のための手法とコンテンツの検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238776"
+  },
+  "IPSJ-EC2024088": {
+    "title": "ヘッドマウントディスプレイ(HMD)を活用した臨場感のある遠隔操船体験システムの提案と海中における臨場感の評価",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238777"
+  },
+  "IPSJ-EC2024089": {
+    "title": "corobos plusにおけるエンタテインメントコンテンツのデザイン",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238778"
+  },
+  "IPSJ-EC2024090": {
+    "title": "他者注視点の提示による共同注視実現法",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238779"
+  },
+  "IPSJ-EC2024091": {
+    "title": "VRモータスポーツの提案と試作",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238780"
+  },
+  "IPSJ-EC2024092": {
+    "title": "VRを用いたFPGA実験のための遠隔実験システム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238781"
+  },
+  "IPSJ-EC2024093": {
+    "title": "ゆるやかなファシリテーションをする小型ロボットのインタラクションデザイン",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238782"
+  },
+  "IPSJ-EC2024094": {
+    "title": "ASMR動画に合わせて撫でられる感覚を提示するシステムの検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238783"
+  },
+  "IPSJ-EC2024095": {
+    "title": "メロディスロットマシンHD II",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238784"
+  },
+  "IPSJ-EC2024096": {
+    "title": "大学生の献血参加を促すキャラクター育成コンテンツの開発",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238785"
+  },
+  "IPSJ-EC2024097": {
+    "title": "電脳楽器システムによるアンサンブル",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238786"
+  },
+  "IPSJ-EC2024098": {
+    "title": "ピアノ型ピンボール盤を用いた能動的サウンド鑑賞ゲーム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238787"
+  },
+  "IPSJ-EC2024099": {
+    "title": "時間的順序関係を考慮した筋電センサによる高速入力デバイス",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238788"
+  },
+  "IPSJ-EC2024100": {
+    "title": "シングルプレイヤーVRゲームのオンライン共同プレイ体験を実現する映像・身体動作共有環境",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238789"
+  },
+  "IPSJ-EC2024101": {
+    "title": "立体ディスプレイを用いた雪像点群探索システムの開発と提案",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238790"
+  },
+  "IPSJ-EC2024102": {
+    "title": "VRとAIを用いた言語学支援システム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238791"
+  },
+  "IPSJ-EC2024103": {
+    "title": "LLMに基づく小説の相関図生成システムのプロトタイプ",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238792"
+  },
+  "IPSJ-EC2024104": {
+    "title": "視点からの距離に応じて詳細度の変化するボクセル表現を用いたVR可視化システムの提案",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238793"
+  },
+  "IPSJ-EC2024105": {
+    "title": "筋電位のリアルタイム可視化による初学者の筋肉トレーニング支援システムの検討",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238794"
+  },
+  "IPSJ-EC2024106": {
+    "title": "BricksTory: Leveraging LLMs for a New Brick Building Experience",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238795"
+  },
+  "IPSJ-EC2024107": {
+    "title": "MR BLS Trainer: 複合現実感を用いた一次救命処置訓練システムの研究",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238796"
+  },
+  "IPSJ-EC2024108": {
+    "title": "空食亭:感覚間相互作用を用いた食品摂取を伴わない食体験",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238797"
+  },
+  "IPSJ-EC2024109": {
+    "title": "銃が弾かれる体験を可能とするVR決闘システム",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238798"
+  },
+  "IPSJ-EC2024110": {
+    "title": "画像や文章のデペイズマンがゲーム体験に与える影響",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238799"
+  },
+  "IPSJ-EC2024111": {
+    "title": "睡眠時動作反映アバタシステムの提案",
+    "year": "2024",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/238800"
+  },
+  "IPSJ-EC2025001": {
+    "title": "漫才カラオケ：未経験者でも漫才を演じることを可能にする漫才実演支援システム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003647"
+  },
+  "IPSJ-EC2025002": {
+    "title": "あらすじ文に含まれる物語内容の共通要素に着目したコンセプト文の生成",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003648"
+  },
+  "IPSJ-EC2025003": {
+    "title": "SNSの投稿からユーザの嗜好を学習したLLMによるライブ配信ダイジェスト生成システム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003649"
+  },
+  "IPSJ-EC2025004": {
+    "title": "歌詞没入型身体的音楽体験を可能とする光学透過式MR環境LyricBathe",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003650"
+  },
+  "IPSJ-EC2025005": {
+    "title": "体験の知覚-認知過程に着目したEntertainment DesignCatalogの提案とEC学術領域に関する一考察",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003651"
+  },
+  "IPSJ-EC2025006": {
+    "title": "楽曲に基づく照明演出の自動構成に向けたリズム強調箇所の推定と照明変化への反映",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003652"
+  },
+  "IPSJ-EC2025007": {
+    "title": "ProjectDAWIY?GriCo：Excel VBAを用いた確率的自動作曲システム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003653"
+  },
+  "IPSJ-EC2025008": {
+    "title": "奏者自身による照明操作によって即興演奏を視覚的に強調するシステムの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003654"
+  },
+  "IPSJ-EC2025009": {
+    "title": "システム操作動画から要約静止画を半自動作成できるシステムの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003655"
+  },
+  "IPSJ-EC2025010": {
+    "title": "色相・トーンの二段階配色推薦によるイラスト制作支援ツールの検証",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003656"
+  },
+  "IPSJ-EC2025011": {
+    "title": "記号を空中で描画するアバター表情制御システムの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003657"
+  },
+  "IPSJ-EC2025012": {
+    "title": "VRアバタの違いがダンスを踊る際の緊張や羞恥に与える影響の調査",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003658"
+  },
+  "IPSJ-EC2025013": {
+    "title": "将棋における駒の利きの可視化の棋力への効果",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003659"
+  },
+  "IPSJ-EC2025014": {
+    "title": "PANtasticShow:パントマイムとサウンドによる共有型VRシステム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003660"
+  },
+  "IPSJ-EC2025015": {
+    "title": "DeepBreathVR: 腹部の体動に着目した深呼吸インタラクションの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003661"
+  },
+  "IPSJ-EC2025016": {
+    "title": "視線可視化と視覚的探索支援を実現する肢体不自由者向けロボットシステムの改良とユーザビリティ評価",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003662"
+  },
+  "IPSJ-EC2025017": {
+    "title": "BeWoLF：読者の興味に応じて「ひらくあらすじ」",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003663"
+  },
+  "IPSJ-EC2025018": {
+    "title": "商品棚全体を推薦するエージェントの検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003664"
+  },
+  "IPSJ-EC2025019": {
+    "title": "骨格・性格・TPOを考慮した服装推薦システムの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003665"
+  },
+  "IPSJ-EC2025020": {
+    "title": "味覚・嗅覚・栄養のメディア化による食の再構築",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003666"
+  },
+  "IPSJ-EC2025021": {
+    "title": "家庭用ゲーム機の設計思想とゲームソフトの関連性の変遷について～セガの事例から",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003667"
+  },
+  "IPSJ-EC2025022": {
+    "title": "オンラインでの不完全情報ゲームのためのリアルタイム感情推定システム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003668"
+  },
+  "IPSJ-EC2025023": {
+    "title": "JumpLab 2D: Webブラウザ上で動作する2Dジャンプゲームのパラメタ調整を題材とした教材の開発",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003669"
+  },
+  "IPSJ-EC2025024": {
+    "title": "聴覚障害を持つ児童のリアルタイムコミュニケーション：非言語的インタラクションからのアプローチ",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003670"
+  },
+  "IPSJ-EC2025025": {
+    "title": "CatcherX:すべての球種を再現するVR捕球シミュレータ",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003671"
+  },
+  "IPSJ-EC2025026": {
+    "title": "役割分化マルチエージェントと対話的改善ループによる漫画創作支援システムの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003672"
+  },
+  "IPSJ-EC2025027": {
+    "title": "ゲーム実況動画の再生中にゲームプレイを継承するPlayBranchのWebアプリへの展開",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003673"
+  },
+  "IPSJ-EC2025028": {
+    "title": "商業施設の緑化空間におけるモバイルアプリケーションを用いた自然との関わりの評価",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003674"
+  },
+  "IPSJ-EC2025029": {
+    "title": "心理・言語的評価指標“ギャルマイン度”を用いたメンタルをアゲるためのギャルAIとのチャットシステム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003675"
+  },
+  "IPSJ-EC2025030": {
+    "title": "LLMを活用した多様なプレーヤが一緒に楽しめるスポーツルールの設計手法",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003676"
+  },
+  "IPSJ-EC2025031": {
+    "title": "Augmented Decisions: 判断能力の拡張を目的とした機械学習予測提示インタフェースの検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003677"
+  },
+  "IPSJ-EC2025032": {
+    "title": "スティック入力による狭隘路通過課題に対する認知されにくい操作支援の研究",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003678"
+  },
+  "IPSJ-EC2025033": {
+    "title": "ユーザによって定義される意味空間を用いた能動的動画視聴インタフェース",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003679"
+  },
+  "IPSJ-EC2025034": {
+    "title": "弾道的動作による押下が可能なゲームコントローラボタン拡張とその社会実装",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003680"
+  },
+  "IPSJ-EC2025035": {
+    "title": "口角動作からおいしさを推定可能にするカメラ内蔵グラスの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003681"
+  },
+  "IPSJ-EC2025036": {
+    "title": "キャラクターの背景画像による印象変化と表情との関連性",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003682"
+  },
+  "IPSJ-EC2025037": {
+    "title": "音素材の画像化による音源探索時間の削減",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003683"
+  },
+  "IPSJ-EC2025038": {
+    "title": "cellroid4: 体験者に細胞分裂を想起させる点の自律的移動アルゴリズムの検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003684"
+  },
+  "IPSJ-EC2025039": {
+    "title": "Vulkanを用いたレイトレーシング法に特化したGPUによる電波伝搬シミュレーションフレームワークの作成及び高速化",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003685"
+  },
+  "IPSJ-EC2025040": {
+    "title": "メタバースアプリにおける会話促進のためのキーボードUIの基礎的検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003686"
+  },
+  "IPSJ-EC2025041": {
+    "title": "Audio Linkを用いたユーザー参加型音楽体験システムの試作",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003687"
+  },
+  "IPSJ-EC2025042": {
+    "title": "Re:Caption:作品鑑賞における言語化を通じた理解深化の分析",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003688"
+  },
+  "IPSJ-EC2025043": {
+    "title": "音楽と映像の連動によるVR音楽鑑賞の初期検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003689"
+  },
+  "IPSJ-EC2025045": {
+    "title": "エノコログサを移動体とした振動面上での多様な移動制御",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003691"
+  },
+  "IPSJ-EC2025046": {
+    "title": "TaPrompt：タップ操作による構造化プロンプト修正システム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003692"
+  },
+  "IPSJ-EC2025047": {
+    "title": "物理エンジンを用いたスリンキー型ロボットの動作生成",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003693"
+  },
+  "IPSJ-EC2025048": {
+    "title": "TeachLeague: 自分が育てたエージェントとチームを組んで競うLearning By Teaching 型学習システム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003694"
+  },
+  "IPSJ-EC2025049": {
+    "title": "発話の話速を模倣した逐次出力によってテキストチャットは「話している」ように感じられるか？",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003695"
+  },
+  "IPSJ-EC2025050": {
+    "title": "電子ペーパーサイネージにおける人の移動を通信媒介とした情報配送手法の提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003696"
+  },
+  "IPSJ-EC2025051": {
+    "title": "ホラーゲームにおける行動特性を考慮した動的なプレイヤ誘導モデルの開発",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003697"
+  },
+  "IPSJ-EC2025052": {
+    "title": "liminal空間の構造的特徴に基づいたデジタルツインの生成と分析",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003698"
+  },
+  "IPSJ-EC2025053": {
+    "title": "画像解析を用いた書道筆跡の3次元可視化の提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003699"
+  },
+  "IPSJ-EC2025054": {
+    "title": "心理質問による回答時間に基づく内面傾向の可視化",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003700"
+  },
+  "IPSJ-EC2025055": {
+    "title": "もじ捨て場：タイピングミスによって削除した文字の可視化手法",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003701"
+  },
+  "IPSJ-EC2025056": {
+    "title": "同音異義語変換とAI画像生成技術を用いたシステム開発",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003702"
+  },
+  "IPSJ-EC2025057": {
+    "title": "利己の鏡：芥川龍之介『鼻』を題材としたインタラクティブアートの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003703"
+  },
+  "IPSJ-EC2025058": {
+    "title": "マルチカメラスイッチングに連動した音場切替システム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003704"
+  },
+  "IPSJ-EC2025059": {
+    "title": "立体音響下における上方の残響変化と空間想起に関する基礎検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003705"
+  },
+  "IPSJ-EC2025060": {
+    "title": "立体音響を用いたアクションゲームにおけるスピーカー聴とヘッドフォン聴の差異",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003706"
+  },
+  "IPSJ-EC2025061": {
+    "title": "Pull Me If You Can: インタラクティブな仮想植物引き抜きシステム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003707"
+  },
+  "IPSJ-EC2025062": {
+    "title": "受動的最適化から能動的探索へ ゲーミファイされたフレーバー探索",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003708"
+  },
+  "IPSJ-EC2025063": {
+    "title": "AromaSynth: 飲料に多様な香りを付与する嗅覚メディア",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003709"
+  },
+  "IPSJ-EC2025064": {
+    "title": "拍手動作を対象とした視認性を考慮したオノマトペ付与による漫画風変換",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003710"
+  },
+  "IPSJ-EC2025065": {
+    "title": "メタバース空間で対話相手に向かって自律移動するAIアバター『ノア』の開発",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003711"
+  },
+  "IPSJ-EC2025066": {
+    "title": "応答時の感情表現に特化したエフェクトヴォイスジェネレータ",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003712"
+  },
+  "IPSJ-EC2025067": {
+    "title": "アンプラグドコンピューティングの概念を用いたRobotic Drum Machineの制作と演奏ワークショップの試み",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003713"
+  },
+  "IPSJ-EC2025068": {
+    "title": "umweltRPG: 立体地形の2D展開によるレトロRPGフィールド生成手法の検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003714"
+  },
+  "IPSJ-EC2025069": {
+    "title": "ピアノ初学者を対象とした楽譜読解支援システムの検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003715"
+  },
+  "IPSJ-EC2025070": {
+    "title": "鎌倉市を対象とした津波避難シミュレーションシステム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003716"
+  },
+  "IPSJ-EC2025071": {
+    "title": "BGM付き漫画ビューアのための音楽推薦システムの検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003717"
+  },
+  "IPSJ-EC2025072": {
+    "title": "Sweet Synthesizer:甘味をパーソナライズする味覚メディア",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003718"
+  },
+  "IPSJ-EC2025073": {
+    "title": "高難度ジャンプアクションゲームにおける動的難易度調節が可能なAIの開発",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003719"
+  },
+  "IPSJ-EC2025074": {
+    "title": "強化学習を用いた適応型NPCのゲーム開発",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003720"
+  },
+  "IPSJ-EC2025075": {
+    "title": "東京圏鉄道網における遅延波及シミュレーター：3D可視化とユーザー介入による交通ダイナミクス分析",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003721"
+  },
+  "IPSJ-EC2025076": {
+    "title": "足位置の視覚的提示による電子オルガンのペダル鍵盤演奏学習支援システムの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003722"
+  },
+  "IPSJ-EC2025077": {
+    "title": "Palette Photograph：推しグッズと共に写真撮影ができるマーカー型ARフォトアプリ",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003723"
+  },
+  "IPSJ-EC2025078": {
+    "title": "ゲームを用いたメンタル版アクティブレストデザインの検討",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003724"
+  },
+  "IPSJ-EC2025079": {
+    "title": "生成AIを用いて子どもの個性を創発させるツールの提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003725"
+  },
+  "IPSJ-EC2025080": {
+    "title": "NutriSynth：栄養素を添加する「栄養メディア」の提案とパーソナライズされた補完への応用",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003726"
+  },
+  "IPSJ-EC2025081": {
+    "title": "力触覚提示を伴うサッカーリフティングMRトレーニングシステム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003727"
+  },
+  "IPSJ-EC2025082": {
+    "title": "スマートフォンARによる現実世界の動的変容と没入型バーチャル体験の実現",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003728"
+  },
+  "IPSJ-EC2025083": {
+    "title": "ARグラスを活用した授業中の教員向けメッセージ提示システム",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003729"
+  },
+  "IPSJ-EC2025084": {
+    "title": "手で考える：ブロック遊びとAI によるストーリーブック生成",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003730"
+  },
+  "IPSJ-EC2025085": {
+    "title": "違法駐輪注意喚起を目的としたアニマシー付与自転車の提案",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003731"
+  },
+  "IPSJ-EC2025086": {
+    "title": "PTTVX：風味と食感制御を可能にするゾルフードプリンタ",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003732"
+  },
+  "IPSJ-EC2025044": {
+    "title": "マーチングバンドにおけるドリル半自動生成に向けて",
+    "year": "2025",
+    "url": "https://ipsj.ixsq.nii.ac.jp/records/2003733"
+  }
+}

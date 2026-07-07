@@ -168,6 +168,15 @@
                 <p class="u-subtle">* <a href="https://sig.entcomp.org">情報処理学会 エンタテインメントコンピューティング研究会</a>にて開催されているシンポジウムのこと。</p>
             </section>
             <section>
+                <h2>「反応」の観点における特徴語</h2>
+                <p>
+                    各クラスタについて，「反応」の記述に特有に現れる語をログオッズ比に基づくzスコアで抽出した結果を示す。
+                    語をクリックすると，該当する記述および同じ事例集合における「状況理解」「アプローチ」の観点での用法を確認できる。
+                    参考として，同様の手法で抽出した「状況理解」の特徴語もあわせて示す。
+                </p>
+                <div id="word-analysis-root"></div>
+            </section>
+            <section>
                 <h2>使用したプロンプト</h2>
                 <details class="custom">
                     <summary>論文からEDCを抽出するプロンプト</summary>
@@ -207,4 +216,5 @@
         set_codeblock("../prompts/ec2026si/extract_EDC.txt", "edc-prompt-copy", "edc-prompt-code")
         set_codeblock("../prompts/ec2026si/cluster_name_generation.txt", "cluster-name-copy", "cluster-name-code")
     </script>
+    <script type="module" src="/src/features/word-analysis/table.ts"></script>
 </html>
