@@ -1,0 +1,1265 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "name": "世界観構築",
+      "count": 3,
+      "x_min": 11.047833442687988,
+      "x_max": 11.313834190368652,
+      "y_min": 8.797941207885742,
+      "y_max": 8.977977752685547,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "言葉にしにくい花の配置意図が、学習者の作業空間にそのまま形として現れる",
+          "見た目の統一された探索空間が、現実とは異なる一つの世界として立ち上がる",
+          "複数の登場人物が、それぞれの人格・知識・居場所を持って同じ世界で生きている"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 1,
+      "name": "初心者成長",
+      "count": 6,
+      "x_min": 10.617788314819336,
+      "x_max": 11.166181564331055,
+      "y_min": 4.8637166023254395,
+      "y_max": 5.446897506713867,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "初心者でも、自分の操作によって難しい場面をうまく進められる",
+          "初心者でも、思い描いた立体形状を崩さず、ふわふわしたぬいぐるみのように仕上げられる",
+          "初心者でも、各キーに対応する指を使い分ける正しい運指が身についていく"
+        ],
+        "keywords": [
+          "初心者 自分"
+        ]
+      }
+    },
+    {
+      "cluster_id": 2,
+      "name": "アニメ的立体表現",
+      "count": 2,
+      "x_min": 9.538154602050781,
+      "x_max": 9.650458335876465,
+      "y_min": 7.568892955780029,
+      "y_max": 7.85084867477417,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自由に視点を動かしても、立体的なキャラクターが手描きアニメの画面に溶け込んで動いている",
+          "自分が描いたキャラクターの髪が、動作や風に応じて自然に揺れ、生き生きと動いている"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 3,
+      "name": "進行阻害",
+      "count": 2,
+      "x_min": 11.181928634643555,
+      "x_max": 11.446417808532715,
+      "y_min": 6.9790754318237305,
+      "y_max": 7.285116672515869,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "滑りやすい狭路で妨害され、思いどおりに進めない",
+          "日常活動を続けながら、好きな既存ゲームも傍らで進み続けている"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 4,
+      "name": "嗜好調整",
+      "count": 5,
+      "x_min": 8.673715591430664,
+      "x_max": 9.062634468078613,
+      "y_min": 5.563283443450928,
+      "y_max": 6.061122417449951,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "焼いていない食品に、自分好みの焦げが付いている",
+          "複数の香りを混ぜ、自分好みの一つの香味を作り出せる",
+          "専門知識がない飲用者でも、目の前の日本酒を自分好みの甘口・辛口へ自在に変えられる"
+        ],
+        "keywords": [
+          "自分 好み"
+        ]
+      }
+    },
+    {
+      "cluster_id": 5,
+      "name": "目の前インタラクション",
+      "count": 3,
+      "x_min": 9.634008407592773,
+      "x_max": 9.851191520690918,
+      "y_min": 9.322216033935547,
+      "y_max": 9.523359298706055,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "先延ばしで動けない自分が目の前の人物として演じられ、その状態を外側から眺められる",
+          "目の前の物体が、考えながら自分に応じて話す身近な対話相手になる",
+          "画面内の案内役自身が自分に向けて話している"
+        ],
+        "keywords": [
+          "目 前"
+        ]
+      }
+    },
+    {
+      "cluster_id": 6,
+      "name": "認識ギャップ",
+      "count": 3,
+      "x_min": 8.471481323242188,
+      "x_max": 8.512606620788574,
+      "y_min": 8.24184513092041,
+      "y_max": 8.605076789855957,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分の声から相手に伝わりうる感情と、伝えたつもりの感情との一致・ずれが目に見える",
+          "自分が楽曲に込めた印象が、どの部分で聴き手に伝わり、どの部分で異なる意味として受け取られたかが分かる",
+          "一度の口真似から、自分の意図を共有しつつ印象の異なる効果音候補が広がる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 7,
+      "name": "空間認識",
+      "count": 3,
+      "x_min": 11.463099479675293,
+      "x_max": 11.743760108947754,
+      "y_min": 7.65093994140625,
+      "y_max": 7.982182025909424,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "想定ルートのどこでランドマークによる誘導が成立し、どこで地形に遮られて破綻しているかが一目で分かる",
+          "途切れた点の配置の向こうに見えない軌跡や陣地が広がり、自分なりの戦況として読み解ける",
+          "一見ありふれた風景にも土地を特定する手がかりが潜み、それらを結びつければ世界のどこかを絞り込める"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 8,
+      "name": "新発見・新視点",
+      "count": 3,
+      "x_min": 11.310774803161621,
+      "x_max": 11.660832405090332,
+      "y_min": 5.791805267333984,
+      "y_max": 6.014841556549072,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "未知のエラーを起こすことが、避けるべき失敗ではなく新しい実績を発見して集めることになる",
+          "外からは見えなかった、選手が音から札を特定する一瞬の技能が見える",
+          "観戦初心者でも、現在どちらのチームが優勢で試合がどう動いているか直感的に分かる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 9,
+      "name": "錯覚体験",
+      "count": 3,
+      "x_min": 8.631610870361328,
+      "x_max": 9.071736335754395,
+      "y_min": 6.186408042907715,
+      "y_max": 6.494406700134277,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "実物を口にしていないのに、飲食物が口内に存在する",
+          "醤油を注ぐにつれて、何もなかった器の中から自分の選んだ絵柄が徐々に浮かび上がる",
+          "自分らしく盛り付けた弁当が多くの人に見られ、その工夫を具体的に褒められている"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 10,
+      "name": "触覚インタラクション",
+      "count": 2,
+      "x_min": 11.288700103759766,
+      "x_max": 11.390448570251465,
+      "y_min": 9.685857772827148,
+      "y_max": 9.738774299621582,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "空中に浮かぶ立体物との間に壁がなく、手を伸ばして内部まで触れられる",
+          "実体のない仮想物体にも、押したときの重さや抵抗がある"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 11,
+      "name": "体験の記憶化",
+      "count": 5,
+      "x_min": 9.97237777709961,
+      "x_max": 10.79323673248291,
+      "y_min": 7.44269323348999,
+      "y_max": 8.255996704101562,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分の日常の動きや過ごした時間が、自分だけの柄として装身具に刻まれ、育っている",
+          "布と糸でできたモチーフが、光を反射する硬い金属の機体や装甲に見える",
+          "日本語の単語が、発見した場所や身体を動かした体験と結びついて記憶に残る"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 12,
+      "name": "実在感",
+      "count": 4,
+      "x_min": 11.47856330871582,
+      "x_max": 11.823628425598145,
+      "y_min": 9.148140907287598,
+      "y_max": 9.416610717773438,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "実在の建物が、固有の意匠を保ちながらゲーム世界になじむ建築として目の前に現れる",
+          "生活空間そのものが室内の出来事に反応し、どの向きからでも何がどこで起きたか分かる",
+          "ブロック世界の水が、水面・落下水・飛沫を行き来する一続きの流体として存在する"
+        ],
+        "keywords": [
+          "目 前"
+        ]
+      }
+    },
+    {
+      "cluster_id": 13,
+      "name": "擬似体験",
+      "count": 2,
+      "x_min": 9.067315101623535,
+      "x_max": 9.15426254272461,
+      "y_min": 8.623610496520996,
+      "y_max": 8.7022066116333,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "個人の面影を持つ独立したキャラクターと本人の掛け合いを、不完全さも含めて楽しめる",
+          "他者の感動や作品の魅力は伝わるのに、未視聴の展開はまだ知らないままでいられる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 14,
+      "name": "想像的体験",
+      "count": 2,
+      "x_min": 10.250354766845703,
+      "x_max": 10.465136528015137,
+      "y_min": 8.844382286071777,
+      "y_max": 9.028538703918457,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分が空想した生物が、地域の物語を背負い、人に応じる存在として現実に生きている",
+          "暗闇で光を辿る自分の移動が、その場に漂う不確定な音楽と抽象的な像を形づくる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 15,
+      "name": "身体感覚",
+      "count": 2,
+      "x_min": 9.831657409667969,
+      "x_max": 9.846414566040039,
+      "y_min": 6.105004787445068,
+      "y_max": 6.485560894012451,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "抱いている相手は頭や体を自力で安定させられず、自分が複数の部位を支えなければ危うい新生児である",
+          "自分の動かし方が、ぬいぐるみにとって弱い、ちょうどよい、強すぎるのどれかがわかる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 16,
+      "name": "即応的操作感",
+      "count": 3,
+      "x_min": 10.544787406921387,
+      "x_max": 10.700629234313965,
+      "y_min": 6.055508613586426,
+      "y_max": 6.464761257171631,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "子どもでも説明なしに光の動きと自分の行為の関係をつかみ、狙った瞬間に結果を起こせる",
+          "少し早すぎたり遅すぎたりした入力でも、自分が狙った際どいジャンプとして成功する",
+          "速く正確に文字を打ちながら、要所では打鍵の強弱まで表現として操れる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 17,
+      "name": "身体的成長",
+      "count": 5,
+      "x_min": 10.23557186126709,
+      "x_max": 11.178032875061035,
+      "y_min": 6.721335411071777,
+      "y_max": 7.188241481781006,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分の足踏みとパンチが、危険な通路を進み、迫る敵を蹴散らす身体能力になる",
+          "学習を重ねるほど、自分が育てているキャラクターが段階的に成長していく",
+          "変化する敵にキャラクタが即応し、回避しながら目標へ進み続ける"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 18,
+      "name": "初心者支援",
+      "count": 4,
+      "x_min": 11.294445037841797,
+      "x_max": 11.502998352050781,
+      "y_min": 4.963857173919678,
+      "y_max": 5.458291053771973,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "初心者でも相手の構成に応じた勝ち筋のあるメンバーを選べる",
+          "初心者でも対局の状況を理解し、次の展開を予測しながら観戦できる",
+          "観戦初心者でも、応援する馬を馬群からすぐ見つけ、位置や動きを見失わずに追い続けられる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 19,
+      "name": "公平な視点",
+      "count": 2,
+      "x_min": 12.05968952178955,
+      "x_max": 12.109545707702637,
+      "y_min": 7.041121006011963,
+      "y_max": 7.2563886642456055,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "同じ盤面やカードを共有しているのに、自分と他者には異なる情報が見えている",
+          "身体能力や感覚特性、年齢が異なっても、同じ場で対等に遊びへ加われる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 20,
+      "name": "直感的知覚",
+      "count": 3,
+      "x_min": 8.862719535827637,
+      "x_max": 9.174242973327637,
+      "y_min": 8.09170913696289,
+      "y_max": 8.245274543762207,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "架空生物の姿や設定にふさわしい鳴き声を直感的に見つけられる",
+          "登場人物の感情の強さや微妙なニュアンスが身体に直接伝わり、心理状態を直感的に理解できる",
+          "頭の中の効果音の勢い、立ち上がり、余韻、質感が、自分の身体的なニュアンスを保った音素材として現れる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 21,
+      "name": "対話体験",
+      "count": 3,
+      "x_min": 9.234881401062012,
+      "x_max": 9.384671211242676,
+      "y_min": 9.068492889404297,
+      "y_max": 9.414939880371094,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "目の前の二人が、自分が会話を牽引しなくてもアニメらしいコミカルな掛け合いを演じ続けている",
+          "返信を一から書かなくても、自分が選んだ温度感で会話の雰囲気や進み方を調整している",
+          "購入前でも、気になるルールが実際の会話や駆け引きとしてどう現れるかが分かる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 22,
+      "name": "物語的一体感",
+      "count": 3,
+      "x_min": 10.149354934692383,
+      "x_max": 10.752037048339844,
+      "y_min": 8.310402870178223,
+      "y_max": 8.634709358215332,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "一度限りの共同体験が、自分たちだけの物語としてよみがえる",
+          "断片的だった複数主体の言動が、誰がいつ誰に何をしたかを示す一つの全体像としてつながる",
+          "自分で編んだ言葉を声と全身で唱える自分の行為が、魔法を発動している"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 23,
+      "name": "自己発見",
+      "count": 3,
+      "x_min": 8.448806762695312,
+      "x_max": 9.122749328613281,
+      "y_min": 7.504499912261963,
+      "y_max": 7.686374187469482,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "回答結果だけでは見えなかった自分の迷いや確信の偏りが、内面の特徴として見えてくる",
+          "好きな複数のキャラクタに共通する人物像から、自分が何に惹かれているのかが見えてくる",
+          "顔を大きく多彩に崩すほど、自分の変顔らしさが高く認められる"
+        ],
+        "keywords": [
+          "見える くる"
+        ]
+      }
+    },
+    {
+      "cluster_id": 24,
+      "name": "没入体験",
+      "count": 3,
+      "x_min": 11.299237251281738,
+      "x_max": 11.903882026672363,
+      "y_min": 8.405109405517578,
+      "y_max": 8.711947441101074,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "膨大な関心の断片に囲まれ、デジタル空間へ迷い込んでいる",
+          "自分が考えた街が目の前で動き、その結果から街の仕組みを読み解ける",
+          "作業のことが頭から離れ、休憩中の別のまとまりある体験に入り込んでいる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 25,
+      "name": "偶発性競争",
+      "count": 3,
+      "x_min": 11.712138175964355,
+      "x_max": 11.969768524169922,
+      "y_min": 6.426540851593018,
+      "y_max": 6.778542518615723,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "偶然の一手ごとに、自分と相手のゴール争いの優劣が揺れ動く",
+          "ペットボトルを捨てる行為が、自分の運勢を引く遊びに変わる",
+          "相手と同じ危険な盤面で、安全性と速さを天秤にかけながら先に領地を切り開く"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 26,
+      "name": "構造的発想",
+      "count": 2,
+      "x_min": 9.371477127075195,
+      "x_max": 9.642118453979492,
+      "y_min": 8.257257461547852,
+      "y_max": 8.50507640838623,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "既存作品の表層の奥に、別の題材へ移せる骨格が見えている",
+          "鳴っている目覚まし時計が逃げ回り、耳で居場所を捉えて捕まえる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 27,
+      "name": "得意課題選択",
+      "count": 1,
+      "x_min": 11.86303424835205,
+      "x_max": 11.86303424835205,
+      "y_min": 5.490954875946045,
+      "y_max": 5.490954875946045,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "多数の未プレイ課題の中から、自分の得意を発揮して高得点を狙えそうな候補が見つかる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 28,
+      "name": "自己作用",
+      "count": 3,
+      "x_min": 10.559326171875,
+      "x_max": 10.880789756774902,
+      "y_min": 9.265625,
+      "y_max": 9.469010353088379,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分の意思決定が環境・資源・経済を同時に変化させ、その均衡を自分が担っている",
+          "日常空間そのものが、聴いている楽曲固有の色彩的な世界へ変わる",
+          "自分がそこにいるだけで、他者との位置関係とともに、その場の光空間を形作っている"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 29,
+      "name": "状況対応",
+      "count": 1,
+      "x_min": 11.006063461303711,
+      "x_max": 11.006063461303711,
+      "y_min": 6.2122483253479,
+      "y_max": 6.2122483253479,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "自分が捕手として、投球のズレを身体で補い、打者の反応を読みながら次の一球を組み立てている"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 30,
+      "name": "ストレス解消",
+      "count": 1,
+      "x_min": 11.802258491516113,
+      "x_max": 11.802258491516113,
+      "y_min": 8.242070198059082,
+      "y_max": 8.242070198059082,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "煩わしい通知や作業画面を、自分の意思で壊して視界から排除できる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 31,
+      "name": "共感的パートナーシップ",
+      "count": 2,
+      "x_min": 9.52493953704834,
+      "x_max": 9.918270111083984,
+      "y_min": 9.709853172302246,
+      "y_max": 9.715259552001953,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "grasp",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "title"
+        ],
+        "centroid_examples": [
+          "目の前の愛らしい存在が、道具ではなく自分を受け止めてくれる親しい話し相手である",
+          "身近な相棒も自分と同じ暑さに苦しみ、休息を必要としている"
+        ],
+        "keywords": []
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "point_id": "IPSJ-EC2026003::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2026041::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2026085::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2026005::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026020::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026064::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026078::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026096::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026098::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026082::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2026092::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2026044::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2026099::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2026024::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2026059::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2026068::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2026086::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2026095::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2026008::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2026033::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2026066::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2026058::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2026074::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2026077::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2026011::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2026017::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2026094::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2026009::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2026051::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2026069::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2026022::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2026057::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2026067::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2026061::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2026063::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2026048::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026054::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026073::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026079::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026088::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026036::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2026039::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2026056::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2026089::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2026030::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2026045::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2026001::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2026081::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2026021::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2026070::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2026015::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2026040::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2026093::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2026014::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2026038::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2026042::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2026055::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2026080::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2026018::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2026052::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2026053::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2026091::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2026062::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2026075::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2026025::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2026046::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2026047::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2026002::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2026012::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2026032::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2026028::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2026035::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2026084::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2026050::0::title",
+      "cluster_id": 23
+    },
+    {
+      "point_id": "IPSJ-EC2026072::0::title",
+      "cluster_id": 23
+    },
+    {
+      "point_id": "IPSJ-EC2026097::0::title",
+      "cluster_id": 23
+    },
+    {
+      "point_id": "IPSJ-EC2026029::0::title",
+      "cluster_id": 24
+    },
+    {
+      "point_id": "IPSJ-EC2026065::0::title",
+      "cluster_id": 24
+    },
+    {
+      "point_id": "IPSJ-EC2026087::0::title",
+      "cluster_id": 24
+    },
+    {
+      "point_id": "IPSJ-EC2026013::0::title",
+      "cluster_id": 25
+    },
+    {
+      "point_id": "IPSJ-EC2026019::0::title",
+      "cluster_id": 25
+    },
+    {
+      "point_id": "IPSJ-EC2026076::0::title",
+      "cluster_id": 25
+    },
+    {
+      "point_id": "IPSJ-EC2026004::0::title",
+      "cluster_id": 26
+    },
+    {
+      "point_id": "IPSJ-EC2026071::0::title",
+      "cluster_id": 26
+    },
+    {
+      "point_id": "IPSJ-EC2026043::0::title",
+      "cluster_id": 27
+    },
+    {
+      "point_id": "IPSJ-EC2026016::0::title",
+      "cluster_id": 28
+    },
+    {
+      "point_id": "IPSJ-EC2026083::0::title",
+      "cluster_id": 28
+    },
+    {
+      "point_id": "IPSJ-EC2026090::0::title",
+      "cluster_id": 28
+    },
+    {
+      "point_id": "IPSJ-EC2026006::0::title",
+      "cluster_id": 29
+    },
+    {
+      "point_id": "IPSJ-EC2026037::0::title",
+      "cluster_id": 30
+    },
+    {
+      "point_id": "IPSJ-EC2026031::0::title",
+      "cluster_id": 31
+    },
+    {
+      "point_id": "IPSJ-EC2026060::0::title",
+      "cluster_id": 31
+    }
+  ]
+}

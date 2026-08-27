@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eda-experiments.local/schemas/embeddings.schema.json",
+  "title": "Embedding Cache Vectors",
+  "type": "object",
+  "required": ["title", "abstract"],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "object",
+      "description": "feature_id -> vector",
+      "additionalProperties": { "$ref": "#/$defs/vector" }
+    },
+    "abstract": {
+      "type": "object",
+      "description": "feature_id -> vector",
+      "additionalProperties": { "$ref": "#/$defs/vector" }
+    }
+  },
+  "$defs": {
+    "vector": {
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 1
+    }
+  }
+}

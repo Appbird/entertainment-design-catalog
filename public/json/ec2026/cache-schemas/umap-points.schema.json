@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eda-experiments.local/schemas/umap-points.schema.json",
+  "title": "UMAP Points",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["point_id", "x", "y"],
+    "additionalProperties": false,
+    "properties": {
+      "point_id": {
+        "type": "string",
+        "pattern": "^.+::(title|abstract)$"
+      },
+      "x": { "type": "number" },
+      "y": { "type": "number" }
+    }
+  }
+}

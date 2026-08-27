@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eda-experiments.local/schemas/features.schema.json",
+  "title": "Embedding Cache Features",
+  "type": "object",
+  "required": ["features"],
+  "additionalProperties": false,
+  "properties": {
+    "features": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/featureRecord" }
+    }
+  },
+  "$defs": {
+    "featureRecord": {
+      "type": "object",
+      "required": [
+        "feature_id",
+        "paper_id",
+        "feature_idx",
+        "mode",
+        "title",
+        "type",
+        "context",
+        "effect"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "feature_id": {
+          "type": "string",
+          "pattern": "^.+::[0-9]+$"
+        },
+        "paper_id": { "type": "string" },
+        "feature_idx": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "mode": {
+          "type": "string",
+          "const": "edc"
+        },
+        "title": { "type": "string" },
+        "type": { "type": "string" },
+        "context": { "type": "string" },
+        "effect": { "type": "string" }
+      }
+    }
+  }
+}

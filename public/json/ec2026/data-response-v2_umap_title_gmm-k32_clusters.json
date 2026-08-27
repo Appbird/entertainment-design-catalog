@@ -1,0 +1,1258 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "name": "人物共感",
+      "count": 5,
+      "x_min": 3.7308881282806396,
+      "x_max": 4.675169467926025,
+      "y_min": 2.1577484607696533,
+      "y_max": 2.5801310539245605,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "登場人物に親近感を抱く / 次に誰がどう反応するか見たくなる",
+          "登場人物への共感 / 物語の続きを読みたい",
+          "親近感 / もっと話しかけたくなる"
+        ],
+        "keywords": [
+          "登場 人物"
+        ]
+      }
+    },
+    {
+      "cluster_id": 1,
+      "name": "魅力的体験",
+      "count": 4,
+      "x_min": 5.046910285949707,
+      "x_max": 5.412753105163574,
+      "y_min": 3.1119279861450195,
+      "y_max": 3.800950765609741,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "意外性への驚き / 高級感 / 手元に置きたくなる",
+          "意外な出現への驚き / 絵柄が完成していく楽しさ / 最後まで見届けたくなる",
+          "視覚的な楽しさ / 日常的に使い続けたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 2,
+      "name": "自己調整",
+      "count": 3,
+      "x_min": 4.96031379699707,
+      "x_max": 5.341743469238281,
+      "y_min": -0.029568592086434364,
+      "y_max": 0.20793937146663666,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "自分の感情表現を調整したくなる / 上達するまで繰り返し試したくなる",
+          "ちょうどよい力へ調整したくなる / 自分で力加減を保ちたくなる",
+          "失敗の原因を突き止めたくなる / 成功するまで直して試したくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 3,
+      "name": "緊張と興奮",
+      "count": 3,
+      "x_min": 3.606508255004883,
+      "x_max": 3.9404735565185547,
+      "y_min": 1.012033224105835,
+      "y_max": 1.6761534214019775,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "焦りと緊張 / リスクを取ってでも相手に勝ちたい",
+          "没入 / 高揚",
+          "展開への緊張と高揚 / 続きを見たくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 4,
+      "name": "継続的体験",
+      "count": 3,
+      "x_min": 5.079712390899658,
+      "x_max": 5.483242988586426,
+      "y_min": 1.519216537475586,
+      "y_max": 1.5729414224624634,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "日常活動とゲームを一緒に続けたい / 限られた時間でもゲームを少しずつ進めたい",
+          "試合の流れを追い続けたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 5,
+      "name": "愛着",
+      "count": 2,
+      "x_min": 3.7679474353790283,
+      "x_max": 4.0165181159973145,
+      "y_min": 3.7913947105407715,
+      "y_max": 4.096457004547119,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "装身具への愛着 / 自分に馴染んだものとして大切にしたい / これからも身につけて柄を育てたい",
+          "達成感 / 承認される喜び / 自分の作品への愛着"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 6,
+      "name": "自己探索・知的駆け引き",
+      "count": 3,
+      "x_min": 5.526300430297852,
+      "x_max": 5.750693321228027,
+      "y_min": 2.895434617996216,
+      "y_max": 3.1375038623809814,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "意外な自己像への好奇心 / 自己理解への納得 / さらに自分を振り返りたくなる",
+          "自分だけが知る情報を有利に使いたい / 他者が何を知っているか推理したい / 自分の知識を悟られないように振る舞いたい",
+          "意外性への驚き / 別の食べ物らしさも作りたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 7,
+      "name": "カスタマイズ欲求",
+      "count": 3,
+      "x_min": 6.43840217590332,
+      "x_max": 6.554269313812256,
+      "y_min": 1.5675259828567505,
+      "y_max": 1.7704006433486938,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "好みの焦げを作れた満足 / 異なる焦げ具合を試したくなる",
+          "自分で日本酒の味を編集する楽しさ / 自分に合う味を探したくなる",
+          "好みの配合を探したくなる / 異なる組み合わせを試したくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 8,
+      "name": "好奇心・視覚的魅力",
+      "count": 3,
+      "x_min": 5.861433029174805,
+      "x_max": 6.225393772125244,
+      "y_min": 3.5326266288757324,
+      "y_max": 3.7426819801330566,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "標準的な水との違いへの驚き / 動き続ける水を眺めていたくなる",
+          "見えない仕組みへの驚きと好奇心 / 水道の仕組みが分かる納得 / 水道事業への関心",
+          "情報量に圧倒される / 視覚的な充足を覚える / 移り変わる全体を眺め続けたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 9,
+      "name": "自己効力感",
+      "count": 3,
+      "x_min": 4.01526403427124,
+      "x_max": 4.7721357345581055,
+      "y_min": 0.39651933312416077,
+      "y_max": 0.4523516595363617,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "選出に自信を持つ / 対戦を始めたくなる",
+          "挑戦してみたくなる / 成功できそうな自信 / 上達意欲が続く",
+          "すぐに斬りたくなる / 動作への自信"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 10,
+      "name": "安心感",
+      "count": 2,
+      "x_min": 2.9727060794830322,
+      "x_max": 3.198000907897949,
+      "y_min": 0.32456839084625244,
+      "y_max": 0.40196534991264343,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "意図が伝わる確信 / 焦りやいらだちからの解放",
+          "落ち着き / 自責感の軽減"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 11,
+      "name": "安心感・満足感",
+      "count": 5,
+      "x_min": 3.07779860496521,
+      "x_max": 3.6785879135131836,
+      "y_min": 2.9152672290802,
+      "y_max": 3.5678226947784424,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "安心 / 満足 / 進んで摂取したくなる",
+          "安心してレビューを読みたい / 作品を見て確かめたくなる",
+          "愛着 / 満足 / 旅の思い出として残したくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 12,
+      "name": "探究的達成感",
+      "count": 2,
+      "x_min": 4.727430820465088,
+      "x_max": 4.868930816650391,
+      "y_min": 3.976839780807495,
+      "y_max": 4.330217361450195,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "関係を解き明かす発見の喜び / 自分で全体像を完成させた達成感",
+          "制作意図を直接形にできる手応え / 自分が音を作っているという所有感 / 狙った音へさらに近づけたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 13,
+      "name": "再現性への満足",
+      "count": 3,
+      "x_min": 6.277277946472168,
+      "x_max": 6.655093669891357,
+      "y_min": 3.8830854892730713,
+      "y_max": 4.143526554107666,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "元の建物を見分けられることへの納得 / 再現された建物を近くで眺めたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 14,
+      "name": "探究心",
+      "count": 4,
+      "x_min": 6.211254596710205,
+      "x_max": 6.933263301849365,
+      "y_min": 2.6050796508789062,
+      "y_max": 3.1034367084503174,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "世界に引き込まれる / 周囲を探索したくなる",
+          "光と自分の関係に不思議さを覚える / 位置を変えて自分の影響を確かめたくなる / 他者との配置を変えて別の光景を生み出したくなる",
+          "未知の組み合わせへの好奇心 / 別の光を探して探索を続けたい"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 15,
+      "name": "楽しさ・親近感",
+      "count": 4,
+      "x_min": 4.182953834533691,
+      "x_max": 4.716819763183594,
+      "y_min": 2.666574478149414,
+      "y_max": 3.279102325439453,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "楽しさ / 気軽に見続けたくなる",
+          "驚き / 親近感 / 楽しさ / 不完全な応答への寛容 / 今後の成長を見守りたくなる",
+          "会話に関わっている充足 / 選択によって返答が変わる面白さ"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 16,
+      "name": "探索欲求",
+      "count": 1,
+      "x_min": 4.976313591003418,
+      "x_max": 4.976313591003418,
+      "y_min": 0.7254546284675598,
+      "y_max": 0.7254546284675598,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "手がかりをさらに探したくなる / 推定を的中させたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 17,
+      "name": "成長意欲",
+      "count": 2,
+      "x_min": 4.329074859619141,
+      "x_max": 4.723526477813721,
+      "y_min": 1.2584824562072754,
+      "y_max": 1.541770339012146,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "次の段階まで育てたい / 成長の続きが気になる / 学習を続けたくなる",
+          "ラップバトルに参加する楽しさ / 即興表現を成し遂げた達成感 / もう一度より良い韻で返したくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 18,
+      "name": "自己改善欲求",
+      "count": 2,
+      "x_min": 5.775452613830566,
+      "x_max": 5.990712642669678,
+      "y_min": 0.39438265562057495,
+      "y_max": 0.7095810174942017,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "印象のずれが大きい部分を重点的に改善したくなる",
+          "より高い得点を目指したくなる / 多様な変顔を試したくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 19,
+      "name": "音色探索欲求",
+      "count": 2,
+      "x_min": 6.261834621429443,
+      "x_max": 6.493192672729492,
+      "y_min": 0.6477690935134888,
+      "y_max": 0.9354574084281921,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "候補となる音色を探索して選びたくなる",
+          "録音を繰り返す負担から解放される / 候補を聴き比べて目的に近い音を選びたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 20,
+      "name": "興味喚起",
+      "count": 1,
+      "x_min": 5.993892669677734,
+      "x_max": 5.993892669677734,
+      "y_min": 1.873566746711731,
+      "y_max": 1.873566746711731,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "遊んでみたくなる / 自分に合うゲームか確かめたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 21,
+      "name": "安心感・挑戦意欲",
+      "count": 3,
+      "x_min": 4.092987060546875,
+      "x_max": 4.3197855949401855,
+      "y_min": -0.25990670919418335,
+      "y_max": 0.1404259353876114,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "失敗への不安が和らぐ / まだ見ぬエラーを集めたくなる",
+          "誘導不全を見落とさずに済む安心 / 問題のある区間を改善したくなる",
+          "操作への信頼 / 失敗への苛立ちが和らぐ / 続けて挑戦したくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 22,
+      "name": "リフレッシュ",
+      "count": 3,
+      "x_min": 3.3796629905700684,
+      "x_max": 3.604124069213867,
+      "y_min": 0.2311791479587555,
+      "y_max": 0.6767570972442627,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "作業からの解放 / 気分転換",
+          "爽快 / ストレスを発散する / 集中を取り戻したくなる",
+          "迷いが減る / 自分でも切れそうになる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 23,
+      "name": "継続的関与",
+      "count": 4,
+      "x_min": 5.110955238342285,
+      "x_max": 5.515879154205322,
+      "y_min": 0.7063555121421814,
+      "y_max": 1.2142760753631592,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "次の配球を考えたくなる / 打者との駆け引きを続けたくなる",
+          "次の選択を主体的に考えたい / 短期的な利益だけでなく長期的な結果も見届けたい",
+          "応援する馬を追い続けたい / 対象馬の次の動きを予想したい"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 24,
+      "name": "立体没入体験",
+      "count": 2,
+      "x_min": 6.621906757354736,
+      "x_max": 6.788278579711914,
+      "y_min": 3.373089551925659,
+      "y_max": 3.467593193054199,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "立体物に触れて確かめたい / 立体物を動かしてみたい / 映像世界へ入り込むような没入",
+          "立体モデルが浮いて見える違和感が和らぐ / アニメの世界をそのまま動かしているように遊び続けたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 25,
+      "name": "卓越体験",
+      "count": 2,
+      "x_min": 4.780582904815674,
+      "x_max": 5.1040568351745605,
+      "y_min": 1.8355259895324707,
+      "y_max": 2.047178030014038,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "選手の卓越性への驚き / 次の読みでどちらが早く聴き分けるか見届けたくなる / 札取りを新しい観点から理解する面白さ",
+          "楽しさ / 自信 / 集中 / プレイを続けたい"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 26,
+      "name": "達成感",
+      "count": 4,
+      "x_min": 4.293802738189697,
+      "x_max": 4.601149559020996,
+      "y_min": 4.246716499328613,
+      "y_max": 4.636494159698486,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "飛行そのものが楽しい / 身体を使って課題を成し遂げた達成感を得る",
+          "制作そのものを楽しいと思う / 完成させた達成感を得る / 生物への愛着が湧く / 制作に没入する / さらに育てたくなる",
+          "自分にも演奏できたという達成感 / 演奏への親しみ"
+        ],
+        "keywords": [
+          "制作 楽しい",
+          "達成感 得る",
+          "完成 達成感"
+        ]
+      }
+    },
+    {
+      "cluster_id": 27,
+      "name": "達成欲求",
+      "count": 4,
+      "x_min": 4.218903064727783,
+      "x_max": 4.630215167999268,
+      "y_min": 0.7863214015960693,
+      "y_max": 1.1730360984802246,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "成功の爽快感 / もっと上手に成功させたくなる / 難しい速さでも再挑戦したくなる",
+          "見つけた高揚 / すぐに止めたい / もう一度追いかけたい",
+          "敵を蹴散らす爽快感 / より速く突破したくなる / 運動を繰り返し続けたくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 28,
+      "name": "緊張感",
+      "count": 4,
+      "x_min": 3.172684907913208,
+      "x_max": 3.4337775707244873,
+      "y_min": 1.0586020946502686,
+      "y_max": 1.5102263689041138,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "不快 / 緊張",
+          "緊張 / 次の結果を確かめたい",
+          "焦り / 緊張 / 失敗しそうなハラハラ"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 29,
+      "name": "共感的回想",
+      "count": 2,
+      "x_min": 3.5712058544158936,
+      "x_max": 3.9264285564422607,
+      "y_min": 2.8528475761413574,
+      "y_max": 3.0097994804382324,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "懐かしさ / 振り返る楽しさ / 仲間と当時の出来事を語り直したい",
+          "安心 / 親愛 / 本音や個人的な感情を話したくなる / また雑談したくなる"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 30,
+      "name": "記憶再生自信",
+      "count": 1,
+      "x_min": 4.488757133483887,
+      "x_max": 4.488757133483887,
+      "y_min": 3.6209664344787598,
+      "y_max": 3.6209664344787598,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "自力で正確に覚えられる自信 / 後から正しく思い出したい"
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "cluster_id": 31,
+      "name": "挑戦意欲",
+      "count": 3,
+      "x_min": 5.4713358879089355,
+      "x_max": 5.726044178009033,
+      "y_min": 1.8104802370071411,
+      "y_max": 2.3221805095672607,
+      "naming": {
+        "strategy": "keywords_with_centroid_examples",
+        "keyword_source": "ctfidf",
+        "embed_unit_for_naming": "response",
+        "ngram_range": [
+          2,
+          4
+        ],
+        "centroid_sample_k": 3,
+        "title_mode_fields": [
+          "effect"
+        ],
+        "centroid_examples": [
+          "独自の回避や陣取り戦略を試したくなる / 予想外の展開に驚きと面白さを覚える / 試行錯誤へのやりがいを感じる",
+          "難しそうな立体パズルを自分にも遊べるうれしさ / もう少し目標へ近づけたくなる",
+          "楽しい / 結果への好奇心が湧く / もう一度試したくなる"
+        ],
+        "keywords": []
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "point_id": "IPSJ-EC2026025::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2026041::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2026060::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2026066::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2026075::0::title",
+      "cluster_id": 0
+    },
+    {
+      "point_id": "IPSJ-EC2026004::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026022::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026056::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026079::0::title",
+      "cluster_id": 1
+    },
+    {
+      "point_id": "IPSJ-EC2026065::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2026070::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2026074::0::title",
+      "cluster_id": 2
+    },
+    {
+      "point_id": "IPSJ-EC2026019::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2026090::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2026091::0::title",
+      "cluster_id": 3
+    },
+    {
+      "point_id": "IPSJ-EC2026042::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2026051::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2026099::0::title",
+      "cluster_id": 4
+    },
+    {
+      "point_id": "IPSJ-EC2026054::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2026057::0::title",
+      "cluster_id": 5
+    },
+    {
+      "point_id": "IPSJ-EC2026024::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2026062::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2026072::0::title",
+      "cluster_id": 6
+    },
+    {
+      "point_id": "IPSJ-EC2026059::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2026068::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2026086::0::title",
+      "cluster_id": 7
+    },
+    {
+      "point_id": "IPSJ-EC2026036::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2026039::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2026087::0::title",
+      "cluster_id": 8
+    },
+    {
+      "point_id": "IPSJ-EC2026014::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2026043::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2026053::0::title",
+      "cluster_id": 9
+    },
+    {
+      "point_id": "IPSJ-EC2026003::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2026033::0::title",
+      "cluster_id": 10
+    },
+    {
+      "point_id": "IPSJ-EC2026008::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026045::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026050::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026088::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026095::0::title",
+      "cluster_id": 11
+    },
+    {
+      "point_id": "IPSJ-EC2026035::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2026046::0::title",
+      "cluster_id": 12
+    },
+    {
+      "point_id": "IPSJ-EC2026063::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2026067::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2026089::0::title",
+      "cluster_id": 13
+    },
+    {
+      "point_id": "IPSJ-EC2026081::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2026083::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2026085::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2026092::0::title",
+      "cluster_id": 14
+    },
+    {
+      "point_id": "IPSJ-EC2026002::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2026030::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2026032::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2026064::0::title",
+      "cluster_id": 15
+    },
+    {
+      "point_id": "IPSJ-EC2026011::0::title",
+      "cluster_id": 16
+    },
+    {
+      "point_id": "IPSJ-EC2026038::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2026096::0::title",
+      "cluster_id": 17
+    },
+    {
+      "point_id": "IPSJ-EC2026077::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2026097::0::title",
+      "cluster_id": 18
+    },
+    {
+      "point_id": "IPSJ-EC2026047::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2026058::0::title",
+      "cluster_id": 19
+    },
+    {
+      "point_id": "IPSJ-EC2026012::0::title",
+      "cluster_id": 20
+    },
+    {
+      "point_id": "IPSJ-EC2026040::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2026069::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2026094::0::title",
+      "cluster_id": 21
+    },
+    {
+      "point_id": "IPSJ-EC2026005::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2026029::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2026037::0::title",
+      "cluster_id": 22
+    },
+    {
+      "point_id": "IPSJ-EC2026006::0::title",
+      "cluster_id": 23
+    },
+    {
+      "point_id": "IPSJ-EC2026016::0::title",
+      "cluster_id": 23
+    },
+    {
+      "point_id": "IPSJ-EC2026052::0::title",
+      "cluster_id": 23
+    },
+    {
+      "point_id": "IPSJ-EC2026093::0::title",
+      "cluster_id": 23
+    },
+    {
+      "point_id": "IPSJ-EC2026061::0::title",
+      "cluster_id": 24
+    },
+    {
+      "point_id": "IPSJ-EC2026082::0::title",
+      "cluster_id": 24
+    },
+    {
+      "point_id": "IPSJ-EC2026009::0::title",
+      "cluster_id": 25
+    },
+    {
+      "point_id": "IPSJ-EC2026098::0::title",
+      "cluster_id": 25
+    },
+    {
+      "point_id": "IPSJ-EC2026001::0::title",
+      "cluster_id": 26
+    },
+    {
+      "point_id": "IPSJ-EC2026020::0::title",
+      "cluster_id": 26
+    },
+    {
+      "point_id": "IPSJ-EC2026048::0::title",
+      "cluster_id": 26
+    },
+    {
+      "point_id": "IPSJ-EC2026078::0::title",
+      "cluster_id": 26
+    },
+    {
+      "point_id": "IPSJ-EC2026015::0::title",
+      "cluster_id": 27
+    },
+    {
+      "point_id": "IPSJ-EC2026055::0::title",
+      "cluster_id": 27
+    },
+    {
+      "point_id": "IPSJ-EC2026071::0::title",
+      "cluster_id": 27
+    },
+    {
+      "point_id": "IPSJ-EC2026084::0::title",
+      "cluster_id": 27
+    },
+    {
+      "point_id": "IPSJ-EC2026013::0::title",
+      "cluster_id": 28
+    },
+    {
+      "point_id": "IPSJ-EC2026021::0::title",
+      "cluster_id": 28
+    },
+    {
+      "point_id": "IPSJ-EC2026044::0::title",
+      "cluster_id": 28
+    },
+    {
+      "point_id": "IPSJ-EC2026080::0::title",
+      "cluster_id": 28
+    },
+    {
+      "point_id": "IPSJ-EC2026028::0::title",
+      "cluster_id": 29
+    },
+    {
+      "point_id": "IPSJ-EC2026031::0::title",
+      "cluster_id": 29
+    },
+    {
+      "point_id": "IPSJ-EC2026073::0::title",
+      "cluster_id": 30
+    },
+    {
+      "point_id": "IPSJ-EC2026017::0::title",
+      "cluster_id": 31
+    },
+    {
+      "point_id": "IPSJ-EC2026018::0::title",
+      "cluster_id": 31
+    },
+    {
+      "point_id": "IPSJ-EC2026076::0::title",
+      "cluster_id": 31
+    }
+  ]
+}

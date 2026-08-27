@@ -1,0 +1,646 @@
+[
+  {
+    "point_id": "IPSJ-EC2026002::0::abstract",
+    "feature_id": "IPSJ-EC2026002::0",
+    "paper_id": "IPSJ-EC2026002",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026001::0::abstract",
+    "feature_id": "IPSJ-EC2026001::0",
+    "paper_id": "IPSJ-EC2026001",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026004::0::abstract",
+    "feature_id": "IPSJ-EC2026004::0",
+    "paper_id": "IPSJ-EC2026004",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026003::0::abstract",
+    "feature_id": "IPSJ-EC2026003::0",
+    "paper_id": "IPSJ-EC2026003",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026005::0::abstract",
+    "feature_id": "IPSJ-EC2026005::0",
+    "paper_id": "IPSJ-EC2026005",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026006::0::abstract",
+    "feature_id": "IPSJ-EC2026006::0",
+    "paper_id": "IPSJ-EC2026006",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026008::0::abstract",
+    "feature_id": "IPSJ-EC2026008::0",
+    "paper_id": "IPSJ-EC2026008",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026009::0::abstract",
+    "feature_id": "IPSJ-EC2026009::0",
+    "paper_id": "IPSJ-EC2026009",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026011::0::abstract",
+    "feature_id": "IPSJ-EC2026011::0",
+    "paper_id": "IPSJ-EC2026011",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026012::0::abstract",
+    "feature_id": "IPSJ-EC2026012::0",
+    "paper_id": "IPSJ-EC2026012",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026014::0::abstract",
+    "feature_id": "IPSJ-EC2026014::0",
+    "paper_id": "IPSJ-EC2026014",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026013::0::abstract",
+    "feature_id": "IPSJ-EC2026013::0",
+    "paper_id": "IPSJ-EC2026013",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026015::0::abstract",
+    "feature_id": "IPSJ-EC2026015::0",
+    "paper_id": "IPSJ-EC2026015",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026016::0::abstract",
+    "feature_id": "IPSJ-EC2026016::0",
+    "paper_id": "IPSJ-EC2026016",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026017::0::abstract",
+    "feature_id": "IPSJ-EC2026017::0",
+    "paper_id": "IPSJ-EC2026017",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026019::0::abstract",
+    "feature_id": "IPSJ-EC2026019::0",
+    "paper_id": "IPSJ-EC2026019",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026020::0::abstract",
+    "feature_id": "IPSJ-EC2026020::0",
+    "paper_id": "IPSJ-EC2026020",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026018::0::abstract",
+    "feature_id": "IPSJ-EC2026018::0",
+    "paper_id": "IPSJ-EC2026018",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026021::0::abstract",
+    "feature_id": "IPSJ-EC2026021::0",
+    "paper_id": "IPSJ-EC2026021",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026022::0::abstract",
+    "feature_id": "IPSJ-EC2026022::0",
+    "paper_id": "IPSJ-EC2026022",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026024::0::abstract",
+    "feature_id": "IPSJ-EC2026024::0",
+    "paper_id": "IPSJ-EC2026024",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026025::0::abstract",
+    "feature_id": "IPSJ-EC2026025::0",
+    "paper_id": "IPSJ-EC2026025",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026028::0::abstract",
+    "feature_id": "IPSJ-EC2026028::0",
+    "paper_id": "IPSJ-EC2026028",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026029::0::abstract",
+    "feature_id": "IPSJ-EC2026029::0",
+    "paper_id": "IPSJ-EC2026029",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026030::0::abstract",
+    "feature_id": "IPSJ-EC2026030::0",
+    "paper_id": "IPSJ-EC2026030",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026031::0::abstract",
+    "feature_id": "IPSJ-EC2026031::0",
+    "paper_id": "IPSJ-EC2026031",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026032::0::abstract",
+    "feature_id": "IPSJ-EC2026032::0",
+    "paper_id": "IPSJ-EC2026032",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026033::0::abstract",
+    "feature_id": "IPSJ-EC2026033::0",
+    "paper_id": "IPSJ-EC2026033",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026035::0::abstract",
+    "feature_id": "IPSJ-EC2026035::0",
+    "paper_id": "IPSJ-EC2026035",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026036::0::abstract",
+    "feature_id": "IPSJ-EC2026036::0",
+    "paper_id": "IPSJ-EC2026036",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026037::0::abstract",
+    "feature_id": "IPSJ-EC2026037::0",
+    "paper_id": "IPSJ-EC2026037",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026038::0::abstract",
+    "feature_id": "IPSJ-EC2026038::0",
+    "paper_id": "IPSJ-EC2026038",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026039::0::abstract",
+    "feature_id": "IPSJ-EC2026039::0",
+    "paper_id": "IPSJ-EC2026039",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026040::0::abstract",
+    "feature_id": "IPSJ-EC2026040::0",
+    "paper_id": "IPSJ-EC2026040",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026041::0::abstract",
+    "feature_id": "IPSJ-EC2026041::0",
+    "paper_id": "IPSJ-EC2026041",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026042::0::abstract",
+    "feature_id": "IPSJ-EC2026042::0",
+    "paper_id": "IPSJ-EC2026042",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026044::0::abstract",
+    "feature_id": "IPSJ-EC2026044::0",
+    "paper_id": "IPSJ-EC2026044",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026043::0::abstract",
+    "feature_id": "IPSJ-EC2026043::0",
+    "paper_id": "IPSJ-EC2026043",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026045::0::abstract",
+    "feature_id": "IPSJ-EC2026045::0",
+    "paper_id": "IPSJ-EC2026045",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026046::0::abstract",
+    "feature_id": "IPSJ-EC2026046::0",
+    "paper_id": "IPSJ-EC2026046",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026047::0::abstract",
+    "feature_id": "IPSJ-EC2026047::0",
+    "paper_id": "IPSJ-EC2026047",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026048::0::abstract",
+    "feature_id": "IPSJ-EC2026048::0",
+    "paper_id": "IPSJ-EC2026048",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026050::0::abstract",
+    "feature_id": "IPSJ-EC2026050::0",
+    "paper_id": "IPSJ-EC2026050",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026051::0::abstract",
+    "feature_id": "IPSJ-EC2026051::0",
+    "paper_id": "IPSJ-EC2026051",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026052::0::abstract",
+    "feature_id": "IPSJ-EC2026052::0",
+    "paper_id": "IPSJ-EC2026052",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026053::0::abstract",
+    "feature_id": "IPSJ-EC2026053::0",
+    "paper_id": "IPSJ-EC2026053",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026054::0::abstract",
+    "feature_id": "IPSJ-EC2026054::0",
+    "paper_id": "IPSJ-EC2026054",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026055::0::abstract",
+    "feature_id": "IPSJ-EC2026055::0",
+    "paper_id": "IPSJ-EC2026055",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026056::0::abstract",
+    "feature_id": "IPSJ-EC2026056::0",
+    "paper_id": "IPSJ-EC2026056",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026058::0::abstract",
+    "feature_id": "IPSJ-EC2026058::0",
+    "paper_id": "IPSJ-EC2026058",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026057::0::abstract",
+    "feature_id": "IPSJ-EC2026057::0",
+    "paper_id": "IPSJ-EC2026057",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026059::0::abstract",
+    "feature_id": "IPSJ-EC2026059::0",
+    "paper_id": "IPSJ-EC2026059",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026060::0::abstract",
+    "feature_id": "IPSJ-EC2026060::0",
+    "paper_id": "IPSJ-EC2026060",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026061::0::abstract",
+    "feature_id": "IPSJ-EC2026061::0",
+    "paper_id": "IPSJ-EC2026061",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026063::0::abstract",
+    "feature_id": "IPSJ-EC2026063::0",
+    "paper_id": "IPSJ-EC2026063",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026062::0::abstract",
+    "feature_id": "IPSJ-EC2026062::0",
+    "paper_id": "IPSJ-EC2026062",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026064::0::abstract",
+    "feature_id": "IPSJ-EC2026064::0",
+    "paper_id": "IPSJ-EC2026064",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026065::0::abstract",
+    "feature_id": "IPSJ-EC2026065::0",
+    "paper_id": "IPSJ-EC2026065",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026067::0::abstract",
+    "feature_id": "IPSJ-EC2026067::0",
+    "paper_id": "IPSJ-EC2026067",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026068::0::abstract",
+    "feature_id": "IPSJ-EC2026068::0",
+    "paper_id": "IPSJ-EC2026068",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026066::0::abstract",
+    "feature_id": "IPSJ-EC2026066::0",
+    "paper_id": "IPSJ-EC2026066",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026069::0::abstract",
+    "feature_id": "IPSJ-EC2026069::0",
+    "paper_id": "IPSJ-EC2026069",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026070::0::abstract",
+    "feature_id": "IPSJ-EC2026070::0",
+    "paper_id": "IPSJ-EC2026070",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026071::0::abstract",
+    "feature_id": "IPSJ-EC2026071::0",
+    "paper_id": "IPSJ-EC2026071",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026073::0::abstract",
+    "feature_id": "IPSJ-EC2026073::0",
+    "paper_id": "IPSJ-EC2026073",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026072::0::abstract",
+    "feature_id": "IPSJ-EC2026072::0",
+    "paper_id": "IPSJ-EC2026072",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026074::0::abstract",
+    "feature_id": "IPSJ-EC2026074::0",
+    "paper_id": "IPSJ-EC2026074",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026075::0::abstract",
+    "feature_id": "IPSJ-EC2026075::0",
+    "paper_id": "IPSJ-EC2026075",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026076::0::abstract",
+    "feature_id": "IPSJ-EC2026076::0",
+    "paper_id": "IPSJ-EC2026076",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026078::0::abstract",
+    "feature_id": "IPSJ-EC2026078::0",
+    "paper_id": "IPSJ-EC2026078",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026077::0::abstract",
+    "feature_id": "IPSJ-EC2026077::0",
+    "paper_id": "IPSJ-EC2026077",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026079::0::abstract",
+    "feature_id": "IPSJ-EC2026079::0",
+    "paper_id": "IPSJ-EC2026079",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026080::0::abstract",
+    "feature_id": "IPSJ-EC2026080::0",
+    "paper_id": "IPSJ-EC2026080",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026081::0::abstract",
+    "feature_id": "IPSJ-EC2026081::0",
+    "paper_id": "IPSJ-EC2026081",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026083::0::abstract",
+    "feature_id": "IPSJ-EC2026083::0",
+    "paper_id": "IPSJ-EC2026083",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026082::0::abstract",
+    "feature_id": "IPSJ-EC2026082::0",
+    "paper_id": "IPSJ-EC2026082",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026084::0::abstract",
+    "feature_id": "IPSJ-EC2026084::0",
+    "paper_id": "IPSJ-EC2026084",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026085::0::abstract",
+    "feature_id": "IPSJ-EC2026085::0",
+    "paper_id": "IPSJ-EC2026085",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026086::0::abstract",
+    "feature_id": "IPSJ-EC2026086::0",
+    "paper_id": "IPSJ-EC2026086",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026087::0::abstract",
+    "feature_id": "IPSJ-EC2026087::0",
+    "paper_id": "IPSJ-EC2026087",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026088::0::abstract",
+    "feature_id": "IPSJ-EC2026088::0",
+    "paper_id": "IPSJ-EC2026088",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026089::0::abstract",
+    "feature_id": "IPSJ-EC2026089::0",
+    "paper_id": "IPSJ-EC2026089",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026090::0::abstract",
+    "feature_id": "IPSJ-EC2026090::0",
+    "paper_id": "IPSJ-EC2026090",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026091::0::abstract",
+    "feature_id": "IPSJ-EC2026091::0",
+    "paper_id": "IPSJ-EC2026091",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026093::0::abstract",
+    "feature_id": "IPSJ-EC2026093::0",
+    "paper_id": "IPSJ-EC2026093",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026092::0::abstract",
+    "feature_id": "IPSJ-EC2026092::0",
+    "paper_id": "IPSJ-EC2026092",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026094::0::abstract",
+    "feature_id": "IPSJ-EC2026094::0",
+    "paper_id": "IPSJ-EC2026094",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026095::0::abstract",
+    "feature_id": "IPSJ-EC2026095::0",
+    "paper_id": "IPSJ-EC2026095",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026096::0::abstract",
+    "feature_id": "IPSJ-EC2026096::0",
+    "paper_id": "IPSJ-EC2026096",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026097::0::abstract",
+    "feature_id": "IPSJ-EC2026097::0",
+    "paper_id": "IPSJ-EC2026097",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026098::0::abstract",
+    "feature_id": "IPSJ-EC2026098::0",
+    "paper_id": "IPSJ-EC2026098",
+    "feature_idx": 0,
+    "mode": "abstract"
+  },
+  {
+    "point_id": "IPSJ-EC2026099::0::abstract",
+    "feature_id": "IPSJ-EC2026099::0",
+    "paper_id": "IPSJ-EC2026099",
+    "feature_idx": 0,
+    "mode": "abstract"
+  }
+]
