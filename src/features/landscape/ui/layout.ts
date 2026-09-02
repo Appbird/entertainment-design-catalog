@@ -56,6 +56,18 @@ export function buildLayout(options: {
   typeLabel.appendChild(typeSelect);
   controlsContainer.appendChild(typeLabel);
 
+  const typeHint = document.createElement("div");
+  typeHint.id = "type-hint";
+  typeHint.innerHTML = `各コンテンツが実現したい体験記述
+    <ul>
+      <li><b>EDC</b> = 各論文からLLMで推測した「狙いたいユーザ体験」の記述</li>
+      <li><b>状況理解のみ</b> = ユーザ体験のうち状況理解の記述のみ</li>
+      <li><b>反応のみ</b> = ユーザ体験のうち感情反応の記述のみ</li>
+      <li><b>要約</b> = 論文に掲載されているabstract</li>
+    </ul>
+    を埋め込み、それらの類似度に基づき事例を配置しています。`;
+  controlsContainer.appendChild(typeHint);
+
   const clusterNLabel = document.createElement("label");
   clusterNLabel.textContent = "クラスター数: ";
   const clusterNSelect = document.createElement("select");

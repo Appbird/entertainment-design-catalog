@@ -27,6 +27,17 @@ npm run preview
 - `pages/landscape.html`: EDC Browser本体（`src/main.ts` を起動）
 - `pages/help.html`: 操作ヘルプ
 
+### 分類基準（EDC Browser の「分類基準」セレクタ）
+
+各コンテンツが実現したい体験記述を埋め込み、それらの類似度に基づき事例を配置します。
+
+- **EDC**: 各論文から LLM で推測した「狙いたいユーザ体験」の記述
+- **状況理解のみ**: ユーザ体験のうち状況理解（grasp）の記述のみ
+- **反応のみ**: ユーザ体験のうち感情反応（response）の記述のみ
+- **要約**: 論文に掲載されている abstract
+
+（`状況理解のみ` / `反応のみ` は EC2026SI のみ。詳細は `public/prompts/*/extract_EDC.txt` を参照）
+
 ## データ設定（重要）
 
 `public/json/issue-data-config.json` で、issueごとのデータ読み込み仕様を管理しています。
