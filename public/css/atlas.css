@@ -51,6 +51,16 @@
 #controls-container > label > select {
 	margin-bottom: 0;
 }
+#type-hint {
+	margin: 4px 0 8px;
+	font-size: 11px;
+	line-height: 1.4;
+	color: #888;
+}
+#type-hint ul {
+	margin: 2px 0;
+	padding-left: 1.4em;
+}
 #search-box {
 	width: 100%;
   	padding: 8px;
